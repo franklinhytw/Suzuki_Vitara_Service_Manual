@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C7231003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C7231003">
+<div class="scnbr">7B</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">HVAC Control Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C7231003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C7231003001">
+<div class="title">Temperature Control</div>
+<div class="ptxt">HVAC control module calculates the target temperature control door position based on signals from the temperature selector, inside air temperature sensor, outside air temperature sensor and sunload sensor and controls the temperature control actuator so that the current position of the temperature control door matches its target position.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003002">
+<div class="title">Fan Speed Control</div>
+<div class="ptxt">HVAC control module calculates the target blower fan speed based on signals from the temperature selector, inside air temperature sensor, outside air temperature sensor, ECT sensor and sunload sensor, compares the speed thus calculated with the current blower fan speed inputted from the blower motor controller to adjust the current blower fan speed to the target level.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003003">
+<div class="title">Air Flow Outlet Control</div>
+<div class="ptxt">HVAC control module calculates the target temperature control door position based on signals from the temperature selector, inside air temperature sensor, outside air temperature sensor, ECT sensor and sunload sensor. Using thus obtained target temperature control door position, it further calculates the target air flow control door position and controls the air flow control actuator so that the current air flow control door position becomes the target position.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003004">
+<div class="title">Air Intake Position Control</div>
+<div class="ptxt">HVAC control module determines the air intake position based on signals from the temperature selector, inside air temperature sensor and outside air temperature sensor and controls the air intake control actuator.</div>
+<div class="ptxt">Furthermore, when the defroster switch is turned on, HVAC control module fixes the position of the air intake control door to the FRESH (FRE) position to clear fog from windshield.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003005">
+<div class="title">A/C Compressor Relay Control</div>
+<div class="ptxt">HVAC control module outputs A/C switch ON signal to ECM via BCM when the vehicle state satisfies the conditions described below.</div>
+<div class="list">
+<span class="listnum">•</span>A/C switch is ON<br><span class="listnum">•</span>Evaporator temperature is higher than specified value<br><span class="listnum">•</span>Evaporator temperature sensor malfunction is not detected<br>
+</div>
+<div class="ptxt">ECM and BCM are using CAN communication system to communicate with other control modules. For more detail of CAN communication, refer to “Communication System Description”.</div>
+<div class="list">
+<span class="listnum">•</span>M16A model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA811001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>K14C model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA821001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>D16AA model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA831001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+<div class="ptxt">ECM turns ON the A/C compressor relay when the vehicle state satisfies the conditions described below.</div>
+<div class="list">
+<span class="listnum">•</span>A/C switch ON signal is inputted<br><span class="listnum">•</span>A/C refrigerant pressure is within specified range<br><span class="listnum">•</span>Engine speed is within specified range<br><span class="listnum">•</span>Engine coolant temperature is lower than specified value<br><span class="listnum">•</span>Throttle opening is lower than specified value<br><span class="listnum">•</span>Vehicle is not in either starting or quick acceleration state<br><span class="listnum">•</span>ECT sensor malfunction is not detected<br><span class="listnum">•</span>A/C refrigerant pressure sensor malfunction is not detected<br>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003006">
+<div class="title">Radiator Cooling Fan Relay Control</div>
+<div class="ptxt">ECM turns ON the radiator cooling fan relay at the same time when ECM turns ON the A/C compressor relay.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C7231003007">
+<div class="title">HVAC System Construction</div>
+<div class="ptxt">Refer to “HVAC System Construction” in <a href="javascript:%20xref(&#39;AENFFA0C7221001&#39;)">HVAC System Description:Manual Type</a>.</div>
+</div>
+</div>
+
+</body></html>

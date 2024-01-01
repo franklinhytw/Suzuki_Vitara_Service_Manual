@@ -1,0 +1,1773 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname = "VITARA Service Manual" manualid = "AENFFA0C" lang = "en"/>
+<section id = "a">
+<servinfo id = "Foreword01" title = "IMPORTANT">
+</servinfo>
+<servinfo id = "Foreword02" title = "FOREWORD">
+</servinfo>
+<servinfo id = "Foreword03" title = "Applicable Model / VIN">
+</servinfo>
+<servinfo id = "Foreword04" title = "Table of Contents">
+</servinfo>
+<servinfo id = "Foreword05" title = "History of Modification">
+</servinfo>
+<servinfo id = "Foreword06" title = "Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</servinfo>
+</section>
+<section id = "00" file = "AENFFA0C00.fm" title = "none sct name">
+<servcat title = "Precautions">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C0006001" title = "Electrical Circuit Inspection Procedure">
+</servinfo>
+<servinfo id = "AENFFA0C0006001" title = "Electrical Circuit Inspection Procedure">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "0A" file = "AENFFA0C01.fm" title = "none sct name">
+<servcat title = "General Information">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C0101006" title = "Fasteners Information">
+</servinfo>
+<servinfo id = "AENFFA0C0101007" title = "Vehicle Lifting Points">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "0B" file = "AENFFA0C02.fm" title = "none sct name">
+<servcat title = "Maintenance and Lubrication">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C0206020" title = "Brake Fluid Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C0206023" title = "Brake Lever and Cable Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C0206031" title = "Steering System Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1A" file = "AENFFA0C11.fm" title = "none sct name">
+<servcat title = "Engine General Information and Diagnosis">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1111003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1111003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1111003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1111003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1111003" title = "OBD System Description">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1121003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1121003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1121003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1121003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C1121003" title = "OBD System Description">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1B" file = "AENFFA0C12.fm" title = "none sct name">
+<servcat title = "Aux. Emission Control Devices">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1216002" title = "EVAP Canister Purge Valve Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1216003" title = "EVAP Canister Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1226002" title = "EVAP Canister Purge Valve Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1226003" title = "EVAP Canister Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1236004" title = "EGT Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1236007" title = "A/F Sensor On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1C" file = "AENFFA0C13.fm" title = "none sct name">
+<servcat title = "Engine Electrical Devices">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1316003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316009" title = "MAP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316012" title = "HO2S-1 and HO2S-2 On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316016" title = "CMP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316018" title = "CKP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316025" title = "OCV Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1316026" title = "Electric Load Current Sensor On-Vehicle Inspection (If Equipped)">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1326003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326003" title = "Electric Throttle Body Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326009" title = "MAP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326016" title = "HO2S-1 and HO2S-2 On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326021" title = "CKP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326028" title = "Boost Pressure Sensor with IAT Sensor-2 Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326028" title = "Boost Pressure Sensor with IAT Sensor-2 Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326031" title = "ABV-VSV Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326034" title = "WGV-VSV Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326035" title = "OCV Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1326036" title = "Electric Load Current Sensor On-Vehicle Inspection (If Equipped)">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1336024" title = "MAF Sensor with IAT Sensor-1 Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336026" title = "Glow Plug Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336031" title = "Inlet Throttle Valve Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336033" title = "ECT Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336035" title = "CMP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336037" title = "CKP Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336039" title = "Boost Pressure Sensor with IAT Sensor-2 Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336039" title = "Boost Pressure Sensor with IAT Sensor-2 Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1336043" title = "VDOP Solenoid Valve Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1D" file = "AENFFA0C14.fm" title = "none sct name">
+<servcat title = "Engine Mechanical">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1414001" title = "Compression Check">
+</servinfo>
+<servinfo id = "AENFFA0C1414002" title = "Engine Vacuum Check">
+</servinfo>
+<servinfo id = "AENFFA0C1414003" title = "Valve Clearance Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C1414003" title = "Valve Clearance Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1416016" title = "Timing Chain Cover Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1416016" title = "Timing Chain Cover Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1416018" title = "OCV Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1416020" title = "Flywheel / Drive Plate Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416026" title = "VVT Actuator, Camshaft, Tappet and Shim Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416029" title = "Valve and Cylinder Head Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416030" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416031" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416031" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416032" title = "Cylinder Head Bolt Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416032" title = "Cylinder Head Bolt Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416033" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416033" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416033" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416037" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416038" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416039" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416041" title = "Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1416041" title = "Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1416042" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416042" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416042" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416042" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416042" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416043" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416046" title = "Cylinder Block Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416046" title = "Cylinder Block Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416046" title = "Cylinder Block Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416046" title = "Cylinder Block Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1416046" title = "Cylinder Block Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1424001" title = "Compression Check">
+</servinfo>
+<servinfo id = "AENFFA0C1424002" title = "Intake Manifold Vacuum Check">
+</servinfo>
+<servinfo id = "AENFFA0C1424003" title = "Turbocharger On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1424004" title = "Waste Gate Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1424004" title = "Waste Gate Valve On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1426009" title = "Vacuum Pump Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426027" title = "Timing Chain Cover Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1426027" title = "Timing Chain Cover Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1426031" title = "Flywheel / Drive Plate Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426036" title = "Camshaft Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426037" title = "Camshaft and VVT Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426041" title = "Valve and Cylinder Head Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C1426041" title = "Valve and Cylinder Head Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426042" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426043" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426043" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426044" title = "Cylinder Head Bolt Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426044" title = "Cylinder Head Bolt Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426045" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426045" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426045" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426045" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426045" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426049" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426050" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426051" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426053" title = "Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1426053" title = "Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1426054" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426054" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426054" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426054" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426054" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426055" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1426058" title = "Cylinder Block Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1434001" title = "Compression Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1436009" title = "Vacuum Pump Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436027" title = "Camshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436027" title = "Camshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436027" title = "Camshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436029" title = "Valve and Cylinder Head Assembly Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1436029" title = "Valve and Cylinder Head Assembly Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1436031" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436031" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436031" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436031" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436031" title = "Valve and Valve Guide Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436032" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436032" title = "Cylinder Head Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436033" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436033" title = "Valve Spring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436036" title = "Cylinder, Piston and Piston Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436037" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436037" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436037" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436037" title = "Piston Pin and Connecting Rod Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436038" title = "Crankshaft Pin and Connecting Rod Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436043" title = "Crankshaft Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436044" title = "Main Bearing Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1436045" title = "Cylinder Block Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1E" file = "AENFFA0C15.fm" title = "none sct name">
+<servcat title = "Engine Lubrication System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1514001" title = "Oil Pressure Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1516002" title = "Oil Pressure Switch On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1516005" title = "Oil Pan and Oil Pump Strainer Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1516009" title = "Oil Pump Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1516009" title = "Oil Pump Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1524001" title = "Oil Pressure Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1526002" title = "Oil Pressure Switch On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1526007" title = "Oil Pan and Oil Pump Strainer Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C1526011" title = "Oil Pump Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1526011" title = "Oil Pump Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1526011" title = "Oil Pump Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1534001" title = "Oil Pressure Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1536002" title = "Engine Oil and Filter Change">
+</servinfo>
+<servinfo id = "AENFFA0C1536003" title = "Oil Pressure Switch-1 On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1F" file = "AENFFA0C16.fm" title = "none sct name">
+<servcat title = "Engine Cooling System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1611002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1616003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616009" title = "Radiator Cooling Fan Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1616009" title = "Radiator Cooling Fan Assembly On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1621002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1626003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626008" title = "Thermostat Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626009" title = "Radiator Cooling Fan Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1626009" title = "Radiator Cooling Fan Assembly On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1631002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1636003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1636003" title = "Engine Cooling System Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1636008" title = "Radiator Cooling Fan Assembly On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1G" file = "AENFFA0C17.fm" title = "none sct name">
+<servcat title = "Fuel System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1714006" title = "Fuel Pressure Basic Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1716002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1716002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1716002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1716002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1716002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1716007" title = "Fuel Injector On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1716009" title = "Fuel Injector Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1716009" title = "Fuel Injector Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1716018" title = "Fuel Level Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1716018" title = "Fuel Level Sensor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1724009" title = "Fuel Low-Pressure Basic Check">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1726002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1726002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1726002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1726002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1726002" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1726009" title = "High Pressure Fuel Pump On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1726014" title = "Fuel Injector Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1726023" title = "Fuel Injector Cleaning Procedure (Market Code P10, P37, P38, P71 and P96)">
+</servinfo>
+<servinfo id = "AENFFA0C1726022" title = "Fuel Level Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1726022" title = "Fuel Level Sensor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1736001" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1736001" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1736001" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1736001" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1736001" title = "Fuel Hose Disconnection and Reconnection">
+</servinfo>
+<servinfo id = "AENFFA0C1736008" title = "Fuel Injector On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1736013" title = "Fuel Flow Actuator On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1736025" title = "Fuel Level Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1736029" title = "Fuel Heater and Fuel Temperature Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1736029" title = "Fuel Heater and Fuel Temperature Sensor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1H" file = "AENFFA0C18.fm" title = "none sct name">
+<servcat title = "Ignition System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1816005" title = "Ignition Timing Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1826005" title = "Ignition Timing Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1I" file = "AENFFA0C19.fm" title = "none sct name">
+<servcat title = "Starting System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1916005" title = "Starting Motor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1926005" title = "Starting Motor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1936005" title = "Starting Motor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1J" file = "AENFFA0C1A.fm" title = "none sct name">
+<servcat title = "Charging System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1A14003" title = "Generator Test">
+</servinfo>
+<servinfo id = "AENFFA0C1A14003" title = "Generator Test">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1A16009" title = "Generator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1A16009" title = "Generator Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1A24003" title = "Generator Test">
+</servinfo>
+<servinfo id = "AENFFA0C1A24003" title = "Generator Test">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1A26009" title = "Generator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1A26009" title = "Generator Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1A34003" title = "Generator Test">
+</servinfo>
+<servinfo id = "AENFFA0C1A34003" title = "Generator Test">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1A36008" title = "Generator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1A36008" title = "Generator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1A36008" title = "Generator Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2B" file = "AENFFA0C22.fm" title = "none sct name">
+<servcat title = "Front Suspension">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C2206009" title = "Suspension Arm Check">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2D" file = "AENFFA0C24.fm" title = "none sct name">
+<servcat title = "Wheels and Tires">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C2406002" title = "Wheel (with Tire) Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C2406003" title = "Wheel Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3A" file = "AENFFA0C31.fm" title = "none sct name">
+<servcat title = "Drive Shaft / Axle">
+<configtype id = "1" title = "Front">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116004" title = "Front Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3116006" title = "Drive Intermediate Shaft Assembly Disassembly and Reassembly (Diesel - 2WD Model)">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Rear">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3126004" title = "Rear Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3126004" title = "Rear Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3126004" title = "Rear Drive Shaft Assembly Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" file = "AENFFA0C32.fm" title = "none sct name">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3206002" title = "Rear Differential Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C3206002" title = "Rear Differential Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C3206004" title = "Driving Mode Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C3206009" title = "Rear Drive Coupling Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C3206012" title = "Rear Differential Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C3206012" title = "Rear Differential Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C3206012" title = "Rear Differential Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3206013" title = "Rear Differential Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3C" file = "AENFFA0C33.fm" title = "none sct name">
+<servcat title = "Transfer">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3306002" title = "Transfer Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C3306002" title = "Transfer Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C3306007" title = "Transfer Intermediate Shaft Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C3306009" title = "Transfer Output Retainer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306009" title = "Transfer Output Retainer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306009" title = "Transfer Output Retainer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306009" title = "Transfer Output Retainer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C3306011" title = "Transfer Assembly Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3D" file = "AENFFA0C34.fm" title = "none sct name">
+<servcat title = "Propeller Shaft">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3406003" title = "Propeller Shaft Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4A" file = "AENFFA0C41.fm" title = "none sct name">
+<servcat title = "Brake Control System and Diagnosis">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4106002" title = "Brake Fluid Level Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4106004" title = "Air Bleeding of Brake System">
+</servinfo>
+<servinfo id = "AENFFA0C4106007" title = "Brake Pedal Free Height Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4106011" title = "Brake Light Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4106023" title = "Brake Booster Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4106025" title = "Brake Booster Pressure Sensor Inspection (ENG A-STOP Model)">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4B" file = "AENFFA0C42.fm" title = "none sct name">
+<servcat title = "Front Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4206002" title = "Front Brake Pad On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4206008" title = "Front Brake Caliper Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4C" file = "AENFFA0C43.fm" title = "none sct name">
+<servcat title = "Rear Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4306002" title = "Rear Brake Pad On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4D" file = "AENFFA0C44.fm" title = "none sct name">
+<servcat title = "Parking Brake">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4406002" title = "Parking Brake Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C4406006" title = "Parking Brake Switch Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4F" file = "AENFFA0C46.fm" title = "none sct name">
+<servcat title = "Electronic Stability Program">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4606006" title = "Front and Rear Wheel Speed Sensor On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606006" title = "Front and Rear Wheel Speed Sensor On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606013" title = "Brake Master Cylinder Pressure Sensor On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606013" title = "Brake Master Cylinder Pressure Sensor On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606014" title = "Yaw Rate / G Sensor Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606014" title = "Yaw Rate / G Sensor Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606014" title = "Yaw Rate / G Sensor Assembly On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4606015" title = "Steering Angle Sensor On-Vehicle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" file = "AENFFA0C51.fm" title = "none sct name">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C5101003" title = "OBD System Description">
+</servinfo>
+<servinfo id = "AENFFA0C5101003" title = "OBD System Description">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C5104013" title = "Stall Test">
+</servinfo>
+<servinfo id = "AENFFA0C5104014" title = "Time-Lag Test">
+</servinfo>
+<servinfo id = "AENFFA0C5104015" title = "Line Pressure Test">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5106007" title = "Shift Paddle Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106012" title = "P Position Switch Inspection (Keyless Push Start Model)">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106020" title = "Solenoid Valve On-Vehicle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106021" title = "Valve Body Assembly Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C5106022" title = "Solenoid Valve Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106022" title = "Solenoid Valve Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106025" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5106035" title = "Oil Pump Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106039" title = "Output Shaft Speed Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106041" title = "Input Shaft Speed Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106043" title = "ATF Temperature Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106044" title = "Reverse Clutch Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106045" title = "Direct Clutch Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106046" title = "Forward Clutch Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106049" title = "B1 Brake Piston Rod Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106049" title = "B1 Brake Piston Rod Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106052" title = "1st and Reverse Brake Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106053" title = "1st and Reverse Brake Piston Stroke Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106053" title = "1st and Reverse Brake Piston Stroke Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106058" title = "Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106058" title = "Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106058" title = "Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106060" title = "Differential Assembly Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5106061" title = "Torque Converter Housing Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106062" title = "Transaxle Case Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106063" title = "A/T Assembly Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5106064" title = "A/T Assembly Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106064" title = "A/T Assembly Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106064" title = "A/T Assembly Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106064" title = "A/T Assembly Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5106064" title = "A/T Assembly Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5B" file = "AENFFA0C52.fm" title = "none sct name">
+<servcat title = "Manual Transmission/Transaxle">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5216002" title = "Manual Transaxle Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C5216003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5216003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5216008" title = "Back Up Light Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5216009" title = "Neutral Position Switch Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C5216015" title = "Fifth Gear Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216018" title = "Transaxle Left Case Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216020" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216020" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216020" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216021" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216021" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216021" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216021" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216023" title = "Gear Shift Shaft and Fork Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5216025" title = "Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5216025" title = "Differential Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5226003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5226003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5226008" title = "Back Up Light Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5226010" title = "Neutral Position Switch On-Vehicle Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C5226014" title = "Gear Shift and Select Shaft Assembly Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C5226016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226016" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226017" title = "Transaxle Right Case Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226018" title = "Transaxle Left Case Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226020" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226026" title = "Gear and Synchronizer Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5226026" title = "Gear and Synchronizer Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5226026" title = "Gear and Synchronizer Ring Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5226028" title = "Gear Shift Shaft and Fork Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5226030" title = "Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226030" title = "Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5226030" title = "Differential Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5236003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5236003" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5236008" title = "Back Up Light Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5236010" title = "Neutral Position Switch On-Vehicle Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C5236018" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236018" title = "Manual Transaxle Assembly Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236020" title = "Left Case Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236022" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236022" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236022" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236022" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236022" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236023" title = "Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236025" title = "Gear Shift Shaft and Fork Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5236027" title = "Differential Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5236027" title = "Differential Disassembly and Reassembly">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5C" file = "AENFFA0C53.fm" title = "none sct name">
+<servcat title = "Clutch">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5316002" title = "CPP No.1 Switch Inspection and Adjustment (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C5316002" title = "CPP No.1 Switch Inspection and Adjustment (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C5316004" title = "CPP No.2 Switch Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5316004" title = "CPP No.2 Switch Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5316005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5316005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5316005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5316019" title = "Clutch Cover and Clutch Disc Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5326005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5326005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5326005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5326019" title = "Clutch Cover and Clutch Disc Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5336005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5336005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5336005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5336019" title = "Clutch Cover and Clutch Disc Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" file = "AENFFA0C56.fm" title = "none sct name">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5606005" title = "Differential Side Oil Seal Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C5606009" title = "Shift Paddle Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5606015" title = "P Position Switch Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5606034" title = "Twin Clutch System Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606034" title = "Twin Clutch System Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606034" title = "Twin Clutch System Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606034" title = "Twin Clutch System Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606039" title = "Input Shaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606041" title = "Lower Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606041" title = "Lower Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606041" title = "Lower Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606043" title = "Upper Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606043" title = "Upper Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606043" title = "Upper Countershaft Disassembly and Reassembly">
+</servinfo>
+<servinfo id = "AENFFA0C5606045" title = "Gear Shift Shaft and Fork Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5606050" title = "Odd Gear Clutch Control Actuator Rod Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C5606054" title = "Odd Gear Clutch Assembly and Even Gear Clutch Assembly Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "6B" file = "AENFFA0C62.fm" title = "none sct name">
+<servcat title = "Steering Wheel and Column">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C6206010" title = "Steering Column Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C6206013" title = "Steering Lock Inspection (Ignition Switch Model)">
+</servinfo>
+<servinfo id = "AENFFA0C6206014" title = "Auto Steering Lock Inspection (Keyless Push Start Model)">
+</servinfo>
+<servinfo id = "AENFFA0C6206016" title = "Ignition Switch Inspection (Ignition Switch Model)">
+</servinfo>
+<servinfo id = "AENFFA0C6206027" title = "Pinion Shaft Rotation Torque Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" file = "AENFFA0C72.fm" title = "none sct name">
+<servcat title = "HVAC System">
+<configtype id = "1" title = "Non-A/C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C7216006" title = "Blower Motor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7216008" title = "Blower Motor Resistor Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Manual Type">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C7224001" title = "A/C System Performance Inspection">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7226020" title = "Evaporator Temperature Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7226026" title = "A/C Refrigerant Pressure Sensor and Its Circuit Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7226043" title = "Magnet Clutch Inspection (Petrol Model)">
+</servinfo>
+<servinfo id = "AENFFA0C7226044" title = "Magnet Clutch Removal and Installation (Petrol Model)">
+</servinfo>
+<servinfo id = "AENFFA0C7226044" title = "Magnet Clutch Removal and Installation (Petrol Model)">
+</servinfo>
+<servinfo id = "AENFFA0C7226046" title = "Compressor ON/OFF Valve On-Vehicle Inspection (Diesel Model)">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C7234001" title = "A/C System Performance Inspection">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236001" title = "Operation Procedure for Refrigerant Charge">
+</servinfo>
+<servinfo id = "AENFFA0C7236015" title = "Blower Motor Controller Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236023" title = "A/C Refrigerant Pressure Sensor and Its Circuit Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236026" title = "Temperature Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236026" title = "Temperature Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236028" title = "Air Flow Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236028" title = "Air Flow Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236030" title = "Air Intake Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236030" title = "Air Intake Control Actuator Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236033" title = "Sunload Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236037" title = "Inside Air Temperature Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C7236044" title = "Compressor Drive Belt Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C7236044" title = "Compressor Drive Belt Inspection and Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0C7236048" title = "Magnet Clutch Inspection (Petrol Model)">
+</servinfo>
+<servinfo id = "AENFFA0C7236049" title = "Magnet Clutch Removal and Installation (Petrol Model)">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "8A" file = "AENFFA0C81.fm" title = "none sct name">
+<servcat title = "Seat Belts">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C8106004" title = "Seat Belt Buckle Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C8106005" title = "Passenger Seat Belt Reminder Sensor Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C8106005" title = "Passenger Seat Belt Reminder Sensor Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C8106010" title = "Seat Belt Buckle Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "8B" file = "AENFFA0C82.fm" title = "none sct name">
+<servcat title = "Air Bag System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C8206030" title = "Passenger Air Bag Deactivation Switch Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C8206034" title = "Air Bag (Inflator) Module and Seat Belt Pretensioner Disposal">
+</servinfo>
+<servinfo id = "AENFFA0C8206034" title = "Air Bag (Inflator) Module and Seat Belt Pretensioner Disposal">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9D" file = "AENFFA0C94.fm" title = "none sct name">
+<servcat title = "Wipers / Washers">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C9406008" title = "Wiper and Washer Switch Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9E" file = "AENFFA0C95.fm" title = "none sct name">
+<servcat title = "Glass / Windows / Mirrors">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C9506002" title = "Windshield Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506002" title = "Windshield Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506004" title = "Rear Quarter Window Glass Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506006" title = "Rear End Door Window Glass Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506007" title = "Rear Defogger Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C9506013" title = "Front Door Glass Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506017" title = "Rear Door Glass Removal and Installation">
+</servinfo>
+<servinfo id = "AENFFA0C9506023" title = "Power Door Mirror and Mirror Heater On-Vehicle Inspection (If Equipped)">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9G" file = "AENFFA0C97.fm" title = "none sct name">
+<servcat title = "Seats">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C9706003" title = "Seat Heater Wire Inspection (If Equipped)">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9I" file = "AENFFA0C99.fm" title = "none sct name">
+<servcat title = "Sun Roof / T-Top / Convertible Top">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C9906008" title = "Sun Roof Glass Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9K" file = "AENFFA0C9B.fm" title = "none sct name">
+<servcat title = "Body Structure">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "3" title = "Component Location">
+<servinfo id = "AENFFA0C9B03001" title = "Silencer Sheet Installation Area">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9O" file = "AENFFA0C9F.fm" title = "none sct name">
+<servcat title = "Audio Visual / Navigation">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C9F06007" title = "Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped)">
+</servinfo>
+<servinfo id = "AENFFA0C9F06007" title = "Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped)">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10A" file = "AENFFA0CA1.fm" title = "none sct name">
+<servcat title = "Cruise Control System">
+<configtype id = "1" title = "Cruise Control">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0CA116002" title = "Cruise Control Switch Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Adaptive Cruise Control">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0CA126004" title = "Cruise Control Switch Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10B" file = "AENFFA0CA2.fm" title = "none sct name">
+<servcat title = "Body Electrical Control System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0CA206003" title = "Outside Air Temperature Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0CA206004" title = "Control Relay Inspection">
+</servinfo>
+<servinfo id = "AENFFA0CA206004" title = "Control Relay Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10D" file = "AENFFA0CA4.fm" title = "none sct name">
+<servcat title = "Tire Pressure Monitoring System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA404009" title = "DTC B1A02">
+</servinfo>
+<servinfo id = "AENFFA0CA404013" title = "DTC B1A20 / B1A21 / B1A22 / B1A23">
+</servinfo>
+<servinfo id = "AENFFA0CA404014" title = "DTC B1A24 / B1A25 / B1A26 / B1A27">
+</servinfo>
+<servinfo id = "AENFFA0CA404015" title = "DTC B1A28 / B1A29 / B1A2A / B1A2B">
+</servinfo>
+<servinfo id = "AENFFA0CA404016" title = "DTC B1A2C / B1A2D / B1A2E / B1A2F">
+</servinfo>
+<servinfo id = "AENFFA0CA404017" title = "DTC B1A30 / B1A31 / B1A32 / B1A33">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0CA406002" title = "Tire Pressure Sensor Inspection">
+</servinfo>
+<servinfo id = "AENFFA0CA406004" title = "Registration Procedure for Tire Pressure Sensor ID Code">
+</servinfo>
+<servinfo id = "AENFFA0CA406004" title = "Registration Procedure for Tire Pressure Sensor ID Code">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10J" file = "AENFFA0CAA.fm" title = "none sct name">
+<servcat title = "Radar Brake Support System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0CAA06003" title = "Millimeter Wave Radar Aiming Adjustment">
+</servinfo>
+<servinfo id = "AENFFA0CAA06003" title = "Millimeter Wave Radar Aiming Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+</suzuki>

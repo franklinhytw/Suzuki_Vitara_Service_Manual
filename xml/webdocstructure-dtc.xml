@@ -1,0 +1,1443 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname = "VITARA Service Manual" manualid = "AENFFA0C" lang = "en"/>
+<section id = "a">
+<servinfo id = "Foreword01" title = "IMPORTANT">
+</servinfo>
+<servinfo id = "Foreword02" title = "FOREWORD">
+</servinfo>
+<servinfo id = "Foreword03" title = "Applicable Model / VIN">
+</servinfo>
+<servinfo id = "Foreword04" title = "Table of Contents">
+</servinfo>
+<servinfo id = "Foreword05" title = "History of Modification">
+</servinfo>
+<servinfo id = "Foreword06" title = "Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</servinfo>
+</section>
+<section id = "1A" file = "AENFFA0C11.fm" title = "none sct name">
+<servcat title = "Engine General Information and Diagnosis">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1114013" title = "DTC P0010 / P2088 / P2089" dtccode = "DTC P0010 / P2088 / P2089">
+</servinfo>
+<servinfo id = "AENFFA0C1114014" title = "DTC P0011" dtccode = "DTC P0011">
+</servinfo>
+<servinfo id = "AENFFA0C1114015" title = "DTC P0030 / P0031 / P0032" dtccode = "DTC P0030 / P0031 / P0032">
+</servinfo>
+<servinfo id = "AENFFA0C1114016" title = "DTC P0036 / P0037 / P0038" dtccode = "DTC P0036 / P0037 / P0038">
+</servinfo>
+<servinfo id = "AENFFA0C1114017" title = "DTC P0107 / P0108" dtccode = "DTC P0107 / P0108">
+</servinfo>
+<servinfo id = "AENFFA0C1114018" title = "DTC P0112 / P0113" dtccode = "DTC P0112 / P0113">
+</servinfo>
+<servinfo id = "AENFFA0C1114019" title = "DTC P0116" dtccode = "DTC P0116">
+</servinfo>
+<servinfo id = "AENFFA0C1114020" title = "DTC P0117 / P0118" dtccode = "DTC P0117 / P0118">
+</servinfo>
+<servinfo id = "AENFFA0C1114021" title = "DTC P0122 / P0123" dtccode = "DTC P0122 / P0123">
+</servinfo>
+<servinfo id = "AENFFA0C1114022" title = "DTC P0130" dtccode = "DTC P0130">
+</servinfo>
+<servinfo id = "AENFFA0C1114023" title = "DTC P0131 / P0132" dtccode = "DTC P0131 / P0132">
+</servinfo>
+<servinfo id = "AENFFA0C1114024" title = "DTC P0133" dtccode = "DTC P0133">
+</servinfo>
+<servinfo id = "AENFFA0C1114025" title = "DTC P0134" dtccode = "DTC P0134">
+</servinfo>
+<servinfo id = "AENFFA0C1114026" title = "DTC P0137 / P0138 / P0140" dtccode = "DTC P0137 / P0138 / P0140">
+</servinfo>
+<servinfo id = "AENFFA0C1114027" title = "DTC P0171 / P0172" dtccode = "DTC P0171 / P0172">
+</servinfo>
+<servinfo id = "AENFFA0C1114028" title = "DTC P0201 / P0202 / P0203 / P0204 / P0261 / P0262 / P0264 / P0265 / P0267 / P0268 / P0270 / P0271" dtccode = "DTC P0201 / P0202 / P0203 / P0204 / P0261 / P0262 / P0264 / P0265 / P0267 / P0268 / P0270 / P0271">
+</servinfo>
+<servinfo id = "AENFFA0C1114029" title = "DTC P0222 / P0223" dtccode = "DTC P0222 / P0223">
+</servinfo>
+<servinfo id = "AENFFA0C1114030" title = "DTC P0300 / P0301 / P0302 / P0303 / P0304" dtccode = "DTC P0300 / P0301 / P0302 / P0303 / P0304">
+</servinfo>
+<servinfo id = "AENFFA0C1114031" title = "DTC P0327 / P0328" dtccode = "DTC P0327 / P0328">
+</servinfo>
+<servinfo id = "AENFFA0C1114032" title = "DTC P0335 / P0336" dtccode = "DTC P0335 / P0336">
+</servinfo>
+<servinfo id = "AENFFA0C1114033" title = "DTC P0340" dtccode = "DTC P0340">
+</servinfo>
+<servinfo id = "AENFFA0C1114034" title = "DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310" dtccode = "DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310">
+</servinfo>
+<servinfo id = "AENFFA0C1114035" title = "DTC P0420" dtccode = "DTC P0420">
+</servinfo>
+<servinfo id = "AENFFA0C1114036" title = "DTC P0443 / P0458 / P0459" dtccode = "DTC P0443 / P0458 / P0459">
+</servinfo>
+<servinfo id = "AENFFA0C1114037" title = "DTC P0480 / P0692" dtccode = "DTC P0480 / P0692">
+</servinfo>
+<servinfo id = "AENFFA0C1114038" title = "DTC P0481 / P0694" dtccode = "DTC P0481 / P0694">
+</servinfo>
+<servinfo id = "AENFFA0C1114039" title = "DTC P0500" dtccode = "DTC P0500">
+</servinfo>
+<servinfo id = "AENFFA0C1114040" title = "DTC P0504" dtccode = "DTC P0504">
+</servinfo>
+<servinfo id = "AENFFA0C1114041" title = "DTC P0515" dtccode = "DTC P0515">
+</servinfo>
+<servinfo id = "AENFFA0C1114042" title = "DTC P0530" dtccode = "DTC P0530">
+</servinfo>
+<servinfo id = "AENFFA0C1114043" title = "DTC P0560 / P0562 / P0563" dtccode = "DTC P0560 / P0562 / P0563">
+</servinfo>
+<servinfo id = "AENFFA0C1114044" title = "DTC P0602" dtccode = "DTC P0602">
+</servinfo>
+<servinfo id = "AENFFA0C1114045" title = "DTC P0606" dtccode = "DTC P0606">
+</servinfo>
+<servinfo id = "AENFFA0C1114046" title = "DTC P0607" dtccode = "DTC P0607">
+</servinfo>
+<servinfo id = "AENFFA0C1114074" title = "DTC P0630" dtccode = "DTC P0630">
+</servinfo>
+<servinfo id = "AENFFA0C1114047" title = "DTC P0645 / P0646 / P0647" dtccode = "DTC P0645 / P0646 / P0647">
+</servinfo>
+<servinfo id = "AENFFA0C1114048" title = "DTC P0660" dtccode = "DTC P0660">
+</servinfo>
+<servinfo id = "AENFFA0C1114049" title = "DTC P0A5A" dtccode = "DTC P0A5A">
+</servinfo>
+<servinfo id = "AENFFA0C1114050" title = "DTC P2100" dtccode = "DTC P2100">
+</servinfo>
+<servinfo id = "AENFFA0C1114051" title = "DTC P2101 / P2119" dtccode = "DTC P2101 / P2119">
+</servinfo>
+<servinfo id = "AENFFA0C1114052" title = "DTC P2122 / P2123" dtccode = "DTC P2122 / P2123">
+</servinfo>
+<servinfo id = "AENFFA0C1114053" title = "DTC P2127 / P2128" dtccode = "DTC P2127 / P2128">
+</servinfo>
+<servinfo id = "AENFFA0C1114054" title = "DTC P2135" dtccode = "DTC P2135">
+</servinfo>
+<servinfo id = "AENFFA0C1114055" title = "DTC P2138" dtccode = "DTC P2138">
+</servinfo>
+<servinfo id = "AENFFA0C1114056" title = "DTC P2176" dtccode = "DTC P2176">
+</servinfo>
+<servinfo id = "AENFFA0C1114057" title = "DTC P2228 / P2229" dtccode = "DTC P2228 / P2229">
+</servinfo>
+<servinfo id = "AENFFA0C1114058" title = "DTC P2271" dtccode = "DTC P2271">
+</servinfo>
+<servinfo id = "AENFFA0C1114059" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C1114060" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0C1114061" title = "DTC U0114" dtccode = "DTC U0114">
+</servinfo>
+<servinfo id = "AENFFA0C1114062" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C1114063" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0C1114064" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C1114065" title = "DTC U0141" dtccode = "DTC U0141">
+</servinfo>
+<servinfo id = "AENFFA0C1114066" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0C1114067" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+<servinfo id = "AENFFA0C1114068" title = "DTC U108A" dtccode = "DTC U108A">
+</servinfo>
+<servinfo id = "AENFFA0C1114069" title = "DTC U2001" dtccode = "DTC U2001">
+</servinfo>
+<servinfo id = "AENFFA0C1114070" title = "DTC U2021" dtccode = "DTC U2021">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1124013" title = "DTC P0010 / P2088 / P2089" dtccode = "DTC P0010 / P2088 / P2089">
+</servinfo>
+<servinfo id = "AENFFA0C1124014" title = "DTC P0011" dtccode = "DTC P0011">
+</servinfo>
+<servinfo id = "AENFFA0C1124015" title = "DTC P0030 / P0031 / P0032" dtccode = "DTC P0030 / P0031 / P0032">
+</servinfo>
+<servinfo id = "AENFFA0C1124016" title = "DTC P0033 / P0034 / P0035" dtccode = "DTC P0033 / P0034 / P0035">
+</servinfo>
+<servinfo id = "AENFFA0C1124017" title = "DTC P0036 / P0037 / P0038" dtccode = "DTC P0036 / P0037 / P0038">
+</servinfo>
+<servinfo id = "AENFFA0C1124018" title = "DTC P0039" dtccode = "DTC P0039">
+</servinfo>
+<servinfo id = "AENFFA0C1124019" title = "DTC P0087 / P0088" dtccode = "DTC P0087 / P0088">
+</servinfo>
+<servinfo id = "AENFFA0C1124020" title = "DTC P0090 / P0091 / P0092" dtccode = "DTC P0090 / P0091 / P0092">
+</servinfo>
+<servinfo id = "AENFFA0C1124021" title = "DTC P0097 / P0098" dtccode = "DTC P0097 / P0098">
+</servinfo>
+<servinfo id = "AENFFA0C1124022" title = "DTC P0100 / P0102 / P0103" dtccode = "DTC P0100 / P0102 / P0103">
+</servinfo>
+<servinfo id = "AENFFA0C1124023" title = "DTC P0107 / P0108" dtccode = "DTC P0107 / P0108">
+</servinfo>
+<servinfo id = "AENFFA0C1124024" title = "DTC P0112 / P0113" dtccode = "DTC P0112 / P0113">
+</servinfo>
+<servinfo id = "AENFFA0C1124025" title = "DTC P0116" dtccode = "DTC P0116">
+</servinfo>
+<servinfo id = "AENFFA0C1124026" title = "DTC P0117 / P0118" dtccode = "DTC P0117 / P0118">
+</servinfo>
+<servinfo id = "AENFFA0C1124027" title = "DTC P0122 / P0123" dtccode = "DTC P0122 / P0123">
+</servinfo>
+<servinfo id = "AENFFA0C1124028" title = "DTC P0131 / P0132" dtccode = "DTC P0131 / P0132">
+</servinfo>
+<servinfo id = "AENFFA0C1124029" title = "DTC P0133" dtccode = "DTC P0133">
+</servinfo>
+<servinfo id = "AENFFA0C1124030" title = "DTC P0134" dtccode = "DTC P0134">
+</servinfo>
+<servinfo id = "AENFFA0C1124031" title = "DTC P0137 / P0138 / P0140" dtccode = "DTC P0137 / P0138 / P0140">
+</servinfo>
+<servinfo id = "AENFFA0C1124032" title = "DTC P0171 / P0172" dtccode = "DTC P0171 / P0172">
+</servinfo>
+<servinfo id = "AENFFA0C1124033" title = "DTC P0192 / P0193" dtccode = "DTC P0192 / P0193">
+</servinfo>
+<servinfo id = "AENFFA0C1124034" title = "DTC P0197 / P0198" dtccode = "DTC P0197 / P0198">
+</servinfo>
+<servinfo id = "AENFFA0C1124035" title = "DTC P0201 / P0202 / P0203 / P0204" dtccode = "DTC P0201 / P0202 / P0203 / P0204">
+</servinfo>
+<servinfo id = "AENFFA0C1124036" title = "DTC P0222 / P0223" dtccode = "DTC P0222 / P0223">
+</servinfo>
+<servinfo id = "AENFFA0C1124037" title = "DTC P0237 / P0238" dtccode = "DTC P0237 / P0238">
+</servinfo>
+<servinfo id = "AENFFA0C1124038" title = "DTC P0244 / P0245 / P0246" dtccode = "DTC P0244 / P0245 / P0246">
+</servinfo>
+<servinfo id = "AENFFA0C1124039" title = "DTC P0300 / P0301 / P0302 / P0303 / P0304" dtccode = "DTC P0300 / P0301 / P0302 / P0303 / P0304">
+</servinfo>
+<servinfo id = "AENFFA0C1124040" title = "DTC P0327 / P0328" dtccode = "DTC P0327 / P0328">
+</servinfo>
+<servinfo id = "AENFFA0C1124041" title = "DTC P0335 / P0336" dtccode = "DTC P0335 / P0336">
+</servinfo>
+<servinfo id = "AENFFA0C1124042" title = "DTC P0340" dtccode = "DTC P0340">
+</servinfo>
+<servinfo id = "AENFFA0C1124043" title = "DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310" dtccode = "DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310">
+</servinfo>
+<servinfo id = "AENFFA0C1124044" title = "DTC P0420" dtccode = "DTC P0420">
+</servinfo>
+<servinfo id = "AENFFA0C1124045" title = "DTC P0443 / P0458 / P0459" dtccode = "DTC P0443 / P0458 / P0459">
+</servinfo>
+<servinfo id = "AENFFA0C1124046" title = "DTC P0480 / P0692" dtccode = "DTC P0480 / P0692">
+</servinfo>
+<servinfo id = "AENFFA0C1124047" title = "DTC P0481 / P0694" dtccode = "DTC P0481 / P0694">
+</servinfo>
+<servinfo id = "AENFFA0C1124048" title = "DTC P0482 / P0696" dtccode = "DTC P0482 / P0696">
+</servinfo>
+<servinfo id = "AENFFA0C1124049" title = "DTC P0500" dtccode = "DTC P0500">
+</servinfo>
+<servinfo id = "AENFFA0C1124050" title = "DTC P0504" dtccode = "DTC P0504">
+</servinfo>
+<servinfo id = "AENFFA0C1124051" title = "DTC P0515" dtccode = "DTC P0515">
+</servinfo>
+<servinfo id = "AENFFA0C1124052" title = "DTC P0530" dtccode = "DTC P0530">
+</servinfo>
+<servinfo id = "AENFFA0C1124053" title = "DTC P0560 / P0562 / P0563" dtccode = "DTC P0560 / P0562 / P0563">
+</servinfo>
+<servinfo id = "AENFFA0C1124054" title = "DTC P0602" dtccode = "DTC P0602">
+</servinfo>
+<servinfo id = "AENFFA0C1124055" title = "DTC P0606" dtccode = "DTC P0606">
+</servinfo>
+<servinfo id = "AENFFA0C1124056" title = "DTC P0607" dtccode = "DTC P0607">
+</servinfo>
+<servinfo id = "AENFFA0C1124084" title = "DTC P0630" dtccode = "DTC P0630">
+</servinfo>
+<servinfo id = "AENFFA0C1124057" title = "DTC P0645 / P0646 / P0647" dtccode = "DTC P0645 / P0646 / P0647">
+</servinfo>
+<servinfo id = "AENFFA0C1124058" title = "DTC P0A5A" dtccode = "DTC P0A5A">
+</servinfo>
+<servinfo id = "AENFFA0C1124059" title = "DTC P2100" dtccode = "DTC P2100">
+</servinfo>
+<servinfo id = "AENFFA0C1124060" title = "DTC P2101 / P2119" dtccode = "DTC P2101 / P2119">
+</servinfo>
+<servinfo id = "AENFFA0C1124061" title = "DTC P2122 / P2123" dtccode = "DTC P2122 / P2123">
+</servinfo>
+<servinfo id = "AENFFA0C1124062" title = "DTC P2127 / P2128" dtccode = "DTC P2127 / P2128">
+</servinfo>
+<servinfo id = "AENFFA0C1124063" title = "DTC P2135" dtccode = "DTC P2135">
+</servinfo>
+<servinfo id = "AENFFA0C1124064" title = "DTC P2138" dtccode = "DTC P2138">
+</servinfo>
+<servinfo id = "AENFFA0C1124065" title = "DTC P2176" dtccode = "DTC P2176">
+</servinfo>
+<servinfo id = "AENFFA0C1124066" title = "DTC P2195 / P2196" dtccode = "DTC P2195 / P2196">
+</servinfo>
+<servinfo id = "AENFFA0C1124067" title = "DTC P2228 / P2229" dtccode = "DTC P2228 / P2229">
+</servinfo>
+<servinfo id = "AENFFA0C1124068" title = "DTC P2263" dtccode = "DTC P2263">
+</servinfo>
+<servinfo id = "AENFFA0C1124069" title = "DTC P2271" dtccode = "DTC P2271">
+</servinfo>
+<servinfo id = "AENFFA0C1124070" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C1124071" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0C1124072" title = "DTC U0114" dtccode = "DTC U0114">
+</servinfo>
+<servinfo id = "AENFFA0C1124073" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C1124074" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0C1124075" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C1124076" title = "DTC U0141" dtccode = "DTC U0141">
+</servinfo>
+<servinfo id = "AENFFA0C1124077" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0C1124078" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+<servinfo id = "AENFFA0C1124079" title = "DTC U108A" dtccode = "DTC U108A">
+</servinfo>
+<servinfo id = "AENFFA0C1124080" title = "DTC U2001" dtccode = "DTC U2001">
+</servinfo>
+<servinfo id = "AENFFA0C1124081" title = "DTC U2021" dtccode = "DTC U2021">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1134013" title = "DTC P0016" dtccode = "DTC P0016">
+</servinfo>
+<servinfo id = "AENFFA0C1134014" title = "DTC P0030 / P0031 / P0032 / P0053" dtccode = "DTC P0030 / P0031 / P0032 / P0053">
+</servinfo>
+<servinfo id = "AENFFA0C1134015" title = "DTC P0036 / P0037 / P0038 / P0054" dtccode = "DTC P0036 / P0037 / P0038 / P0054">
+</servinfo>
+<servinfo id = "AENFFA0C1134016" title = "DTC P0045 / P0046 / P0047 / P0048 / P004C / P004D / P006E" dtccode = "DTC P0045 / P0046 / P0047 / P0048 / P004C / P004D / P006E">
+</servinfo>
+<servinfo id = "AENFFA0C1134017" title = "DTC P0069" dtccode = "DTC P0069">
+</servinfo>
+<servinfo id = "AENFFA0C1134145" title = "DTC P0070" dtccode = "DTC P0070">
+</servinfo>
+<servinfo id = "AENFFA0C1134018" title = "DTC P0087 / P0088" dtccode = "DTC P0087 / P0088">
+</servinfo>
+<servinfo id = "AENFFA0C1134019" title = "DTC P0097 / P0098" dtccode = "DTC P0097 / P0098">
+</servinfo>
+<servinfo id = "AENFFA0C1134020" title = "DTC P0101" dtccode = "DTC P0101">
+</servinfo>
+<servinfo id = "AENFFA0C1134021" title = "DTC P0102 / P0103 / P010F" dtccode = "DTC P0102 / P0103 / P010F">
+</servinfo>
+<servinfo id = "AENFFA0C1134022" title = "DTC P0112 / P0113" dtccode = "DTC P0112 / P0113">
+</servinfo>
+<servinfo id = "AENFFA0C1134023" title = "DTC P0116" dtccode = "DTC P0116">
+</servinfo>
+<servinfo id = "AENFFA0C1134024" title = "DTC P0117 / P0118" dtccode = "DTC P0117 / P0118">
+</servinfo>
+<servinfo id = "AENFFA0C1134025" title = "DTC P0120" dtccode = "DTC P0120">
+</servinfo>
+<servinfo id = "AENFFA0C1134026" title = "DTC P0127" dtccode = "DTC P0127">
+</servinfo>
+<servinfo id = "AENFFA0C1134027" title = "DTC P0130 / P2244" dtccode = "DTC P0130 / P2244">
+</servinfo>
+<servinfo id = "AENFFA0C1134028" title = "DTC P0131 / P0132" dtccode = "DTC P0131 / P0132">
+</servinfo>
+<servinfo id = "AENFFA0C1134029" title = "DTC P0133 / P2A00" dtccode = "DTC P0133 / P2A00">
+</servinfo>
+<servinfo id = "AENFFA0C1134030" title = "DTC P0136 / P0137 / P0138 / P0140" dtccode = "DTC P0136 / P0137 / P0138 / P0140">
+</servinfo>
+<servinfo id = "AENFFA0C1134031" title = "DTC P0139 / P2A01" dtccode = "DTC P0139 / P2A01">
+</servinfo>
+<servinfo id = "AENFFA0C1134032" title = "DTC P0168" dtccode = "DTC P0168">
+</servinfo>
+<servinfo id = "AENFFA0C1134033" title = "DTC P0182 / P0183" dtccode = "DTC P0182 / P0183">
+</servinfo>
+<servinfo id = "AENFFA0C1134034" title = "DTC P0190" dtccode = "DTC P0190">
+</servinfo>
+<servinfo id = "AENFFA0C1134035" title = "DTC P0201 / P0202 / P0203 / P0204 / P0216 / P0262 / P0265 / P0268 / P0271 / P062B / P2148 / P2151" dtccode = "DTC P0201 / P0202 / P0203 / P0204 / P0216 / P0262 / P0265 / P0268 / P0271 / P062B / P2148 / P2151">
+</servinfo>
+<servinfo id = "AENFFA0C1134036" title = "DTC P0219" dtccode = "DTC P0219">
+</servinfo>
+<servinfo id = "AENFFA0C1134037" title = "DTC P0220" dtccode = "DTC P0220">
+</servinfo>
+<servinfo id = "AENFFA0C1134038" title = "DTC P0230" dtccode = "DTC P0230">
+</servinfo>
+<servinfo id = "AENFFA0C1134039" title = "DTC P0236 / P0237 / P0238" dtccode = "DTC P0236 / P0237 / P0238">
+</servinfo>
+<servinfo id = "AENFFA0C1134040" title = "DTC P0335" dtccode = "DTC P0335">
+</servinfo>
+<servinfo id = "AENFFA0C1134041" title = "DTC P0340" dtccode = "DTC P0340">
+</servinfo>
+<servinfo id = "AENFFA0C1134042" title = "DTC P0380 / P0670 / P1648" dtccode = "DTC P0380 / P0670 / P1648">
+</servinfo>
+<servinfo id = "AENFFA0C1134043" title = "DTC P0401 / P0402" dtccode = "DTC P0401 / P0402">
+</servinfo>
+<servinfo id = "AENFFA0C1134044" title = "DTC P0404 / P0409" dtccode = "DTC P0404 / P0409">
+</servinfo>
+<servinfo id = "AENFFA0C1134045" title = "DTC P0407 / P0408 / P045E / P046E / P0486" dtccode = "DTC P0407 / P0408 / P045E / P046E / P0486">
+</servinfo>
+<servinfo id = "AENFFA0C1134046" title = "DTC P041C / P041D" dtccode = "DTC P041C / P041D">
+</servinfo>
+<servinfo id = "AENFFA0C1134047" title = "DTC P042E / P0487 / P0488" dtccode = "DTC P042E / P0487 / P0488">
+</servinfo>
+<servinfo id = "AENFFA0C1134048" title = "DTC P045A / P045B / P045C / P045D / P1688 / P1689" dtccode = "DTC P045A / P045B / P045C / P045D / P1688 / P1689">
+</servinfo>
+<servinfo id = "AENFFA0C1134049" title = "DTC P0480" dtccode = "DTC P0480">
+</servinfo>
+<servinfo id = "AENFFA0C1134050" title = "DTC P0481" dtccode = "DTC P0481">
+</servinfo>
+<servinfo id = "AENFFA0C1134051" title = "DTC P0482" dtccode = "DTC P0482">
+</servinfo>
+<servinfo id = "AENFFA0C1134052" title = "DTC P0489 / P0490" dtccode = "DTC P0489 / P0490">
+</servinfo>
+<servinfo id = "AENFFA0C1134053" title = "DTC P0500" dtccode = "DTC P0500">
+</servinfo>
+<servinfo id = "AENFFA0C1134054" title = "DTC P0504" dtccode = "DTC P0504">
+</servinfo>
+<servinfo id = "AENFFA0C1134055" title = "DTC P0515" dtccode = "DTC P0515">
+</servinfo>
+<servinfo id = "AENFFA0C1134056" title = "DTC P0520" dtccode = "DTC P0520">
+</servinfo>
+<servinfo id = "AENFFA0C1134057" title = "DTC P0530" dtccode = "DTC P0530">
+</servinfo>
+<servinfo id = "AENFFA0C1134058" title = "DTC P0548 / P0549" dtccode = "DTC P0548 / P0549">
+</servinfo>
+<servinfo id = "AENFFA0C1134059" title = "DTC P0562 / P0563" dtccode = "DTC P0562 / P0563">
+</servinfo>
+<servinfo id = "AENFFA0C1134060" title = "DTC P0601 / P0606 / P0607 / P060A / P060D / P0611 / P061A / P061B / P061C / P061D / P1623" dtccode = "DTC P0601 / P0606 / P0607 / P060A / P060D / P0611 / P061A / P061B / P061C / P061D / P1623">
+</servinfo>
+<servinfo id = "AENFFA0C1134061" title = "DTC P0638" dtccode = "DTC P0638">
+</servinfo>
+<servinfo id = "AENFFA0C1134062" title = "DTC P0641 / P0651 / P0697" dtccode = "DTC P0641 / P0651 / P0697">
+</servinfo>
+<servinfo id = "AENFFA0C1134063" title = "DTC P0645" dtccode = "DTC P0645">
+</servinfo>
+<servinfo id = "AENFFA0C1134064" title = "DTC P0671 / P0672 / P0673 / P0674" dtccode = "DTC P0671 / P0672 / P0673 / P0674">
+</servinfo>
+<servinfo id = "AENFFA0C1134065" title = "DTC P0684" dtccode = "DTC P0684">
+</servinfo>
+<servinfo id = "AENFFA0C1134066" title = "DTC P0685" dtccode = "DTC P0685">
+</servinfo>
+<servinfo id = "AENFFA0C1134146" title = "DTC P0700 / P0701" dtccode = "DTC P0700 / P0701">
+</servinfo>
+<servinfo id = "AENFFA0C1134067" title = "DTC P0704" dtccode = "DTC P0704">
+</servinfo>
+<servinfo id = "AENFFA0C1134068" title = "DTC P0748" dtccode = "DTC P0748">
+</servinfo>
+<servinfo id = "AENFFA0C1134069" title = "DTC P0A5A" dtccode = "DTC P0A5A">
+</servinfo>
+<servinfo id = "AENFFA0C1134070" title = "DTC P1206 / P2002 / P24A4" dtccode = "DTC P1206 / P2002 / P24A4">
+</servinfo>
+<servinfo id = "AENFFA0C1134071" title = "DTC P1540" dtccode = "DTC P1540">
+</servinfo>
+<servinfo id = "AENFFA0C1134072" title = "DTC P1541" dtccode = "DTC P1541">
+</servinfo>
+<servinfo id = "AENFFA0C1134073" title = "DTC P1542" dtccode = "DTC P1542">
+</servinfo>
+<servinfo id = "AENFFA0C1134074" title = "DTC P1543" dtccode = "DTC P1543">
+</servinfo>
+<servinfo id = "AENFFA0C1134075" title = "DTC P1647" dtccode = "DTC P1647">
+</servinfo>
+<servinfo id = "AENFFA0C1134076" title = "DTC P2000" dtccode = "DTC P2000">
+</servinfo>
+<servinfo id = "AENFFA0C1134077" title = "DTC P2031 / P242B / P246F / P24C2" dtccode = "DTC P2031 / P242B / P246F / P24C2">
+</servinfo>
+<servinfo id = "AENFFA0C1134078" title = "DTC P2032 / P2033" dtccode = "DTC P2032 / P2033">
+</servinfo>
+<servinfo id = "AENFFA0C1134079" title = "DTC P2100 / P2101 / P2102 / P2103 / P2107" dtccode = "DTC P2100 / P2101 / P2102 / P2103 / P2107">
+</servinfo>
+<servinfo id = "AENFFA0C1134080" title = "DTC P2108 / P2119" dtccode = "DTC P2108 / P2119">
+</servinfo>
+<servinfo id = "AENFFA0C1134081" title = "DTC P2135" dtccode = "DTC P2135">
+</servinfo>
+<servinfo id = "AENFFA0C1134082" title = "DTC P213B" dtccode = "DTC P213B">
+</servinfo>
+<servinfo id = "AENFFA0C1134083" title = "DTC P2195 / P2196" dtccode = "DTC P2195 / P2196">
+</servinfo>
+<servinfo id = "AENFFA0C1134084" title = "DTC P2199" dtccode = "DTC P2199">
+</servinfo>
+<servinfo id = "AENFFA0C1134085" title = "DTC P2228 / P2229" dtccode = "DTC P2228 / P2229">
+</servinfo>
+<servinfo id = "AENFFA0C1134086" title = "DTC P2264" dtccode = "DTC P2264">
+</servinfo>
+<servinfo id = "AENFFA0C1134087" title = "DTC P226D" dtccode = "DTC P226D">
+</servinfo>
+<servinfo id = "AENFFA0C1134088" title = "DTC P2270 / P2271" dtccode = "DTC P2270 / P2271">
+</servinfo>
+<servinfo id = "AENFFA0C1134089" title = "DTC P2288 / P2289" dtccode = "DTC P2288 / P2289">
+</servinfo>
+<servinfo id = "AENFFA0C1134090" title = "DTC P2299" dtccode = "DTC P2299">
+</servinfo>
+<servinfo id = "AENFFA0C1134091" title = "DTC P242C / P242D" dtccode = "DTC P242C / P242D">
+</servinfo>
+<servinfo id = "AENFFA0C1134092" title = "DTC P2453 / P2454 / P2455" dtccode = "DTC P2453 / P2454 / P2455">
+</servinfo>
+<servinfo id = "AENFFA0C1134093" title = "DTC P2458" dtccode = "DTC P2458">
+</servinfo>
+<servinfo id = "AENFFA0C1134094" title = "DTC P250F / P253F" dtccode = "DTC P250F / P253F">
+</servinfo>
+<servinfo id = "AENFFA0C1134095" title = "DTC P2562 / P2563" dtccode = "DTC P2562 / P2563">
+</servinfo>
+<servinfo id = "AENFFA0C1134096" title = "DTC P2687 / P2688 / P2689" dtccode = "DTC P2687 / P2688 / P2689">
+</servinfo>
+<servinfo id = "AENFFA0C1134097" title = "DTC P268A" dtccode = "DTC P268A">
+</servinfo>
+<servinfo id = "AENFFA0C1134098" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C1134099" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0C1134100" title = "DTC U0114" dtccode = "DTC U0114">
+</servinfo>
+<servinfo id = "AENFFA0C1134101" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C1134102" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0C1134103" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C1134104" title = "DTC U0141" dtccode = "DTC U0141">
+</servinfo>
+<servinfo id = "AENFFA0C1134105" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0C1134106" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+<servinfo id = "AENFFA0C1134107" title = "DTC U108A" dtccode = "DTC U108A">
+</servinfo>
+<servinfo id = "AENFFA0C1134147" title = "DTC U1600" dtccode = "DTC U1600">
+</servinfo>
+<servinfo id = "AENFFA0C1134108" title = "DTC U2001" dtccode = "DTC U2001">
+</servinfo>
+<servinfo id = "AENFFA0C1134109" title = "DTC U2021" dtccode = "DTC U2021">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" file = "AENFFA0C32.fm" title = "none sct name">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C3204012" title = "DTC C1212" dtccode = "DTC C1212">
+</servinfo>
+<servinfo id = "AENFFA0C3204013" title = "DTC C1240" dtccode = "DTC C1240">
+</servinfo>
+<servinfo id = "AENFFA0C3204014" title = "DTC C1243" dtccode = "DTC C1243">
+</servinfo>
+<servinfo id = "AENFFA0C3204015" title = "DTC C1250 / C1251" dtccode = "DTC C1250 / C1251">
+</servinfo>
+<servinfo id = "AENFFA0C3204016" title = "DTC C1252 / C1253" dtccode = "DTC C1252 / C1253">
+</servinfo>
+<servinfo id = "AENFFA0C3204017" title = "DTC C1260 / C1261" dtccode = "DTC C1260 / C1261">
+</servinfo>
+<servinfo id = "AENFFA0C3204018" title = "DTC C1270" dtccode = "DTC C1270">
+</servinfo>
+<servinfo id = "AENFFA0C3204019" title = "DTC C1281" dtccode = "DTC C1281">
+</servinfo>
+<servinfo id = "AENFFA0C3204020" title = "DTC C1282" dtccode = "DTC C1282">
+</servinfo>
+<servinfo id = "AENFFA0C3204021" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C3204022" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C3204023" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0C3204024" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C3204025" title = "DTC U0126" dtccode = "DTC U0126">
+</servinfo>
+<servinfo id = "AENFFA0C3204026" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0C3204027" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C3204028" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0C3204029" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4F" file = "AENFFA0C46.fm" title = "none sct name">
+<servcat title = "Electronic Stability Program">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C4604017" title = "DTC C1015 / C1017 / C1023" dtccode = "DTC C1015 / C1017 / C1023">
+</servinfo>
+<servinfo id = "AENFFA0C4604018" title = "DTC C1016" dtccode = "DTC C1016">
+</servinfo>
+<servinfo id = "AENFFA0C4604019" title = "DTC C1021 / C1022 / C1025 / C1026 / C1031 / C1032 / C1033 / C1035 / C1036" dtccode = "DTC C1021 / C1022 / C1025 / C1026 / C1031 / C1032 / C1033 / C1035 / C1036">
+</servinfo>
+<servinfo id = "AENFFA0C4604020" title = "DTC C1024" dtccode = "DTC C1024">
+</servinfo>
+<servinfo id = "AENFFA0C4604021" title = "DTC C1027" dtccode = "DTC C1027">
+</servinfo>
+<servinfo id = "AENFFA0C4604022" title = "DTC C1028" dtccode = "DTC C1028">
+</servinfo>
+<servinfo id = "AENFFA0C4604023" title = "DTC C102A" dtccode = "DTC C102A">
+</servinfo>
+<servinfo id = "AENFFA0C4604024" title = "DTC C102B" dtccode = "DTC C102B">
+</servinfo>
+<servinfo id = "AENFFA0C4604025" title = "DTC C1037" dtccode = "DTC C1037">
+</servinfo>
+<servinfo id = "AENFFA0C4604026" title = "DTC C1038" dtccode = "DTC C1038">
+</servinfo>
+<servinfo id = "AENFFA0C4604027" title = "DTC C1039 / C1071" dtccode = "DTC C1039 / C1071">
+</servinfo>
+<servinfo id = "AENFFA0C4604028" title = "DTC C1040" dtccode = "DTC C1040">
+</servinfo>
+<servinfo id = "AENFFA0C4604029" title = "DTC C1041 / C1042 / C1043 / C1044 / C1045 / C1046 / C1051 / C1052 / C1053 / C1054 / C1055 / C1056 / C1063" dtccode = "DTC C1041 / C1042 / C1043 / C1044 / C1045 / C1046 / C1051 / C1052 / C1053 / C1054 / C1055 / C1056 / C1063">
+</servinfo>
+<servinfo id = "AENFFA0C4604030" title = "DTC C1047 / C1048" dtccode = "DTC C1047 / C1048">
+</servinfo>
+<servinfo id = "AENFFA0C4604031" title = "DTC C104A" dtccode = "DTC C104A">
+</servinfo>
+<servinfo id = "AENFFA0C4604032" title = "DTC C104B" dtccode = "DTC C104B">
+</servinfo>
+<servinfo id = "AENFFA0C4604033" title = "DTC C104C" dtccode = "DTC C104C">
+</servinfo>
+<servinfo id = "AENFFA0C4604034" title = "DTC C1057" dtccode = "DTC C1057">
+</servinfo>
+<servinfo id = "AENFFA0C4604035" title = "DTC C1061" dtccode = "DTC C1061">
+</servinfo>
+<servinfo id = "AENFFA0C4604036" title = "DTC C1062" dtccode = "DTC C1062">
+</servinfo>
+<servinfo id = "AENFFA0C4604037" title = "DTC C1065" dtccode = "DTC C1065">
+</servinfo>
+<servinfo id = "AENFFA0C4604038" title = "DTC C1069" dtccode = "DTC C1069">
+</servinfo>
+<servinfo id = "AENFFA0C4604039" title = "DTC C1074 / C1075" dtccode = "DTC C1074 / C1075">
+</servinfo>
+<servinfo id = "AENFFA0C4604040" title = "DTC C1084 / C1085 / C1097" dtccode = "DTC C1084 / C1085 / C1097">
+</servinfo>
+<servinfo id = "AENFFA0C4604041" title = "DTC C1090 / C1091 / C1094" dtccode = "DTC C1090 / C1091 / C1094">
+</servinfo>
+<servinfo id = "AENFFA0C4604042" title = "DTC C1092" dtccode = "DTC C1092">
+</servinfo>
+<servinfo id = "AENFFA0C4604043" title = "DTC C1093" dtccode = "DTC C1093">
+</servinfo>
+<servinfo id = "AENFFA0C4604044" title = "DTC C1099" dtccode = "DTC C1099">
+</servinfo>
+<servinfo id = "AENFFA0C4604045" title = "DTC C10A0 / C10A1 / C10A3" dtccode = "DTC C10A0 / C10A1 / C10A3">
+</servinfo>
+<servinfo id = "AENFFA0C4604046" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C4604047" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C4604048" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0C4604049" title = "DTC U0114" dtccode = "DTC U0114">
+</servinfo>
+<servinfo id = "AENFFA0C4604050" title = "DTC U0126" dtccode = "DTC U0126">
+</servinfo>
+<servinfo id = "AENFFA0C4604051" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0C4604052" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C4604053" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+<servinfo id = "AENFFA0C4604054" title = "DTC U108A" dtccode = "DTC U108A">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" file = "AENFFA0C51.fm" title = "none sct name">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C5104022" title = "DTC P0562 / P0563 / P1742 / P1743" dtccode = "DTC P0562 / P0563 / P1742 / P1743">
+</servinfo>
+<servinfo id = "AENFFA0C5104023" title = "DTC P0602 / P0604 / P062F / P1702 / P184C / P185E / P185F" dtccode = "DTC P0602 / P0604 / P062F / P1702 / P184C / P185E / P185F">
+</servinfo>
+<servinfo id = "AENFFA0C5104024" title = "DTC P0706 / P0707 / P0708" dtccode = "DTC P0706 / P0707 / P0708">
+</servinfo>
+<servinfo id = "AENFFA0C5104025" title = "DTC P0711 / P0712 / P0713" dtccode = "DTC P0711 / P0712 / P0713">
+</servinfo>
+<servinfo id = "AENFFA0C5104026" title = "DTC P0717 / P1738 / P1739" dtccode = "DTC P0717 / P1738 / P1739">
+</servinfo>
+<servinfo id = "AENFFA0C5104027" title = "DTC P0722 / P1736 / P1737" dtccode = "DTC P0722 / P1736 / P1737">
+</servinfo>
+<servinfo id = "AENFFA0C5104028" title = "DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E" dtccode = "DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E">
+</servinfo>
+<servinfo id = "AENFFA0C5104029" title = "DTC P072A / P073E / P073F" dtccode = "DTC P072A / P073E / P073F">
+</servinfo>
+<servinfo id = "AENFFA0C5104030" title = "DTC P0741" dtccode = "DTC P0741">
+</servinfo>
+<servinfo id = "AENFFA0C5104031" title = "DTC P0742" dtccode = "DTC P0742">
+</servinfo>
+<servinfo id = "AENFFA0C5104032" title = "DTC P0747 / P0777 / P0797" dtccode = "DTC P0747 / P0777 / P0797">
+</servinfo>
+<servinfo id = "AENFFA0C5104033" title = "DTC P0961 / P0962 / P0963" dtccode = "DTC P0961 / P0962 / P0963">
+</servinfo>
+<servinfo id = "AENFFA0C5104034" title = "DTC P0965 / P0966 / P0967" dtccode = "DTC P0965 / P0966 / P0967">
+</servinfo>
+<servinfo id = "AENFFA0C5104035" title = "DTC P0969 / P0970 / P0971" dtccode = "DTC P0969 / P0970 / P0971">
+</servinfo>
+<servinfo id = "AENFFA0C5104036" title = "DTC P0973 / P0974" dtccode = "DTC P0973 / P0974">
+</servinfo>
+<servinfo id = "AENFFA0C5104037" title = "DTC P0976 / P0977" dtccode = "DTC P0976 / P0977">
+</servinfo>
+<servinfo id = "AENFFA0C5104038" title = "DTC P1706" dtccode = "DTC P1706">
+</servinfo>
+<servinfo id = "AENFFA0C5104039" title = "DTC P1718 / P1719" dtccode = "DTC P1718 / P1719">
+</servinfo>
+<servinfo id = "AENFFA0C5104040" title = "DTC P1727 / P1728" dtccode = "DTC P1727 / P1728">
+</servinfo>
+<servinfo id = "AENFFA0C5104041" title = "DTC P2715" dtccode = "DTC P2715">
+</servinfo>
+<servinfo id = "AENFFA0C5104042" title = "DTC P2719 / P2720 / P2721" dtccode = "DTC P2719 / P2720 / P2721">
+</servinfo>
+<servinfo id = "AENFFA0C5104043" title = "DTC P2728 / P2729 / P2730" dtccode = "DTC P2728 / P2729 / P2730">
+</servinfo>
+<servinfo id = "AENFFA0C5104044" title = "DTC P2762 / P2763 / P2764" dtccode = "DTC P2762 / P2763 / P2764">
+</servinfo>
+<servinfo id = "AENFFA0C5104045" title = "DTC P2797" dtccode = "DTC P2797">
+</servinfo>
+<servinfo id = "AENFFA0C5104046" title = "DTC P2798 / P2799" dtccode = "DTC P2798 / P2799">
+</servinfo>
+<servinfo id = "AENFFA0C5104047" title = "DTC P2806" dtccode = "DTC P2806">
+</servinfo>
+<servinfo id = "AENFFA0C5104048" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C5104049" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C5104050" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C5104051" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C5104052" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" file = "AENFFA0C56.fm" title = "none sct name">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C5604012" title = "DTC P0560-14 / P0561-14 / P0562-14 / P0817-14 / P0880-16 / P0881-21 / P0881-32 / P0882-16" dtccode = "DTC P0560-14 / P0561-14 / P0562-14 / P0817-14 / P0880-16 / P0881-21 / P0881-32 / P0882-16">
+</servinfo>
+<servinfo id = "AENFFA0C5604013" title = "DTC P0571-24" dtccode = "DTC P0571-24">
+</servinfo>
+<servinfo id = "AENFFA0C5604014" title = "DTC P0601-41 / P0604-44 / P0605-44 / P0606-44 / P0606-45 / P0606-55 / P0608-41 / P0609-41 / P060A-48 / P060B-68 / P0613-43 / P0613-44 / P0613-45 / P0613-49 / P062F-42 / P063A-21 / P0863-48 / P0883-22 / P0885-12 / P0885-14 / P1886-44 / P190E-09 / P190E-22 / P190E-98 / P19A0-62 / P19A5-92 / P19A5-98 / P19A6-92 / P19A6-96 / P19BF-65 / P19C7-65 / P19CE-92 / P19CE-94 / P19CF-62 / P19CF-64 / P19D0-92 / P19D0-94 / P19D9-77 / P19D9-92 / P19D9-96 / P19DA-79 / P19DF-77 / P19DF-92 / P19E1-79 / P19E1-92 / P19E3-83 / P19E4-83 / P19E5-83 / P19E6-83 / P19E7-83 / P19E9-68 / P19EA-96" dtccode = "DTC P0601-41 / P0604-44 / P0605-44 / P0606-44 / P0606-45 / P0606-55 / P0608-41 / P0609-41 / P060A-48 / P060B-68 / P0613-43 / P0613-44 / P0613-45 / P0613-49 / P062F-42 / P063A-21 / P0863-48 / P0883-22 / P0885-12 / P0885-14 / P1886-44 / P190E-09 / P190E-22 / P190E-98 / P19A0-62 / P19A5-92 / P19A5-98 / P19A6-92 / P19A6-96 / P19BF-65 / P19C7-65 / P19CE-92 / P19CE-94 / P19CF-62 / P19CF-64 / P19D0-92 / P19D0-94 / P19D9-77 / P19D9-92 / P19D9-96 / P19DA-79 / P19DF-77 / P19DF-92 / P19E1-79 / P19E1-92 / P19E3-83 / P19E4-83 / P19E5-83 / P19E6-83 / P19E7-83 / P19E9-68 / P19EA-96">
+</servinfo>
+<servinfo id = "AENFFA0C5604015" title = "DTC P0607-41 / P0607-51" dtccode = "DTC P0607-41 / P0607-51">
+</servinfo>
+<servinfo id = "AENFFA0C5604016" title = "DTC P0641-13 / P0805-11 / P0805-15 / P0805-36 / P0805-37 / P0805-38" dtccode = "DTC P0641-13 / P0805-11 / P0805-15 / P0805-36 / P0805-37 / P0805-38">
+</servinfo>
+<servinfo id = "AENFFA0C5604017" title = "DTC P0642-13 / P0933-12 / P0933-14 / P0934-1C / P0935-1C" dtccode = "DTC P0642-13 / P0933-12 / P0933-14 / P0934-1C / P0935-1C">
+</servinfo>
+<servinfo id = "AENFFA0C5604018" title = "DTC P0668-11 / P0668-15 / P0669-1C / P19D1-62 / P19D1-64" dtccode = "DTC P0668-11 / P0668-15 / P0669-1C / P19D1-62 / P19D1-64">
+</servinfo>
+<servinfo id = "AENFFA0C5604019" title = "DTC P0703-62 / P0703-68 / P0719-13" dtccode = "DTC P0703-62 / P0703-68 / P0719-13">
+</servinfo>
+<servinfo id = "AENFFA0C5604020" title = "DTC P0715-31 / P0715-61 / P0715-62 / P0715-64" dtccode = "DTC P0715-31 / P0715-61 / P0715-62 / P0715-64">
+</servinfo>
+<servinfo id = "AENFFA0C5604021" title = "DTC P0716-31 / P0716-61 / P0716-62 / P0716-64" dtccode = "DTC P0716-31 / P0716-61 / P0716-62 / P0716-64">
+</servinfo>
+<servinfo id = "AENFFA0C5604022" title = "DTC P0721-31 / P0721-61 / P0721-81 / P0721-83 / P0721-85 / P0721-86 / P0721-87" dtccode = "DTC P0721-31 / P0721-61 / P0721-81 / P0721-83 / P0721-85 / P0721-86 / P0721-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604023" title = "DTC P0725-31 / P0725-87 / P0726-81 / P0726-86 / P1706-83" dtccode = "DTC P0725-31 / P0725-87 / P0726-81 / P0726-86 / P1706-83">
+</servinfo>
+<servinfo id = "AENFFA0C5604024" title = "DTC P0750-01 / P0750-11 / P0750-12 / P0750-13 / P0750-16 / P0750-17 / P0750-19 / P0750-1A / P0750-1D / P0750-96 / P0751-12" dtccode = "DTC P0750-01 / P0750-11 / P0750-12 / P0750-13 / P0750-16 / P0750-17 / P0750-19 / P0750-1A / P0750-1D / P0750-96 / P0751-12">
+</servinfo>
+<servinfo id = "AENFFA0C5604025" title = "DTC P0755-01 / P0755-11 / P0755-12 / P0755-13 / P0755-16 / P0755-17 / P0755-19 / P0755-1A / P0755-1D / P0755-96 / P0756-12" dtccode = "DTC P0755-01 / P0755-11 / P0755-12 / P0755-13 / P0755-16 / P0755-17 / P0755-19 / P0755-1A / P0755-1D / P0755-96 / P0756-12">
+</servinfo>
+<servinfo id = "AENFFA0C5604026" title = "DTC P075A-01 / P075A-11 / P075A-12 / P075A-13 / P075A-16 / P075A-17 / P075A-19 / P075A-1A / P075A-1D / P075A-96 / P075B-12" dtccode = "DTC P075A-01 / P075A-11 / P075A-12 / P075A-13 / P075A-16 / P075A-17 / P075A-19 / P075A-1A / P075A-1D / P075A-96 / P075B-12">
+</servinfo>
+<servinfo id = "AENFFA0C5604027" title = "DTC P07BE-9A / P0860-81 / P0861-81 / P0862-81 / P19B6-81 / P19B8-81 / P19B9-81 / P19BB-81" dtccode = "DTC P07BE-9A / P0860-81 / P0861-81 / P0862-81 / P19B6-81 / P19B8-81 / P19B9-81 / P19BB-81">
+</servinfo>
+<servinfo id = "AENFFA0C5604028" title = "DTC P0813-11 / P0813-15" dtccode = "DTC P0813-11 / P0813-15">
+</servinfo>
+<servinfo id = "AENFFA0C5604029" title = "DTC P081C-11 / P081C-15 / P081C-36 / P081C-37 / P081C-38 / P19B7-68" dtccode = "DTC P081C-11 / P081C-15 / P081C-36 / P081C-37 / P081C-38 / P19B7-68">
+</servinfo>
+<servinfo id = "AENFFA0C5604030" title = "DTC P0900-01 / P0900-11 / P0900-12 / P0900-13 / P0900-16 / P0900-17 / P0900-19 / P0900-1A / P0900-1D / P0900-96 / P0901-12" dtccode = "DTC P0900-01 / P0900-11 / P0900-12 / P0900-13 / P0900-16 / P0900-17 / P0900-19 / P0900-1A / P0900-1D / P0900-96 / P0901-12">
+</servinfo>
+<servinfo id = "AENFFA0C5604031" title = "DTC P0904-11 / P0904-15 / P0904-1C / P0904-36 / P0904-37 / P0904-38 / P0909-1C" dtccode = "DTC P0904-11 / P0904-15 / P0904-1C / P0904-36 / P0904-37 / P0904-38 / P0909-1C">
+</servinfo>
+<servinfo id = "AENFFA0C5604032" title = "DTC P0905-01 / P0905-11 / P0905-12 / P0905-13 / P0905-16 / P0905-17 / P0905-19 / P0905-1A / P0905-1D / P0905-96 / P0906-12" dtccode = "DTC P0905-01 / P0905-11 / P0905-12 / P0905-13 / P0905-16 / P0905-17 / P0905-19 / P0905-1A / P0905-1D / P0905-96 / P0906-12">
+</servinfo>
+<servinfo id = "AENFFA0C5604033" title = "DTC P0914-11 / P0914-15 / P0914-1C / P0914-36 / P0914-37 / P0914-38" dtccode = "DTC P0914-11 / P0914-15 / P0914-1C / P0914-36 / P0914-37 / P0914-38">
+</servinfo>
+<servinfo id = "AENFFA0C5604034" title = "DTC P0915-11 / P0915-15 / P0915-1C / P0915-36 / P0915-37 / P0915-38" dtccode = "DTC P0915-11 / P0915-15 / P0915-1C / P0915-36 / P0915-37 / P0915-38">
+</servinfo>
+<servinfo id = "AENFFA0C5604035" title = "DTC P0916-11 / P0916-15 / P0916-1C / P0916-36 / P0916-37 / P0916-38" dtccode = "DTC P0916-11 / P0916-15 / P0916-1C / P0916-36 / P0916-37 / P0916-38">
+</servinfo>
+<servinfo id = "AENFFA0C5604036" title = "DTC P0917-11 / P0917-15 / P0917-1C / P0917-36 / P0917-37 / P0917-38" dtccode = "DTC P0917-11 / P0917-15 / P0917-1C / P0917-36 / P0917-37 / P0917-38">
+</servinfo>
+<servinfo id = "AENFFA0C5604037" title = "DTC P0932-12 / P0932-14" dtccode = "DTC P0932-12 / P0932-14">
+</servinfo>
+<servinfo id = "AENFFA0C5604038" title = "DTC P0942-09 / P0942-7B" dtccode = "DTC P0942-09 / P0942-7B">
+</servinfo>
+<servinfo id = "AENFFA0C5604039" title = "DTC P1885-79" dtccode = "DTC P1885-79">
+</servinfo>
+<servinfo id = "AENFFA0C5604040" title = "DTC P1980-65" dtccode = "DTC P1980-65">
+</servinfo>
+<servinfo id = "AENFFA0C5604041" title = "DTC P19A1-81 / P19A2-81 / P19A2-86 / P19AC-81 / P19AD-86 / P19AE-86 / P19AF-86 / P19B0-86 / P19B1-86 / P19B2-81 / P19B3-81 / P19BC-81 / P19E2-86 / P19E8-86 / P19EB-86 / P19EC-81" dtccode = "DTC P19A1-81 / P19A2-81 / P19A2-86 / P19AC-81 / P19AD-86 / P19AE-86 / P19AF-86 / P19B0-86 / P19B1-86 / P19B2-81 / P19B3-81 / P19BC-81 / P19E2-86 / P19E8-86 / P19EB-86 / P19EC-81">
+</servinfo>
+<servinfo id = "AENFFA0C5604042" title = "DTC P19A3-79 / P19A3-94 / P19B4-96 / P19B5-92 / P19B5-94 / P19BD-22 / P19BE-07 / P19C0-73 / P19C0-74 / P19C1-73 / P19C2-73 / P19C2-74 / P19C3-72 / P19C4-72 / P19C5-72 / P19C6-72 / P19C8-07 / P19C9-07 / P19CA-07 / P19CA-78 / P19CB-07 / P19CB-78 / P19CC-07 / P19CC-78 / P19CD-07 / P19CD-78 / P19D2-71 / P19D2-72 / P19D2-73 / P19D2-74 / P19D2-75 / P19D2-76 / P19D3-71 / P19D3-72 / P19D3-73 / P19D4-71 / P19D4-72 / P19D4-73 / P19D4-74 / P19D5-62 / P19D6-62 / P19D7-62 / P19D7-64 / P19D8-62" dtccode = "DTC P19A3-79 / P19A3-94 / P19B4-96 / P19B5-92 / P19B5-94 / P19BD-22 / P19BE-07 / P19C0-73 / P19C0-74 / P19C1-73 / P19C2-73 / P19C2-74 / P19C3-72 / P19C4-72 / P19C5-72 / P19C6-72 / P19C8-07 / P19C9-07 / P19CA-07 / P19CA-78 / P19CB-07 / P19CB-78 / P19CC-07 / P19CC-78 / P19CD-07 / P19CD-78 / P19D2-71 / P19D2-72 / P19D2-73 / P19D2-74 / P19D2-75 / P19D2-76 / P19D3-71 / P19D3-72 / P19D3-73 / P19D4-71 / P19D4-72 / P19D4-73 / P19D4-74 / P19D5-62 / P19D6-62 / P19D7-62 / P19D7-64 / P19D8-62">
+</servinfo>
+<servinfo id = "AENFFA0C5604043" title = "DTC P19A4-12 / P19DC-19 / P19DC-22 / P19DC-24 / P19DD-61 / P19DD-62 / P19DE-16 / P19DE-18 / P19DE-21 / P19DE-23" dtccode = "DTC P19A4-12 / P19DC-19 / P19DC-22 / P19DC-24 / P19DD-61 / P19DD-62 / P19DE-16 / P19DE-18 / P19DE-21 / P19DE-23">
+</servinfo>
+<servinfo id = "AENFFA0C5604044" title = "DTC P19A7-1C / P19A8-1C / P19A9-1C" dtccode = "DTC P19A7-1C / P19A8-1C / P19A9-1C">
+</servinfo>
+<servinfo id = "AENFFA0C5604045" title = "DTC P19AA-55 / P19AB-55" dtccode = "DTC P19AA-55 / P19AB-55">
+</servinfo>
+<servinfo id = "AENFFA0C5604046" title = "DTC P19BA-22 / P19BA-61 / P19BA-62 / P19BA-64" dtccode = "DTC P19BA-22 / P19BA-61 / P19BA-62 / P19BA-64">
+</servinfo>
+<servinfo id = "AENFFA0C5604047" title = "DTC U0073-88" dtccode = "DTC U0073-88">
+</servinfo>
+<servinfo id = "AENFFA0C5604048" title = "DTC U0100-87" dtccode = "DTC U0100-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604049" title = "DTC U0103-87" dtccode = "DTC U0103-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604050" title = "DTC U0121-87" dtccode = "DTC U0121-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604051" title = "DTC U0140-87" dtccode = "DTC U0140-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604052" title = "DTC U0141-87" dtccode = "DTC U0141-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604053" title = "DTC U0155-87" dtccode = "DTC U0155-87">
+</servinfo>
+<servinfo id = "AENFFA0C5604054" title = "DTC U1082-87" dtccode = "DTC U1082-87">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "6C" file = "AENFFA0C63.fm" title = "none sct name">
+<servcat title = "Power Assisted Steering System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C6304012" title = "DTC C1111 / C1113 / C1115 / C1116" dtccode = "DTC C1111 / C1113 / C1115 / C1116">
+</servinfo>
+<servinfo id = "AENFFA0C6304013" title = "DTC C1131" dtccode = "DTC C1131">
+</servinfo>
+<servinfo id = "AENFFA0C6304014" title = "DTC C1141 / C1142 / C1143 / C1145 / C1146" dtccode = "DTC C1141 / C1142 / C1143 / C1145 / C1146">
+</servinfo>
+<servinfo id = "AENFFA0C6304015" title = "DTC C1152 / C1154" dtccode = "DTC C1152 / C1154">
+</servinfo>
+<servinfo id = "AENFFA0C6304016" title = "DTC C1153 / C1155" dtccode = "DTC C1153 / C1155">
+</servinfo>
+<servinfo id = "AENFFA0C6304017" title = "DTC C1160" dtccode = "DTC C1160">
+</servinfo>
+<servinfo id = "AENFFA0C6304018" title = "DTC C1161 / C1162 / C1166" dtccode = "DTC C1161 / C1162 / C1166">
+</servinfo>
+<servinfo id = "AENFFA0C6304019" title = "DTC C1164" dtccode = "DTC C1164">
+</servinfo>
+<servinfo id = "AENFFA0C6304020" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C6304021" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C6304022" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0C6304023" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C6304024" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0C6304025" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" file = "AENFFA0C72.fm" title = "none sct name">
+<servcat title = "HVAC System">
+<configtype id = "1" title = "Non-A/C">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C7214010" title = "DTC B1536" dtccode = "DTC B1536">
+</servinfo>
+<servinfo id = "AENFFA0C7214011" title = "DTC B1537" dtccode = "DTC B1537">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Manual Type">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C7224013" title = "DTC B1536" dtccode = "DTC B1536">
+</servinfo>
+<servinfo id = "AENFFA0C7224014" title = "DTC B1537" dtccode = "DTC B1537">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C7234013" title = "DTC B1502-H" dtccode = "DTC B1502-H">
+</servinfo>
+<servinfo id = "AENFFA0C7234014" title = "DTC B1502-L" dtccode = "DTC B1502-L">
+</servinfo>
+<servinfo id = "AENFFA0C7234015" title = "DTC B1503 / B1562" dtccode = "DTC B1503 / B1562">
+</servinfo>
+<servinfo id = "AENFFA0C7234016" title = "DTC B1504-H" dtccode = "DTC B1504-H">
+</servinfo>
+<servinfo id = "AENFFA0C7234017" title = "DTC B1504-L" dtccode = "DTC B1504-L">
+</servinfo>
+<servinfo id = "AENFFA0C7234018" title = "DTC B1511-H / B1512-H / B1530-H" dtccode = "DTC B1511-H / B1512-H / B1530-H">
+</servinfo>
+<servinfo id = "AENFFA0C7234019" title = "DTC B1511-L / B1512-L / B1530-L" dtccode = "DTC B1511-L / B1512-L / B1530-L">
+</servinfo>
+<servinfo id = "AENFFA0C7234020" title = "DTC B1513 / B1514 / B1531" dtccode = "DTC B1513 / B1514 / B1531">
+</servinfo>
+<servinfo id = "AENFFA0C7234021" title = "DTC B1536" dtccode = "DTC B1536">
+</servinfo>
+<servinfo id = "AENFFA0C7234022" title = "DTC B1537" dtccode = "DTC B1537">
+</servinfo>
+<servinfo id = "AENFFA0C7234023" title = "DTC B1541" dtccode = "DTC B1541">
+</servinfo>
+<servinfo id = "AENFFA0C7234024" title = "DTC B1544" dtccode = "DTC B1544">
+</servinfo>
+<servinfo id = "AENFFA0C7234025" title = "DTC B1546" dtccode = "DTC B1546">
+</servinfo>
+<servinfo id = "AENFFA0C7234026" title = "DTC B1550-H / B1550-L" dtccode = "DTC B1550-H / B1550-L">
+</servinfo>
+<servinfo id = "AENFFA0C7234027" title = "DTC B1557 / B1561 / B1563" dtccode = "DTC B1557 / B1561 / B1563">
+</servinfo>
+<servinfo id = "AENFFA0C7234028" title = "DTC B1570" dtccode = "DTC B1570">
+</servinfo>
+<servinfo id = "AENFFA0C7234029" title = "DTC B1571" dtccode = "DTC B1571">
+</servinfo>
+<servinfo id = "AENFFA0C7234030" title = "DTC B1580" dtccode = "DTC B1580">
+</servinfo>
+<servinfo id = "AENFFA0C7234031" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C7234032" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C7234033" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C7234034" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "8B" file = "AENFFA0C82.fm" title = "none sct name">
+<servcat title = "Air Bag System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C8204011" title = "DTC B1001-00" dtccode = "DTC B1001-00">
+</servinfo>
+<servinfo id = "AENFFA0C8204012" title = "DTC B1003-04" dtccode = "DTC B1003-04">
+</servinfo>
+<servinfo id = "AENFFA0C8204013" title = "DTC B1004-17" dtccode = "DTC B1004-17">
+</servinfo>
+<servinfo id = "AENFFA0C8204014" title = "DTC B1004-18" dtccode = "DTC B1004-18">
+</servinfo>
+<servinfo id = "AENFFA0C8204015" title = "DTC B1007-01 / B1008-01" dtccode = "DTC B1007-01 / B1008-01">
+</servinfo>
+<servinfo id = "AENFFA0C8204016" title = "DTC B1009-95" dtccode = "DTC B1009-95">
+</servinfo>
+<servinfo id = "AENFFA0C8204017" title = "DTC B1009-1A" dtccode = "DTC B1009-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204018" title = "DTC B1009-1B" dtccode = "DTC B1009-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204019" title = "DTC B1009-1E" dtccode = "DTC B1009-1E">
+</servinfo>
+<servinfo id = "AENFFA0C8204020" title = "DTC B1032-00 / B1033-00 / B1034-00 / B1035-00 / B1036-00 / B1037-00 / B1038-00 / B1039-00" dtccode = "DTC B1032-00 / B1033-00 / B1034-00 / B1035-00 / B1036-00 / B1037-00 / B1038-00 / B1039-00">
+</servinfo>
+<servinfo id = "AENFFA0C8204021" title = "DTC B1060-14" dtccode = "DTC B1060-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204022" title = "DTC B1060-15" dtccode = "DTC B1060-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204023" title = "DTC B1060-1A" dtccode = "DTC B1060-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204024" title = "DTC B1060-1B" dtccode = "DTC B1060-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204025" title = "DTC B1062-14" dtccode = "DTC B1062-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204026" title = "DTC B1062-15" dtccode = "DTC B1062-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204027" title = "DTC B1062-1A" dtccode = "DTC B1062-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204028" title = "DTC B1062-1B" dtccode = "DTC B1062-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204029" title = "DTC B1064-14 / B1065-14" dtccode = "DTC B1064-14 / B1065-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204030" title = "DTC B1064-15 / B1065-15" dtccode = "DTC B1064-15 / B1065-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204031" title = "DTC B1064-1A / B1065-1A" dtccode = "DTC B1064-1A / B1065-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204032" title = "DTC B1064-1B / B1065-1B" dtccode = "DTC B1064-1B / B1065-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204033" title = "DTC B1068-14 / B1069-14" dtccode = "DTC B1068-14 / B1069-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204034" title = "DTC B1068-15 / B1069-15" dtccode = "DTC B1068-15 / B1069-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204035" title = "DTC B1068-1A / B1069-1A" dtccode = "DTC B1068-1A / B1069-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204036" title = "DTC B1068-1B / B1069-1B" dtccode = "DTC B1068-1B / B1069-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204037" title = "DTC B106C-14 / B106D-14" dtccode = "DTC B106C-14 / B106D-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204038" title = "DTC B106C-15 / B106D-15" dtccode = "DTC B106C-15 / B106D-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204039" title = "DTC B106C-1A / B106D-1A" dtccode = "DTC B106C-1A / B106D-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204040" title = "DTC B106C-1B / B106D-1B" dtccode = "DTC B106C-1B / B106D-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204041" title = "DTC B106E-14" dtccode = "DTC B106E-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204042" title = "DTC B106E-15" dtccode = "DTC B106E-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204043" title = "DTC B106E-1A" dtccode = "DTC B106E-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204044" title = "DTC B106E-1B" dtccode = "DTC B106E-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204045" title = "DTC B1071-14 / B1072-14" dtccode = "DTC B1071-14 / B1072-14">
+</servinfo>
+<servinfo id = "AENFFA0C8204046" title = "DTC B1071-15 / B1072-15" dtccode = "DTC B1071-15 / B1072-15">
+</servinfo>
+<servinfo id = "AENFFA0C8204047" title = "DTC B1071-1A / B1072-1A" dtccode = "DTC B1071-1A / B1072-1A">
+</servinfo>
+<servinfo id = "AENFFA0C8204048" title = "DTC B1071-1B / B1072-1B" dtccode = "DTC B1071-1B / B1072-1B">
+</servinfo>
+<servinfo id = "AENFFA0C8204049" title = "DTC B1090-01 / B1091-01" dtccode = "DTC B1090-01 / B1091-01">
+</servinfo>
+<servinfo id = "AENFFA0C8204050" title = "DTC B1090-14 / B1090-15 / B1090-87 / B1091-14 / B1091-15 / B1091-87" dtccode = "DTC B1090-14 / B1090-15 / B1090-87 / B1091-14 / B1091-15 / B1091-87">
+</servinfo>
+<servinfo id = "AENFFA0C8204051" title = "DTC B1093-01 / B1093-95 / B1094-01 / B1094-95" dtccode = "DTC B1093-01 / B1093-95 / B1094-01 / B1094-95">
+</servinfo>
+<servinfo id = "AENFFA0C8204052" title = "DTC B1093-14 / B1093-15 / B1093-87 / B1094-14 / B1094-15 / B1094-87" dtccode = "DTC B1093-14 / B1093-15 / B1093-87 / B1094-14 / B1094-15 / B1094-87">
+</servinfo>
+<servinfo id = "AENFFA0C8204053" title = "DTC B1095-01 / B1095-95 / B1096-01 / B1096-95" dtccode = "DTC B1095-01 / B1095-95 / B1096-01 / B1096-95">
+</servinfo>
+<servinfo id = "AENFFA0C8204054" title = "DTC B1095-14 / B1095-15 / B1095-87 / B1096-14 / B1096-15 / B1096-87" dtccode = "DTC B1095-14 / B1095-15 / B1095-87 / B1096-14 / B1096-15 / B1096-87">
+</servinfo>
+<servinfo id = "AENFFA0C8204055" title = "DTC U0073-88" dtccode = "DTC U0073-88">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9B" file = "AENFFA0C92.fm" title = "none sct name">
+<servcat title = "Lighting Systems">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C9204010" title = "DTC B1950" dtccode = "DTC B1950">
+</servinfo>
+<servinfo id = "AENFFA0C9204011" title = "DTC B1951" dtccode = "DTC B1951">
+</servinfo>
+<servinfo id = "AENFFA0C9204012" title = "DTC B1956" dtccode = "DTC B1956">
+</servinfo>
+<servinfo id = "AENFFA0C9204013" title = "DTC B1957 / B1958" dtccode = "DTC B1957 / B1958">
+</servinfo>
+<servinfo id = "AENFFA0C9204014" title = "DTC B1967" dtccode = "DTC B1967">
+</servinfo>
+<servinfo id = "AENFFA0C9204015" title = "DTC B1970" dtccode = "DTC B1970">
+</servinfo>
+<servinfo id = "AENFFA0C9204016" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C9204017" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9C" file = "AENFFA0C93.fm" title = "none sct name">
+<servcat title = "Instrumentation / Driver Info. / Horn">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C9304004" title = "DTC B1802" dtccode = "DTC B1802">
+</servinfo>
+<servinfo id = "AENFFA0C9304005" title = "DTC B1803" dtccode = "DTC B1803">
+</servinfo>
+<servinfo id = "AENFFA0C9304006" title = "DTC B1810" dtccode = "DTC B1810">
+</servinfo>
+<servinfo id = "AENFFA0C9304007" title = "DTC B1820" dtccode = "DTC B1820">
+</servinfo>
+<servinfo id = "AENFFA0C9304008" title = "DTC B1840" dtccode = "DTC B1840">
+</servinfo>
+<servinfo id = "AENFFA0C9304009" title = "DTC B1841" dtccode = "DTC B1841">
+</servinfo>
+<servinfo id = "AENFFA0C9304010" title = "DTC B1842" dtccode = "DTC B1842">
+</servinfo>
+<servinfo id = "AENFFA0C9304011" title = "DTC B1850" dtccode = "DTC B1850">
+</servinfo>
+<servinfo id = "AENFFA0C9304012" title = "DTC B1851 / B1852" dtccode = "DTC B1851 / B1852">
+</servinfo>
+<servinfo id = "AENFFA0C9304013" title = "DTC B1855" dtccode = "DTC B1855">
+</servinfo>
+<servinfo id = "AENFFA0C9304014" title = "DTC B1860 / B1861 / B1862 / B1863 / B1864 / B1865 / B1866 / B1867" dtccode = "DTC B1860 / B1861 / B1862 / B1863 / B1864 / B1865 / B1866 / B1867">
+</servinfo>
+<servinfo id = "AENFFA0C9304015" title = "DTC U0073 / U0100 / U0101 / U0121 / U0127 / U0131 / U0140 / U0141 / U0151 / U0164 / U108A" dtccode = "DTC U0073 / U0100 / U0101 / U0121 / U0127 / U0131 / U0140 / U0141 / U0151 / U0164 / U108A">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9F" file = "AENFFA0C96.fm" title = "none sct name">
+<servcat title = "Security and Locks">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C9604010" title = "DTC B1120 / B1170" dtccode = "DTC B1120 / B1170">
+</servinfo>
+<servinfo id = "AENFFA0C9604011" title = "DTC B1122" dtccode = "DTC B1122">
+</servinfo>
+<servinfo id = "AENFFA0C9604012" title = "DTC B1123" dtccode = "DTC B1123">
+</servinfo>
+<servinfo id = "AENFFA0C9604013" title = "DTC B1461" dtccode = "DTC B1461">
+</servinfo>
+<servinfo id = "AENFFA0C9604014" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0C9604015" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0C9604016" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0C9604017" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10A" file = "AENFFA0CA1.fm" title = "none sct name">
+<servcat title = "Cruise Control System">
+<configtype id = "1" title = "Cruise Control">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA114008" title = "DTC P0575" dtccode = "DTC P0575">
+</servinfo>
+<servinfo id = "AENFFA0CA114009" title = "DTC P0649" dtccode = "DTC P0649">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Adaptive Cruise Control">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA124012" title = "DTC P0575" dtccode = "DTC P0575">
+</servinfo>
+<servinfo id = "AENFFA0CA124013" title = "DTC P0649" dtccode = "DTC P0649">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10B" file = "AENFFA0CA2.fm" title = "none sct name">
+<servcat title = "Body Electrical Control System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA204010" title = "DTC B1120" dtccode = "DTC B1120">
+</servinfo>
+<servinfo id = "AENFFA0CA204011" title = "DTC B1127" dtccode = "DTC B1127">
+</servinfo>
+<servinfo id = "AENFFA0CA204012" title = "DTC B1133" dtccode = "DTC B1133">
+</servinfo>
+<servinfo id = "AENFFA0CA204013" title = "DTC B1141 / B1142" dtccode = "DTC B1141 / B1142">
+</servinfo>
+<servinfo id = "AENFFA0CA204014" title = "DTC B1145 / B1146" dtccode = "DTC B1145 / B1146">
+</servinfo>
+<servinfo id = "AENFFA0CA204015" title = "DTC B1150" dtccode = "DTC B1150">
+</servinfo>
+<servinfo id = "AENFFA0CA204016" title = "DTC B1157" dtccode = "DTC B1157">
+</servinfo>
+<servinfo id = "AENFFA0CA204017" title = "DTC B115A" dtccode = "DTC B115A">
+</servinfo>
+<servinfo id = "AENFFA0CA204018" title = "DTC B1670" dtccode = "DTC B1670">
+</servinfo>
+<servinfo id = "AENFFA0CA204019" title = "DTC B1680" dtccode = "DTC B1680">
+</servinfo>
+<servinfo id = "AENFFA0CA204020" title = "DTC B1682" dtccode = "DTC B1682">
+</servinfo>
+<servinfo id = "AENFFA0CA204021" title = "DTC B1683" dtccode = "DTC B1683">
+</servinfo>
+<servinfo id = "AENFFA0CA204022" title = "DTC B1685 / B1687 / B1688 / B1689 / B1695 / B1696" dtccode = "DTC B1685 / B1687 / B1688 / B1689 / B1695 / B1696">
+</servinfo>
+<servinfo id = "AENFFA0CA204023" title = "DTC B1690" dtccode = "DTC B1690">
+</servinfo>
+<servinfo id = "AENFFA0CA204024" title = "DTC B1691 / B1692" dtccode = "DTC B1691 / B1692">
+</servinfo>
+<servinfo id = "AENFFA0CA204025" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0CA204026" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0CA204027" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0CA204028" title = "DTC U0114" dtccode = "DTC U0114">
+</servinfo>
+<servinfo id = "AENFFA0CA204029" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0CA204030" title = "DTC U0126" dtccode = "DTC U0126">
+</servinfo>
+<servinfo id = "AENFFA0CA204031" title = "DTC U0131" dtccode = "DTC U0131">
+</servinfo>
+<servinfo id = "AENFFA0CA204032" title = "DTC U0141" dtccode = "DTC U0141">
+</servinfo>
+<servinfo id = "AENFFA0CA204033" title = "DTC U0151" dtccode = "DTC U0151">
+</servinfo>
+<servinfo id = "AENFFA0CA204034" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0CA204035" title = "DTC U0164" dtccode = "DTC U0164">
+</servinfo>
+<servinfo id = "AENFFA0CA204036" title = "DTC U0231" dtccode = "DTC U0231">
+</servinfo>
+<servinfo id = "AENFFA0CA204037" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10C" file = "AENFFA0CA3.fm" title = "none sct name">
+<servcat title = "Immobilizer Control System">
+<configtype id = "1" title = "Ignition Switch Model">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA314006" title = "DTC P1610" dtccode = "DTC P1610">
+</servinfo>
+<servinfo id = "AENFFA0CA314007" title = "DTC P1611" dtccode = "DTC P1611">
+</servinfo>
+<servinfo id = "AENFFA0CA314008" title = "DTC P1622" dtccode = "DTC P1622">
+</servinfo>
+<servinfo id = "AENFFA0CA314009" title = "DTC P1642" dtccode = "DTC P1642">
+</servinfo>
+<servinfo id = "AENFFA0CA314010" title = "DTC P1644" dtccode = "DTC P1644">
+</servinfo>
+<servinfo id = "AENFFA0CA314011" title = "DTC P1645 / P1646" dtccode = "DTC P1645 / P1646">
+</servinfo>
+<servinfo id = "AENFFA0CA314012" title = "DTC B1167" dtccode = "DTC B1167">
+</servinfo>
+<servinfo id = "AENFFA0CA314013" title = "DTC B1168" dtccode = "DTC B1168">
+</servinfo>
+<servinfo id = "AENFFA0CA314014" title = "DTC B1169" dtccode = "DTC B1169">
+</servinfo>
+<servinfo id = "AENFFA0CA314015" title = "DTC B1173" dtccode = "DTC B1173">
+</servinfo>
+<servinfo id = "AENFFA0CA314016" title = "DTC B1175" dtccode = "DTC B1175">
+</servinfo>
+<servinfo id = "AENFFA0CA314017" title = "DTC B1176" dtccode = "DTC B1176">
+</servinfo>
+<servinfo id = "AENFFA0CA314018" title = "DTC B1188" dtccode = "DTC B1188">
+</servinfo>
+<servinfo id = "AENFFA0CA314019" title = "DTC B1189" dtccode = "DTC B1189">
+</servinfo>
+<servinfo id = "AENFFA0CA314020" title = "DTC B1190" dtccode = "DTC B1190">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Keyless Push Start Model">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA324006" title = "DTC P1610" dtccode = "DTC P1610">
+</servinfo>
+<servinfo id = "AENFFA0CA324007" title = "DTC P1611" dtccode = "DTC P1611">
+</servinfo>
+<servinfo id = "AENFFA0CA324008" title = "DTC P1622" dtccode = "DTC P1622">
+</servinfo>
+<servinfo id = "AENFFA0CA324009" title = "DTC P1642" dtccode = "DTC P1642">
+</servinfo>
+<servinfo id = "AENFFA0CA324010" title = "DTC P1644" dtccode = "DTC P1644">
+</servinfo>
+<servinfo id = "AENFFA0CA324011" title = "DTC P1645 / P1646" dtccode = "DTC P1645 / P1646">
+</servinfo>
+<servinfo id = "AENFFA0CA324012" title = "DTC B1167" dtccode = "DTC B1167">
+</servinfo>
+<servinfo id = "AENFFA0CA324013" title = "DTC B1168" dtccode = "DTC B1168">
+</servinfo>
+<servinfo id = "AENFFA0CA324014" title = "DTC B1169" dtccode = "DTC B1169">
+</servinfo>
+<servinfo id = "AENFFA0CA324015" title = "DTC B1173" dtccode = "DTC B1173">
+</servinfo>
+<servinfo id = "AENFFA0CA324016" title = "DTC B1175" dtccode = "DTC B1175">
+</servinfo>
+<servinfo id = "AENFFA0CA324017" title = "DTC B1176" dtccode = "DTC B1176">
+</servinfo>
+<servinfo id = "AENFFA0CA324018" title = "DTC B1189" dtccode = "DTC B1189">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10D" file = "AENFFA0CA4.fm" title = "none sct name">
+<servcat title = "Tire Pressure Monitoring System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA404007" title = "DTC B1A00" dtccode = "DTC B1A00">
+</servinfo>
+<servinfo id = "AENFFA0CA404008" title = "DTC B1A01" dtccode = "DTC B1A01">
+</servinfo>
+<servinfo id = "AENFFA0CA404009" title = "DTC B1A02" dtccode = "DTC B1A02">
+</servinfo>
+<servinfo id = "AENFFA0CA404010" title = "DTC B1A03" dtccode = "DTC B1A03">
+</servinfo>
+<servinfo id = "AENFFA0CA404011" title = "DTC B1A10" dtccode = "DTC B1A10">
+</servinfo>
+<servinfo id = "AENFFA0CA404012" title = "DTC B1A11" dtccode = "DTC B1A11">
+</servinfo>
+<servinfo id = "AENFFA0CA404013" title = "DTC B1A20 / B1A21 / B1A22 / B1A23" dtccode = "DTC B1A20 / B1A21 / B1A22 / B1A23">
+</servinfo>
+<servinfo id = "AENFFA0CA404014" title = "DTC B1A24 / B1A25 / B1A26 / B1A27" dtccode = "DTC B1A24 / B1A25 / B1A26 / B1A27">
+</servinfo>
+<servinfo id = "AENFFA0CA404015" title = "DTC B1A28 / B1A29 / B1A2A / B1A2B" dtccode = "DTC B1A28 / B1A29 / B1A2A / B1A2B">
+</servinfo>
+<servinfo id = "AENFFA0CA404016" title = "DTC B1A2C / B1A2D / B1A2E / B1A2F" dtccode = "DTC B1A2C / B1A2D / B1A2E / B1A2F">
+</servinfo>
+<servinfo id = "AENFFA0CA404017" title = "DTC B1A30 / B1A31 / B1A32 / B1A33" dtccode = "DTC B1A30 / B1A31 / B1A32 / B1A33">
+</servinfo>
+<servinfo id = "AENFFA0CA404018" title = "DTC B1A40" dtccode = "DTC B1A40">
+</servinfo>
+<servinfo id = "AENFFA0CA404019" title = "DTC B1A41" dtccode = "DTC B1A41">
+</servinfo>
+<servinfo id = "AENFFA0CA404020" title = "DTC B1A42" dtccode = "DTC B1A42">
+</servinfo>
+<servinfo id = "AENFFA0CA404021" title = "DTC B1A48" dtccode = "DTC B1A48">
+</servinfo>
+<servinfo id = "AENFFA0CA404022" title = "DTC B1A49" dtccode = "DTC B1A49">
+</servinfo>
+<servinfo id = "AENFFA0CA404023" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0CA404024" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0CA404025" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0CA404026" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0CA404027" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10E" file = "AENFFA0CA5.fm" title = "none sct name">
+<servcat title = "Keyless Start System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA504010" title = "DTC B1102 / B1103 / B1105 / B1106 / B1107" dtccode = "DTC B1102 / B1103 / B1105 / B1106 / B1107">
+</servinfo>
+<servinfo id = "AENFFA0CA504011" title = "DTC B1120 / B1170" dtccode = "DTC B1120 / B1170">
+</servinfo>
+<servinfo id = "AENFFA0CA504012" title = "DTC B1122" dtccode = "DTC B1122">
+</servinfo>
+<servinfo id = "AENFFA0CA504013" title = "DTC B1123" dtccode = "DTC B1123">
+</servinfo>
+<servinfo id = "AENFFA0CA504014" title = "DTC B1125" dtccode = "DTC B1125">
+</servinfo>
+<servinfo id = "AENFFA0CA504015" title = "DTC B1126" dtccode = "DTC B1126">
+</servinfo>
+<servinfo id = "AENFFA0CA504016" title = "DTC B1134" dtccode = "DTC B1134">
+</servinfo>
+<servinfo id = "AENFFA0CA504017" title = "DTC B1137" dtccode = "DTC B1137">
+</servinfo>
+<servinfo id = "AENFFA0CA504018" title = "DTC B1160" dtccode = "DTC B1160">
+</servinfo>
+<servinfo id = "AENFFA0CA504019" title = "DTC B1161 / B1163" dtccode = "DTC B1161 / B1163">
+</servinfo>
+<servinfo id = "AENFFA0CA504020" title = "DTC B1162" dtccode = "DTC B1162">
+</servinfo>
+<servinfo id = "AENFFA0CA504021" title = "DTC B116A" dtccode = "DTC B116A">
+</servinfo>
+<servinfo id = "AENFFA0CA504022" title = "DTC B1180 / B1181 / B1182" dtccode = "DTC B1180 / B1181 / B1182">
+</servinfo>
+<servinfo id = "AENFFA0CA504023" title = "DTC B1190" dtccode = "DTC B1190">
+</servinfo>
+<servinfo id = "AENFFA0CA504024" title = "DTC B1191" dtccode = "DTC B1191">
+</servinfo>
+<servinfo id = "AENFFA0CA504025" title = "DTC B1192" dtccode = "DTC B1192">
+</servinfo>
+<servinfo id = "AENFFA0CA504026" title = "DTC B1193" dtccode = "DTC B1193">
+</servinfo>
+<servinfo id = "AENFFA0CA504027" title = "DTC B1194 (M/T Model / A/T Model)" dtccode = "DTC B1194 (M/T Model / A/T Model)">
+</servinfo>
+<servinfo id = "AENFFA0CA504028" title = "DTC B1194 (Twin Clutch System Model)" dtccode = "DTC B1194 (Twin Clutch System Model)">
+</servinfo>
+<servinfo id = "AENFFA0CA504029" title = "DTC B1461" dtccode = "DTC B1461">
+</servinfo>
+<servinfo id = "AENFFA0CA504030" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0CA504031" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0CA504032" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0CA504033" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0CA504034" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0CA504035" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10I" file = "AENFFA0CA9.fm" title = "none sct name">
+<servcat title = "Engine Auto Stop Start System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CA904012" title = "DTC C1372 / C1373" dtccode = "DTC C1372 / C1373">
+</servinfo>
+<servinfo id = "AENFFA0CA904013" title = "DTC P0555" dtccode = "DTC P0555">
+</servinfo>
+<servinfo id = "AENFFA0CA904014" title = "DTC P0602" dtccode = "DTC P0602">
+</servinfo>
+<servinfo id = "AENFFA0CA904015" title = "DTC P081D" dtccode = "DTC P081D">
+</servinfo>
+<servinfo id = "AENFFA0CA904016" title = "DTC P083F" dtccode = "DTC P083F">
+</servinfo>
+<servinfo id = "AENFFA0CA904017" title = "DTC P1300 / P1305" dtccode = "DTC P1300 / P1305">
+</servinfo>
+<servinfo id = "AENFFA0CA904018" title = "DTC P1302" dtccode = "DTC P1302">
+</servinfo>
+<servinfo id = "AENFFA0CA904019" title = "DTC P1303" dtccode = "DTC P1303">
+</servinfo>
+<servinfo id = "AENFFA0CA904020" title = "DTC P1311 / P1312" dtccode = "DTC P1311 / P1312">
+</servinfo>
+<servinfo id = "AENFFA0CA904021" title = "DTC P1313" dtccode = "DTC P1313">
+</servinfo>
+<servinfo id = "AENFFA0CA904022" title = "DTC P1314" dtccode = "DTC P1314">
+</servinfo>
+<servinfo id = "AENFFA0CA904023" title = "DTC P1321 / P1322" dtccode = "DTC P1321 / P1322">
+</servinfo>
+<servinfo id = "AENFFA0CA904024" title = "DTC P1326 / P1327" dtccode = "DTC P1326 / P1327">
+</servinfo>
+<servinfo id = "AENFFA0CA904025" title = "DTC P1335 / P1358" dtccode = "DTC P1335 / P1358">
+</servinfo>
+<servinfo id = "AENFFA0CA904026" title = "DTC P1336 / P1337 / P1338" dtccode = "DTC P1336 / P1337 / P1338">
+</servinfo>
+<servinfo id = "AENFFA0CA904027" title = "DTC P133A / P133B" dtccode = "DTC P133A / P133B">
+</servinfo>
+<servinfo id = "AENFFA0CA904028" title = "DTC P1340 / P1341" dtccode = "DTC P1340 / P1341">
+</servinfo>
+<servinfo id = "AENFFA0CA904029" title = "DTC P1355 / P1356 / P1357" dtccode = "DTC P1355 / P1356 / P1357">
+</servinfo>
+<servinfo id = "AENFFA0CA904030" title = "DTC P1360" dtccode = "DTC P1360">
+</servinfo>
+<servinfo id = "AENFFA0CA904031" title = "DTC P254F" dtccode = "DTC P254F">
+</servinfo>
+<servinfo id = "AENFFA0CA904032" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0CA904033" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0CA904034" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0CA904035" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0CA904036" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0CA904037" title = "DTC U0141" dtccode = "DTC U0141">
+</servinfo>
+<servinfo id = "AENFFA0CA904038" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10J" file = "AENFFA0CAA.fm" title = "none sct name">
+<servcat title = "Radar Brake Support System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0CAA04010" title = "DTC C1600" dtccode = "DTC C1600">
+</servinfo>
+<servinfo id = "AENFFA0CAA04011" title = "DTC C1610 / C1618" dtccode = "DTC C1610 / C1618">
+</servinfo>
+<servinfo id = "AENFFA0CAA04012" title = "DTC C1620" dtccode = "DTC C1620">
+</servinfo>
+<servinfo id = "AENFFA0CAA04013" title = "DTC C1621" dtccode = "DTC C1621">
+</servinfo>
+<servinfo id = "AENFFA0CAA04014" title = "DTC C1630" dtccode = "DTC C1630">
+</servinfo>
+<servinfo id = "AENFFA0CAA04015" title = "DTC C1631" dtccode = "DTC C1631">
+</servinfo>
+<servinfo id = "AENFFA0CAA04016" title = "DTC C1638" dtccode = "DTC C1638">
+</servinfo>
+<servinfo id = "AENFFA0CAA04017" title = "DTC C1639" dtccode = "DTC C1639">
+</servinfo>
+<servinfo id = "AENFFA0CAA04018" title = "DTC C1640" dtccode = "DTC C1640">
+</servinfo>
+<servinfo id = "AENFFA0CAA04019" title = "DTC C1650" dtccode = "DTC C1650">
+</servinfo>
+<servinfo id = "AENFFA0CAA04020" title = "DTC C1651 / C1654" dtccode = "DTC C1651 / C1654">
+</servinfo>
+<servinfo id = "AENFFA0CAA04021" title = "DTC C1652 / C1653" dtccode = "DTC C1652 / C1653">
+</servinfo>
+<servinfo id = "AENFFA0CAA04022" title = "DTC U0073" dtccode = "DTC U0073">
+</servinfo>
+<servinfo id = "AENFFA0CAA04023" title = "DTC U0100" dtccode = "DTC U0100">
+</servinfo>
+<servinfo id = "AENFFA0CAA04024" title = "DTC U0101" dtccode = "DTC U0101">
+</servinfo>
+<servinfo id = "AENFFA0CAA04025" title = "DTC U0121" dtccode = "DTC U0121">
+</servinfo>
+<servinfo id = "AENFFA0CAA04026" title = "DTC U0126" dtccode = "DTC U0126">
+</servinfo>
+<servinfo id = "AENFFA0CAA04027" title = "DTC U0140" dtccode = "DTC U0140">
+</servinfo>
+<servinfo id = "AENFFA0CAA04028" title = "DTC U0155" dtccode = "DTC U0155">
+</servinfo>
+<servinfo id = "AENFFA0CAA04029" title = "DTC U1082" dtccode = "DTC U1082">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+</suzuki>

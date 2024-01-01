@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Top</title>
+
+<script type="text/javascript" src="../scripts/stdio.js"></script>
+<style type="text/css">
+body{
+	font-family: Arial, sans-serif;
+	color: #000000;
+	font-size: 14px;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 6px 3px 4px 3px;
+	border-top:2px solid #0033ff;
+}
+
+a:active { color: #0033ff;text-decoration:none;}
+a:hover { color: #0033ff;text-decoration:none;}
+a:link { color: #0033ff;text-decoration:none;}
+a:visited { color: #0033ff;text-decoration:none;}
+
+.button img {
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+}
+
+.button {
+	font-size: 12px;
+	color: #0033ff;
+	background-color: #ffffff;
+	border:solid 1px #000000;
+	margin:2px;
+	padding:4px;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration:none;
+	cursor:pointer;
+}
+.button_clicked {
+	font-size: 12px;
+	color: #0033ff;
+	background-color: #ffcc00;
+	border:solid 1px #000000;
+	margin:2px;
+	padding:4px;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration:none;
+	cursor:default;
+}
+</style>
+</head>
+<body onload="parent.init.join(self, function(){});">
+<div id="div_dtc_sym" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" width="100">
+<!--
+//Original code start			
+					<div id="btnDtc" class="button" onclick="setMode(&#39;navi_dtc&#39;);">DTC</div>
+			</td>
+			<td align="center" width="100">
+					<div id="btnSym" class="button" onclick="setMode(&#39;navi_sym&#39;);">Symptom</div>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+<div id="div_service" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" width="100">
+					<div id="btnServ" class="button" onclick="setMode(&#39;navi_service&#39;);">Service Data</div>
+			</td>
+			<td align="center" width="100">
+					<div id="btnSpec" class="button" onclick="setMode(&#39;navi_spec&#39;);">Specification</div>
+			</td>
+			<td align="center" width="100">
+					<div id="btnScan" class="button" onclick="setMode(&#39;navi_scan&#39;);">Scan Tool</div>
+			</td>
+		</tr></tbody>
+	</table>
+					</div>
+					<div id="div_tool" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" width="100">
+					<div id="btnTool" class="button" onclick="setMode(&#39;navi_tool&#39;);">Tool</div>
+			</td>
+			<td align="center" width="100">
+					<div id="btnTorq" class="button" onclick="setMode(&#39;navi_torq&#39;);">Torque</div>
+			</td>
+			<td align="center" width="100">
+					<div id="btnMat" class="button" onclick="setMode(&#39;navi_mat&#39;);">Material</div>
+-->
+<!--
+//Original code end
+//Mine code start
+-->
+					<a href="./navi_dtc.html" target="NAVI">
+					<div id="btnDtc" class="button" onclick="setMode(&#39;navi_dtc&#39;);">DTC</div></a>
+			</td>
+			<td align="center" width="100">
+					<a href="./navi_sym.html" target="NAVI">
+					<div id="btnSym" class="button" onclick="setMode(&#39;navi_sym&#39;);">Symptom</div></a>
+			</td>
+		</tr></tbody>
+	</table>
+					</div>
+<div id="div_service" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" width="100">
+					<a href="./navi_service.html" target="NAVI">
+					<div id="btnServ" class="button" onclick="setMode(&#39;navi_service&#39;);">Service Data</div></a>
+			</td>
+			<td align="center" width="100">
+					<a href="./navi_spec.html" target="NAVI">
+					<div id="btnSpec" class="button" onclick="setMode(&#39;navi_spec&#39;);">Specification</div></a>
+			</td>
+			<td align="center" width="100">
+					<a href="./navi_scan.html" target="NAVI">
+					<div id="btnScan" class="button" onclick="setMode(&#39;navi_scan&#39;);">Scan Tool</div></a>
+			</td>
+		</tr></tbody>
+	</table>
+					</div>
+					<div id="div_tool" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" width="100">
+					<a href="./navi_tool.html" target="NAVI">
+					<div id="btnTool" class="button" onclick="setMode(&#39;navi_tool&#39;);">Tool</div></a>
+			</td>
+			<td align="center" width="100">
+					<a href="./navi_torq.html" target="NAVI">
+					<div id="btnTorq" class="button" onclick="setMode(&#39;navi_torq&#39;);">Torque</div></a>
+			</td>
+			<td align="center" width="100">
+					<a href="./navi_mat.html" target="NAVI">
+					<div id="btnMat" class="button" onclick="setMode(&#39;navi_mat&#39;);">Material</div></a>
+<!--
+//Mine code end	-->
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+<!--
+//Original code start
+<div id="div_navi" style="display:block;">
+	<div id="btnGoSearch" class="button" onclick="setMode(&#39;search&#39;);">&gt;&gt;&gt;&gt;
+	<img src="./search.gif" width="13px" height="13px" border="0">
+	<span id="strGoSearch">Go to "Search"</span> &lt;&lt;&lt;&lt;</div>
+</div>
+<div id="div_search" style="display:none;">
+	<div id="btnGoNavi" class="button" onclick="setMode(&#39;navi&#39;);">&gt;&gt;&gt;&gt;
+	<span id="strGoNavi">Back to "Index List"</span> &lt;&lt;&lt;&lt;</div>
+</div>
+//Original code end	
+//Mine code start-->
+<div id="div_navi" style="display:block;">
+	<a href="./search.html" target="NAVI">
+	<div id="btnGoSearch" class="button" onclick="setMode(&#39;search&#39;);">&gt;&gt;&gt;&gt;
+	<img src="./search.gif" width="13px" height="13px" border="0">
+	<span id="strGoSearch">Go to "Search"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+
+<div id="div_search" style="display:none;">
+	<a href="./navi.html" target="NAVI">
+	<div id="btnGoNavi" class="button" onclick="setMode(&#39;navi&#39;);">&gt;&gt;&gt;&gt;
+	<span id="strGoNavi">Back to "Index List"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+<!--
+//Mine code end	-->	
+<div id="div_navi_dtc" style="display:none;">
+	<a href="./search_dtc.html" target="NAVI">
+	<div id="btnGoSearchDtc" class="button" onclick="setMode(&#39;search_dtc&#39;);">&gt;&gt;&gt;&gt;
+	<img src="./search.gif" width="13px" height="13px" border="0">
+	<span id="strGoSearchDtc">Go to "Search"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+
+<div id="div_search_dtc" style="display:none;">
+	<a href="./navi_dtc.html" target="NAVI">
+	<div id="btnGoNaviDtc" class="button" onclick="setMode(&#39;navi_dtc&#39;);">&gt;&gt;&gt;&gt;
+	<span id="strGoNaviDtc">Back to "Index List"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+
+<div id="div_navi_sym" style="display:none;">
+	<a href="./search_sym.html" target="NAVI">
+	<div id="btnGoSearchSym" class="button" onclick="setMode(&#39;search_sym&#39;);">&gt;&gt;&gt;&gt;
+	<img src="./search.gif" width="13px" height="13px" border="0">
+	<span id="strGoSearchSym">Go to "Search"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+
+<div id="div_search_sym" style="display:none;">
+	<a href="./navi_sym.html" target="NAVI">
+	<div id="btnGoNaviSym" class="button" onclick="setMode(&#39;navi_sym&#39;);">&gt;&gt;&gt;&gt;
+	<span id="strGoNaviSym">Back to "Index List"</span> &lt;&lt;&lt;&lt;</div></a>
+</div>
+
+
+</body></html>

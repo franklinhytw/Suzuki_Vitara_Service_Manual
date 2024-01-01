@@ -1,0 +1,58 @@
+.documentAreaSelection {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+.closeButton {
+	position: absolute;
+	top: 140px;
+	right: 10px;
+}
+
+.rdfButton {
+	position: absolute;
+	top: 140px;
+	right: 160px;
+}
+
+.releaseButton {
+	position: absolute;
+	top: 140px;
+	right: 250px;
+}
+
+.fullScreenButton {
+	position: absolute;
+	top: 140px;
+	right: 90px;
+}
+
+.editDocumentInstanceProperties {
+	position: absolute;
+	top: 140px;
+	right: 330px;
+}
+
+.editDocumentInstancePropertiesErrorMessage {
+	position: absolute;
+	top: -20px;
+	right: -25px;
+	font-weight: bold;
+	color: #B20A15;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 4;
+	width: 300px;
+}
+
+.documentTitle {
+	position: absolute;
+	top: 140px;
+	left: 150px;
+}
+
+.documentReferenceNumber{
+	position: absolute;
+	top: 140px;
+}

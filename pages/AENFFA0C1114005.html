@@ -1,0 +1,1459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1114005</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1114005">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC Table</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1114005&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>For type distinction of OBD system, refer to “Discrimination for OBD System” under <a href="javascript:%20xref(&#39;AENFFA0C1111003&#39;)">OBD System Description:M16A</a>.<br><span class="listnum">•</span>When DTC P0300 / P0301 / P0302 / P0303 / P0304 is detected, MIL blinks or lights up according to detecting condition. For details, refer to <a href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)">DTC P0300 / P0301 / P0302 / P0303 / P0304:M16A</a>.<br><span class="listnum">•</span>With the CAN communication generic scan tool, only DTC with asterisk (*) in the following table can be read. (type A, C, D and E)<br><span class="listnum">•</span>“1 D/C / 3 D/C” in “DTC detection logic” column of table below means DTC detecting logic varies depending on DTC detecting condition.<br>For details, refer to each “DTC Detecting Condition and Trouble Area”.<br><span class="listnum">•</span>“Lights up / Off” in “MIL” column of table below means MIL operation varies depending on DTC detection condition.<br>For details, refer to each “DTC Detecting Condition and Trouble Area”.<br><span class="listnum">•</span>DTC with asterisk 2 (*1) in the table below is applicable to type A and C.<br><span class="listnum">•</span>DTC with asterisk 3 (*2) in the table below is applicable to type A, C and D.<br><span class="listnum">•</span>DTC with asterisk 4 (*3) in the table below is applicable to type A, C, D and E.<br><span class="listnum">•</span>DTC with asterisk 5 (*4) in the table below is applicable to type E.<br>
+</div>
+</div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="13%">
+<col width="24%">
+<col width="34%">
+<col width="15%">
+<col width="15%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC name</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC <br>detection logic</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">MIL</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0010 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114013&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“A” Camshaft Position Actuator Circuit / Open</td>
+<td valign="middle" align="left" class="t_cell">OCV drive circuit is open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0011 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114014&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“A” Camshaft Position Timing Over Advanced or System Performance</td>
+<td valign="middle" align="left" class="t_cell">Measured CMP does not reach target CMP for specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Type A, C, D and E: Lights up<br>Type B: Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0030 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114015&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-1 heater drive circuit is open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0031 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114015&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit Low (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-1 heater drive circuit is shorted to ground.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0032 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114015&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit High (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-1 heater drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0036 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114016&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-2 heater drive circuit is open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0037 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114016&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit Low (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-2 heater drive circuit is shorted to ground.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0038 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114016&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">HO2S Heater Control Circuit High (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-2 heater drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;"> *P0107 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Manifold Absolute Pressure / Barometric Pressure Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of MAP sensor signal circuit is lower than specified value for specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0108 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Manifold Absolute Pressure / Barometric Pressure Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of MAP sensor signal circuit is higher than specified value for specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0112 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114018&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Intake Air Temperature Sensor 1 Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of IAT sensor signal circuit is lower than 0.04 V for 10 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0113 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114018&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Intake Air Temperature Sensor 1 Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of IAT sensor signal circuit is higher than 4.9 V for 10 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0116 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine Coolant Temperature Sensor 1 Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">Difference between measured ECT and estimated ECT is more than specified value for specified time with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0117 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114020&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine Coolant Temperature Sensor 1 Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of ECT sensor signal circuit is lower than 0.52 V for 5 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0118 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114020&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine Coolant Temperature Sensor 1 Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of ECT sensor signal circuit is higher than 4.92 V for 5 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0122 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114021&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “A” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of TP sensor (main) signal circuit is lower than 0.20 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0123 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114021&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “A” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of TP sensor (main) signal circuit is higher than 4.81 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0130 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met.
+<div class="list">
+<span class="listnum">•</span>HO2S-1 signal voltage is between 0.06 V and 0.42 V for 30 sec. even if HO2S-2 signal voltage is higher than 0.6 V.<br><span class="listnum">•</span>HO2S-1 signal voltage is between 0.5 V and 1.27 V for 25 sec. even if HO2S-2 signal voltage is lower than 0.1 V.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0131 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit Low Voltage (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-1 circuit is lower than 0.06 V for 30 sec. even if output voltage of HO2S-2 circuit is higher than 0.6 V.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0132 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit High Voltage (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-1 circuit is higher than 1.27 V for 25 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0133 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit Slow Response (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">Cycle duration from rich to lean and lean to rich of HO2S-1 is longer than specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0134 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit No Activity Detected (Sensor 1)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-1 circuit stays between 0.42 and 0.5 V for 25 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0137 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit Low Voltage (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-2 circuit is lower than 0.06 V for 30 sec. after warming up.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0138 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit High Voltage (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-2 signal circuit is higher than 1.27 V for 25 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0140 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Circuit No Activity Detected (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of HO2S-2 circuit stays between 0.42 to 0.50 V for 25 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0171 (*2) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Too Lean</td>
+<td valign="middle" align="left" class="t_cell">Fuel trim correction is higher than specified value for specified time under specified vehicle condition.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0172 (*2) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Too Rich</td>
+<td valign="middle" align="left" class="t_cell">Fuel trim correction is lower than specified value for specified time under specified vehicle condition.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0201 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Injector Circuit / Open – Cylinder 1</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.1 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0202 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Injector Circuit / Open – Cylinder 2</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.2 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0203 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Injector Circuit / Open – Cylinder 3</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.3 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0204 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Injector Circuit / Open – Cylinder 4</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.4 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0222 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “B” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of TP sensor (sub) signal circuit is lower than 0.20 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0223 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “B” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of TP sensor (sub) signal circuit is higher than 4.81 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0261 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 1 Injector Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.1 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0262 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 1 Injector Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.1 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0264 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 2 Injector Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.2 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0265 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 2 Injector Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.2 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0267 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 3 Injector Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.3 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0268 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 3 Injector Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.3 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0270 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 4 Injector Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.4 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0271 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 4 Injector Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Fuel injector No.4 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0300 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Random / Multiple Cylinder Misfire Detected</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met. 
+<div class="list">
+<span class="listnum">•</span>Misfire, which causes catalyst to overheat during 200 engine revolutions, is detected at 2 or more cylinders. (MIL blinks as long as misfire lasts.)<br><span class="listnum">•</span>Misfire, which affects exhaust emission adversely during 1,000 engine revolutions, is detected at 2 or more cylinders.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0301 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 1 Misfire Detected</td>
+<td valign="middle" align="left" rowspan="4" class="t_cell">Any of the following conditions is met. 
+<div class="list">
+<span class="listnum">•</span>Misfire, which causes catalyst to overheat during 200 engine revolutions, is detected at specific cylinder. (MIL blinks as long as misfire lasts.)<br><span class="listnum">•</span>Misfire, which affects exhaust emission adversely during 1,000 engine revolutions, is detected at specific cylinder.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0302 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 2 Misfire Detected</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0303 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 3 Misfire Detected</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0304 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cylinder 4 Misfire Detected</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0327 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114031&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Knock Sensor 1 Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of knock sensor signal circuit is lower than specified value for specified time with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0328 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114031&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Knock Sensor 1 Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of knock sensor signal circuit is higher than specified value for specified time with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0335 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Crankshaft Position Sensor “A” Circuit</td>
+<td valign="middle" align="left" class="t_cell">CKP sensor signal is not inputted while CMP sensor signal is being inputted.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0336 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Crankshaft Position Sensor “A” Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">Non-toothed position of sensor plate is out of the specified range.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0340 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Camshaft Position Sensor “A” Circuit</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met.
+<div class="list">
+<span class="listnum">•</span>CMP sensor signal is not inputted while CKP sensor signal is being inputted.<br><span class="listnum">•</span>CMP sensor signal pattern is not equal to the expected pattern.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0351 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “A” Primary / Secondary Circuit</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.1 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0352 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “B” Primary / Secondary Circuit</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.2 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0353 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “C” Primary / Secondary Circuit</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.3 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0354 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “D” Primary / Secondary Circuit</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.4 and/or its circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0420 (*3) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Catalyst System Efficiency Below Threshold</td>
+<td valign="middle" align="left" class="t_cell">Average amplitude of HO2S-2 signal is more than specified value under specified vehicle condition.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0443 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Evaporative Emission System Purge Control Valve Circuit</td>
+<td valign="middle" align="left" class="t_cell">EVAP canister purge valve drive circuit is open with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0458 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Evaporative Emission System Purge Control Valve Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">EVAP canister purge valve drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0459 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Evaporative Emission System Purge Control Valve Circuit High</td>
+<td valign="middle" align="left" class="t_cell">EVAP canister purge valve drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0480 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Fan 1 Control Circuit</td>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan relay No.1 drive circuit is shorted to ground or open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0481 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114038&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Fan 2 Control Circuit</td>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan relay No.2 and/or No.3 drive circuit is shorted to ground or open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0500 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Vehicle Speed Sensor “A”</td>
+<td valign="middle" align="left" class="t_cell">Vehicle speed is slower than 4 km/h (2 mile/h) for 13 sec. at fuel cut condition.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0504 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Brake Switch “A”/”B” Correlation</td>
+<td valign="middle" align="left" class="t_cell">Brake light switch signal does not correlate with brake switch signal.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0515 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Battery Temperature Sensor Circuit</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met.
+<div class="list">
+<span class="listnum">•</span>Output voltage of battery temperature sensor signal circuit is lower than 0.10 V for 5 sec.<br><span class="listnum">•</span>Output voltage of battery temperature sensor signal circuit is higher than 4.85 V for 5 sec.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0530 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">A/C Refrigerant Pressure Sensor “A” Circuit</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met. 
+<div class="list">
+<span class="listnum">•</span>Output voltage of A/C refrigerant pressure sensor signal circuit is lower than 0.15 V.<br><span class="listnum">•</span>Output voltage of A/C refrigerant pressure sensor signal circuit is higher than 4.93 V.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0560 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Voltage</td>
+<td valign="middle" align="left" class="t_cell">Main power supply voltage is lower than 2.54 V for 10 sec.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0562 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Voltage Low</td>
+<td valign="middle" align="left" class="t_cell">Main power supply circuit voltage is lower than 9.8 V for 10 sec. with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0563 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Voltage High</td>
+<td valign="middle" align="left" class="t_cell">Main power supply circuit voltage is higher than 16.5 V for 10 sec. with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0575</td>
+<td valign="middle" align="left" class="t_cell">Cruise Control Input Circuit</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-right-width:2px;">Refer to “DTC Table”.
+<div class="list">
+<span class="listnum">•</span>Cruise control model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA114005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>Adaptive cruise control model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA124006&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0602 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Control Module Programming Error</td>
+<td valign="middle" align="left" class="t_cell">ECM internal failure (data programming error).</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0606 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Control Module Processor</td>
+<td valign="middle" align="left" class="t_cell">ECM internal processor failure</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0607 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114046&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Control Module Performance</td>
+<td valign="middle" align="left" class="t_cell">Internal failure in ECM is detected.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C or 3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up / <br>Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P0630 (*4) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114074&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">VIN Not Programmed or Incompatible-ECM/PCM</td>
+<td valign="middle" align="left" class="t_cell">VIN data is unregistered or inconsistent.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0645 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">A/C Clutch Relay Control Circuit</td>
+<td valign="middle" align="left" class="t_cell">A/C compressor relay drive circuit is open.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0646 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">A/C Clutch Relay Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">A/C compressor relay drive circuit is shorted to ground.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0647 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">A/C Clutch Relay Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">A/C compressor relay drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0649</td>
+<td valign="middle" align="left" class="t_cell">Speed Control Lamp Control Circuit</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-right-width:2px;">Refer to “DTC Table”.
+<div class="list">
+<span class="listnum">•</span>Cruise control model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA114005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>Adaptive cruise control model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA124006&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0660 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114048&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Intake Manifold Tuning Valve Control Circuit / Open</td>
+<td valign="middle" align="left" class="t_cell">IMT valve actuator and/or its circuit malfunction (open, short to power supply or short to ground) is detected.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0692 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Fan 1 Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan relay No.1 drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0694 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114038&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Fan 2 Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan relay No.2 and/or No.3 drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0A5A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114049&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Generator Current Sensor Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met.
+<div class="list">
+<span class="listnum">•</span>Output voltage of electric load current sensor signal circuit is more than 4.80 V for 5 sec.<br><span class="listnum">•</span>Output voltage of electric load current sensor signal circuit is lower than 0.20 V for 5 sec.<br><span class="listnum">•</span>Output voltage of electric load current sensor signal circuit fluctuates less than specified value for 5 sec.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1610 </td>
+<td valign="middle" align="left" class="t_cell">Immobilizer ID and/or Password Not Registered</td>
+<td valign="middle" align="left" rowspan="7" class="t_cell">Refer to “DTC Table”.
+<div class="list">
+<span class="listnum">•</span>Ignition switch model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA314005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>Keyless push start model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA324005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1611</td>
+<td valign="middle" align="left" class="t_cell">Password Not Matched</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1622</td>
+<td valign="middle" align="left" class="t_cell">EEPROM Reading / Writing Error</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1642</td>
+<td valign="middle" align="left" class="t_cell">Immobilizer Communication Line Error</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1644</td>
+<td valign="middle" align="left" class="t_cell">Immobilizer ID Mismatched</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1645</td>
+<td valign="middle" align="left" class="t_cell">ID Code Communication Error</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1646</td>
+<td valign="middle" align="left" class="t_cell">ID Code Incorrectness</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2088 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114013&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“A” Camshaft Position Actuator Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">OCV drive circuit is shorted to ground.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2089 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114013&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“A” Camshaft Position Actuator Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">OCV drive circuit is shorted to power supply.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2100 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114050&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle Actuator “A” Control Motor Circuit / Open</td>
+<td valign="middle" align="left" class="t_cell">Throttle actuator and/or its circuit malfunction (open, short to power supply or short to ground) is detected.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2101 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114051&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle Actuator “A” Control Motor Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met. 
+<div class="list">
+<span class="listnum">•</span>Difference between measured throttle valve position and targeted throttle valve position is more than specified value.<br><span class="listnum">•</span>Duty ratio of throttle actuator signal is out of specified range for specified time.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2119 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114051&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle Actuator Control Throttle Body Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">Any of the following conditions is met. 
+<div class="list">
+<span class="listnum">•</span>Time taken by throttle valve to return from partially open position to mechanical default position is more than specified time during return spring check process after setting ignition “OFF”.<br><span class="listnum">•</span>Measured default throttle position is out of specified range.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2122 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114052&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “D” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of APP sensor (main) signal circuit is lower than 0.60 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2123 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114052&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “D” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of APP sensor (main) signal circuit is higher than 4.40 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2127 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114053&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “E” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of APP sensor (sub) signal circuit is lower than 0.30 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2128 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114053&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “E” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Output voltage of APP sensor (sub) signal circuit is higher than 2.50 V.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2135 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114054&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “A” / “B” Voltage Correlation</td>
+<td valign="middle" align="left" class="t_cell">Difference between TP sensor (main) signal voltage and TP sensor (sub) signal voltage is higher than specified value.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2138 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114055&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle / Pedal Position Sensor / Switch “D” / “E” Voltage Correlation</td>
+<td valign="middle" align="left" class="t_cell">Difference between half of APP (main) sensor signal and APP (sub) sensor signal is more than specified value.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2176 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114056&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Throttle Actuator Control System – Idle Position Not Learned</td>
+<td valign="middle" align="left" class="t_cell">This DTC is detected if any one of the following conditions is fulfilled.
+<div class="list">
+<span class="listnum">•</span>TP sensor (main) or TP sensor (sub) signal voltage at default position is out of specified range for specified time.<br><span class="listnum">•</span>Electric throttle control system calibration is not completed.<br>
+</div>
+</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2228 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114057&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Barometric Pressure Sensor “A” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Barometric pressure sensor signal voltage is lower than specified value for specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2229 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114057&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Barometric Pressure Sensor “A” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Barometric pressure sensor signal voltage is higher than specified value for specified time.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2271 (*1) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114058&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">O2 Sensor Signal Biased / Stuck Rich (Sensor 2)</td>
+<td valign="middle" align="left" class="t_cell">HO2S-2 signal stays in rich state for 5 sec. after warning up even if vehicle is under fuel cut condition.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2300 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “A” Primary Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.1 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2301 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “A” Primary Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.1 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2303 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “B” Primary Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.2 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2304 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “B” Primary Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.2 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2306 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “C” Primary Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.3 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2307 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “C” Primary Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.3 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2309 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “D” Primary Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.4 drive circuit is shorted to ground with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*P2310 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition Coil “D” Primary Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">Ignition coil assembly No.4 drive circuit is shorted to power supply with engine running.</td>
+<td valign="middle" align="center" class="t_cell">3 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0073</td>
+<td valign="middle" align="left" class="t_cell">Control Module Communication Bus Off</td>
+<td valign="middle" align="left" rowspan="10" class="t_cell">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA814002&#39;)">CAN DTC (Lost Communication and Communication Bus Off) Table:M16A Model</a>.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0101</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With TCM</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0114</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With 4-Wheel Drive Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*U0121</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ABS / ESP<sup class="sup">®</sup> Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0131</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Power Steering Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0140</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Body Control Module </td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0141</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Keyless Start Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0155</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Instrument Panel Cluster (IPC) Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U1082</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ENG A-STOP Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U108A</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With RBS Control Module</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U2001 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114069&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">LIN Lost Communication With Generator</td>
+<td valign="middle" align="left" class="t_cell">Received data from generator via LIN is faulty.</td>
+<td valign="middle" align="center" class="t_cell">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">U2021 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114070&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">LIN Invalid Data from ECM to Generator</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Transmitted data from ECM to generator via LIN is faulty.</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">1 D/C</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Off</td>
+</tr>
+</tbody></table>
+</div>
+<div class="servinfosub" id="AENFFA0C1114005001">
+<div class="title">A/T-DTC for Type A</div>
+<div class="ptxt">When CAN communication OBD-II generic scan tool is used, not only ECM-related DTC(s) but also any of the following TCM-related DTCs will be simultaneously displayed on the scan tool.</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="9%">
+<col width="52%">
+<col width="12%">
+<col width="12%">
+<col width="15%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC name</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC detection logic</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">MIL / Transmission warning light</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0562</td>
+<td valign="middle" align="left" class="t_cell">System Voltage Low</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0563</td>
+<td valign="middle" align="left" class="t_cell">System Voltage High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0602</td>
+<td valign="middle" align="left" class="t_cell">Control Module Programming Error</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0604</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module Random Access Memory (RAM) Error</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P062F</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module EEPROM Error</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0706</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0707</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0708</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0711</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0712</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0713</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0717</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit No Signal</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0722</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit No Signal</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0729</td>
+<td valign="middle" align="left" class="t_cell">Gear 6 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P072A</td>
+<td valign="middle" align="left" class="t_cell">Stuck in Neutral</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0731</td>
+<td valign="middle" align="left" class="t_cell">Gear 1 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0732</td>
+<td valign="middle" align="left" class="t_cell">Gear 2 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0733</td>
+<td valign="middle" align="left" class="t_cell">Gear 3 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0734</td>
+<td valign="middle" align="left" class="t_cell">Gear 4 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0735</td>
+<td valign="middle" align="left" class="t_cell">Gear 5 Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P073E</td>
+<td valign="middle" align="left" class="t_cell">Unable to Engage Reverse</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P073F</td>
+<td valign="middle" align="left" class="t_cell">Unable to Engage Gear 1</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0741</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Circuit Performance / Stuck Off</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0742</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Circuit Stuck On</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0747</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Stuck On</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0C5104006&#39;)">DTC Table</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074A</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 2</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074B</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 3</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074C</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 4</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074D</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 5</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074E</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 6</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0777</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Stuck On</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0797</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Stuck On</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0961</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0962</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0963</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0965</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0966</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0967</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0969</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0970</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0971</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0973</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “A” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0974</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “A” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0976</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “B” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0977</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “B” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1702</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module Memory Check Sum Error</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1706</td>
+<td valign="middle" align="left" class="t_cell">Torque Request Communication Error From TCM</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1718</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 1 With Engine Brake</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1719</td>
+<td valign="middle" align="left" class="t_cell">Gear 1 With Engine Brake Incorrect Ratio</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1727</td>
+<td valign="middle" align="left" class="t_cell">Reverse Lamp Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1728</td>
+<td valign="middle" align="left" class="t_cell">Reverse Lamp Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1736</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit Low</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1737</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1738</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1739</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1742</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Supply Voltage Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1743</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Supply Voltage High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P184C</td>
+<td valign="middle" align="left" class="t_cell">Solenoid Driver “A” circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P185E</td>
+<td valign="middle" align="left" class="t_cell">TCM Safety Function Failure</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P185F</td>
+<td valign="middle" align="left" class="t_cell">TCM Safety Integrity Function Failure</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2715</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Stuck On</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2719</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2720</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2721</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2728</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0C5104006&#39;)">DTC Table</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2729</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2730</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2762</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit Range / Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2763</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2764</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2797</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Performance</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2798</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Control Circuit Low</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2799</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Control Circuit High</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2806</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor Alignment</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0073</td>
+<td valign="middle" align="left" class="t_cell">Control Module Communication Bus Off</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0100</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ECM</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0121</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ABS / ESP<sup class="sup">®</sup> Control Module</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0140</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Body Control Module</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0155</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Instrument Panel Cluster (IPC) Control Module</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">U1082</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Lost Communication With ENG A-STOP Control Module</td>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-top-width:0px;border-right-width:2px;border-bottom-width:2px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+
+</body></html>

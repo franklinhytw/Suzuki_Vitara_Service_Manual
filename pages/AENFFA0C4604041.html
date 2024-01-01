@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C4604041</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C4604041">
+<div class="scnbr">4F</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC C1090 / C1091 / C1094</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C4604041&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C4604041001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="67%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">C1090: ECM Detect Rolling Counter Failure from ESP<sup class="sup">®</sup> Control Module</span><br>ESP<sup class="sup">®</sup> control module sends invalid CAN data to ECM.</td>
+<td valign="top" align="left" rowspan="3" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>CAN communication circuit<br><span class="listnum">•</span>ECM<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> control module<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">C1091: CAN Invalid Data from ECM</span><br>DTC concerned with ECM is detected.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">C1094: Torque Request Reject Status</span><br>ESP<sup class="sup">®</sup> control module receives invalid CAN data from ECM (about engine torque control).</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C4604041002">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C4604041003">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604041004">1</td>
+<td class="testaction">
+<div class="question">Was “ESP<sup class="sup">®</sup> System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0C4604001&#39;)">ESP® System Check</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604041005">2</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Perform <a href="javascript:%20xref(&#39;AENFFA0C4604005&#39;)">DTC Check</a>.</div>
+<div class="question">Is other DTC(s) than C1090, C1091 or C1094 detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to applicable DTC troubleshooting.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604041006">3</td>
+<td class="testaction">
+<div class="title">DTC check for ECM</div>
+<div class="test1">
+<span class="test1num">1)</span>Check ECM for DTC.
+<div class="list">
+<span class="listnum">•</span>M16A model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>K14C model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1124003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>D16AA model: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1134003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</div>
+<div class="question">Is DTC U0073 or U0121 detected?</div>
+</td>
+<td class="testyes">
+<div class="list">
+<span class="listnum">•</span>M16A model: Go to <a href="javascript:%20xref(&#39;AENFFA0CA814004&#39;)">Troubleshooting for Communication Bus Off:M16A Model</a> or <a href="javascript:%20xref(&#39;AENFFA0CA814003&#39;)">Troubleshooting for Lost Communication:M16A Model</a>.<br><span class="listnum">•</span>K14C model: Go to <a href="javascript:%20xref(&#39;AENFFA0CA824004&#39;)">Troubleshooting for Communication Bus Off:K14C Model</a> or <a href="javascript:%20xref(&#39;AENFFA0CA824003&#39;)">Troubleshooting for Lost Communication:K14C Model</a>.<br><span class="listnum">•</span>D16AA model: Go to <a href="javascript:%20xref(&#39;AENFFA0CA834004&#39;)">Troubleshooting for Communication Bus Off:D16AA Model</a> or <a href="javascript:%20xref(&#39;AENFFA0CA834003&#39;)">Troubleshooting for Lost Communication:D16AA Model</a>.<br>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ESP<sup class="sup">®</sup> hydraulic unit / control module assembly and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4606005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

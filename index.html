@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>VITARA Service Manual</title>
+<link href="/icon/favicon.ico" rel="icon" type="image/x-icon" />
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<script type="text/javascript" src="./scripts/globalinit.js" charset="utf-8"></script>
+<script type="text/javascript">
+function dragEnd_local() {
+  if(window.MAIN.document.getElementsByTagName('div').length!=0 && window.MAIN.document.getElementsByTagName('div')[0].className=="servinfo") {
+	  window.MAIN.dragEnd();
+  }
+}
+</script>
+</head>
+<frameset id="frames_rows" rows="1,45,*" style="border:none; margin:0px; padding:0px;" frameborder="1" border="1" framespacing="0" bordercolor="#7f99ff"> 
+    <noframes>Please use the browser for frame this page.</noframes>
+	<frame name="CTL" scrolling="no" src="./navi/ctl_am.html" style="border:none 0px; margin:0px; padding:0px; border-color:#7f99ff;" noresize="" frameborder="0" border="0"> 
+	<frame name="TOP" scrolling="no" src="./navi/top_am.html" style="border:none 0px; margin:0px; padding:0px; border-color:#7f99ff;" noresize="" frameborder="0" border="0">
+
+<frameset id="frames_cols" cols="320,*" style="border:none; margin:0px; padding:0px;" framespacing="2" frameborder="1" border="2" bordercolor="#0033ff"> 
+<frameset id="frames_navi_rows" rows="70,*" style="border:none; margin:0px; padding:0px;" frameborder="0" border="0" framespacing="0"> 
+	<frame name="NAVI_TOP" scrolling="no" src="./navi/navi_top_am.html">
+	<frame name="NAVI" scrolling="yes" src="./navi/navi.html">
+</frameset>
+	<frame name="MAIN" scrolling="yes" src="./navi/main.html" onresize="dragEnd_local()">
+</frameset>
+</frameset>
+
+
+
+</html>

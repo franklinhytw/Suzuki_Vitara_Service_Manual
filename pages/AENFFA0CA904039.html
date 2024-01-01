@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA904039</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA904039">
+<div class="scnbr">10I</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Inspection of ENG A-STOP Control Module and Its Circuits</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA904039&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0CA904039001">
+<div class="title">Voltage and Signal Check</div>
+<div class="ptxt">Check voltage and/or pulse signal of ENG A-STOP control module (1) using voltmeter (2) and oscilloscope (3).</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Check that battery voltage is 12 V or more.<br><span class="listnum">•</span>The voltage of terminal with asterisk (*) cannot be measured by voltmeter because it is pulse signal. Check it with oscilloscope if necessary.<br>
+</div>
+</div>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IDAA0A/IDAA0AA90010.jpg" height="370px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA90010.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="72%" align="center">
+<colgroup><col width="10%">
+<col width="90%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">[A]: </td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">ENG A-STOP control module connector (View: [a])</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<div class="table">
+<div class="title">“E24” connector</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="10%">
+<col width="12%">
+<col width="32%">
+<col width="12%">
+<col width="34%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Terminal No.</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Wire color</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Circuit</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Normal voltage</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Condition</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-1</td>
+<td valign="middle" align="center" class="t_cell">WHT</td>
+<td valign="middle" align="left" class="t_cell">Backup power supply</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="4" class="t_cell" style="border-left-width:2px;">E24-2</td>
+<td valign="middle" align="center" rowspan="4" class="t_cell">PPL</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">CPP No.2 switch signal (M/T model)</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Clutch pedal: Depressed</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Clutch pedal: Released</td>
+</tr>
+<tr>
+<td valign="middle" align="left" rowspan="2" class="t_cell">DC/DC converter ON signal (A/T model)</td>
+<td valign="top" align="center" class="t_cell">Approx. 2 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-3</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">PNK</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Neutral position switch signal (+) (M/T model)</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Gear position: Other than “Neutral”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">3 – 5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Gear position: “Neutral”</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-4</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">WHT</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Ignition “ON” signal</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-5</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">BRN</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Ignition “ACC” signal</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ACC” or “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-6*</td>
+<td valign="middle" align="center" class="t_cell">RED</td>
+<td valign="middle" align="left" class="t_cell">CAN communication signal (High)</td>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039004&#39;)">CAN communication signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-7*</td>
+<td valign="middle" align="center" class="t_cell">RED</td>
+<td valign="middle" align="left" class="t_cell">CAN communication signal (High)</td>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039004&#39;)">CAN communication signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-8</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">LT BLU</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Power supply for electric load current sensor</td>
+<td valign="top" align="center" class="t_cell">4 – 6 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-9</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-left-width:2px;">E24-10</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">GRN</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell">Electric load current sensor signal</td>
+<td valign="top" align="center" class="t_cell">2.3 – 2.5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">2.1 – 2.3 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Headlight: ON</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">1.9 – 2.1 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Headlight: ON<br>Blower speed selector: MAX</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-11</td>
+<td valign="middle" align="center" class="t_cell">YEL</td>
+<td valign="middle" align="left" class="t_cell">Ground for electric load current sensor &amp; battery temperature sensor</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-12</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-13</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">BLU</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Starting motor control relay signal (+)</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Starting motor operated (using “Starting Motor” of “Active Test” mode on SUZUKI scan tool)</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">2.5 – 3.5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-14</td>
+<td valign="middle" align="center" class="t_cell">BLK</td>
+<td valign="middle" align="left" class="t_cell">Ground for ENG A-STOP control module</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="4" class="t_cell" style="border-left-width:2px;">E24-15</td>
+<td valign="middle" align="center" rowspan="4" class="t_cell">GRN</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">CPP No.1 switch signal (M/T model)</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Clutch pedal: Released</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Clutch pedal: Depressed fully</td>
+</tr>
+<tr>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Brake light switch signal (A/T model / twin clutch system model)</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Brake pedal: Released</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Brake pedal: Depressed</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="4" class="t_cell" style="border-left-width:2px;">E24-16</td>
+<td valign="middle" align="center" rowspan="4" class="t_cell">YEL</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Neutral position switch signal (–) (M/T model)</td>
+<td valign="top" align="center" class="t_cell">3 – 5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Gear position: “Neutral”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="left" rowspan="2" class="t_cell">DC/DC converter diagnosis signal (A/T model)</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: 1 sec. after ignition “OFF”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-17</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">BLU</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">ENG A-STOP OFF switch signal</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>ENG A-STOP OFF switch: Pushed</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>ENG A-STOP OFF switch: Released</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-18</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">PNK</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Ignition “ST” signal (ignition switch model)</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ST”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-19*</td>
+<td valign="middle" align="center" class="t_cell">WHT</td>
+<td valign="middle" align="left" class="t_cell">CAN communication signal (low)</td>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039004&#39;)">CAN communication signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-20*</td>
+<td valign="middle" align="center" class="t_cell">WHT</td>
+<td valign="middle" align="left" class="t_cell">CAN communication signal (low)</td>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039004&#39;)">CAN communication signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-21</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-22</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E24-23</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">PNK</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Battery temperature sensor signal</td>
+<td valign="top" align="center" class="t_cell">2.0 – 2.3 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Battery temperature: 25 °C (77 °F)</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">0.3 – 0.5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Battery temperature: 90 °C (194 °F)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-24</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E24-25</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">E24-26</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;">PNK</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell" style="border-bottom-width:2px;">Starting motor control relay signal (–)</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Starting motor operated (using “Starting Motor” of “Active Test” mode on SUZUKI scan tool)</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell" style="border-bottom-width:2px;">2.5 – 3.5 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Other than above condition</td>
+</tr>
+</tbody></table>
+</div>
+<div class="table">
+<div class="title">“E25” connector</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="10%">
+<col width="13%">
+<col width="31%">
+<col width="12%">
+<col width="34%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Terminal No.</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Wire color</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Circuit</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Normal voltage</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Condition</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E25-1</td>
+<td valign="middle" align="center" class="t_cell">BLK</td>
+<td valign="middle" align="left" class="t_cell">Ground for ENG A-STOP control module</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E25-2</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E25-3</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">GRN</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Hood latch switch 1 signal</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Hood latch: Fully latched</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Hood latch: Latch released</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E25-4</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E25-5</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">YEL</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Internal DC/DC converter output</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039005&#39;)">Internal DC/DC converter signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E25-6</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">RED</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Internal DC/DC converter power supply</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039005&#39;)">Internal DC/DC converter signal</a>.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E25-7</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">E25-8</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">BLU</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Hood latch switch 2 signal</td>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Hood latch: Latch released</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ON”<br>Hood latch: Fully latched</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">E25-9</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">E25-10</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-bottom-width:2px;">GRN</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell" style="border-bottom-width:2px;">Internal DC/DC converter output</td>
+<td valign="top" align="center" class="t_cell">10 – 14 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Ignition: “ACC” or “ON”</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">Approx. 0 V</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Other than above condition</td>
+</tr>
+<tr>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0CA904039005&#39;)">Internal DC/DC converter signal</a>.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA904039002">
+<div class="title">Reference Waveform</div>
+<div class="topic" id="AENFFA0CA904039003">
+<div class="title">Oscilloscope display</div>
+<div class="ptxt">Shown below is typical waveform display provided by oscilloscope.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Display includes the following types of data:<br>
+<div class="fig" style="margin-left:-24px;">
+<div style=""><img src="../image/IAW101/IAW101970026.jpg" height="243px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IAW101/IAW101970026.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="80%" align="center">
+<colgroup><col width="9%">
+<col width="41%">
+<col width="9%">
+<col width="41%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[a]: </td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Waveform of channel 1</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">[c]: </td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">VOLT/DIV of each channel</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">[b]: </td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Ground level of each channel</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">[d]: </td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">TIME/DIV</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<span class="listnum">•</span>Waveform varies depending on measurement condition and vehicle spec.<br>
+</div>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA904039004">
+<div class="title">CAN communication signal</div>
+<div class="table">
+<div class="title">CAN communication signal (High) (1)</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="82%">
+<colgroup><col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Channel</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Probe</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Terminal No.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">1</td>
+<td valign="middle" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">E24-6<br>E24-7</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">E24-14</td>
+</tr>
+</tbody></table>
+</div>
+<div class="table">
+<div class="title">CAN communication signal (Low) (2)</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="82%">
+<colgroup><col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Channel</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Probe</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Terminal No.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">2</td>
+<td valign="middle" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">E24-19<br>E24-20</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell" style="border-bottom-width:2px;">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">E24-14</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt"><span class="bold">Measurement condition</span></div>
+<div class="list">
+<span class="listnum">•</span>Ignition: “ON”<br>
+<div class="fig" style="margin-left:-24px;">
+<div style=""><img src="../image/IAW101/IAW101A20014.jpg" height="248px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IAW101/IAW101A20014.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA904039005">
+<div class="title">Internal DC/DC converter signal</div>
+<div class="table">
+<div class="title">Internal DC/DC converter power supply (1)</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="82%">
+<colgroup><col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Channel</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Probe</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Terminal No.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">1</td>
+<td valign="middle" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">E25-6</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">E25-1</td>
+</tr>
+</tbody></table>
+</div>
+<div class="table">
+<div class="title">Internal DC/DC converter output (2)</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="82%">
+<colgroup><col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Channel</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Probe</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Terminal No.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">2</td>
+<td valign="middle" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">E25-5<br>E25-10</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell" style="border-bottom-width:2px;">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">E25-1</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt"><span class="bold">Measurement condition</span></div>
+<div class="list">
+<span class="listnum">•</span>Starting motor: Operated (using “Starting motor” of “Active Test” mode on SUZUKI scan tool)<br>
+<div class="fig" style="margin-left:-24px;">
+<div style=""><img src="../image/IDAA0A/IDAA0AA90016.jpg" height="252px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA90016.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="54%" align="center">
+<colgroup><col width="14%">
+<col width="86%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">In execution of “Starting Motor”</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,599 @@
+/* Hintergrund: kein Abstand auﬂen */
+body { 
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* gew‰hltes Fahrzeug */
+.selection {
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 12px;
+}
+.selection a { 
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+/* Baum */
+.tree {
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: normal;
+  color: #000000;
+  font-size: 11px;
+}
+.tree a { 
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Tabellenkopf */
+.select_header {
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: normal;
+  color: #000000;
+  font-size: 12px;
+  background-color: #D5D3C9;
+  /* Platz um die Ueberschriften, im Ggs. zu den Zellen im Rest der Tabelle */
+  padding-top: 4; padding-bottom: 4;
+  padding-left: 4; padding-right: 4;
+}
+
+/* Ergebnisliste */
+.list {
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: normal;
+  color: #000000;
+  font-size: 12px;
+  /* Platz in den Zellen im Rest der Tabelle nur links und rechts */
+  padding-top: 0; padding-bottom: 1;
+  padding-left: 1; padding-right: 4;
+}
+.list a { 
+  color: #0000d0;
+  text-decoration: none;
+}
+.list a:hover { 
+  text-decoration: underline;
+}
+
+/*------------------------------*/
+/* Vorgaben von Suzuki */
+/*------------------------------*/
+/* Modelselection-Navigation*/
+.Menu {
+	font-family:  Arial;
+	font-size: 8pt;
+	color: #FFFFFF;
+	background-color: #D5D3C9;
+	text-align: left;
+    padding-top: 0; padding-bottom: 0;
+    padding-left: 0; padding-right: 4;
+}
+
+/* nicht von Suzuki */
+.MenuName {
+	font-family:  Arial;
+	font-size: 10pt;
+	color: #FFFFFF;
+	background-color: #D5D3C9;
+	text-align: center;
+    padding-top: 7; padding-bottom: 0;
+    padding-left: 0; padding-right: 0;
+}
+
+.MenuParent {
+	font-family:  Arial;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #D5D3C9;
+	text-align: center
+}
+.MenuEntry {
+	font-family:  Arial;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #D5D3C9;
+	text-align: left	;
+    padding-top: 7; padding-bottom: 0;
+    padding-left: 0; padding-right: 4;
+}
+
+.MenuNode {
+	font-family:  Arial;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #D5D3C9;
+	text-align: center;
+	font-weight: bold
+}
+
+A.linkMenu:link {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+A.linkMenu:active {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+A.linkMenu:visited {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+A.linkCommon:link {
+	font-weight: bold;
+	color: #0E3192;
+	padding-top: 1; padding-bottom: 0;
+    padding-left: 2; padding-right: ;
+	TEXT-DECORATION: none
+}
+
+A.linkCommon:active {
+	font-weight: bold;
+	color: #0E3192;
+	padding-top: 1; padding-bottom: 0;
+    padding-left: 2; padding-right: ;
+	TEXT-DECORATION: none
+}
+
+A.linkCommon:visited {
+	font-weight: bold;
+	color: #0E3192;
+	padding-top: 1; padding-bottom: 0;
+    padding-left: 2; padding-right: ;
+	TEXT-DECORATION: none
+}
+
+A.linkNavigation:link {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+A.linkNavigation:active {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+A.linkNavigation:visited {
+	color: #000000;
+	TEXT-DECORATION: none
+}
+
+
+A.linkThirdparty:link {
+	color: #ffffff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+
+A.linkThirdparty:active {
+	color: #ffffff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+
+A.linkThirdparty:visited {
+	color: #ffffff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+
+.txtPT {
+	font-family:  Arial;
+	color: #336699;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+
+
+/* DCS Footer (Suzuki)*/
+.FooterLine {
+  background: "elements/dcsFooterLine.gif";
+}
+A.AFooter {
+  font-family:  Arial;
+  font-size: 7pt;
+  color: #606060;
+  background-color: #E0E0E0;
+  border: 0;
+  padding: 0;
+}
+A.AFooter:link {
+  font-family:  Arial;
+  font-size: 7pt;
+  color: #606060;
+  background-color: #E0E0E0;
+  border: 0;
+  padding: 0;
+}
+A.AFooter:active {
+  font-family:  Arial;
+  font-size: 7pt;
+  color: #606060;
+  background-color: #E0E0E0;
+  border: 0;
+  padding: 0;
+}
+A.AFooter:visited {
+  font-family:  Arial;
+  font-size: 7pt;
+  color: #606060;
+  background-color: #E0E0E0;
+  border: 0;
+  padding: 0;
+}
+.Footer {
+  font-family:  Arial;
+  font-size: 7pt;
+  color: #606060;
+  background-color: #E0E0E0;
+  border: 0;
+  padding: 0;
+}
+.gen {   font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  color: #000000;
+  font-size: 12px;
+  /* Platz um die Ueberschriften, im Ggs. zu den Zellen im Rest der Tabelle */
+  padding-top: 4; padding-bottom: 4;
+  padding-left: 4; padding-right: 4; }
+.gen_small {   font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  color: #000000;
+  font-size: 11px;
+  /* Platz um die Ueberschriften, im Ggs. zu den Zellen im Rest der Tabelle */
+  padding-left: 5; padding-right: 4; }
+.Button { background-color:#fff;width:100px;border:0px; }
+.SearchButtonReference { 
+  background-color:#fff;
+  text-align:left;
+  border:2px;
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  font-size: 12px;
+  color: #5EB6E4;
+  text-decoration:underline;
+  cursor: pointer ;
+  width:200px;
+  }
+ .Immobilizer { 
+  background-color:#003145;
+  text-align:left;
+  font-weight:normal;
+  border:0px;
+  font-family: SuzukiPROBold,Arial;
+  font-size: 13px;
+  color: white;
+  text-decoration:none;
+  cursor: pointer;
+   } 
+.SearchButtonVehicle { 
+  background-color:#fff;
+  text-align:left;
+  border:2px;
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  font-size: 12px;
+  color: #5EB6E4;
+  text-decoration:underline;
+  cursor: pointer  }
+.forum_username { font-size: 11pt; font-weight: bold;
+  color: #B20A15;
+  padding-top: 4; padding-bottom: 4;
+  padding-left: 4; padding-right: 4; }
+.forum_errorMessages {  font-weight: bold;
+  color: #C60C30;
+  padding-top: 0; padding-bottom: 0;
+  padding-right: 4; } 
+.forum_counter{
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  font-size: 12px;
+  color: #395A6D;
+  padding-top: 4; padding-bottom: 4;
+  padding-right: 4;	
+}  
+.forum_thumbnail{
+	width:100px;
+	height:100px;
+}
+.modelselection_extendedSearch{
+  font-family:  Arial, Helvetica, sans-serif; 
+  font-style: bold;
+  font-size: 12px;
+  color: #395A6D;
+}
+.registration {
+  font-family: Verdana; 
+  font-weight: bold;
+  color: #000000;
+  font-size: 9pt;
+}
+.oss {
+  font-family: Verdana; 
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  font-size: 14pt;
+}
+.ossgrey {
+  font-family: Verdana; 
+  font-weight: bold;
+  font-style: italic;
+  color: #C0C0C0;
+  font-size: 12pt;
+}
+.navigation {
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+}
+
+.bluetable{
+  font-family: Arial; 
+  color: #000000;
+  font-size: 12px;
+  border:1pt solid grey;
+  background-color:D5D3C9;
+
+}
+
+.whitetable{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border:1pt solid black;
+  
+}
+.bluefont{
+  font-family: Verdana; 
+  color: 061F84;
+  font-size: 8pt;
+  padding-left: 0;	
+}
+.Button {FONT-FAMILY: Verdana; background-color:D5D3C9;width:100px;border:1pt solid black;FONT-SIZE: 9pt; }
+
+.buttonfake a{
+  TEXT-DECORATION: none;
+  DISPLAY: block; 
+  WIDTH: 100px; 
+  BORDER: 1pt solid black;
+  FONT-FAMILY: Verdana;
+  FONT-SIZE: 9pt;
+  PADDING: 1px;
+  MARGIN: 1px;
+  TEXT-ALIGN: center;
+  COLOR: #000000;
+  BACKGROUND-COLOR: D5D3C9;
+  cursor:default;
+}
+
+.foo {
+position:absolute;
+bottom:1px;
+width:100%;
+}
+
+.shop_bluetable{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border:1pt solid black;
+}
+
+.shop_bluetable_top{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border-left:1pt solid black;
+  border-top:1pt solid black;
+  border-right:1pt solid black;
+}
+.shop_bluetable_middle{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border-left:1pt solid black;
+  border-right:1pt solid black;
+}
+
+.shop_bluetable_bottom{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border-left:1pt solid black;
+  border-bottom:1pt solid black;
+  border-right:1pt solid black;
+}
+
+.shop_bold{
+  font-family: Verdana; 
+  color: 000000;
+  font-size: 9pt;
+  font-weight: bold;
+  background-color:D5D3C9;
+  padding: 5px;
+  margin: 5px;	
+}
+
+
+.shop_products{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  border-bottom:1pt solid #DBDBFD;
+  padding: 9px;
+  margin: 9px;
+}
+
+.shop_paymentmethods{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-top: 4px;
+  margin-left: 9px;
+}
+
+.shop_payment_overview{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 9pt;
+  padding: 9px;
+  margin: 9px;
+}
+
+.shop_payment_hint{
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 10pt;
+}
+
+.registration_textfield{
+	background-color:FFF;
+	border: #000000;
+	font-weight: bold;
+	color:#000000;
+}
+
+.contact {
+  font-family: Verdana; 
+  color: #000000;
+  font-size: 10pt;
+}
+
+
+a:link {
+	font-family: Arial, sans-serif;
+	font-size : 12px;
+	color: #0098DB;
+	text-decoration: none;
+	}
+	a:visited {
+	color: #0098DB;
+	text-decoration: none;
+	}
+	a:hover {
+	text-decoration: underline;
+	}
+
+.backgroundForForm {
+	background-color:#DFF0FA;
+}
+
+.backgroundForButton {
+	font-size: 13px;
+	font-family: SuzukiPROBold, Arial;
+	background-color:#5EB6E4;
+	padding: 9px;
+	color: white;
+	border: 0pt;
+	cursor: pointer;
+}
+
+.tableHeader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #5EB6E4;
+}
+
+.tableData {
+	font-family: Arial;
+	font-size: 11px;
+	font-color: #000000;
+	background-color: #EDEDED;
+}
+
+
+.backgroundForButtonGrey {
+	font-size: 13px;
+	font-family: SuzukiPROBold, Arial;
+	background-color:#B9B9B9;
+	padding: 9px;
+	color: white;
+	border: 0pt;
+	cursor: pointer;
+}
+
+.news{
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.newsHeadline{
+	font-family: SuzukiProHeadline;
+	font-size: 20px;
+	background-color: #003145;
+	color:#F7403A;
+	width: 360px;
+	margin-left: 50px;
+	padding: 10px;
+	
+}
+
+.newsTitleLine{
+	font-family: SuzukiPROBold;
+	font-size: 13px;
+	background-color: #5EB6E4;
+	color:white;
+	width: 360px;
+	margin-left: 50px;
+	/* margin-top: 10px; */
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+.newsTitle{
+	float: left;
+	width: 280px;
+}
+
+.newsDate{
+	float: left;
+	width: 60px;
+}
+
+.newsContent{
+	font-family: SuzukiProRegular;
+	font-size: 12px;
+	width: 360px;
+	margin-left: 50px;
+	padding: 4px 10px 10px 10px;
+}
+
+.newsText{
+	float:left;
+	width: 230px;
+}
+
+.formatedText{
+	white-space: pre-line;
+}
+
+.newsImage{
+	float:left;
+	width: 130px;
+}
+
+.newsImage img{
+	width: 130px;
+	border: 1pt solid #BEB9A6
+}
+

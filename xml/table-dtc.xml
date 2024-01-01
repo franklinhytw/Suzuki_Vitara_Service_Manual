@@ -1,0 +1,7964 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/table-dtc.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<section id = "1A" title = "Engine">
+<servcat title = "Engine General Information and Diagnosis">
+<configtype id = "1" title = "M16A">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0010 / P2088 / P2089
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0011
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0030 / P0031 / P0032
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0036 / P0037 / P0038
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0107 / P0108
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0112 / P0113
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0116
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0117 / P0118
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0122 / P0123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0130
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0131 / P0132
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0133
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0134
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0137 / P0138 / P0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0171 / P0172
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0201 / P0202 / P0203 / P0204 / P0261 / P0262 / P0264 / P0265 / P0267 / P0268 / P0270 / P0271
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0222 / P0223
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0300 / P0301 / P0302 / P0303 / P0304
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0327 / P0328
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0335 / P0336
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0340
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0420
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0443 / P0458 / P0459
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0480 / P0692
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0481 / P0694
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0500
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0504
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0515
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0530
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0560 / P0562 / P0563
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0602
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0606
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0607
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114074"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0630
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0645 / P0646 / P0647
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0660
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0A5A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2101 / P2119
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2122 / P2123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2127 / P2128
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2135
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114055"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2138
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114056"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2176
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114057"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2228 / P2229
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114058"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2271
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114059"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114060"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114061"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0114
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114062"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114063"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114064"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114065"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114066"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114067"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114068"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U108A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114069"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2001
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1114070"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2021
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "2" title = "K14C">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0010 / P2088 / P2089
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0011
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0030 / P0031 / P0032
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0033 / P0034 / P0035
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0036 / P0037 / P0038
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0039
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0087 / P0088
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0090 / P0091 / P0092
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0097 / P0098
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0100 / P0102 / P0103
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0107 / P0108
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0112 / P0113
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0116
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0117 / P0118
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0122 / P0123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0131 / P0132
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0133
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0134
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0137 / P0138 / P0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0171 / P0172
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0192 / P0193
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0197 / P0198
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0201 / P0202 / P0203 / P0204
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0222 / P0223
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0237 / P0238
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0244 / P0245 / P0246
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0300 / P0301 / P0302 / P0303 / P0304
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0327 / P0328
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0335 / P0336
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0340
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0420
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0443 / P0458 / P0459
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0480 / P0692
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0481 / P0694
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0482 / P0696
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0500
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0504
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0515
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0530
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0560 / P0562 / P0563
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0602
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124055"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0606
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124056"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0607
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124084"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0630
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124057"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0645 / P0646 / P0647
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124058"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0A5A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124059"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124060"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2101 / P2119
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124061"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2122 / P2123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124062"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2127 / P2128
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124063"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2135
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124064"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2138
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124065"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2176
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124066"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2195 / P2196
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124067"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2228 / P2229
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124068"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2263
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124069"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2271
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124070"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124071"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124072"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0114
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124073"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124074"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124075"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124076"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124077"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124078"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124079"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U108A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124080"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2001
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1124081"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2021
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0016
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0030 / P0031 / P0032 / P0053
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0036 / P0037 / P0038 / P0054
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0045 / P0046 / P0047 / P0048 / P004C / P004D / P006E
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0069
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134145"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0070
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0087 / P0088
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0097 / P0098
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0102 / P0103 / P010F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0112 / P0113
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0116
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0117 / P0118
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0120
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0127
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0130 / P2244
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0131 / P0132
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0133 / P2A00
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0136 / P0137 / P0138 / P0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0139 / P2A01
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0168
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0182 / P0183
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0190
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0201 / P0202 / P0203 / P0204 / P0216 / P0262 / P0265 / P0268 / P0271 / P062B / P2148 / P2151
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0219
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0220
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0230
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0236 / P0237 / P0238
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0335
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0340
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0380 / P0670 / P1648
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0401 / P0402
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0404 / P0409
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0407 / P0408 / P045E / P046E / P0486
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P041C / P041D
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P042E / P0487 / P0488
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P045A / P045B / P045C / P045D / P1688 / P1689
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0480
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0481
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0482
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0489 / P0490
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0500
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0504
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134055"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0515
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134056"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0520
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134057"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0530
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134058"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0548 / P0549
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134059"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0562 / P0563
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134060"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0601 / P0606 / P0607 / P060A / P060D / P0611 / P061A / P061B / P061C / P061D / P1623
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134061"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0638
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134062"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0641 / P0651 / P0697
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134063"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0645
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134064"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0671 / P0672 / P0673 / P0674
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134065"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0684
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134066"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0685
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134146"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0700 / P0701
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134067"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0704
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134068"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0748
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134069"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0A5A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134070"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1206 / P2002 / P24A4
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134071"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1540
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134072"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1541
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134073"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1542
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134074"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1543
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134075"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1647
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134076"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2000
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134077"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2031 / P242B / P246F / P24C2
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134078"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2032 / P2033
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134079"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2100 / P2101 / P2102 / P2103 / P2107
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134080"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2108 / P2119
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134081"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2135
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134082"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P213B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134083"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2195 / P2196
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134084"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2199
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134085"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2228 / P2229
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134086"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2264
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134087"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P226D
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134088"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2270 / P2271
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134089"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2288 / P2289
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134090"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2299
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134091"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P242C / P242D
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134092"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2453 / P2454 / P2455
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134093"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2458
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134094"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P250F / P253F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134095"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2562 / P2563
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134096"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2687 / P2688 / P2689
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134097"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P268A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134098"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134099"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134100"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0114
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134101"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134102"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134103"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134104"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134105"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134106"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134107"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U108A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134108"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2001
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C1134109"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U2021
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" title = "Driveline / Axle">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1212
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1240
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1243
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1250 / C1251
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1252 / C1253
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1260 / C1261
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1270
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1281
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1282
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0126
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C3204029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "4F" title = "Brakes">
+<servcat title = "Electronic Stability Program">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1015 / C1017 / C1023
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1016
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1021 / C1022 / C1025 / C1026 / C1031 / C1032 / C1033 / C1035 / C1036
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1024
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1027
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1028
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C102A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C102B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1037
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1038
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1039 / C1071
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1040
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1041 / C1042 / C1043 / C1044 / C1045 / C1046 / C1051 / C1052 / C1053 / C1054 / C1055 / C1056 / C1063
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1047 / C1048
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C104A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C104B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C104C
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1057
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1061
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1062
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1065
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1069
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1074 / C1075
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1084 / C1085 / C1097
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1090 / C1091 / C1094
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1092
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1093
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1099
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C10A0 / C10A1 / C10A3
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0114
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0126
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C4604054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U108A
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" title = "Transmission / Transaxle">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0562 / P0563 / P1742 / P1743
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0602 / P0604 / P062F / P1702 / P184C / P185E / P185F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0706 / P0707 / P0708
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0711 / P0712 / P0713
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0717 / P1738 / P1739
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0722 / P1736 / P1737
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P072A / P073E / P073F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0741
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0742
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0747 / P0777 / P0797
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0961 / P0962 / P0963
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0965 / P0966 / P0967
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0969 / P0970 / P0971
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0973 / P0974
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0976 / P0977
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1706
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1718 / P1719
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1727 / P1728
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2715
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2719 / P2720 / P2721
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2728 / P2729 / P2730
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2762 / P2763 / P2764
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2797
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2798 / P2799
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P2806
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5104052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" title = "Transmission / Transaxle">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0560-14 / P0561-14 / P0562-14 / P0817-14 / P0880-16 / P0881-21 / P0881-32 / P0882-16
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0571-24
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0601-41 / P0604-44 / P0605-44 / P0606-44 / P0606-45 / P0606-55 / P0608-41 / P0609-41 / P060A-48 / P060B-68 / P0613-43 / P0613-44 / P0613-45 / P0613-49 / P062F-42 / P063A-21 / P0863-48 / P0883-22 / P0885-12 / P0885-14 / P1886-44 / P190E-09 / P190E-22 / P190E-98 / P19A0-62 / P19A5-92 / P19A5-98 / P19A6-92 / P19A6-96 / P19BF-65 / P19C7-65 / P19CE-92 / P19CE-94 / P19CF-62 / P19CF-64 / P19D0-92 / P19D0-94 / P19D9-77 / P19D9-92 / P19D9-96 / P19DA-79 / P19DF-77 / P19DF-92 / P19E1-79 / P19E1-92 / P19E3-83 / P19E4-83 / P19E5-83 / P19E6-83 / P19E7-83 / P19E9-68 / P19EA-96
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0607-41 / P0607-51
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0641-13 / P0805-11 / P0805-15 / P0805-36 / P0805-37 / P0805-38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0642-13 / P0933-12 / P0933-14 / P0934-1C / P0935-1C
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0668-11 / P0668-15 / P0669-1C / P19D1-62 / P19D1-64
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0703-62 / P0703-68 / P0719-13
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0715-31 / P0715-61 / P0715-62 / P0715-64
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0716-31 / P0716-61 / P0716-62 / P0716-64
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0721-31 / P0721-61 / P0721-81 / P0721-83 / P0721-85 / P0721-86 / P0721-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0725-31 / P0725-87 / P0726-81 / P0726-86 / P1706-83
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0750-01 / P0750-11 / P0750-12 / P0750-13 / P0750-16 / P0750-17 / P0750-19 / P0750-1A / P0750-1D / P0750-96 / P0751-12
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0755-01 / P0755-11 / P0755-12 / P0755-13 / P0755-16 / P0755-17 / P0755-19 / P0755-1A / P0755-1D / P0755-96 / P0756-12
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P075A-01 / P075A-11 / P075A-12 / P075A-13 / P075A-16 / P075A-17 / P075A-19 / P075A-1A / P075A-1D / P075A-96 / P075B-12
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P07BE-9A / P0860-81 / P0861-81 / P0862-81 / P19B6-81 / P19B8-81 / P19B9-81 / P19BB-81
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0813-11 / P0813-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P081C-11 / P081C-15 / P081C-36 / P081C-37 / P081C-38 / P19B7-68
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0900-01 / P0900-11 / P0900-12 / P0900-13 / P0900-16 / P0900-17 / P0900-19 / P0900-1A / P0900-1D / P0900-96 / P0901-12
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0904-11 / P0904-15 / P0904-1C / P0904-36 / P0904-37 / P0904-38 / P0909-1C
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0905-01 / P0905-11 / P0905-12 / P0905-13 / P0905-16 / P0905-17 / P0905-19 / P0905-1A / P0905-1D / P0905-96 / P0906-12
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0914-11 / P0914-15 / P0914-1C / P0914-36 / P0914-37 / P0914-38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0915-11 / P0915-15 / P0915-1C / P0915-36 / P0915-37 / P0915-38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0916-11 / P0916-15 / P0916-1C / P0916-36 / P0916-37 / P0916-38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0917-11 / P0917-15 / P0917-1C / P0917-36 / P0917-37 / P0917-38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0932-12 / P0932-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0942-09 / P0942-7B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1885-79
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1980-65
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19A1-81 / P19A2-81 / P19A2-86 / P19AC-81 / P19AD-86 / P19AE-86 / P19AF-86 / P19B0-86 / P19B1-86 / P19B2-81 / P19B3-81 / P19BC-81 / P19E2-86 / P19E8-86 / P19EB-86 / P19EC-81
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19A3-79 / P19A3-94 / P19B4-96 / P19B5-92 / P19B5-94 / P19BD-22 / P19BE-07 / P19C0-73 / P19C0-74 / P19C1-73 / P19C2-73 / P19C2-74 / P19C3-72 / P19C4-72 / P19C5-72 / P19C6-72 / P19C8-07 / P19C9-07 / P19CA-07 / P19CA-78 / P19CB-07 / P19CB-78 / P19CC-07 / P19CC-78 / P19CD-07 / P19CD-78 / P19D2-71 / P19D2-72 / P19D2-73 / P19D2-74 / P19D2-75 / P19D2-76 / P19D3-71 / P19D3-72 / P19D3-73 / P19D4-71 / P19D4-72 / P19D4-74 / P19D5-62 / P19D6-62 / P19D7-62 / P19D7-64 / P19D8-62
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19A4-12 / P19DC-19 / P19DC-22 / P19DC-24 / P19DD-61 / P19DD-62 / P19DE-16 / P19DE-18 / P19DE-21 / P19DE-23
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19A7-1C / P19A8-1C / P19A9-1C
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19AA-55 / P19AB-55
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P19BA-22 / P19BA-61 / P19BA-62 / P19BA-64
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073-88
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0103-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C5604054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082-87
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "6C" title = "Steering">
+<servcat title = "Power Assisted Steering System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1111 / C1113 / C1115 / C1116
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1141 / C1142 / C1143 / C1145 / C1146
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1152 / C1154
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1153 / C1155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1160
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1161 / C1162 / C1166
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1164
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C6304025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" title = "HVAC">
+<servcat title = "HVAC System">
+<configtype id = "1" title = "Non-A/C">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7214010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1536
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7214011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1537
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "2" title = "Manual Type">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7224013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1536
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7224014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1537
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1502-H
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1502-L
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1503 / B1562
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1504-H
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1504-L
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1511-H / B1512-H / B1530-H
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1511-L / B1512-L / B1530-L
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1513 / B1514 / B1531
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1536
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1537
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1541
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1544
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1546
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1550-H / B1550-L
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1557 / B1561 / B1563
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1570
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1571
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1580
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C7234034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "8B" title = "Restraint">
+<servcat title = "Air Bag System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1001-00
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1003-04
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1004-17
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1004-18
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1007-01 / B1008-01
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1009-95
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1009-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1009-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1009-1E
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1032-00 / B1033-00 / B1034-00 / B1035-00 / B1036-00 / B1037-00 / B1038-00 / B1039-00
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1060-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1060-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1060-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1060-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1062-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1062-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1062-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1062-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1064-14 / B1065-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1064-15 / B1065-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1064-1A / B1065-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1064-1B / B1065-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1068-14 / B1069-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1068-15 / B1069-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1068-1A / B1069-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1068-1B / B1069-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106C-14 / B106D-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106C-15 / B106D-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204039"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106C-1A / B106D-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204040"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106C-1B / B106D-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204041"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106E-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204042"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106E-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204043"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106E-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204044"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B106E-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204045"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1071-14 / B1072-14
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204046"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1071-15 / B1072-15
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204047"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1071-1A / B1072-1A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204048"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1071-1B / B1072-1B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204049"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1090-01 / B1091-01
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204050"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1090-14 / B1090-15 / B1090-87 / B1091-14 / B1091-15 / B1091-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204051"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1093-01 / B1093-95 / B1094-01 / B1094-95
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204052"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1093-14 / B1093-15 / B1093-87 / B1094-14 / B1094-15 / B1094-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204053"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1095-01 / B1095-95 / B1096-01 / B1096-95
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204054"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1095-14 / B1095-15 / B1095-87 / B1096-14 / B1096-15 / B1096-87
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C8204055"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073-88
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "9B" title = "Body, Cab and Accessories">
+<servcat title = "Lighting Systems">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1950
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1951
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1956
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1957 / B1958
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1967
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1970
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9204017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "9C" title = "Body, Cab and Accessories">
+<servcat title = "Instrumentation / Driver Info. / Horn">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304004"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1802
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304005"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1803
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304006"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1810
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304007"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1820
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304008"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1840
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304009"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1841
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1842
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1850
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1851 / B1852
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1855
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1860 / B1861 / B1862 / B1863 / B1864 / B1865 / B1866 / B1867
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9304015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073 / U0100 / U0101 / U0121 / U0127 / U0131 / U0140 / U0141 / U0151 / U0164 / U108A
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "9F" title = "Body, Cab and Accessories">
+<servcat title = "Security and Locks">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1120 / B1170
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1122
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1461
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0C9604017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10A" title = "Control Systems">
+<servcat title = "Cruise Control System">
+<configtype id = "1" title = "Cruise Control">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA114008"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0575
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA114009"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0649
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "2" title = "Adaptive Cruise Control">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA124012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0575
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA124013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0649
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10B" title = "Control Systems">
+<servcat title = "Body Electrical Control System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1120
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1127
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1133
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1141 / B1142
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1145 / B1146
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1150
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1157
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B115A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1670
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1680
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1682
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1683
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1685 / B1687 / B1688 / B1689 / B1695 / B1696
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1690
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1691 / B1692
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0114
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0126
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0131
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0151
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0164
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0231
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA204037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10C" title = "Control Systems">
+<servcat title = "Immobilizer Control System">
+<configtype id = "1" title = "Ignition Switch Model">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314006"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1610
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314007"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1611
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314008"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1622
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314009"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1642
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1644
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1645 / P1646
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1167
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1168
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1169
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1173
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1175
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1176
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1188
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1189
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA314020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1190
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+<configtype id = "2" title = "Keyless Push Start Model">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324006"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1610
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324007"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1611
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324008"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1622
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324009"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1642
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1644
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1645 / P1646
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1167
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1168
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1169
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1173
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1175
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1176
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA324018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1189
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10D" title = "Control Systems">
+<servcat title = "Tire Pressure Monitoring System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404007"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A00
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404008"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A01
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404009"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A02
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A03
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A10
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A11
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A20 / B1A21 / B1A22 / B1A23
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A24 / B1A25 / B1A26 / B1A27
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A28 / B1A29 / B1A2A / B1A2B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A2C / B1A2D / B1A2E / B1A2F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A30 / B1A31 / B1A32 / B1A33
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A40
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A41
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A42
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A48
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1A49
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA404027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10E" title = "Control Systems">
+<servcat title = "Keyless Start System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1102 / B1103 / B1105 / B1106 / B1107
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1120 / B1170
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1122
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1125
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1126
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1134
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1137
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1160
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1161 / B1163
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1162
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B116A
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1180 / B1181 / B1182
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1190
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1191
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1192
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1193
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1194 (M/T Model / A/T Model)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1194 (Twin Clutch System Model)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC B1461
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA504035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10I" title = "Control Systems">
+<servcat title = "Engine Auto Stop Start System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1372 / C1373
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0555
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P0602
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P081D
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P083F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1300 / P1305
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1302
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1303
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1311 / P1312
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1313
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1314
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1321 / P1322
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1326 / P1327
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1335 / P1358
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1336 / P1337 / P1338
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P133A / P133B
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1340 / P1341
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1355 / P1356 / P1357
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904030"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P1360
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904031"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC P254F
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904032"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904033"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904034"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904035"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904036"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904037"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0141
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CA904038"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+<section id = "10J" title = "Control Systems">
+<servcat title = "Radar Brake Support System">
+<configtype id = "0" title = "configtype none title">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.0in"/>
+<colspec colnum = "2" colname = "2" colwidth = "7.0in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1"><ptxt>Reference</ptxt></entry>
+<entry colname = "2"><ptxt>DTC</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04010"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1600
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04011"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1610 / C1618
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04012"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1620
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04013"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1621
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04014"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1630
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04015"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1631
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04016"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1638
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04017"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1639
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04018"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1640
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04019"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1650
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04020"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1651 / C1654
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04021"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC C1652 / C1653
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04022"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0073
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04023"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0100
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04024"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04025"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0121
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04026"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0126
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04027"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0140
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04028"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U0155
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" valign = "middle" align = "center">
+<ptxt>
+<intxreftitleoff refid = "AENFFA0CAA04029"></intxreftitleoff>
+</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>
+DTC U1082
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</configtype>
+</servcat>
+</section>
+</suzuki>

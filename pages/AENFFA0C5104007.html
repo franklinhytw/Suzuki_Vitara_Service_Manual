@@ -1,0 +1,1446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C5104007</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C5104007">
+<div class="scnbr">5A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Fail-Safe Table</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C5104007&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">This function is provided by the safe mechanism that assures safe driveability even when the solenoid valve, sensor or its circuit fails. The following table shows the fail-safe function for each fail condition of sensor, solenoid valve or its circuit.</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="16%">
+<col width="19%">
+<col width="37%">
+<col width="28%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC name</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Fail-safe operation</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Fail-safe cancel condition</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0562 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Voltage Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Reverse control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Gear shifts to 3rd and remains in 3rd when the failure occurs in 1st, 2nd or 3rd gear.<br><span class="listnum">•</span>Gear shifts to 5th and remains in 5th when the failure occurs in 4th, 5th or 6th gear.<br><span class="listnum">•</span>Gear remains in R range when the failure occurs in R range.<br><span class="listnum">•</span>Emergency mode 5 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0563 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">System Voltage High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">
+<img class="symbol" name="MATRIANGLE_W" src="../symbol/MATRIANGLE_W.png" title="MATRIANGLE_W" alt="icon">P0602 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Control Module Programming Error</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0604 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module Random Access Memory (RAM) Error</td>
+<td valign="middle" align="left" class="t_cell">Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P062F <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module EEPROM Error</td>
+<td valign="middle" align="left" class="t_cell">TCM controls with default value.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0706 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Start-lock control<br><span class="listnum">—</span>Adaptive shift control<br>
+</div>
+<span class="listnum">•</span>Gear remains in current position when the failure occurs.<br><span class="listnum">•</span>Emergency mode 4 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0707 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Start-lock control<br><span class="listnum">—</span>Adaptive shift control<br>
+</div>
+<span class="listnum">•</span>Gear remains in current position when the failure occurs.<br><span class="listnum">•</span>Emergency mode 4 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0708 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor “A” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Start-lock control<br><span class="listnum">—</span>Adaptive shift control<br>
+</div>
+<span class="listnum">•</span>Gear remains in current position when the failure occurs.<br><span class="listnum">•</span>Emergency mode 4 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0711 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM controls actuators assuming that ATF temperature is 80 °C (176 °F).<br><span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0712 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM controls actuators assuming that ATF temperature is 80 °C (176 °F).<br><span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0713 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Fluid Temperature Sensor “A” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM controls actuators assuming that ATF temperature is 80 °C (176 °F).<br><span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0717 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit No Signal</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Multiplex shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates input shaft speed by output shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0722 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit No Signal</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Reverse control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates output shaft speed by input shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0729 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 6 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P072A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Stuck in Neutral</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0731 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 1 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Engine auto and start stop control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0732 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 2 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0733 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 3 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0734 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 4 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0735 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 5 Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P073E <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable to Engage Reverse</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P073F <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable to Engage Gear 1</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Gear shift control<br><span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0741 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Circuit Performance / Stuck Off</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Slip controlled lock-up function<br><span class="listnum">•</span>Lock-up function<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0742 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104031&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Circuit Stuck On</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Slip controlled lock-up function<br><span class="listnum">•</span>Lock-up function<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0747 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Stuck On</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 2</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074B <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 3</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074C <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 4</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074D <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 5</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P074E <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 6</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0777 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Stuck On</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0797 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Stuck On</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0961 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0962 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0963 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “A” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0965 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0966 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0967 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “B” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0969 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0970 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0971 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “C” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0973 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “A” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0974 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “A” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0976 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “B” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Gear shifts to 2nd when engine brake working in 1st gear<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P0977 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Shift Solenoid “B” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Gear shifts to 2nd when engine brake working in 1st gear<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1702 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Internal Control Module Memory Check Sum Error</td>
+<td valign="middle" align="left" class="t_cell">Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1706 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104038&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Request Communication Error From TCM</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1718 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Unable To Engage Gear 1 With Engine Brake</td>
+<td valign="middle" align="left" class="t_cell">TCM stops learning control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1719 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Gear 1 With Engine Brake Incorrect Ratio</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Gear shifts to 2nd when engine brake working in 1st gear (except 4th gear)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1727 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Reverse Lamp Control Circuit Low</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1728 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Reverse Lamp Control Circuit High</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1736 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Reverse control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates output shaft speed by input shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1737 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Output Speed Sensor Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Reverse control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates output shaft speed by input shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1738 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span> Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Multiplex shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates input shaft speed by output shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1739 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Input / Turbine Speed Sensor “A” Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Garage shift control<br><span class="listnum">—</span>Multiplex shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>TCM calculates input shaft speed by output shaft speed sensor.<br><span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1742 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Supply Voltage Low</td>
+<td valign="middle" align="left" class="t_cell">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P1743 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Supply Voltage High</td>
+<td valign="middle" align="left" class="t_cell">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P184C <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Solenoid Driver “A” circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P185E <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">TCM Safety Function Failure</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops torque control.<br><span class="listnum">•</span>TCM controls neutral.<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P185F <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">TCM Safety Integrity Function Failure</td>
+<td valign="middle" align="left" class="t_cell">Emergency mode 5 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2715 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Stuck On</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Adaptive shift control<br><span class="listnum">—</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+<span class="listnum">•</span>Emergency mode 2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2719 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2720 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2721 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “D” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2728 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2729 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2730 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Pressure Control Solenoid “E” Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2762 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit Range / Performance</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops learning control.<br><span class="listnum">•</span>Emergency mode 1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2763 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Slip controlled lock-up function<br><span class="listnum">•</span>Lock-up function<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2764 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Converter Clutch Pressure Control Solenoid Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Slip controlled lock-up function<br><span class="listnum">•</span>Lock-up function<br><span class="listnum">•</span>Engine auto stop and start control (ENG A-STOP model)<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2797 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Performance</td>
+<td valign="middle" align="left" class="t_cell">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2798 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104046&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Control Circuit Low</td>
+<td valign="middle" align="left" class="t_cell">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2799 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104046&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Auxiliary Transmission Fluid Pump Control Circuit High</td>
+<td valign="middle" align="left" class="t_cell">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">P2806 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Transmission Range Sensor Alignment</td>
+<td valign="middle" align="left" class="t_cell">TCM prevents engine from starting.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0073</td>
+<td valign="middle" align="left" class="t_cell">Control Module Communication Bus Off</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning Control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Adaptive shift control<br>
+</div>
+<span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0100</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ECM</td>
+<td valign="middle" align="left" class="t_cell">
+<div class="list">
+<span class="listnum">•</span>TCM stops the following control / function.<br>
+<div class="list">
+<span class="listnum">—</span>Learning Control<br><span class="listnum">—</span>Slip controlled lock-up function<br><span class="listnum">—</span>Lock-up function<br><span class="listnum">—</span>Adaptive shift control<br>
+</div>
+<span class="listnum">•</span>Emergency mode 3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5104007001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0121</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ABS / ESP<sup class="sup">®</sup> Control Module</td>
+<td valign="middle" align="left" class="t_cell">TCM stops the following control / function.
+<div class="list">
+<span class="listnum">•</span>Learning control<br><span class="listnum">•</span>Adaptive shift control<br>
+</div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0140</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Body Control Module</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">U1082</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Lost Communication With ENG A-STOP Control Module</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">TCM stops engine auto stop and start control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">After switching ignition from “OFF” to “ON” or when vehicle is stopped after TCM judges the system to be normal.</td>
+</tr>
+</tbody></table>
+</div>
+<div class="servinfosub" id="AENFFA0C5104007001">
+<div class="title">Emergency Mode</div>
+<div class="ptxt">When a DTC is detected, TCM switches the emergency mode status of A/T control between emergency modes 1, 2, 3, 4 and 5. The emergency mode is deactivated when the faulty condition is corrected.</div>
+<div class="topic" id="AENFFA0C5104007002">
+<div class="title">Emergency mode 1</div>
+<div class="ptxt">When TCM detects a DTC, emergency mode 1 shifts to step 1.</div>
+<div class="ptxt">After that, if the detected DTC is any of P0963, P0967, P0971, P0977, P2721 or P2730, the mode shifts from step 1 to step 2a. If any other DTC is detected and the system recovers from solenoid current cut status in step 1, the mode shifts from step 1 to step 2b. When the vehicle is stopped, the mode shifts from step 2b to step 3.</div>
+<div class="fig">
+<div style=""><img src="../image/IEL10C/IEL10C510006.jpg" height="109px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEL10C/IEL10C510006.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="17%">
+<col width="21%">
+<col width="19%">
+<col width="14%">
+<col width="14%">
+<col width="14%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="2" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Emergency mode 1</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 1</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 2a</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 2b</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Step 3</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell" style="border-left-width:2px;">Trouble area</th>
+<th valign="top" align="center" class="t_cell">Gear position when trouble is detected.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">—</td>
+<td valign="middle" align="center" class="t_cell">Reverse</td>
+<td valign="middle" align="center" class="t_cell">Reverse</td>
+<td valign="middle" align="center" rowspan="43" class="t_cell">Gear remains in current position.</td>
+<td valign="middle" align="center" class="t_cell">Reverse</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Reverse</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “A”</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 1st</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “B”</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" rowspan="4" class="t_cell">Shifts to 4th</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “D”</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Shifts to 3rd</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Shifts to 5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “C”</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">Shifts to 2nd</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+<td valign="middle" align="center" rowspan="4" class="t_cell">Shifts to 6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Line pressure control solenoid valve</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 1st</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">TCC solenoid valve</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell">—</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">Linear IC</td>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 3rd)</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell">—</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Solenoid current cut (shifts to 5th)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-left-width:2px;">Reverse control</td>
+<td valign="middle" align="center" class="t_cell">Possible</td>
+<td valign="middle" align="center" class="t_cell">Possible</td>
+<td valign="middle" align="center" class="t_cell">Possible</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Possible</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Other fail-safe controls *</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Inhibited</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt">*: Learning control inhibited, Slope shift control inhibited, Garage shift control inhibited, Slip controlled lock-up control inhibited, Lock-up control inhibited, Engine speed control inhibited, Adaptive shift control inhibited, Manual mode control inhibited, ENG A-STOP control inhibited</div>
+</div>
+<div class="topic" id="AENFFA0C5104007003">
+<div class="title">Emergency mode 2</div>
+<div class="ptxt">When TCM detects a DTC, emergency mode 2 shifts to step 1. After that, when the vehicle is stopped, the mode shifts from step 1 to step 2.</div>
+<div class="fig">
+<div style=""><img src="../image/IEL10C/IEL10C510007.jpg" height="61px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEL10C/IEL10C510007.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="23%">
+<col width="14%">
+<col width="15%">
+<col width="48%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="2" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Emergency mode 2</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 1</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Step 2</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell" style="border-left-width:2px;">Oil pressure when trouble is detected.</th>
+<th valign="top" align="center" class="t_cell">Gear position when trouble is detected.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “A”: MAX</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" rowspan="8" class="t_cell">Gear remains in current position.</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “A”: MIN</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">After solenoid current is cut off, shifts to 3rd if possible.<br>Shifts to 5th if shifting to 3rd is not possible.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “B”: MAX</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “B”: MIN</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “C”: MAX</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “C”: MIN</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “D”: MAX</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Pressure control solenoid valve “D”: MIN</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-left-width:2px;">Reverse control</td>
+<td valign="middle" align="center" class="t_cell">Possible</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Possible</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Other fail-safe controls *</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Inhibited</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt">*: Learning control inhibited, Slope shift control inhibited, Garage shift control inhibited, Slip controlled lock-up control inhibited, Lock-up control inhibited, Engine speed control inhibited, Adaptive shift control inhibited, Manual mode control inhibited, ENG A-STOP control inhibited</div>
+</div>
+<div class="topic" id="AENFFA0C5104007004">
+<div class="title">Emergency mode 3</div>
+<div class="ptxt">When TCM detects a DTC, emergency mode 3 shifts to step 1. After that, when the vehicle is stopped, the mode shifts from step 1 to step 2.</div>
+<div class="fig">
+<div style=""><img src="../image/IEL10C/IEL10C510007.jpg" height="61px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEL10C/IEL10C510007.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="17%">
+<col width="26%">
+<col width="33%">
+<col width="24%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="2" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Emergency mode 3</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 1</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Step 2</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell" style="border-left-width:2px;">Trouble area</th>
+<th valign="top" align="center" class="t_cell">Gear position when trouble is detected.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="7" class="t_cell" style="border-left-width:2px;">Other than shift solenoid valve “A”</td>
+<td valign="middle" align="center" class="t_cell">Reverse</td>
+<td valign="middle" align="center" rowspan="7" class="t_cell">Gear remains in current position.</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Reverse</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="7" class="t_cell" style="border-left-width:2px;">Shift solenoid valve “A”</td>
+<td valign="middle" align="center" class="t_cell">Reverse</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Gear remains in current position.</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Reverse</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">1st</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">3rd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">4th</td>
+<td valign="middle" align="center" class="t_cell">Gear remains in current position.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">5th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell">6th</td>
+<td valign="middle" align="center" class="t_cell">Gear remains in current position.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-left-width:2px;">Reverse control</td>
+<td valign="middle" align="center" class="t_cell">Possible</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Possible</td>
+</tr>
+<tr>
+<td valign="middle" align="center" colspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Other fail-safe controls *</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Inhibited</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt">*: Learning control inhibited, Slope shift control inhibited, Garage shift control inhibited, Slip controlled lock-up control inhibited, Lock-up control inhibited, Engine speed control inhibited, Adaptive shift control inhibited, Manual mode control inhibited, ENG A-STOP control inhibited</div>
+</div>
+<div class="topic" id="AENFFA0C5104007005">
+<div class="title">Emergency mode 4</div>
+<div class="ptxt">When TCM detects a DTC, emergency mode 4 shifts to step 1. After that, when the vehicle is stopped, the mode shifts from step 1 to step 2.</div>
+<div class="fig">
+<div style=""><img src="../image/IEL10C/IEL10C510007.jpg" height="61px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEL10C/IEL10C510007.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="37%">
+<col width="40%">
+<col width="23%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Emergency mode 4</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;">Step 1</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Step 2</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell" style="border-left-width:2px;">Gear position when trouble is detected.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Reverse</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Gear remains in current position.</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Reverse</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">1st</td>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">3rd</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 4th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">4th</td>
+<td valign="middle" align="center" class="t_cell">Gear remains in current position.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">5th</td>
+<td valign="middle" align="center" class="t_cell">Shifts to 6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">6th</td>
+<td valign="middle" align="center" class="t_cell">Gear remains in current position.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Reverse control</td>
+<td valign="middle" align="center" class="t_cell">Impossible</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Impossible</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Other fail-safe controls *</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">Inhibited</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Inhibited</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt">*: Learning control inhibited, Slope shift control inhibited, Garage shift control inhibited, Slip controlled lock-up control inhibited, Lock-up control inhibited, Engine speed control inhibited, Adaptive shift control inhibited, Manual mode control inhibited, ENG A-STOP control inhibited</div>
+</div>
+<div class="topic" id="AENFFA0C5104007006">
+<div class="title">Emergency mode 5</div>
+<div class="ptxt">When TCM detects a DTC, emergency mode 5 shifts to step 1.</div>
+<div class="fig">
+<div style=""><img src="../image/IEL10C/IEL10C510008.jpg" height="61px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEL10C/IEL10C510008.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="73%">
+<col width="27%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Emergency mode 5</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Step 1</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell" style="border-left-width:2px;">Gear position when trouble is detected.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Reverse</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Reverse</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">1st</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-right-width:2px;">Shifts to 3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">2nd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">3rd</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">4th</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-right-width:2px;">Shifts to 5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">5th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">6th</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">Reverse control</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Impossible</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Other fail-safe controls *</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Inhibited</td>
+</tr>
+</tbody></table>
+</div>
+<div class="ptxt">*: Learning control inhibited, Slope shift control inhibited, Garage shift control inhibited, Slip controlled lock-up control inhibited, Lock-up control inhibited, Engine speed control inhibited, Adaptive shift control inhibited, Manual mode control inhibited, ENG A-STOP control inhibited</div>
+</div>
+</div>
+</div>
+
+</body></html>

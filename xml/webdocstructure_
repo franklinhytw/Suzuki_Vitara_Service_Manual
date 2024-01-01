@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+<html lang="en-CH">
+<head>
+ 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>Service Portal Error</title>
+		<link rel="stylesheet" type="text/css" href="common/theme/base.css">
+		<link rel="stylesheet" type="text/css" href="common/theme/header.css">
+		<link rel="stylesheet" type="text/css" href="common/theme/navigation.css">
+		<link rel="stylesheet" type="text/css" href="common/theme/sit_navi.css">
+		<link rel="stylesheet" type="text/css" href="common/theme/footer.css">
+		<link rel="stylesheet" type="text/css" href="common/theme/sp.css">	
+
+		
+		<script type="text/javascript" src="elements/dhtml.js"></script>  
+	    <script type="text/javascript" src="elements/dynamicoptionlist.js"></script>  
+	    <script type="text/javascript" src="elements/Ajax.js"></script>
+	    <script type="text/javascript" src="elements/serviceportal.js"></script>
+	    
+	    <script language="javascript" type="text/javascript">
+				function setTreeHeight ()
+				{
+					var windowHeight = 0;
+				    if( typeof( window.innerWidth ) == 'number' ) 
+				    {
+				        //Non-IE
+				        windowHeight = window.innerHeight;
+				    } 
+				    else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+				        //IE 6+ in 'standards compliant mode'
+				        windowHeight = document.documentElement.clientHeight;
+				    }
+				    //windowHeight - Header - Footer - Navigationbar
+				    treeHeight = windowHeight - 162; 
+				    document.getElementById('divMiddle').style.height = treeHeight + "px";
+				}
+				window.onload=setTreeHeight;
+				window.onresize=setTreeHeight;
+
+		</script>
+</head>
+
+<body>
+ <div id="divBody">	
+	<div id="header">
+		<img class="logo" src="common/img/suzukiCi.jpg" alt="GLOBAL SUZUKI" />
+		<div id="BusinessSegmentLabel">&nbsp;</div>
+		<div id="headline">Service Portal</div>
+	</div>
+	<div id="navigationBar">
+
+		</div>
+	<div id="divMiddle">	
+		<div id="div1" style="spacing:10px;padding:10px">
+			<h3>Error: Your Service Portal access has been denied.</h3>
+			
+			<b>Possible reasons:</b>
+			<br>
+			- you did not login through your dealer login system
+			<br>
+			- your session has expired
+			<br>
+			- an unknown error occured
+			<br><br>
+			<b>Please login again.</b>
+			
+		</div>
+	</div>
+	<!---  ****************  Footer ********************** -->	
+	<div id="footer">
+		<div class="links">
+			<div class="serviceLinks">
+				Version 3.1.5	
+			</div>
+			<div class="webLinks">
+				<a href="http://dv18:8080/Login_SSO_Server/www.globalsuzuki.com">Suzuki Global</a> 
+				<span class="footer">|</span> 
+				<a href="http://www.suzuki.de/" target="_new"> Suzuki SDE Site </a>
+			</div>
+		</div>
+		<div class="copyright">&copy; 2011  - Service - IT GmbH</div>
+	</div>
+</div>
+</body>
+</html>

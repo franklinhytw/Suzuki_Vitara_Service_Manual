@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA814004</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA814004">
+<div class="scnbr">10H</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Troubleshooting for Communication Bus Off</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA814004&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Perform <a href="javascript:%20xref(&#39;AENFFA0CA814001&#39;)">CAN Communication Check:M16A Model</a> before performing this flow.</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA814004001">
+<div class="title">Circuit Diagram</div>
+<div class="fig">
+<div class="title">Halogen headlight model / Non-RBS model</div>
+<div style=""><img src="../image/IFFA0A/IFFA0AA81007.jpg" height="582px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IFFA0A/IFFA0AA81007.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="fig">
+<div class="title">LED headlight model / RBS model</div>
+<div style=""><img src="../image/IFFA0A/IFFA0AA81008.jpg" width="600px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IFFA0A/IFFA0AA81008.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IFFA0A/IFFA0AA81009.jpg" height="533px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IFFA0A/IFFA0AA81009.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%" align="center">
+<colgroup><col width="7%">
+<col width="28%">
+<col width="4%">
+<col width="28%">
+<col width="4%">
+<col width="28%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">4WD model</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">DLC</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">13.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">ESP<sup class="sup">®</sup> control module</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[B]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">2WD model</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">5.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Keyless entry / keyless start control module</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">14.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">ECM</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[C]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Non-ENG A-STOP model</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">6.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">HVAC control module (auto A/C model)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">15.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">RBS control module (RBS model)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[D]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">ENG A-STOP model</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">7.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">4WD control module</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">16.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Headlight auto leveling control module (LED headlight model)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[a] to [w]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">CAN communication line (linked with diagnosis flows [a] to [w] of “Diagnosis Flow Selection Table”)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">8.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">SDM</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">17.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">CAN driver</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[x]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Connector view</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">9.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">TPMS control module (TPMS model)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">18.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">J/C (G310)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">1.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Combination meter</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">10.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">BCM</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">19.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">J/C (L346)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">P/S control module</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">11.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Rain / light sensor (LED headlight model)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">20.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">J/C (E346)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Steering angle sensor</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">12.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">ENG A-STOP control module</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">21.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">TCM (A/T model)</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA814004002">
+<div class="title">Diagnosis Procedure</div>
+<div class="ptxt">When “CAN Communication Bus Off” is detected in any control modules, or when it is not possible to communicate with any control modules / sensors with CAN using SUZUKI scan tool, perform the following procedure.</div>
+<div class="s1">
+<span class="s1num">1)</span>Connect oscilloscope to DLC when ignition is “OFF”.</div>
+<div class="s1">
+<span class="s1num">2)</span>Using oscilloscope, observe waveform in the following condition when ignition is “ON”.
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="18%">
+<col width="18%">
+<col width="64%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Channel</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Probe</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Terminal No.</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">1</td>
+<td valign="top" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">G211-6 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA812001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Ground</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">2</td>
+<td valign="top" align="center" class="t_cell">+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">G211-14 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA812001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="t_cell" style="border-bottom-width:2px;">–</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Ground</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="s1">
+<span class="s1num">3)</span>Compare observed signal waveform with waveforms given as “Reference Waveform:”. Find the most similar signal waveform and identify the system in trouble and cause of trouble. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA814004003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="s1">
+<span class="s1num">4)</span>Perform troubleshooting. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA814004006&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA814004003">
+<div class="title">Reference Waveform</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Waveforms in “Examples of abnormal waveforms” are selected examples of CAN communication waveforms seen when an abnormal condition occurs. However, these waveforms may not be exactly the same in appearance as observed waveforms. Therefore, to identify an abnormal condition, select the waveform that is most similar to the observed waveform from <a href="javascript:%20xref(&#39;AENFFA0CA814004005&#39;)">Examples of abnormal waveforms</a>.</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA814004004">
+<div class="title">Normal waveform</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="4%">
+<col width="29%">
+<col width="4%">
+<col width="38%">
+<col width="25%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="4" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Normal waveform</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Description</th>
+</tr>
+<tr>
+<td valign="middle" align="left" colspan="4" class="t_cell" style="border-left-width:2px;">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81009.jpg" height="221px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81009.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" rowspan="4" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Reference voltages for both CAN High signal and CAN Low signal are 2.5 V. Waveform of CAN High signal is 2.5 – 3.5 V and that of CAN Low signal is 2.5 – 1.5 V.</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="t_cell" style="border-left-width:0px;">Ground level of each channel</td>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;">[D]:</td>
+<td valign="top" align="left" class="t_cell" style="border-left-width:0px;">Waveform of channel 1 (CAN High signal)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;border-left-width:2px;">[B]:</td>
+<td valign="top" align="left" class="t_cell" style="border-left-width:0px;">VOLT/DIV of each channel</td>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;">[E]:</td>
+<td valign="top" align="left" class="t_cell" style="border-left-width:0px;">Waveform of channel 2 (CAN Low signal)</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">[C]:</td>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:0px;">TIME/DIV of each channel</td>
+<td valign="top" align="right" class="t_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA814004005">
+<div class="title">Examples of abnormal waveforms</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="19%">
+<col width="28%">
+<col width="29%">
+<col width="24%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-bottom-width:2px;border-left-width:2px;">Possible cause</th>
+<th valign="top" align="center" colspan="2" class="t_cell" style="border-top-width:2px;">Characteristic waveform</th>
+<th valign="top" align="center" rowspan="2" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;">Description</th>
+</tr>
+<tr>
+<th valign="top" align="center" class="t_cell">CAN High signal</th>
+<th valign="top" align="center" class="t_cell">CAN Low signal</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Shorted to ground</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81010.jpg" width="206" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81010.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81011.jpg" width="210" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81011.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<span class="bold">In case CAN High signal wire is shorted to ground circuit</span><br>Both of CAN High signal and CAN Low signal are fixed to GND level (0 V).<br><span class="bold">In case CAN Low signal wire is shorted to ground circuit</span><br>Reference voltages for both of CAN High signal and CAN Low signal are GND level (0 V) and CAN High signal waveform oscillates irregularly.
+<div class="list">
+<span class="listnum">•</span>CAN High signal: Between 0 V and 3.5 V<br><span class="listnum">•</span>CAN Low signal: Fixed to 0 V<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Opened</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81012.jpg" width="206" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81012.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81013.jpg" width="210" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81013.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<span class="bold">In case CAN High signal wire is open</span><br>Reference voltages for both CAN High signal and CAN Low signal are 2.5 V and these waveforms oscillate irregularly.<br>
+<div class="list">
+<span class="listnum">•</span>CAN High signal: Between 4.0 V and 1.0 V<br><span class="listnum">•</span>CAN Low signal: Between 2.5 V and 1.0 V<br>
+</div>
+<span class="bold">In case CAN Low signal wire is open</span><br>Reference voltages for both of CAN High signal and CAN Low signal are 2.5 V and these waveforms oscillate irregularly.
+<div class="list">
+<span class="listnum">•</span>CAN High signal: Between 2.5 V and 4.0 V<br><span class="listnum">•</span>CAN Low signal: Between 1.0 V and 4.0 V<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Shorted to power supply circuit (12 V)</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81014.jpg" height="202" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81014.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81015.jpg" height="202" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81015.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<span class="bold">In case CAN High signal wire is shorted to power supply circuit (12 V)</span><br>CAN High signal is fixed to 12 V and CAN Low signal is fixed to 11 V.<br><span class="bold">In case CAN Low signal wire is shorted to power supply circuit (12 V)</span><br>CAN High signal is fixed to 11 V and CAN Low signal is fixed to 12 V.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Shorted to power supply circuit (5 V)</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81016.jpg" width="206" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81016.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81017.jpg" width="210" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81017.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<span class="bold">In case CAN High signal wire is shorted to power supply circuit (5 V)</span><br>Reference voltages for both CAN High signal and CAN Low signal are 4.5 V and these waveforms oscillate irregularly.<br>
+<div class="list">
+<span class="listnum">•</span>CAN High signal: Between 5.5 V and 3.5 V<br><span class="listnum">•</span>CAN Low signal: Between 5.0 V and 1.0 V<br>
+</div>
+<span class="bold">In case CAN Low signal wire is shorted to power supply circuit (5 V)</span><br>Reference voltage is 4.5 V and phase is the same for both CAN High signal and CAN Low signal, and waveforms oscillate irregularly between 6.0 V and 1.0 V.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">CAN High signal and CAN Low signal wires are shorted to each other</td>
+<td valign="middle" align="left" colspan="2" class="t_cell" style="border-bottom-width:2px;">
+<div style=""><img src="../image/IDAA0A/IDAA0AA81018.jpg" height="175" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA81018.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Both of CAN High signal and CAN Low signal are fixed to near 2.5 V.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA814004006">
+<div class="title">Troubleshooting</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Before diagnosing trouble, check equipment of vehicle being serviced as well as control modules and sensors connected to CAN communication line.<br><span class="listnum">•</span>Before using scan tool, read its Operator’s Manual to know how to use it.<br><span class="listnum">•</span>When performing “Communication Bus Check” using SUZUKI scan tool in this troubleshooting, refer to <a href="javascript:%20xref(&#39;AENFFA0CA814006&#39;)">Judgment of Communication Bus Check:M16A Model</a>.<br>
+</div>
+</div>
+</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0CA814004007">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004008">1</td>
+<td class="testaction">
+<div class="title">CAN communication circuit check</div>
+<div class="test1">
+<span class="test1num">1)</span>Disconnect negative (–) cable at battery.</div>
+<div class="test1">
+<span class="test1num">2)</span>Disconnect connectors from all the control modules and sensors communicating by CAN. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA812001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="test1">
+<span class="test1num">3)</span>Check for proper connection to each CAN communication circuit at all control modules / sensors (communicating by CAN) connectors and DLC.</div>
+<div class="test1">
+<span class="test1num">4)</span>If connections are OK, check the following points of each CAN communication circuit based on results found in Step 3) of <a href="javascript:%20xref(&#39;AENFFA0CA814004002&#39;)">Diagnosis Procedure</a>.
+<div class="list">
+<span class="listnum">•</span>Open circuit<br><span class="listnum">•</span>Short to power circuit<br><span class="listnum">•</span>Short to ground circuit<br><span class="listnum">•</span>Short to CAN communication wire with each other<br>
+</div>
+</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Repair or replace defective wire harness.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004009">2</td>
+<td class="testaction">
+<div class="title">ECM communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “E01” connector to ECM.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “E08-3” and “E08-16” terminals of ESP<sup class="sup">®</sup> control module connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="list">
+<span class="listnum">•</span>ENG A-STOP model: Go to Step 3.<br><span class="listnum">•</span>Non-ENG A-STOP model: Go to Step 5.<br>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ECM and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1316001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004010">3</td>
+<td class="testaction">
+<div class="title">ESP® control module communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “E08” connector to ESP<sup class="sup">®</sup> control module.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “E24-6” and “E24-19” terminals of ENG A-STOP control module connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 4.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ESP<sup class="sup">®</sup> control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4606005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004011">4</td>
+<td class="testaction">
+<div class="title">ENG A-STOP control module communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “E24” connector to ENG A-STOP control module.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “E05-5” and “E05-6” terminals of BCM connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 6.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ENG A-STOP control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA906003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004012">5</td>
+<td class="testaction">
+<div class="title">ESP® control module communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “E08” connector to ESP<sup class="sup">®</sup> control module.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “E05-5” and “E05-6” terminals of BCM connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 6.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ESP<sup class="sup">®</sup> control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4606005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004013">6</td>
+<td class="testaction">
+<div class="title">BCM communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “E05”, “L01” and “G04” connectors to BCM.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between the following terminals.
+<div class="list">
+<span class="listnum">•</span>2WD model: Between “G50-7” and “G50-8” terminals of P/S control module connector<br><span class="listnum">•</span>4WD model: Between “L14-22” and “L14-23” terminals of 4WD control module connector<br>
+</div>
+</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="list">
+<span class="listnum">•</span>2WD model: Go to Step 8.<br><span class="listnum">•</span>4WD model: Go to Step 7.<br>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace BCM and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA206001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004014">7</td>
+<td class="testaction">
+<div class="title">4WD control module communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “L14” connector to 4WD control module.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “G50-7” and “G50-8” terminals of P/S control module connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 8.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace 4WD control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C3206005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004015">8</td>
+<td class="testaction">
+<div class="title">P/S control module communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “G50” connector to P/S control module.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “G240-11” and “G240-23” terminals of combination meter connector.</div>
+<div class="question">Is resistance 114 – 134 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 9.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace P/S control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C6206009&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004016">9</td>
+<td class="testaction">
+<div class="title">Combination meter communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect “G240” connector to combination meter.</div>
+<div class="test1">
+<span class="test1num">2)</span>Measure resistance between “G211-6” and “G211-14” terminals of DLC.</div>
+<div class="question">Is resistance 57 – 67 Ω?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 10.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace combination meter and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C9306001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CA814004017">10</td>
+<td class="testaction">
+<div class="title">Keyless entry / keyless start control module, HVAC control module, steering angle sensor, SDM, TPMS control module, rain / light sensor, RBS control module, headlight auto leveling control module and TCM communication check</div>
+<div class="test1">
+<span class="test1num">1)</span>Perform <a href="javascript:%20xref(&#39;AENFFA0CA814005&#39;)">Communication Check:M16A Model</a>.</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Check for intermittent trouble. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C0006002&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace defective control module or sensor and recheck DTC.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

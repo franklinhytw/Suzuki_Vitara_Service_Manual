@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C7221005</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C7221005">
+<div class="scnbr">7B</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">A/C Operation Description (Diesel Model) </td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C7221005&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">Upon receiving A/C switch ON signal from HVAC control unit, ECM controls A/C compressor relay and radiator (condenser) cooling fan relay as described in the table below.</div>
+<div class="ptxt">The A/C switch ON signal from the HVAC control unit is transmitted to ECM through BCM. For CAN communication system, refer to <a href="javascript:%20xref(&#39;AENFFA0CA831001&#39;)">Communication System Description:D16AA Model</a>.</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="14%">
+<col width="14%">
+<col width="14%">
+<col width="57%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="2" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Control item</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Input sensor (or signal)</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Description</th>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="5" class="t_cell" style="border-left-width:2px;">A/C compressor relay control</td>
+<td valign="top" align="left" class="t_cell">Evaporator temperature</td>
+<td valign="top" align="left" class="t_cell">Evaporator temperature sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ECM controls A/C compressor by turning A/C compressor relay ON/OFF according to request signal from BCM. BCM sends the signal based on the signal from evaporator temperature sensor to prevent evaporator from freezing.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell">Control during low engine speed</td>
+<td valign="top" align="left" class="t_cell">CKP sensor (engine rpm)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ECM stops A/C compressor by turning A/C compressor relay OFF according to signal from CKP sensor (engine rpm) to prevent engine from stalling while engine speed is low.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell">Control at abnormal refrigerant pressure</td>
+<td valign="top" align="left" class="t_cell">A/C refrigerant pressure sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ECM stops A/C compressor by turning A/C compressor relay OFF according to signal from A/C refrigerant pressure sensor to protect system when refrigerant pressure is abnormal.<br><span class="listnum">•</span>ECM stops A/C compressor by turning A/C compressor relay OFF when A/C refrigerant pressure sensor malfunctions.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell">Control during acceleration</td>
+<td valign="top" align="left" class="t_cell">Accelerator pedal position sensor and wheel speed sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ECM stops A/C compressor temporarily by turning A/C compressor relay OFF according to signal from accelerator pedal position sensor to provide enough acceleration while accelerator pedal is fully depressed regardless of vehicle speed.<br><span class="listnum">•</span>ECM stops A/C compressor temporarily by turning A/C compressor relay OFF according to signal from throttle position sensor to provide enough acceleration when accelerator pedal is depressed more than specification while vehicle speed is low.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell">Control at high engine coolant temperature</td>
+<td valign="top" align="left" class="t_cell">ECT sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ECM stops A/C compressor by turning A/C compressor relay OFF according to signal from ECT sensor to prevent overheating when engine coolant temperature is higher than specified level.<br><span class="listnum">•</span>ECM stops A/C compressor by turning A/C compressor relay OFF when ECT sensor malfunctions.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" colspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Radiator (condenser) cooling fan relay control</td>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;">A/C refrigerant pressure sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">ECM drives radiator cooling fan in low or high speed mode by turning radiator cooling fan relays No.1, No.2 and No.3 ON/OFF according to signal from A/C refrigerant pressure sensor.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

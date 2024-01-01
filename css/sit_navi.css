@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+  ul#Navigation {
+    margin: 0; padding: 0;
+  }
+
+  ul#Navigation li {
+	list-style: none;
+	float: left;  /* ohne width - nach CSS 2.1 erlaubt */
+	position: relative;
+	font-size: 13px;
+	font-family: SuzukiPROBold, Arial;
+	font-weight: normal;
+	padding: 0.4em 0.5em;
+  }
+  
+  ul#Navigation li a{
+  	font-family: SuzukiPROBold, Arial;
+  }
+  
+  ul#Navigation li ul li a{
+  	font-family: Arial;
+  }
+  * html ul#Navigation li {  /* Korrektur fuer den IE 5 und 6 */
+    margin-bottom: -0.4em;
+  }
+  *:first-child+html ul#Navigation li {  /* Korrektur fuer den IE 7 */
+    margin-bottom: 0;
+  }
+
+  ul#Navigation li ul {
+    margin: 0; padding: 0;
+    position: absolute;
+    top: 2.1em; left: 0.5em;
+    display: none;  /* Unternavigation ausblenden */
+    background-color: #003145;
+  }
+  * html ul#Navigation li ul {  /* Korrektur fuer IE 5.x */
+    left: -1.5em;
+	lef\t: -0.4em;
+  }
+  *:first-child+html ul#Navigation ul {  /* Workaround fuer den IE 7 */
+    color: white;
+	background-color: #003145;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	border: none;
+	border-width: 0;
+	cursor: pointer;
+	width:15.2em;
+  }
+  ul#Navigation li:hover ul {
+    display: block;  /* Unternavigation in modernen Browsern einblenden */
+  }
+  ul#Navigation li ul li {
+    float: none;
+	display: block;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	left: -1.5em;
+	padding: 2px;
+	width: 15em;
+	text-align: left;
+  }
+
+  ul#Navigation a, ul#Navigation span {
+    display: block;
+	padding: 0;
+	spacing: 0;
+	text-decoration: none;
+	border: 0px solid black;
+	color: white;
+	background-color: #003145;
+  }
+  * html ul#Navigation a, * html ul#Navigation span {
+    width: 11.6em;   /* Breite nach altem MS-Boxmodell fuer IE 5.x */
+    w\idth: 11.4em;  /* korrekte Breite fuer den IE 6 im standardkompatiblen Modus */
+  }
+  ul#Navigation li ul a:hover, ul#Navigation span {
+    color: white; background-color:#0098DB;
+  }
+  ul#Navigation li ul span {  /* aktuelle Unterseite kennzeichnen */
+    background-color: #ffffff;
+	color: #000000; background-color: #ffffff;
+  } 
+ 
+ #logoutLink_sit {
+	position: absolute;
+	top: 87px;
+	right: 18px;
+	font-size: 13px;
+	font-family: SuzukiPROBold, Arial;
+	text-align: right;
+	float: right;
+}
+
+ #logoutLink_sit a {
+
+	font-family: SuzukiPROBold, Arial;
+	cursor: pointer;
+	color: white;
+}
+
+
+
+@font-face {
+	font-family: "SuzukiPROBold";
+	src: url(SuzukiPROBold.otf) format("truetype");
+}
+
+@font-face {
+	font-family: "SuzukiPROHeadline";
+	src: url(SuzukiPROHeadline.otf) format("truetype");
+}
+
+@font-face {
+	font-family: "SuzukiPRORegular";
+	src: url(SuzukiPRORegular.otf) format("truetype");
+}

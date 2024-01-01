@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C6301003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C6301003">
+<div class="scnbr">6C</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">P/S Control Module Input / Output Diagram</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C6301003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="fig">
+<div style=""><img src="../image/IFFA0B/IFFA0B630001.jpg" height="311px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IFFA0B/IFFA0B630001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="20%">
+<col width="80%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Control item</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Control function</th>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Steering assist control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Electric current value to assist steering is determined based on steering torque information from torque sensor and vehicle speed information through CAN communication. This is basic control of P/S system.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Steering return control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Friction in steering system affects return feeling of the steering wheel especially at low speed of the vehicle. The compensation current assists the motor rotation in steering return direction and improves return feeling of the steering wheel.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Steering converging control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">At high speed running, steering damping performance becomes worse. Therefore, the compensation current is supplied for improvement of vehicle high speed stability.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Maximum electric current restriction control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">If the steering wheel is kept at fully turned position with engine running, maximum current for full steering assist is continuously being supplied to P/S motor causing the motor and P/S control module to overheat. To prevent this, the control module reduces the current gradually when the maximum current is supplied for specified time continuously.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Fail-safe control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">P/S control module is equipped with fail-safe relay in its power supply circuit. When the system is operating normally, the relay is “ON” and the control module can supply electric power to P/S motor. However, once any malfunction is detected by self-diagnosis in P/S control system, the relay is set to “OFF” and the power supply is cut off to stop the power assist system.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

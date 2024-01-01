@@ -1,0 +1,152 @@
+/* ----------------     HEADER  ------------------------------- */
+#header {
+height: 81px;
+background-color: #003145;
+width: 100%;
+text-align: left;
+color: #FFFFFF; 
+font-family: Arial,Tahoma,Helvetica,Geneva,sans-serif;
+padding:0;
+margin:0;
+}
+
+#header .logo {
+	float: right;
+	width: 182px;
+	height: 80px;
+	margin-left: 27px;
+}
+#headline {
+padding-top: 12px;
+/*padding-left: 18px;*/
+font-size: 27px;
+font-family: SuzukiPROHeadline,Arial;
+}
+
+#BusinessSegmentLabel {
+padding-top: 12px;
+/*padding-left: 18px;*/
+font-size: 13px;
+font-family: Arial;
+}
+
+#loginStatus {
+padding-top:9px;
+float : right;
+}
+
+#loginStatus th {
+font-size: 9px;
+font-family: Arial;
+margin: 0 0 0 0;
+padding: 0 0 0 18px;
+background: #003145;
+border: 0px;
+}
+
+table.lsTable {
+color: #ffffff;
+border: 0;
+}
+tr.lsTable {
+border:0;
+}
+
+td.lsTable {
+padding-left: 18px;
+font-size: 9px;
+font-family: Arial;
+border: 0px;
+}
+
+/*          old       */
+
+#dl {
+	position: absolute;
+	right: 320px;
+	top: 35px;
+	padding-right: 5px;
+	text-align: right;
+}
+#dm {
+	position: absolute;
+	right: 440px;
+	top: 35px;
+	padding-right: 5px;
+	text-align: right;
+}
+#dh {
+	position: absolute;
+	right: 530px;
+	top: 35px;
+	padding-right: 5px;
+	text-align: right;
+}
+a.logoutLink {
+	color: #C60C30;
+	text-decoration: underline;
+	font-family:Arial,Helvetica,Tahoma,Geneva,sans-serif;
+	font-size: 8pt;
+}
+
+#userinfo {
+	position: absolute;
+	font-size: 9pt;
+	right: 27px;
+	top: 9px;
+	display: inline;
+	text-align: left;
+	color: #ffffff;
+}
+.userinfoTable{
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 6pt;
+}
+.userName {
+	
+	font-weight: bold;	
+}
+.userNumber {
+	color: #ffffff;
+	font-size: 6pt;
+	font-weight: bold;	
+}
+.userLastLogin {
+	color: #ffffff;
+	font-size: 6pt;
+	font-weight: bold;	
+}
+.userInfoLabel{
+	font-size: 6pt;
+	color: #ffffff;
+}
+
+#gl {
+   width: 100%;
+  text-align: center;
+   height: 38px;
+   background-color: #ffffff;
+   color: red;
+z-index:100;
+}
+u {
+	font-size: 11px;
+}
+select.languageSelect{
+background-color: #003145;
+color:#ffffff;
+font-size: 9px;
+font-family: Arial;
+border: 0 none;
+}
+
+
+.languageSelect{
+background-color: #003145;
+color:#ffffff;
+font-size: 9px;
+font-family: Arial;
+border: 0 none;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA501003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA501003">
+<div class="scnbr">10E</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Keyless Start System Door Lock Function</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA501003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">Door lock function consists of 3 types of lock / unlock methods: using request switch, using keyless entry system, and using key cylinder operation.</div>
+<div class="servinfosub" id="AENFFA0CA501003001">
+<div class="title">Lock / Unlock Using Door Request Switch</div>
+<div class="ptxt">Lock / unlock the doors using door request switch as shown below.</div>
+<div class="s1">
+<span class="s1num">1)</span>Push door request switch incorporated in the outside handle of driver or passenger door or the rear end door.</div>
+<div class="s1">
+<span class="s1num">2)</span>Keyless start control module (1) activates mid inside antenna (2) and rear inside antenna (3) to transmit request signal within the vehicle compartment and luggage compartment.</div>
+<div class="s1">
+<span class="s1num">3)</span>When keyless start control module determines that remote controller (4) is not in vehicle compartment and luggage compartment, it activates the outside antenna of door at which door request switch was pushed and sends request signal to remote controller.</div>
+<div class="s1">
+<span class="s1num">4)</span>The remote controller that receives request signal sends ID code to keyless start control module.</div>
+<div class="s1">
+<span class="s1num">5)</span>Keyless start control module compares ID code sent from remote controller with ID code registered in keyless start control module. If ID codes match, keyless start control module outputs door lock / unlock request signal (depending on door lock switch state) to BCM (5) through CAN communication.</div>
+<div class="s1">
+<span class="s1num">6)</span>BCM activates door lock actuator.
+<div class="fig" style="margin-left:-25px;">
+<div style=""><img src="../image/IEFA0A/IEFA0AA50001.jpg" height="351px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA50001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%" align="center">
+<colgroup><col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Signal flow “1” – “6” linked with Step 1) – 6)</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">8.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Passenger door request switch</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">11.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">Each door lock actuator</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">6.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Rear outside antenna</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">9.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Passenger side outside antenna</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">12.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Rear end door request switch</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">7.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Driver door request switch</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">10.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Driver side outside antenna</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA501003002">
+<div class="title">Operation area</div>
+<div class="ptxt">Distance between remote controller and each door antenna should be within approximately 80 cm (31.5 in, 2.6 ft) (1), to ensure operation of door lock function. Also, locking and unlocking are possible only when remote controller is within operation area where request switch has been pushed. (For example: When driver door request switch has been pushed, remote controller should be within operation area of driver outside antenna.)</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Door lock function may not operate if remote controller is placed too close to vehicle, near to the ground, or too high up.<br><span class="listnum">•</span>Door lock function may not operate if the same type of vehicles equipped with keyless start system are placed next to each other, and both keyless start systems operate at the same time.<br><span class="listnum">•</span>Door lock function may not operate if registered remote controller are carried at the same time.<br>
+</div>
+</div>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0AA50002.jpg" height="243px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA50002.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="80%" align="center">
+<colgroup><col width="9%">
+<col width="47%">
+<col width="9%">
+<col width="35%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Passenger side outside antenna</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">Rear outside antenna</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Driver side outside antenna</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA501003003">
+<div class="title">Safety function</div>
+<div class="ptxt">Doors cannot be locked with door request switch when any of the following conditions is present.</div>
+<div class="list">
+<span class="listnum">•</span>Ignition is “ACC” or “ON”.<br><span class="listnum">•</span>One of the doors is open.<br><span class="listnum">•</span>Keyless start control module determines that remote controller is in vehicle compartment.<br>
+</div>
+</div>
+<div class="topic" id="AENFFA0CA501003004">
+<div class="title">Remote controller lock-in vehicle prevention function</div>
+<div class="ptxt">This function prevents driver from locking doors and leaving vehicle with remote controller left behind in vehicle compartment.</div>
+<div class="ptxt">When mid inside antenna (1) or rear inside antenna (2) detects remote controller (i.e., remote controller is in the vehicle compartment) under the following condition, keyless start control module outputs an unlock doors request to BCM through CAN communication.</div>
+<div class="list">
+<span class="listnum">•</span>Doors are locked with key cylinder (emergency key) or door lock knob with one of the doors open.<br>
+</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Remote controller lock-in vehicle prevention function may not operate when remote controller is on instrument panel, in one of the storage boxes, around the foot area of driver side or passenger side, or in door pocket, etc.<br><span class="listnum">•</span>When keyless start system function is off, remote controller lock-in vehicle prevention function does not operate.<br>
+</div>
+</div>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0AA50003.jpg" height="201px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA50003.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="54%" align="center">
+<colgroup><col width="14%">
+<col width="86%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">Mid inside antenna detection area</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">Rear inside antenna detection area</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA501003005">
+<div class="title">Lock / Unlock with Keyless Entry System</div>
+<div class="ptxt">When all of the following conditions are met and the lock or unlock signal from remote controller is inputted into keyless start control module, keyless start control module outputs door lock / unlock request signal (depending on the door lock switch state) to BCM through CAN communication. When BCM receives signal, it activates each door lock actuator.</div>
+<div class="list">
+<span class="listnum">•</span>Ignition is “OFF”.<br><span class="listnum">•</span>All doors are closed. (When locking doors)<br>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA501003006">
+<div class="title">Lock / Unlock with Key Cylinder</div>
+<div class="ptxt">When the lock or unlock signal from key cylinder switch is inputted into keyless start control module by key cylinder operation, keyless start control module outputs door lock / unlock request signal (depending on the door lock switch state) to BCM through CAN communication. When BCM receives signal, it activates each door lock actuator.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA501003007">
+<div class="title">Timer Lock Function</div>
+<div class="ptxt">This function automatically locks doors again if doors are unlocked with door request switch or keyless entry system and no door is opened within approximately 30 seconds.</div>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C6301002</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C6301002">
+<div class="scnbr">6C</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of EPS System Component Function</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C6301002&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="16%">
+<col width="10%">
+<col width="19%">
+<col width="55%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" colspan="3" class="t_cell" style="border-top-width:2px;border-left-width:2px;">EPS system components</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Function</th>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="3" class="t_cell" style="border-left-width:2px;"><span class="bold">Steering column assembly</span></td>
+<td valign="top" align="left" colspan="2" class="t_cell"><span class="bold">Torque sensor</span></td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Using two circuits (i.e. main and sub circuits), torque sensor outputs voltages proportional to steering input torque and direction to P/S control module.</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="2" class="t_cell"><span class="bold">P/S control module / motor assembly</span></td>
+<td valign="top" align="left" class="t_cell"><span class="bold">P/S motor</span></td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">P/S motor produces steering assist torque that correspond to electric current from P/S control module.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell"><span class="bold">P/S control module</span></td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>P/S control module controls P/S motor drive current by determining its amount and direction of assistance based on voltage signal from torque sensor, vehicle speed and other data which are received via CAN communication.<br><span class="listnum">•</span>P/S control module judges whether engine is running or not using engine speed signal from CAN<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" colspan="3" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;"><span class="bold">P/S warning light</span></td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Refer to <a href="javascript:%20xref(&#39;AENFFA0C6301004&#39;)">OBD System Description</a> for operation of the P/S warning light.</td>
+</tr>
+</tbody></table>
+</div>
+<div class="servinfosub" id="AENFFA0C6301002001">
+<div class="title">Steering Column Assembly</div>
+<div class="ptxt">Steering column assembly mainly consists of torque sensor shaft (input shaft) from steering wheel, worm wheel shaft (output shaft) to steering gear case, torsion bar connecting the input and output shafts, torque sensor and P/S motor.</div>
+<div class="topic" id="AENFFA0C6301002002">
+<div class="title">Torque sensor</div>
+<div class="ptxt">Torque sensor adopts a non-contact inductance sensing system, and consists of stationary sensor sleeve and sensing coils on torque sensor shaft (input shaft), worm wheel shaft (output shaft) and amplifier which outputs signal from each coil to P/S control module. The sensor sleeve is located under the sensing coils and provides slits displacing their pitch. On the other hand, the worm wheel shaft (output shaft) provides vertical grooves under the sensor sleeve. The amplifier consists of dual circuit, main circuit and sub circuit. This dual circuit enables the P/S control module to compute steering assist torque corresponding to steering wheel handling force based on signal from main circuit while the control module computes steering assist torque in fail-safe mode based on signal from sub circuit.</div>
+</div>
+<div class="topic" id="AENFFA0C6301002003">
+<div class="title">Torque sensing principle</div>
+<div class="s1">
+<span class="s1num">1)</span>When handling force is applied to steering wheel (torque sensor shaft) against worm wheel shaft (output shaft) which is stationary with road friction, torsion occurs in torsion bar.</div>
+<div class="s1">
+<span class="s1num">2)</span>A phase deviation relative to the torsion angle is generated between worm wheel shaft (output shaft) and slit, and the worm wheel shaft (output shaft) is magnetized accordingly. At this moment, inductance of two sensor coil fluctuates in inverse proportion relative to displacement value between the worm wheel shaft (output shaft) and slit.</div>
+<div class="s1">
+<span class="s1num">3)</span>Variation of the inductance detected in the sensor coil is converted to electrical signal in the amplifier and outputted to the P/S control module.</div>
+<div class="s1">
+<span class="s1num">4)</span>Output voltage of main torque sensor and sub torque sensor is 2.5 V at steering wheel neutral point (with no handling force applied). In this position, P/S control module computes steering handling torque at zero. However, when steering wheel is rotated with handling force, P/S control module controls the steering based on signal from main torque sensor according to the level of the handling force. When output voltage of main torque sensor exceeds 2.5 V, P/S control module assists the steering to the right. On the other hand, when the voltage is below 2.5 V, the control module assists the steering to the left.</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0A630018.jpg" height="327px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A630018.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%" align="center">
+<colgroup><col width="4%">
+<col width="42%">
+<col width="4%">
+<col width="22%">
+<col width="4%">
+<col width="22%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Torque sensor output characteristics</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Sub signal</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">7.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">Sensor coil</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[B]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Left side steering</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Torque sensor</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">8.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Torsion bar</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[C]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Steering wheel neutral point (steering wheel handling torque 0)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Torque sensor shaft (input shaft)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">9.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Slit</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">[D]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Right side steering</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">5.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Sensor sleeve</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">1.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Main signal</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">6.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Worm wheel shaft (output shaft)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0C6301002004">
+<div class="title">Handling of steering when P/S system stops</div>
+<div class="ptxt">The system has a fail-safe function, which works as manual steering without power assist when engine is stopped or power steering system is malfunctioning. When steering wheel is rotated by hand under these conditions, torsion bar (1) is twisted but steering assist is not available without supply of electricity. Therefore, steering torque sensor shaft (input shaft) (2) in steering column bumps against manual stopper (4) in worm wheel shaft (output shaft) (3) and torque sensor shaft (input shaft) rotates worm wheel shaft (output shaft) directly.</div>
+<div class="fig">
+<div style=""><img src="../image/IDMAKP/IDMAKPF60003.jpg" height="158px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDMAKP/IDMAKPF60003.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="72%" align="center">
+<colgroup><col width="10%">
+<col width="90%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">“a”:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">Maximum torsional angle of torsion bar</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C6301002005">
+<div class="title">P/S Control Module</div>
+<div class="ptxt">P/S control module determines basic assist power based on steering assist control and improves feeling of the steering by using steering return control and steering converging control. Further, the P/S control module controls motor current to harmonize target current with actual current in accordance with computing result of each control and maximum current limit control.</div>
+<div class="ptxt">And, the P/S control module communicates with ECM, ENG A-STOP control module and combination meter through CAN communication.</div>
+</div>
+</div>
+
+</body></html>

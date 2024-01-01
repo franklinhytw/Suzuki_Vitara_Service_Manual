@@ -1,0 +1,351 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname = "VITARA Service Manual" manualid = "AENFFA0C" lang = "en"/>
+<section id = "a">
+<servinfo id = "Foreword01" title = "IMPORTANT">
+</servinfo>
+<servinfo id = "Foreword02" title = "FOREWORD">
+</servinfo>
+<servinfo id = "Foreword03" title = "Applicable Model / VIN">
+</servinfo>
+<servinfo id = "Foreword04" title = "Table of Contents">
+</servinfo>
+<servinfo id = "Foreword05" title = "History of Modification">
+</servinfo>
+<servinfo id = "Foreword06" title = "Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</servinfo>
+</section>
+<section id = "1A" file = "AENFFA0C11.fm" title = "none sct name">
+<servcat title = "Engine General Information and Diagnosis">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1116001" title = "Idle Speed Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1126001" title = "Idle Speed Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1136001" title = "Idle Speed Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1D" file = "AENFFA0C14.fm" title = "none sct name">
+<servcat title = "Engine Mechanical">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C1414003" title = "Valve Clearance Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1E" file = "AENFFA0C15.fm" title = "none sct name">
+<servcat title = "Engine Lubrication System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1516001" title = "Engine Oil and Filter Change">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1526001" title = "Engine Oil and Filter Change">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1F" file = "AENFFA0C16.fm" title = "none sct name">
+<servcat title = "Engine Cooling System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1611002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1621002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C1631002" title = "Coolant Description">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1H" file = "AENFFA0C18.fm" title = "none sct name">
+<servcat title = "Ignition System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1816002" title = "Spark Plug Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1816005" title = "Ignition Timing Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1826002" title = "Spark Plug Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C1826005" title = "Ignition Timing Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1J" file = "AENFFA0C1A.fm" title = "none sct name">
+<servcat title = "Charging System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1A16003" title = "Water Pump / Generator Drive Belt Tension Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A17001" title = "Charging System Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C1A26003" title = "Water Pump / Generator Drive Belt Tension Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A27001" title = "Charging System Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A37001" title = "Charging System Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2B" file = "AENFFA0C22.fm" title = "none sct name">
+<servcat title = "Front Suspension">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C2206001" title = "Front Wheel Alignment Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2C" file = "AENFFA0C23.fm" title = "none sct name">
+<servcat title = "Rear Suspension">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C2306001" title = "Rear Wheel Alignment Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2D" file = "AENFFA0C24.fm" title = "none sct name">
+<servcat title = "Wheels and Tires">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "1" title = "General Description">
+<servinfo id = "AENFFA0C2401001" title = "Tire Description">
+</servinfo>
+<servinfo id = "AENFFA0C2401003" title = "Wheel Description">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3A" file = "AENFFA0C31.fm" title = "none sct name">
+<servcat title = "Drive Shaft / Axle">
+<configtype id = "1" title = "Front">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3116008" title = "Front Wheel Bearing Check">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Rear">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3126006" title = "Rear Wheel Bearing Check">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" file = "AENFFA0C32.fm" title = "none sct name">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3206002" title = "Rear Differential Oil Change">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3C" file = "AENFFA0C33.fm" title = "none sct name">
+<servcat title = "Transfer">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C3306002" title = "Transfer Oil Change">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4A" file = "AENFFA0C41.fm" title = "none sct name">
+<servcat title = "Brake Control System and Diagnosis">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4106003" title = "Brake Fluid Replacement">
+</servinfo>
+<servinfo id = "AENFFA0C4106008" title = "Brake Pedal Play Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4106009" title = "Brake Pedal Travel Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4B" file = "AENFFA0C42.fm" title = "none sct name">
+<servcat title = "Front Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4206004" title = "Front Brake Pad Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4206006" title = "Front Brake Disc Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4C" file = "AENFFA0C43.fm" title = "none sct name">
+<servcat title = "Rear Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4306004" title = "Rear Brake Pad Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C4306006" title = "Rear Brake Disc Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4D" file = "AENFFA0C44.fm" title = "none sct name">
+<servcat title = "Parking Brake">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C4406002" title = "Parking Brake Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" file = "AENFFA0C51.fm" title = "none sct name">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5106005" title = "ATF Change">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5B" file = "AENFFA0C52.fm" title = "none sct name">
+<servcat title = "Manual Transmission/Transaxle">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5216002" title = "Manual Transaxle Oil Change">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5226002" title = "Manual Transaxle Oil Change">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5236002" title = "Manual Transaxle Oil Change">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5C" file = "AENFFA0C53.fm" title = "none sct name">
+<servcat title = "Clutch">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5316005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5316007" title = "Air Bleeding of Clutch System">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5326005" title = "Clutch Pedal Inspection">
+</servinfo>
+<servinfo id = "AENFFA0C5326007" title = "Air Bleeding of Clutch System">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5336005" title = "Clutch Pedal Inspection">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" file = "AENFFA0C56.fm" title = "none sct name">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C5606004" title = "Transaxle Oil Change">
+</servinfo>
+<servinfo id = "AENFFA0C5606023" title = "Twin Clutch System Actuation Fluid Level Check">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "6C" file = "AENFFA0C63.fm" title = "none sct name">
+<servcat title = "Power Assisted Steering System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "4" title = "Diagnostic Information and Procedures">
+<servinfo id = "AENFFA0C6304028" title = "Steering Wheel Play Check">
+</servinfo>
+<servinfo id = "AENFFA0C6304029" title = "Steering Force Check">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" file = "AENFFA0C72.fm" title = "none sct name">
+<servcat title = "HVAC System">
+<configtype id = "2" title = "Manual Type">
+<servinfotype sitcode = "6" title = "Repair Instructions">
+<servinfo id = "AENFFA0C7226039" title = "Compressor Drive Belt Inspection and Adjustment">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+</suzuki>

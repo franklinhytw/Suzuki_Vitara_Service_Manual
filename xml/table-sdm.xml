@@ -1,0 +1,1743 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../xml/table-sdm.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<sct id = "1" title = "Engine">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" morerows = "3" valign = "middle">
+<ptxt>Engine idle speed</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C OFF</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>550 to 650 rpm</ptxt>
+</entry>
+<entry colname = "7" morerows = "3" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1116001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C ON</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>700 to 900 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>K14C,K14C Idle stop,M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C OFF</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>600 to 700 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C ON</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>700 to 900 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt>K14C</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Engine idle speed (M/T model)</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C OFF</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>650 to 750 rpm</ptxt>
+</entry>
+<entry colname = "7" morerows = "3" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1126001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C ON</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>700 to 900 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Engine idle speed (A/T model)</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C OFF</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>700 to 800 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C ON</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>700 to 900 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>D16AA</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Engine idle speed</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C OFF</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Approx. 800 rpm</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1136001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>A/C ON</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Approx. 850 rpm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Valve clearance specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" morerows = "1" valign = "middle" align = "left">
+<ptxt>When cold (ECT: 15 – 25 &#176;C (59 – 77 &#176;F))</ptxt>
+</entry>
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Intake</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.18 – 0.22 mm (0.0071 – 0.0086 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1414003"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Exhaust</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.28 – 0.32 mm (0.0111 – 0.0125 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" morerows = "3" valign = "middle">
+<ptxt>Engine oil specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Oil pan capacity</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 3.7 liters (7.82 / 6.51 US / Imp pt.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "3" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1516001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Oil filter capacity</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 0.2 liter (0.42 / 0.35 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Others</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 0.4 liter (0.85 / 0.70 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 4.3 liters (9.09 / 7.57 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt>K14C</ptxt>
+</entry>
+<entry colname = "2" morerows = "3" valign = "middle">
+<ptxt>Engine oil specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Oil pan capacity</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 3.1 liters (6.55 / 5.46 US / Imp pt.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "3" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1526001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Oil filter capacity</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 0.2 liter (0.42 / 0.35 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Others</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 0.6 liter (1.27 / 1.06 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>About 3.9 liters (8.24 / 6.86 US / Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "5" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" morerows = "5" valign = "middle">
+<ptxt>Coolant capacity</ptxt>
+</entry>
+<entry colname = "3" morerows = "5" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" morerows = "2" valign = "middle" align = "left">
+<ptxt>M/T model</ptxt>
+</entry>
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Engine, radiator and heater</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.15 liters</ptxt>
+</entry>
+<entry colname = "7" morerows = "5" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1611002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Reservoir</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.65 liters</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.80 liters</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" morerows = "2" valign = "middle" align = "left">
+<ptxt>A/T model</ptxt>
+</entry>
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Engine, radiator and heater</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.55 liters</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Reservoir</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.65 liters</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>6.20 liters</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "5" valign = "middle">
+<ptxt>K14C</ptxt>
+</entry>
+<entry colname = "2" morerows = "5" valign = "middle">
+<ptxt>Coolant capacity</ptxt>
+</entry>
+<entry colname = "3" morerows = "5" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" morerows = "2" valign = "middle" align = "left">
+<ptxt>M/T</ptxt>
+</entry>
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Engine, radiator and heater</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.0 liters (10.57/8.80 US/Imp pt.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "5" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1621002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Reservoir</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.5 liters (1.06/0.88 US/Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.5 liters (11.62/9.68 US/Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" morerows = "2" valign = "middle" align = "left">
+<ptxt>A/T</ptxt>
+</entry>
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Engine, radiator and heater</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.2 liters (10.99/9.15 US/Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Reservoir</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.5 liters (1.06/0.88 US/Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.7 liters (12.05/10.03 US/Imp pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt>D16AA</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Coolant capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Total</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Engine, radiator, heater and degassing tank etc.: 6.2 liters (13.10/10.91 US/Imp pt.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1631002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Spark plug air gap</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>1.0 to 1.1 mm (0.040 to 0.043 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1816002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Spark plug type</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>NGK</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>SILFR6A11 (Iridium)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>DENSO</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>K16HPR-U11 (Nickel)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Initial ignition timing</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Fixed with SUZUKI scan tool</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5 ± 3&#176; BTDC (at specified idle speed)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1816005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt>K14C</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Spark plug air gap</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.7 to 0.8 mm (0.028 to 0.031 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1826002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Spark plug type</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>NGK</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>ILZKR7D8 (Iridium)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Initial ignition timing</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Fixed with SUZUKI scan tool</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5 ± 3&#176; BTDC (at specified idle speed)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1826005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" valign = "middle">
+<ptxt>M16A</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Water pump / generator drive belt tension</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Existing belt</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>4.8 – 6.2 mm (0.18 – 0.24 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1A16003"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>New belt</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>4.2 – 4.8 mm (0.16 – 0.18 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "2" valign = "middle">
+<ptxt>Battery specifications</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Non-ENG A-STOP model (market code P90)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA350A (44AH/20HR, 36AH/5HR) 12V</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1A17001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Non-ENG A-STOP model (except P90)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 300A (36AH/20HR, 28AH/5HR) 12 V</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>ENG A-STOP model</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 540A (60AH/20H, 52AH/5H) 12 V</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" valign = "middle">
+<ptxt>K14C</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Water pump / generator drive belt tension</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Existing belt</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>4.9 – 5.6 mm (0.19 – 0.22 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1A26003"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>New belt</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>3.7 – 4.7 mm (0.15 – 0.19 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "2" valign = "middle">
+<ptxt>Battery specifications</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Non-ENG A-STOP model (market code P90)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 350A (44AH/20HR, 36AH/5HR) 12V</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1A27001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Non-ENG A-STOP model (except P90)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 300A (36AH/20HR, 28AH/5HR) 12V</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>ENG A-STOP model</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 540A (60AH/20H, 52AH 5H) 12V</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>D16AA</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Battery specifications</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Non-ENG A-STOP model</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 620A (60AH/20H, 48AH/5H) 12 V</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C1A37001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>ENG A-STOP model</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>CCA 630A (72AH/20H, 60AH/5H) 12 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "2" title = "Suspension">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "8" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Front toe (Total)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>IN 1 &#177; 1 mm (IN 0.04 &#177; 0.04 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "8" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C2206001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Side slip (On one person)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0 to IN 3 mm/m (0 to IN 0.12 in./3.3 ft.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front toe angle (Each wheel)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>IN 0&#176; 03’ &#177; 0&#176; 03’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front toe angle (Total)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>IN 0&#176; 06’ &#177; 0&#176; 06’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front camber</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>–0&#176; 14’ &#177; 1&#176; 00’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front caster</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>3&#176; 35’ &#177; 2&#176; 00’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front kingpin inclination angle</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>12&#176; 11’ &#177; 2&#176; 00’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Inside steering angle</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>36&#176; 30’ &#177; 2&#176; 00’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Outside steering angle (Reference)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>31&#176; 05’ &#177; 2&#176; 00’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Rear toe (Total)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>IN 6.2 &#177; 4.0 mm (IN 0.24 &#177; 0.16 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C2306001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Rear camber</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>–1&#176; 00’ &#177; 0&#176; 30’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Rear toe angle (Total)</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0&#176; 32’ &#177; 0&#176; 21’</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Tire specifications</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>215/60 R16 95H or 215/55 R17 94 V</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C2401001"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Wheel specifications</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>16 x 6 1/2J or 17 x 6 1/2J</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C2401003"/></ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "3" title = "Driveline / Axle">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt>Front</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Front wheel bearing thrust play</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.1 mm (0.004 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C3116008"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt>Rear</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Rear wheel bearing thrust play</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.1 mm (0.004 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C3126006"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Rear differential oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.7 – 0.9 liters (1.48/1.23 – 1.90/1.58 US/Imp. pt.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C3206002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Transfer oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.88 – 0.98 liters (1.86/1.55 – 2.07/1.72 US/Imp. pt)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C3306002"/></ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "4" title = "Brakes">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Brake fluid specification</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Refer to reservoir cap</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4106003"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Brake pedal play</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>1 – 8 mm (0.04 – 0.31 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4106008"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "2" valign = "middle">
+<ptxt>Brake pedal to carpet clearance</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>When pedal is depressed at 300 N (30.6 kgf, 67.4 lbf)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4106009"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>LHD</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Over 49 mm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>RHD</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Over 59 mm</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Front brake pad lining thickness</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Standard</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>10 mm (0.39 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4206004"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>1.0 mm (0.04 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Front brake disc deflection</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.10 mm (0.004 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4206006"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Front brake disc thickness</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Standard</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>22.0 mm (0.87 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>20.0 mm (0.79 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Rear brake pad lining thickness</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Standard (new)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>9 mm (0.35 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4306004"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>1.5 mm (0.06 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Rear brake disc deflection</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.10 mm (0.004 in.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4306006"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Rear brake disc thickness</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Standard</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>9 mm (0.35 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Limit</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>8 mm (0.31 in.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Parking brake stroke</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>When lever pulled up at 200 N (20.4 kgf, 45.0 lbf)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>4 to 9 notches</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C4406002"/></ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "5" title = "Transmission / Transaxle">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" morerows = "2" valign = "middle">
+<ptxt>ATF capacity</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" valign = "middle">
+<ptxt>K14C,K14C Idle stop,M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>When draining from drain plug hole</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>4.0 liters (8.45 / 7.04 US/Imp. pt.)</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5106005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>When overhauling (M16A model)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>5.8 liters (12.26 / 10.21 US/Imp. pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>When overhauling (K14C model)</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>6.2 liters (13.10 / 10.91 US/Imp. pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt>5 M/T</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Manual transaxle oil specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" morerows = "1" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>SUZUKI GEAR OIL 99000–22B27–036</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5216002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>API GL-4 (For SAE classification, refer to viscosity chart.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Manual transaxle oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2.5 liters (5.28/4.40 US/Imp. pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt>K14C-6M/T Model</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Manual transaxle oil specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" morerows = "1" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>SUZUKI GEAR OIL 99000–22B27–036</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5226002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>API GL-4</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Manual transaxle oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2.8 liters (5.92/4.93 US/Imp. pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" valign = "middle">
+<ptxt>D16AA-6M/T Model</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" valign = "middle">
+<ptxt>Manual transaxle oil specification</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" morerows = "1" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>SUZUKI GEAR OIL 99000–22B27–036</ptxt>
+</entry>
+<entry colname = "7" morerows = "2" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5236002"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>API GL-4 (For SAE classification, refer to viscosity chart [A] in figure.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Manual transaxle oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2.1 liters (44.38/36.95 US/Imp. pt.)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>5 M/T</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Clutch pedal free travel</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2 – 8 mm (0.08 – 0.31 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5316005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Clutch fluid specification</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>M16A Idle stop,M16A</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Refer to reservoir cap.</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5316007"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>K14C-6M/T Model</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Clutch pedal free travel</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2 – 8 mm (0.08 – 0.31 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5326005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Clutch fluid specification</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>K14C,K14C Idle stop</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>Refer to reservoir cap</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5326007"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle">
+<ptxt>D16AA-6M/T Model</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Clutch pedal free travel</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2 – 8 mm (0.08 – 0.31 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5336005"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Transaxle oil specification</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>SUZUKI TWIN CLUTCH SYSTEM GEAR OIL 0001 or PETRONAS TUTELA TRANSMISSION GEARFORCE</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>990F0–TCSSG–000</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5606004"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Transaxle oil capacity</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>2.1 liters (4.44/3.70 US/Imp. pt)</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Twin clutch system actuation fluid specification</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>SUZUKI TWIN CLUTCH SYSTEM ACTUATOR FLUID 1001 or PETRONAS TUTELA CS SPEED</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>990F0–TCSSA–000</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C5606023"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Twin clutch system actuation fluid capacity including reservoir</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt>D16AA Idle stop,D16AA</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt>Reference</ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0.8 liter</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "6" title = "Steering">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Steering wheel play</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>0 – 30 mm (0 – 1.2 in.)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C6304028"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>Steering force</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>18 – 25 N (1.8 – 2.5 kgf, 4.0 – 5.6 lbf)</ptxt>
+</entry>
+<entry colname = "7" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C6304029"/></ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+<sct id = "7" title = "HVAC">
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "7" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.1in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.7in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.3in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.3in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.8in"/>
+<colspec colnum = "6" colname = "6" colwidth = "2.6in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.5in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" valign = "middle"><ptxt></ptxt></entry>
+<entry colname = "2" valign = "middle"><ptxt>Service Data</ptxt></entry>
+<entry colname = "3" valign = "middle"><ptxt>Engine</ptxt></entry>
+<entry namest = "4" nameend = "5" valign = "middle"><ptxt>Specification</ptxt></entry>
+<entry colname = "6" valign = "middle"><ptxt>Reference Value</ptxt></entry>
+<entry colname = "7" valign = "middle"><ptxt>Reference</ptxt></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" valign = "middle">
+<ptxt>Manual Type</ptxt>
+</entry>
+<entry colname = "2" valign = "middle">
+<ptxt>Compressor drive belt tension</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>9 – 10 mm (0.35 – 0.39 in.) / 100 N (10 kgf or 22 lb)</ptxt>
+</entry>
+<entry colname = "7" morerows = "1" valign = "middle">
+<ptxt><intxreftitleoff refid = "AENFFA0C7226039"/></ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" valign = "middle">
+<ptxt>New compressor drive belt tension</ptxt>
+</entry>
+<entry colname = "3" valign = "middle">
+<ptxt></ptxt>
+</entry>
+<entry namest = "4" nameend = "5" valign = "middle" align = "left">
+<ptxt></ptxt>
+</entry>
+<entry namest = "6" valign = "middle" align = "left">
+<ptxt>7 – 8 mm (0.28 – 0.31 in.) / 100 N (10 kgf or 22 lb)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</sct>
+</suzuki>

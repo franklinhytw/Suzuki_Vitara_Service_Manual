@@ -1,0 +1,331 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname = "VITARA Service Manual" manualid = "AENFFA0C" lang = "en"/>
+<section id = "a">
+<servinfo id = "Foreword01" title = "IMPORTANT">
+</servinfo>
+<servinfo id = "Foreword02" title = "FOREWORD">
+</servinfo>
+<servinfo id = "Foreword03" title = "Applicable Model / VIN">
+</servinfo>
+<servinfo id = "Foreword04" title = "Table of Contents">
+</servinfo>
+<servinfo id = "Foreword05" title = "History of Modification">
+</servinfo>
+<servinfo id = "Foreword06" title = "Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</servinfo>
+</section>
+<section id = "1D" file = "AENFFA0C14.fm" title = "none sct name">
+<servcat title = "Engine Mechanical">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1418001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1428001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1438001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1E" file = "AENFFA0C15.fm" title = "none sct name">
+<servcat title = "Engine Lubrication System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1518001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1528001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1538001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1F" file = "AENFFA0C16.fm" title = "none sct name">
+<servcat title = "Engine Cooling System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1618001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1628001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1G" file = "AENFFA0C17.fm" title = "none sct name">
+<servcat title = "Fuel System">
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1728001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1I" file = "AENFFA0C19.fm" title = "none sct name">
+<servcat title = "Starting System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1918001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1928001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C1938001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3A" file = "AENFFA0C31.fm" title = "none sct name">
+<servcat title = "Drive Shaft / Axle">
+<configtype id = "1" title = "Front">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C3118001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Rear">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C3128001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" file = "AENFFA0C32.fm" title = "none sct name">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C3208001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3C" file = "AENFFA0C33.fm" title = "none sct name">
+<servcat title = "Transfer">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C3308001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4A" file = "AENFFA0C41.fm" title = "none sct name">
+<servcat title = "Brake Control System and Diagnosis">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C4108001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4B" file = "AENFFA0C42.fm" title = "none sct name">
+<servcat title = "Front Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C4208001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4C" file = "AENFFA0C43.fm" title = "none sct name">
+<servcat title = "Rear Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C4308001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" file = "AENFFA0C51.fm" title = "none sct name">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5108001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5B" file = "AENFFA0C52.fm" title = "none sct name">
+<servcat title = "Manual Transmission/Transaxle">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5218001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5228001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5238001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5C" file = "AENFFA0C53.fm" title = "none sct name">
+<servcat title = "Clutch">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5318001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5328001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5338001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" file = "AENFFA0C56.fm" title = "none sct name">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C5608001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "6B" file = "AENFFA0C62.fm" title = "none sct name">
+<servcat title = "Steering Wheel and Column">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C6208001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" file = "AENFFA0C72.fm" title = "none sct name">
+<servcat title = "HVAC System">
+<configtype id = "2" title = "Manual Type">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C7228001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C7238001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9E" file = "AENFFA0C95.fm" title = "none sct name">
+<servcat title = "Glass / Windows / Mirrors">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9508001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9F" file = "AENFFA0C96.fm" title = "none sct name">
+<servcat title = "Security and Locks">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9608001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9H" file = "AENFFA0C98.fm" title = "none sct name">
+<servcat title = "Exterior Trim / Interior Trim">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9808001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9I" file = "AENFFA0C99.fm" title = "none sct name">
+<servcat title = "Sun Roof / T-Top / Convertible Top">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9908001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9J" file = "AENFFA0C9A.fm" title = "none sct name">
+<servcat title = "Hood / Fenders / Doors">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9A08001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9K" file = "AENFFA0C9B.fm" title = "none sct name">
+<servcat title = "Body Structure">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "8" title = "Special Tools and Equipment">
+<servinfo id = "AENFFA0C9B08001" title = "Recommended Service Material">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+</suzuki>

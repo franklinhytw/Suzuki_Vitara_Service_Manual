@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA121003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA121003">
+<div class="scnbr">10A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Adaptive Cruise Control System Function</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA121003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">Adaptive cruise control system controls vehicle speed and vehicle distance as follows.</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="29%">
+<col width="71%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">State of control</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Basic control (as a set speed 100 km/h (62 mile/h))</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Constant-speed control [A]</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Without detecting vehicle ahead
+<div class="list">
+<span class="listnum">•</span>Vehicle runs at the set speed without driver’s operation of accelerator pedal.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Deceleration control [B]</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When detecting a vehicle ahead running at lower speed than your vehicle during constant-speed control
+<div class="list">
+<span class="listnum">•</span>Corresponding to speed of the vehicle running ahead, deceleration control is activated using throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model) and brake control. Brake light is turned on during this brake control.<br><span class="listnum">•</span>When the distance is getting too close due to sudden deceleration of the vehicle ahead or cutting-in of another vehicle, headway alert (sound of warning buzzer and indication of information display) will operate.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Constant headway gap control [C]</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When following the vehicle ahead running slower than your vehicle
+<div class="list">
+<span class="listnum">•</span>Your vehicle runs corresponding to speed of the vehicle running ahead under “Constant headway gap control” keeping the set distance according to the vehicle speed.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Acceleration control [D]</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">When the vehicle ahead running at lower speed than your vehicle disappears from detecting area
+<div class="list">
+<span class="listnum">•</span>At the moment the vehicle ahead disappears, your vehicle accelerates slowly up to the set speed and runs at a constant speed.<br>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0AA12001.jpg" height="307px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA12001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003001">
+<div class="title">Effective Conditions for Control</div>
+<div class="ptxt">If all of the following conditions are met, adaptive cruise control system operates.</div>
+<div class="list">
+<span class="listnum">•</span>CRUISE (main) switch is turned ON.<br><span class="listnum">•</span>Vehicle is running at 40 km/h (25 mile/h) or higher speed.<br><span class="listnum">•</span>Gear shift lever is in 3rd or higher position. (M/T model)<br><span class="listnum">•</span>Select lever is D or M range. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Brake pedal is released.<br><span class="listnum">•</span>Parking brake is released.<br><span class="listnum">•</span>Clutch pedal is released. (M/T model)<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> OFF mode is not selected.<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> is not operating.<br><span class="listnum">•</span>RBS is not operating.<br><span class="listnum">•</span>Driver side door is closed.<br><span class="listnum">•</span>Driver seat belt is fastened.<br><span class="listnum">•</span>Engine speed is within specified range.<br><span class="listnum">•</span>Adaptive cruise control system is in normal condition.<br>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003002">
+<div class="title">Speed Set Function</div>
+<div class="ptxt">When SET/– switch is pressed in execution state of the control, the speed obtained when the switch is pressed is stored as a set speed and the adaptive cruise control system starts control.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Set speed becomes a target speed in “Constant-speed control”, furthermore it becomes the maximum speed in “Constant headway gap control”.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003003">
+<div class="title">Acceleration Function</div>
+<div class="ptxt">When RES/+ switch is pressed for a momentarily, the vehicle speed is set to 1 km/h (1 mile/h) high and the switch is pressed for a long time, the vehicle speed is set to 5 km/h (5 mile/h) high under the control of the adaptive cruise control system and the vehicle is accelerated according to the new set speed.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">During the “Constant headway gap control”, the vehicle is not accelerated but set speed can be changed.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003004">
+<div class="title">Deceleration Function</div>
+<div class="ptxt">When SET/– switch is pressed for a momentarily, the vehicle speed is set to 1 km/h (1 mile/h) low and the switch is pressed for a long time, the vehicle speed is set to 5 km/h (5 mile/h) low under the control of the adaptive cruise control system and the vehicle is decelerated according to the new set speed.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Deceleration function by SET/– switch is performed by throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model) but brake control is not applied.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003005">
+<div class="title">Cancel Function</div>
+<div class="ptxt">When CANCEL switch is pressed under the control of the adaptive cruise control system, the control is canceled and the system becomes in a state of on standby.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003006">
+<div class="title">Resume Function</div>
+<div class="ptxt">When the vehicle control is on standby by cancel operation while the vehicle is running at 40 km/h (25 mile/h) or higher speed, pressing RES/+ switch allows the system to resume running the vehicle at the speed set before the control is canceled.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003007">
+<div class="title">Headway Gap Setting Function</div>
+<div class="ptxt">There are three modes of “Long”, “Middle” and “Short” in vehicle distance setting and, during the control of the adaptive cruise control system or in the state of standby, the mode can be changed by pressing the distance switch. RBS control module controls the vehicle in “Constant headway gap control” calculating the headway gap based on the vehicle distance setting and your vehicle speed.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">When ignition is set “ON”, the headway gap is set in “Middle” mode.</div>
+</div>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0AA12002.jpg" width="229px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA12002.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="80%" align="center">
+<colgroup><col width="9%">
+<col width="41%">
+<col width="9%">
+<col width="41%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">1.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Distance switch</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">SET/– switch</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">CANCEL switch</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">5.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">CRUISE (main) switch</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">RES/+ switch</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003008">
+<div class="title">Cancel Conditions</div>
+<div class="ptxt">Adaptive cruise control is canceled under one of the following conditions.</div>
+<div class="list">
+<span class="listnum">•</span>CRUISE (main) switch is turned OFF.<br><span class="listnum">•</span>*Vehicle speed becomes lower than 40 km/h (25 mile/h).<br><span class="listnum">•</span>*CANCEL switch is turned ON.<br><span class="listnum">•</span>*Gear shift lever is in 1st, 2nd or reverse position. (M/T model)<br><span class="listnum">•</span>*Gear shift lever is in neutral position for more than 10 seconds. (M/T model)<br><span class="listnum">•</span>*Select lever is shifted to other than D or M range. (A/T model / twin clutch system model)<br><span class="listnum">•</span>*Select lever is in M range and gear position is in 1st or 2nd position. (A/T model / twin clutch system model)<br><span class="listnum">•</span>*Brake pedal is depressed.<br><span class="listnum">•</span>Parking brake is applied.<br><span class="listnum">•</span>*Clutch pedal is depressed for more than 30 seconds. (M/T model)<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> OFF mode is selected.<br><span class="listnum">•</span>*ESP<sup class="sup">®</sup> is operating.<br><span class="listnum">•</span>*RBS is operating.<br><span class="listnum">•</span>*Driver side door is opened.<br><span class="listnum">•</span>*Driver seat belt is unfastened.<br><span class="listnum">•</span>*Engine speed is out of specified range.<br><span class="listnum">•</span>Adaptive cruise control system is in abnormal condition.<br><span class="listnum">•</span>Speed limiter mode is selected.<br><span class="listnum">•</span>Precedence function for driver’s acceleration continues for 15 minutes.<br>
+</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">While the vehicle is running at 40 km/h (25 mile/h) or higher speed, if adaptive cruise control is canceled due to a condition with * (asterisk), the vehicle speed before the cancellation can be recovered by pressing RES/+ switch.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003009">
+<div class="title">Precedence Function for Driver’s Acceleration</div>
+<div class="ptxt">When accelerator pedal is depressed under the control of the adaptive cruise control system and if ECM judges that the extent of the depressing demands higher output, ECM sends accelerator override signal to RBS control module and controls throttle valve (M16A model / K14C model) or fuel injector (D16AA model) according to the depressing extent of the accelerator pedal. At this time, RBS control module cancels automatic braking if the vehicle is in “Deceleration control”. In this situation, set speed is maintained but headway alert does not operate.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003010">
+<div class="title">Cornering Assist Function</div>
+<div class="ptxt">While the vehicle is running under the control of the adaptive cruise control system, if RBS control module judges that the vehicle is entering a corner based on vehicle speed signal, steering angle signal and lateral G signal, the control module performs “Deceleration control”, and if exiting the corner is judged, “Acceleration control” is performed.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003011">
+<div class="title">Overtaking Assist Function</div>
+<div class="ptxt">While the vehicle is running under “Constant headway gap control” at 70 km/h (43 mile/h) or higher speed, if RBS control module judges overtaking operation based on signal from turn signal switch status through BCM, RBS control module accelerates the vehicle earlier than “Acceleration control” and starts searching new vehicle ahead.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA121003012">
+<div class="title">Headway Alert Function</div>
+<div class="ptxt">When the headway gap is getting too close due to sudden deceleration of the vehicle ahead or cutting-in of another vehicle and pressing collision hazard is judged, sounding warning buzzer and indication of information display warn the driver of the situation.</div>
+</div>
+</div>
+
+</body></html>

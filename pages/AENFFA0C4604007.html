@@ -1,0 +1,714 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C4604007</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C4604007">
+<div class="scnbr">4F</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC Table</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C4604007&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>If you do not perform <a href="javascript:%20xref(&#39;AENFFA0C4604001&#39;)">ESP® System Check</a> before starting the diagnosis, the diagnosis will show a false result.<br>Perform <a href="javascript:%20xref(&#39;AENFFA0C4604001&#39;)">ESP® System Check</a> before starting the diagnosis.<br><span class="listnum">•</span>*1: Whether ABS warning light, EBD warning light (brake warning light) or ESP<sup class="sup">®</sup> warning light lights up or not depends on DTC detecting condition.<br><span class="listnum">•</span>*2: DTC is cleared automatically when sensor is calibrated.<br><span class="listnum">•</span>*3: In case that both DTC C1024 and C1075 are detected, go to DTC C1024 troubleshooting.<br>
+</div>
+</div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="12%">
+<col width="25%">
+<col width="36%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC name</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">ABS warning light</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">EBD warning light</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">ESP<sup class="sup">®</sup> warning light</th>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">No DTC</td>
+<td valign="middle" align="left" class="t_cell">Normal</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1015 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Longitudinal G Sensor in Yaw Rate / G Sensor Assembly Failure</td>
+<td valign="middle" align="left" class="t_cell">Longitudinal G sensor signal is out of specified range.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF<br>(4WD model: Lights up)</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Longitudinal G sensor signal does not change although vehicle is accelerating or decelerating.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1016 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604018&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Brake Light Switch Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">Brake light switch ON signal is detected for more than specified time while vehicle running with accelerator pedal depressed.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">*1</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Brake light switch ON signal is not detected although master cylinder pressure sensor signal is more than specified value.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1017 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Lateral G Sensor Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">Lateral G sensor signal is out of specified range.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF<br>(4WD model: Lights up)</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Lateral G sensor signal does not change although vehicle is turning right or left.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1021 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Front Wheel Speed Sensor Circuit Voltage</td>
+<td valign="middle" align="left" class="t_cell">Wheel speed sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1022 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Front Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Abnormal wheel speed sensor signal is detected continuously.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1023 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Yaw Rate Sensor Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">Yaw rate sensor signal is out of specified range.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF<br>(4WD model: Lights up)</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Although vehicle is in a stop, yaw rate sensor signal is more than specified value.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-left-width:2px;">C1024 *3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604020&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell">Steering Angle Sensor Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">CPU in steering angle sensor detects internal defect.</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor signal is out of specified range.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor signal does not change although vehicle is turning right or left.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1025 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Front Wheel Speed Sensor Circuit Voltage</td>
+<td valign="middle" align="left" class="t_cell">Wheel speed sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1026 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Front Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Abnormal wheel speed sensor signal is detected continuously.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1027 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604021&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> OFF Switch Failure</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> OFF switch remains “ON” for more than specified time.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1028 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Master Cylinder Pressure Sensor Circuit Voltage</td>
+<td valign="middle" align="left" class="t_cell">Brake master cylinder pressure sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C102A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ABS Control Continuous Operation</td>
+<td valign="top" align="left" class="t_cell">ABS control is activated on all wheels continuously.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C102B <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Brake Booster Pressure Sensor System Malfunction</td>
+<td valign="middle" align="left" class="t_cell">Brake booster pressure sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1031 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Rear Wheel Speed Sensor Circuit Voltage</td>
+<td valign="middle" align="left" class="t_cell">Wheel speed sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1032 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Rear Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Abnormal wheel speed sensor signal is detected continuously.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-left-width:2px;">C1033 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell">Wheel Speed Sensor Deviation</td>
+<td valign="middle" align="left" class="t_cell">Abnormal wheel speed sensor signal is detected continuously at two or more wheel speed sensors.</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">*1</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">*1</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">ABS control is activated for more than specified time.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Wheel speed sensor driver power supply voltage is out of specified range.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1035 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Rear Wheel Speed Sensor Circuit Voltage</td>
+<td valign="middle" align="left" class="t_cell">Wheel speed sensor signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1036 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Rear Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Abnormal wheel speed sensor signal is detected continuously.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1037 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Steering Angle Sensor Power Supply Voltage</td>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor power supply voltage is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1038 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Steering Angle Sensor Detects Rolling Counter Failure</td>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor detects invalid CAN data from ESP<sup class="sup">®</sup> control module.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1039 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Yaw Rate / G Sensor Assembly Internal Failure</td>
+<td valign="middle" align="left" class="t_cell">Yaw rate / G sensor internal failure is detected.</td>
+<td valign="middle" align="center" class="t_cell">OFF<br>(4WD model: Lights up)</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1040 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> Continuous Operation</td>
+<td valign="middle" align="left" class="t_cell">Stability control is activated for more than specified time.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1041 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Front Inlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1042 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Front Outlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1043 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cut Solenoid No.1 Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1044 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Cut Solenoid No.2 Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1045 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Front Inlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1046 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Front Outlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1047 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Both-Front Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Yaw rate estimated by both front wheel speed sensors does not match yaw rate sensor signal.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1048 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Both-Rear Wheel Speed Sensor or Encoder Signal Performance</td>
+<td valign="middle" align="left" class="t_cell">Yaw rate estimated by both rear wheel speed sensors does not match yaw rate sensor signal.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C104A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604031&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Clutch Pedal Position No.2 Switch System Malfunction</td>
+<td valign="middle" align="left" class="t_cell">CPP No.2 switch signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C104B <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Back Up Light Switch System Malfunction</td>
+<td valign="middle" align="left" class="t_cell">Reverse signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C104C <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Neutral Position Switch System Malfunction</td>
+<td valign="middle" align="left" class="t_cell">Neutral position switch signal is out of specified range.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1051 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Rear Inlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1052 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Right-Rear Outlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1053 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Low Pressure Solenoid No.1 Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1054 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Low Pressure Solenoid No.2 Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1055 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Rear Inlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1056 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Left-Rear Outlet Solenoid Valve Circuit Correlation</td>
+<td valign="middle" align="left" class="t_cell">Solenoid output and solenoid monitor data disagree.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1057 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Power Supply Voltage</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module power supply voltage is higher than specified value.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">*1</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">*1</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module power supply voltage is lower than specified value.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-left-width:2px;">C1061 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell">Pump Motor Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">Pump motor power supply voltage is out of specified range.</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Lights up</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell">Lights up</td>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">When pump motor is activated, a malfunction in pump motor is detected.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Power supply from CPU to pump motor and pump motor relay monitor data disagree.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1062 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Solenoid Valve Continuous Operation Failure</td>
+<td valign="middle" align="left" class="t_cell">Solenoid valve is activated for more than specified time using active test of SUZUKI scan tool.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1063 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Solenoid Valve Power Supply Driver Circuit Performance</td>
+<td valign="middle" align="left" class="t_cell">Solenoid valve power supply relay output is “ON”, although monitored output is “OFF”.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">Lights up</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">Lights up</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Solenoid valve power supply relay output is “OFF”, although monitored output is “ON”.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1065 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Brake Light Relay Circuit Failure</td>
+<td valign="middle" align="left" class="t_cell">Inconsistency between input voltage to brake light relay and monitored status continues for longer than specified time.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1069 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604038&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Steering Angle Sensor Specification Unregistered</td>
+<td valign="top" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module detects that steering angle sensor which has been used in other vehicle is installed.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1071 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> Control Module Internal Failure</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module internal failure is detected.</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell">Lights up</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1074 *2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">G Sensor Calibration</td>
+<td valign="middle" align="left" class="t_cell">Yaw rate / G sensor calibration is not completed.</td>
+<td valign="middle" align="center" class="t_cell">OFF<br>(4WD model: Lights up)</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1075 *2, *3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Steering Angle Sensor Calibration</td>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor calibration is not completed.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1084 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> Detects Message Counter Failure from EPS</td>
+<td valign="middle" align="left" class="t_cell">Invalid CAN data is received from P/S control module. (counter value)</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1085 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> Detects Check Sum Failure from EPS</td>
+<td valign="middle" align="left" class="t_cell">Invalid CAN data is received from P/S control module. (sum value)</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1090 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ECM Detect Rolling Counter Failure from ESP<sup class="sup">®</sup> Control Module</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module sends invalid CAN data to ECM.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1091 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">CAN Invalid Data from ECM</td>
+<td valign="middle" align="left" class="t_cell">DTC concerned with ECM is detected.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1092 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">CAN Invalid Data from TCM</td>
+<td valign="middle" align="left" class="t_cell">DTC concerned with TCM is detected.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1093 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">4WD Control Module Data in CAN Line Failure</td>
+<td valign="middle" align="left" class="t_cell">DTC concerned with 4WD is detected.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1094 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Torque Request Reject Status</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module receives invalid CAN data from ECM (about engine torque control).</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C1097 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">DTC Concerning Power Steering Control Module</td>
+<td valign="middle" align="left" class="t_cell">DTC concerned with P/S is detected.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">C1099 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Invalid Data Received From ENG A-STOP Control Module</td>
+<td valign="middle" align="left" class="t_cell">DTC concerned with ENG A-STOP control module is detected.</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell">OFF</td>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Neutral position switch signal is out of specified range.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C10A0 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Invalid Data Received From RBS Control Module</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module received invalid CAN data (counter value) from RBS control module.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C10A1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Invalid Data Received From RBS Control Module</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module received invalid CAN data (sum value) from RBS control module.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">C10A3 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Invalid Auto Brake Request Received From RBS Control Module</td>
+<td valign="middle" align="left" class="t_cell">ESP<sup class="sup">®</sup> control module received automatic brake activation demand for longer than specified time continuously.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0073 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604046&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Control Module Communication Bus Off</td>
+<td valign="middle" align="left" class="t_cell">Impossible to receive and transmit CAN data.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0100 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ECM</td>
+<td valign="middle" align="left" class="t_cell">ECM message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0101 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604048&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With TCM</td>
+<td valign="middle" align="left" class="t_cell">TCM message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0114 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604049&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With 4-Wheel Drive Control Module</td>
+<td valign="middle" align="left" class="t_cell">4WD message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0126 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604050&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Steering Angle Sensor</td>
+<td valign="middle" align="left" class="t_cell">Steering angle sensor message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0131 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604051&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Power Steering Control Module</td>
+<td valign="middle" align="left" class="t_cell">P/S message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U0140 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604052&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With Body Control Module</td>
+<td valign="middle" align="left" class="t_cell">BCM message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">Lights up</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">U1082 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604053&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Lost Communication With ENG A-STOP Control Module</td>
+<td valign="middle" align="left" class="t_cell">ENG A-STOP control module message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">U108A <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604054&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Lost Communication With RBS Control Module</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">RBS control module message data is missing from CAN communication.</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">OFF</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">OFF</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

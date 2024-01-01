@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CAA01002</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CAA01002">
+<div class="scnbr">10J</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of RBS System Components</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CAA01002&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="27%">
+<col width="73%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Component</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Description</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">RBS control module</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>RBS control module (1) incorporates a radar sensor and is located behind the radiator grill. The control module judges a potential hazard of the collision sensing the traffic conditions using the radar sensor.<br><span class="listnum">•</span>The radar sensor adopts a millimeter wave radar method and transmits a radio wave from the front of the RBS control module, and measures reflex time of the radio wave from a vehicle ahead. Thus the radar sensor measures the distance, relative speed and direction of the vehicle ahead. Since the radar sensor uses a radio wave, effective detection of a vehicle ahead is possible under the condition of high speed running, at night, in bad weather such as rainy weather or dense fog.<br><span class="listnum">•</span>RBS control module communicates with other control module through CAN communication. For CAN communication, refer to <a href="javascript:%20xref(&#39;AENFFA0CA811001&#39;)">Communication System Description:M16A Model</a>, <a href="javascript:%20xref(&#39;AENFFA0CA821001&#39;)">Communication System Description:K14C Model</a> or <a href="javascript:%20xref(&#39;AENFFA0CA831001&#39;)">Communication System Description:D16AA Model</a>.<br>
+<div class="fig" style="margin-left:-24px;">
+<div style=""><img src="../image/IEFA0A/IEFA0AAA0002.jpg" height="156" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AAA0002.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">RBS OFF switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>RBS OFF switch is installed on the switch bezel of the instrument panel.<br><span class="listnum">•</span>The switch is of a momentary contact type and pushing the button for about 3 seconds switches the system to ON (RBS OFF light: off) or OFF (RBS OFF light: on).<br><span class="listnum">•</span>The switch signal is outputted to BCM and RBS control module receives RBS OFF switch signal from BCM through CAN communication.<br><span class="listnum">•</span>When ignition is turned “ON” again, the system comes ON (RBS OFF light: off).<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">FAR/NEAR setting switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>FAR/NEAR setting switch is installed on the switch bezel of the instrument panel.<br><span class="listnum">•</span>The switch is of a push lock contact type and switches the warning timing to FAR (far distance) or NEAR (short distance).<br>
+<div class="list">
+<span class="listnum">—</span>FAR: When the switch is not pushed in.<br><span class="listnum">—</span>NEAR: When the switch is pushed in.<br>
+</div>
+<span class="listnum">•</span>The switch signal is outputted to BCM and RBS control module receives FAR/NEAR setting switch signal from BCM through CAN communication.<br><span class="listnum">•</span>Even if ignition is turned “ON” again, the state of FAR/NEAR setting switch is maintained.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ESP<sup class="sup">®</sup> OFF switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ESP<sup class="sup">®</sup> OFF switch is installed on the switch bezel of the instrument panel.<br><span class="listnum">•</span>When ESP<sup class="sup">®</sup> control is disabled by operating ESP<sup class="sup">®</sup> OFF switch, RBS control module receives ESP<sup class="sup">®</sup> OFF signal and disables RBS control.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Steering angle sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Steering angle sensor is located on the steering column.<br><span class="listnum">•</span>The sensor transmits steering angle signal to RBS control module through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Combination meter</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Receiving information from RBS control module through CAN communication, combination meter displays various RBS information and sounds a buzzer for the system warning, collision warning, operating condition, etc. and warns the driver of this situation. Refer to <a href="javascript:%20xref(&#39;AENFFA0CAA01004&#39;)">Operation Table of Indicator Light / Information Display / Buzzer</a> for further details.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ECM</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ECM transmits brake light switch signal, accelerator pedal position signal, etc. to RBS control module through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">BCM</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>BCM transmits RBS OFF switch signal, FAR/NEAR setting switch signal, outside air temperature signal, etc. to RBS control module through CAN communication.<br><span class="listnum">•</span>RBS control module uses outside air temperature signal to judge degree of contamination with snow etc. on millimeter wave radar cover.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">TCM (A/T model / twin clutch system model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">TCM transmits transmission shift position signal to RBS control module through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ESP<sup class="sup">®</sup> control module</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ESP<sup class="sup">®</sup> control module controls brake pressure and brake light relay receiving information from RBS control module through CAN communication.<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> control module transmits wheel speed signal, yaw rate signal, master cylinder pressure signal, etc. to RBS control module through CAN communication.<br><span class="listnum">•</span>RBS control module uses wheel speed signal for a canceling condition on RBS after actuation of RBS.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">ENG A-STOP control module (M/T model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">ENG A-STOP control module transmits neutral switch status to RBS control module through CAN communication.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

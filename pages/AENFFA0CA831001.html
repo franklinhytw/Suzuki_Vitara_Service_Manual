@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA831001</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA831001">
+<div class="scnbr">10H</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Communication System Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA831001&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0CA831001001">
+<div class="title">System Description</div>
+<div class="ptxt">Communication between each control module and device is established through continuous input / output of ON/OFF digital signals to exchange various data items. Transmitting / receiving these data is called as serial communication interface.</div>
+<div class="ptxt">Types of serial communication interface with protocols (communication standards) such as UART, CAN and LIN have been adopted for in-car communication system.</div>
+<div class="ptxt">UART is used for communication between keyless start control module and steering lock unit.</div>
+<div class="ptxt">LIN is used for communication between combination meter and parking sensor system control module, for communication between ECM and generator, and for communication between HVAC control module and auto A/C panel.</div>
+<div class="ptxt">In addition, combination meter, P/S control module, keyless start / keyless entry control module, HVAC control module (auto A/C model), steering angle sensor, headlight auto leveling control module (LED headlight model), rain / light sensor (LED headlight model), 4WD control module (4WD model), SDM, TPMS control module (TPMS model), BCM, ENG A-STOP control module (ENG A-STOP model), ESP<sup class="sup">®</sup> control module, RBS control module (RBS model), TCM (twin clutch system model), select lever (twin clutch system model) and ECM are transmitted / received data through a twist pair of two communication lines (CAN High and CAN Low) connected through CAN communication. Data obtained by a specific control module can be shared with every control module.</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA831001002">
+<div class="title">UART and LIN Communication Signal</div>
+<div class="ptxt">UART and LIN communication system is a serial communication system capable of transmitting multiple types of information using a single communication line.</div>
+<div class="ptxt">Each block of data transmitted via the serial communication system is called a frame.</div>
+<div class="ptxt">A frame contains multiple bytes, and each byte consists of a start bit, data bits, and a stop bit.</div>
+<div class="ptxt">The data bit stream consists of 8 data bits that are transmitted in series, and each bit is assigned to a specific information item.</div>
+<div class="ptxt">Switching between High and Low in each bit enables transmission of multiple types of information via a single communication line.</div>
+<div class="ptxt">When multiple devices are connected, 1 transmission cycle includes more than 1 frame and the frame length varies depending on the protocol used.</div>
+<div class="fig">
+<div style=""><img src="../image/IDL10A/IDL10AA80008.jpg" height="326px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDL10A/IDL10AA80008.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA831001003">
+<div class="title">CAN Communication Signal</div>
+<div class="ptxt">CAN communication system is a serial communication system for transmitting multiple data items (values from sensors, control data and control signals) as ON-OFF digital signals through communication lines. This system uses two lines (CAN High and CAN Low) for the communication circuit to maintain high reliability even when used for high-speed serial communication. </div>
+<div class="ptxt">Serial communication is established as shown below with 2.5 V as the reference level for both CAN High signal (1) and CAN Low signal (2). The range of CAN High signal is from 2.5 V to about 3.5 V and that of CAN Low signal is from 2.5 V to about 1.5 V. When both are at 2.5 V, signal is judged as OFF. When CAN High signal is 3.5 V and CAN Low signal is 1.5 V (that is, when the difference between High voltage and Low voltage is more than about 2 V), signal is judged as ON. For this reason, a feature of CAN communication signal is that the signal waveform between CAN High and CAN Low signals is symmetrical with respect to 2.5 V level. CAN communication fails when the symmetrical signal form collapses.</div>
+<div class="fig">
+<div style=""><img src="../image/I7V10A/I7V10AA81002.jpg" height="190px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/I7V10A/I7V10AA81002.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+</div>
+
+</body></html>

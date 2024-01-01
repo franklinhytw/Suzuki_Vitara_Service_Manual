@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA321003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA321003">
+<div class="scnbr">10C</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Engine Starting Procedure</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA321003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">In the case that remote controller battery is flat, there is system trouble, and/or the keyless push start system is disabled, engine starting procedure is as follows.</div>
+<div class="s1">
+<span class="s1num">1)</span>When depressing clutch pedal (M/T model) or depressing brake pedal with shift position P or N (A/T model / twin clutch system model), the keyless start control module outputs an information display request signal (“PUSH START SWITCH”) through CAN communication.</div>
+<div class="s1">
+<span class="s1num">2)</span>Push engine switch.</div>
+<div class="s1">
+<span class="s1num">3)</span>Keyless start control module outputs an immobilizer indicator light signal and an information display request signal (“PLACE KEY FOB ON START SWITCH”) through CAN communication.</div>
+<div class="s1">
+<span class="s1num">4)</span>Place remote controller on the engine switch for about 2 seconds while information display indicates “PLACE KEY FOB ON START SWITCH”.</div>
+<div class="s1">
+<span class="s1num">5)</span>Keyless start control module reads transponder code of remote controller through immobilizer coil antenna equipped in engine switch.</div>
+<div class="s1">
+<span class="s1num">6)</span>The starting motor control relay turns ON and the starting motor starts, a steering lock release request is output to the steering lock unit through serial communication, and a message is sent to the ECM to permit engine starting only when transponder code corresponds with the registered code.</div>
+<div class="s1">
+<span class="s1num">7)</span>When transponder code does not correspond with the registered code, keyless start control module does not turn on the starting motor control relay to inhibit the starting motor operation.
+<div class="fig" style="margin-left:-25px;">
+<div style=""><img src="../image/IEFA0A/IEFA0AA32001.jpg" height="455px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0AA32001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+</div>
+
+</body></html>

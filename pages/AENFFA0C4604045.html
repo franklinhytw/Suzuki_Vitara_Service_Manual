@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C4604045</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C4604045">
+<div class="scnbr">4F</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC C10A0 / C10A1 / C10A3</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C4604045&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C4604045001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="53%">
+<col width="47%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">C10A0: Invalid Data Received From RBS Control Module</span><br>ESP<sup class="sup">®</sup> control module received invalid CAN data (counter value) from RBS control module.</td>
+<td valign="top" align="left" rowspan="3" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>RBS system<br><span class="listnum">•</span>Adaptive cruise control system<br><span class="listnum">•</span>RBS control module<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> control module<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">C10A1: Invalid Data Received From RBS Control Module</span><br>ESP<sup class="sup">®</sup> control module received invalid CAN data (sum value) from RBS control module.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">C10A3: Invalid Auto Brake Request Received From RBS Control Module</span><br>ESP<sup class="sup">®</sup> control module received automatic brake activation demand for longer than specified time continuously.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C4604045002">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C4604045003">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604045004">1</td>
+<td class="testaction">
+<div class="question">Was “ESP<sup class="sup">®</sup> System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0C4604001&#39;)">ESP® System Check</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604045005">2</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Perform <a href="javascript:%20xref(&#39;AENFFA0C4604005&#39;)">DTC Check</a>.</div>
+<div class="question">Is other DTC(s) than C10A0, C10A1 and C10A3 detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to applicable DTC troubleshooting.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C4604045006">3</td>
+<td class="testaction">
+<div class="title">DTC check for RBS control module</div>
+<div class="test1">
+<span class="test1num">1)</span>Check RBS control module for DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CAA04003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="question">Is any DTC(s) detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to applicable DTC troubleshooting.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace ESP<sup class="sup">®</sup> hydraulic unit / control module assembly and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4606005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

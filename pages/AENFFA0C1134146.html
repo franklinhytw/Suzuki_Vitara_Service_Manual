@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1134146</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js.Без названия" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1134146">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC P0700 / P0701</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1134146&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C1134146001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="52%">
+<col width="48%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P0700: Transmission Control System (MIL Request)</span><br>ECM received MIL request from TCM via CAN.<br>(1 D/C detection logic but MIL does not light up)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Twin clutch system</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">P0701: Transmission Control System Range / Performance</span><br>Any of the following conditions is met.<br>
+<div class="list">
+<span class="listnum">•</span>ECM received inconsistent CAN signal from TCM.<br><span class="listnum">•</span>ECM received “Engine stop request signal” from TCM via CAN.<br>
+</div>(1 D/C detection logic)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">TCM</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1134146002">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C1134146003">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1134146005">1</td>
+<td class="testaction">
+<div class="question">Was “Engine and Emission Control System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0C1134001&#39;)">Engine and Emission Control System Check:D16AA</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1134146004">2</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Check TCM for DTC.</div>
+<div class="question">Is there any DTC(s) detected in TCM?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to applicable DTC troubleshooting.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Clear DTC <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1134004&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>, and recheck DTC.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

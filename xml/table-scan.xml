@@ -1,0 +1,212 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/table-scan.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<section id = "1A" title = "Engine">
+<servcat title = "Engine General Information and Diagnosis">
+<configtype id = "1" title = "M16A">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C1114007"/>
+</scan-title>
+</configtype>
+<configtype id = "2" title = "K14C">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C1124007"/>
+</scan-title>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C1134007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" title = "Driveline / Axle">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C3204007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "4F" title = "Brakes">
+<servcat title = "Electronic Stability Program">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C4604009"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" title = "Transmission / Transaxle">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C5104008"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" title = "Transmission / Transaxle">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C5604008"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "6C" title = "Steering">
+<servcat title = "Power Assisted Steering System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C6304007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" title = "HVAC">
+<servcat title = "HVAC System">
+<configtype id = "1" title = "Non-A/C">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C7214009"/>
+</scan-title>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C7234012"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "8B" title = "Restraint">
+<servcat title = "Air Bag System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C8204008"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "9B" title = "Body, Cab and Accessories">
+<servcat title = "Lighting Systems">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C9204006"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "9C" title = "Body, Cab and Accessories">
+<servcat title = "Instrumentation / Driver Info. / Horn">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C9304016"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "9D" title = "Body, Cab and Accessories">
+<servcat title = "Wipers / Washers">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C9404003"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "9F" title = "Body, Cab and Accessories">
+<servcat title = "Security and Locks">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0C9604006"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10A" title = "Control Systems">
+<servcat title = "Cruise Control System">
+<configtype id = "1" title = "Cruise Control">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA114006"/>
+</scan-title>
+</configtype>
+<configtype id = "2" title = "Adaptive Cruise Control">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA124008"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10B" title = "Control Systems">
+<servcat title = "Body Electrical Control System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA204007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10D" title = "Control Systems">
+<servcat title = "Tire Pressure Monitoring System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA404006"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10E" title = "Control Systems">
+<servcat title = "Keyless Start System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA504007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10I" title = "Control Systems">
+<servcat title = "Engine Auto Stop Start System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CA904007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+<section id = "10J" title = "Control Systems">
+<servcat title = "Radar Brake Support System">
+<configtype id = "0" title = "configtype none title">
+<scan-title>
+Reference:
+<intxreftitleoff refid = "AENFFA0CAA04007"/>
+</scan-title>
+</configtype>
+</servcat>
+</section>
+</suzuki>

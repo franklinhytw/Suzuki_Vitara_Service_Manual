@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA901001</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA901001">
+<div class="scnbr">10I</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">ENG A-STOP System Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA901001&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">The ENG A-STOP system performs the following controls to reduce emissions, fuel consumption, and idling noise during the vehicle stops. The system monitors the vehicle condition depending on signals from the relevant sensors and switches.</div>
+<div class="list">
+<span class="listnum">•</span>Engine auto stop control<br><span class="listnum">•</span>Engine auto start control<br>
+</div>
+<div class="ptxt">The system indicates status of these controls to the driver by lighting or flashing the ENG A-STOP indicator light located in the combination meter.</div>
+<div class="servinfosub" id="AENFFA0CA901001001">
+<div class="title">Engine Auto Stop Control</div>
+<div class="ptxt">When all of the following conditions are met, the ENG A-STOP control module sends an engine stop signal to the ECM via the CAN communication line. The ECM then stops the engine.</div>
+<div class="list">
+<span class="listnum">•</span>The battery is sufficiently charged.<br><span class="listnum">•</span>The battery temperature is between 5 and 70 °C (between 41 and 158 °F).<br><span class="listnum">•</span>The vehicle speed is below 0 km/h (0 mile/h).<br><span class="listnum">•</span>The vehicle speed higher than 6 km/h (4 mile/h) was recorded after starting off.<br><span class="listnum">•</span>The vehicle is not driven backward.<br><span class="listnum">•</span>The engine coolant temperature is between 18 and 95 °C (between 64 and 203 °F) (D16AA model).<br><span class="listnum">•</span>The engine coolant temperature is between 57 and 105 °C (between 135 and 221 °F) (M16A model / K14C model).<br><span class="listnum">•</span>The engine exhaust gas temperature is higher than the specified level (D16AA model).<br><span class="listnum">•</span>Except when DPF<sup class="sup">®</sup> is in regeneration or at least 5 seconds have passed since the end of DPF<sup class="sup">®</sup> regeneration (D16AA model). For details, refer to <a href="javascript:%20xref(&#39;AENFFA0C1131008&#39;)">DPF® Regeneration Description:D16AA</a>.<br><span class="listnum">•</span>The vacuum in the brake booster is higher than the specified level.<br><span class="listnum">•</span>The gear is shifted to “Neutral”. (M/T model)<br><span class="listnum">•</span>Clutch pedal is released. (M/T model)<br><span class="listnum">•</span>The select lever is shifted to D or N range. (A/T model / twin clutch system model)<br><span class="listnum">•</span>The slope angle is between –14% and 14% (A/T model / twin clutch system model)<br><span class="listnum">•</span>The brake pedal is depressed. (A/T model / twin clutch system model)<br><span class="listnum">•</span>The hydraulic pressure in the brake master cylinder is higher than the specified level. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Accelerator pedal is released.<br><span class="listnum">•</span>Engine auto stop control is not inhibited by ENG A-STOP OFF switch.<br><span class="listnum">•</span>The hood is closed.<br><span class="listnum">•</span>The driver’s door is closed and the driver’s seat belt is fastened.<br><span class="listnum">•</span>The ECM has detected no DTC related to ENG A-STOP system.<br><span class="listnum">•</span>The ECM permits engine to stop.<br><span class="listnum">•</span>The ESP<sup class="sup">®</sup> control module has detected no DTC related to ENG A-STOP system.<br><span class="listnum">•</span>The ABS is not in operation.<br><span class="listnum">•</span>The cabin temperature is within the preset temperature range (Auto A/C model).<br><span class="listnum">•</span>Air outlet is controlled excluding “DEF” position (Auto A/C model).<br><span class="listnum">•</span>The ENG A-STOP control module has detected no DTC.<br>
+</div>
+<div class="ptxt">When the engine auto stop control is activated, an ENG A-STOP indicator light signal is sent to the combination meter via the CAN communication line. The ENG A-STOP indicator light then lights up.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">If engine is started while the hood is open in case of jump starting etc., “engine auto stop control” is suspended until ignition is set to “OFF”.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA901001002">
+<div class="title">Engine Auto Start Control</div>
+<div class="ptxt">When the gear is in neutral (M/T model) and one or more of the following conditions are met, the ENG A-STOP control module sends a signal to the ECM via the CAN communication line to authorize start of the engine. This turns on the ST2 relay, which causes the starting motor to operate and the engine to be restarted.</div>
+<div class="list">
+<span class="listnum">•</span>The ENG A-STOP OFF switch is pushed.<br><span class="listnum">•</span>Clutch pedal is depressed. (M/T model)<br><span class="listnum">•</span>Select lever is shifted to other than D or N range. (A/T model / twin clutch system model)<br><span class="listnum">•</span>At least 2 minutes have passed after automatic stop of the engine. (*1)<br><span class="listnum">•</span>Select lever is being shifted from N to D range. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Brake pedal is released. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Accelerator pedal is depressed. (A/T model / twin clutch system model)<br><span class="listnum">•</span>The hydraulic pressure in the brake master cylinder is lower than the specified level. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Driver’s door is opened. (A/T model / twin clutch system model)<br><span class="listnum">•</span>Driver’s seat belt is unfastened. (A/T model / twin clutch system model)<br><span class="listnum">•</span>The vehicle speed is 4 km/h (3 mile/h) or higher. (*1)<br><span class="listnum">•</span>Battery discharge is more than specified level. (*1)<br><span class="listnum">•</span>Battery voltage is lower than specified value. (*1)<br><span class="listnum">•</span>The vacuum in the brake booster is lower than the specified level. (*1)<br><span class="listnum">•</span>ENG A-STOP system request signal is received from HVAC control module (Auto A/C model). (*1)<br><span class="listnum">•</span>The ENG A-STOP control module has detected specific DTC(s). This is an engine starting by fail-safe mode. For details, refer to <a href="javascript:%20xref(&#39;AENFFA0CA904006&#39;)">Fail-Safe Table</a>. (*1)<br>
+</div>
+<div class="ptxt">When the engine auto start control is activated, an ENG A-STOP indicator light signal is sent to the combination meter via the CAN communication line. And then the ENG A-STOP indicator light is turned off.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">*1: The ENG A-STOP indicator light then flashes 2 times.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA901001003">
+<div class="title">Engine Auto Start Inhibit Control</div>
+<div class="ptxt">If any of the following conditions is met during the “engine auto stop control”, the ENG A-STOP control module suspends the “engine auto start control”.</div>
+<div class="list">
+<span class="listnum">•</span>The ENG A-STOP control module has detected specific DTC(s). This is an engine start inhibit by fail-safe mode. For details, refer to <a href="javascript:%20xref(&#39;AENFFA0CA904006&#39;)">Fail-Safe Table</a>.<br><span class="listnum">•</span>The hood is open.<br><span class="listnum">•</span>The driver’s door is open and the driver’s seat belt is unfastened. (M/T model)<br>
+</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Once the “engine auto start control” is inhibited, driver’s operation is needed to restart the engine.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA901001004">
+<div class="title">Engine Restart Control after Engine Stall (M/T Model)</div>
+<div class="ptxt">While driving vehicle, if the engine stalled caused by a clutch operation error etc., the engine will restart by depressing the clutch pedal without turning the ignition key to “START” (ignition switch model) or without pushing the engine switch to start (keyless push start model) when the following conditions are met.</div>
+<div class="list">
+<span class="listnum">•</span>The gear shift lever is “Neutral”.<br><span class="listnum">•</span>The clutch pedal is depressed fully.<br>
+</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">This auto restart control may not work if the engine coolant temperature does not meet restart conditions such as low temperature. In this case, the engine can be restarted in the conventional manner.</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

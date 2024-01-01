@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C5104023</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C5104023">
+<div class="scnbr">5A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC P0602 / P0604 / P062F / P1702 / P184C / P185E / P185F</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C5104023&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C5104023001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="64%">
+<col width="36%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P0602: Control Module Programming Error</span><br>TCM internal failure (data programming error).<br>(Transmission warning light does not light up)</td>
+<td valign="top" align="left" rowspan="7" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Reprogramming of TCM failure<br><span class="listnum">•</span>TCM<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P0604: Internal Control Module Random Access Memory (RAM) Error</span><br>TCM internal failure (RAM error).<br>(1 D/C detection logic)</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P062F: Internal Control Module EEPROM Error</span><br>TCM internal failure (EEPROM error).<br>(1 D/C detection logic)</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P1702: Internal Control Module Memory Check Sum Error</span><br>TCM internal failure (memory error).<br>(1 D/C detection logic)</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P184C: Solenoid Driver “A” circuit Range / Performance</span><br>TCM internal failure (solenoid valve IC error).<br>(1 D/C detection logic)</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P185E: TCM Safety Function Failure</span><br>TCM internal failure (safety function control error).<br>(1 D/C detection logic)</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">P185F: TCM Safety Integrity Function Failure</span><br>TCM internal failure (safety integrity function control error).<br>(1 D/C detection logic)</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C5104023002">
+<div class="title">DTC Confirmation Procedure</div>
+<div class="topic" id="AENFFA0C5104023003">
+<div class="title">P0602 / P0604 / P062F / P1702 / P185F</div>
+<div class="s1">
+<span class="s1num">1)</span>Set ignition “ON” for 10 sec.</div>
+</div>
+<div class="topic" id="AENFFA0C5104023004">
+<div class="title">P184C / P185E</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Check that the following condition is met in this “DTC Confirmation Procedure”.</div>
+<div class="list">
+<span class="listnum">•</span>DTC U0073 or U0100 is not detected.<br>
+</div>
+</div>
+</div>
+<div class="s1">
+<span class="s1num">1)</span>Set ignition “ON” for 10 sec.</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C5104023005">
+<div class="title">DTC Troubleshooting</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">After reprogramming TCM, perform <a href="javascript:%20xref(&#39;AENFFA0C5106001&#39;)">TCM Learning Value Clearance</a>, <a href="javascript:%20xref(&#39;AENFFA0C5106003&#39;)">Neutral Position Calibration</a> and <a href="javascript:%20xref(&#39;AENFFA0C5106002&#39;)">TCM Learning Value Initialization</a>.</div>
+</div>
+</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C5104023006">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C5104023007">1</td>
+<td class="testaction">
+<div class="question">Was “A/T Control System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0C5104001&#39;)">A/T Control System Check</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C5104023008">2</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="question">Is there any DTC(s) other than P0602, P0604, P062F, P1702, P184C, P185E or P185F?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to troubleshooting for applicable DTC.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C5104023009">3</td>
+<td class="testaction">
+<div class="title">Reprogramming operation procedure check and equipment preparation</div>
+<div class="question">Is there a problem with reprogramming operation procedure, SUZUKI scan tool or DLC?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 4.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Check the operation procedures, SUZUKI scan tool and DLC.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C5104023010">4</td>
+<td class="testaction">
+<div class="title">TCM reprogramming</div>
+<div class="question">Was reprogramming of TCM executed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Check for intermittent trouble. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C0006002&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace TCM and execute reprogramming again. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C5106023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

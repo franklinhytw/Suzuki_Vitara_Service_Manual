@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1134114</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1134114">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Fuel Flow Actuator Operation Check</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1134114&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C1134114001">
+<div class="title">Circuit Diagram</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0A112015.jpg" height="388px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A112015.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%" align="center">
+<colgroup><col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">ECM connector (View: [a])</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">B1:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">Fuel pressure sensor power supply circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">1.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">ECM</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">A1:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Fuel flow actuator power supply circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">B2:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Fuel pressure sensor signal circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Fuel flow actuator</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">A2:</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Fuel flow actuator drive circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">B3:</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">Fuel pressure sensor ground circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">Fuel pressure sensor</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1134114002">
+<div class="title">Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C1134114003">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1134114004">1</td>
+<td class="testaction">
+<div class="title">Fuel flow actuator power supply circuit and drive circuit check</div>
+<div class="test1">
+<span class="test1num">1)</span>When ignition is “OFF”, disconnect “D01” connector from ECM and fuel flow actuator connector.</div>
+<div class="test1">
+<span class="test1num">2)</span>Check for proper terminal connection to “D01” connector and fuel flow actuator connector.</div>
+<div class="test1">
+<span class="test1num">3)</span>If connections are OK, check the following points.
+<div class="list">
+<span class="listnum">•</span>Resistance of “A1” and “A2” circuits: less than 1 Ω<br><span class="listnum">•</span>Resistance between “A1” circuit and ground: infinity<br><span class="listnum">•</span>Resistance between “A2” circuit and ground: infinity<br><span class="listnum">•</span>Resistance between “A1” circuit terminal and other terminal at fuel flow actuator connector: infinity<br><span class="listnum">•</span>Voltage of “A1” and “A2” circuits: approx. 0 V (When ignition is “ON”)<br>
+</div>
+</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Repair defective wire harness.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1134114005">2</td>
+<td class="testaction">
+<div class="title">Fuel flow actuator check</div>
+<div class="test1">
+<span class="test1num">1)</span>When ignition is “OFF”, connect “D01” connector to ECM and fuel flow actuator connector.</div>
+<div class="test1">
+<span class="test1num">2)</span>Check fuel flow actuator. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1736013&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Check low-pressure fuel supply circuit and high-pressure fuel supply circuit.</div>
+<div class="list">
+<span class="listnum">•</span>Low-pressure fuel supply circuit: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1734001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">•</span>High-pressure fuel supply circuit: <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1734002&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace high pressure pump. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1736011&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

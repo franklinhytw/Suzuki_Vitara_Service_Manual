@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA201002</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA201002">
+<div class="scnbr">10B</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Vehicle Dynamics Synthetic Control</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA201002&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>Vehicle dynamics synthetic control is not a device which increases the limit of braking, traction and steering performance.<br>There is a limit in securing vehicle stability by vehicle dynamics synthetic control.<br><span class="listnum">•</span>Check that all tires are of the specified size, maker and brand, have the same tread pattern, and have the same air pressure and degree of wear.<br><span class="listnum">•</span>When driving a vehicle with tire chains or a temporary tire installed, vehicle dynamics synthetic control may not operate normally.<br>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA201002001">
+<div class="title">Description</div>
+<div class="list">
+<span class="listnum">•</span>Vehicle dynamics synthetic control is a system for inhibiting vehicle skidding during cornering. This system totally controls EPS and 4WD systems prior to activation of ESP<sup class="sup">®</sup> control, which is activated based on vehicle driving conditions judged by BCM.<br><span class="listnum">•</span>BCM calculates a driver’s target yaw rate, the target vehicle cornering speed based on the vehicle speed and the steering angle signal. It detects the degree of oversteering/understeering during cornering based on the signal difference between the target yaw rate and the actual one, and it inhibits oversteering/understeering and assists in stabilizing the vehicle. Furthermore, if the vehicle is judged to be unsteady, severe oversteering/understeering, to the degree it cannot be controlled with vehicle dynamics synthetic control, the vehicle is switched to ESP<sup class="sup">®</sup> control.<br>
+</div>
+<div class="fig">
+<div style=""><img src="../image/IAW101/IAW101A20034.jpg" height="97px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IAW101/IAW101A20034.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA201002002">
+<div class="title">Example: Oversteering Restraint Control</div>
+<div class="ptxt">When vehicle rear wheels slide out during cornering, the actual yaw rate is higher than the target. BCM judges that oversteering, tendency for rear wheels to skid, has occurred and the following vehicle dynamics synthetic control is carried out.</div>
+<div class="ptxt">BCM sends steering assist torque request to P/S control module based on oversteering level via CAN communication, and this facilitates decrease in excessive steering input by providing counter-steering assist torque to steering system. Also, on 4WD model, BCM sends 4WD coupling torque request to 4WD control module via CAN communication. This reduces the rear wheel traction torque and reduces the influence of traction force at the rear wheels, and this helps prevent oversteering.</div>
+<div class="fig">
+<div style=""><img src="../image/IDAA0A/IDAA0AA20001.jpg" width="398px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA20001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA201002003">
+<div class="title">Example: Understeering Restraint Control (4WD Model)</div>
+<div class="ptxt">When vehicle front wheels slide out during cornering, the actual yaw rate is lower than the target. BCM judges that understeering, tendency for front wheels to skid, has occurred and the following vehicle dynamics synthetic control is carried out.</div>
+<div class="ptxt">BCM sends 4WD coupling torque request (rear wheel traction torque increase request) to 4WD control module based on understeering level via CAN communication. This increases the rear wheel traction torque and reduces the influence of traction force at the front wheels, and this helps prevent understeering.</div>
+<div class="fig">
+<div style=""><img src="../image/IDAA0A/IDAA0AA20002.jpg" width="392px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA20002.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA201002004">
+<div class="title">Example: Push-Understeering Restraint Control (4WD Model)</div>
+<div class="ptxt">When vehicle shows exceeding push-understeering tendency due to 4WD, the following vehicle dynamics synthetic control is carried out.</div>
+<div class="ptxt">BCM sends 4WD coupling torque request (rear wheel traction torque reduce request) to 4WD control module based on understeering level via CAN communication. This reduces the rear wheel traction torque and increases the influence of traction force at the front wheels, and this helps prevent push-understeering.</div>
+</div>
+</div>
+
+</body></html>

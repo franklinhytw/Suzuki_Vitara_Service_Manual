@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1114051</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1114051">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC P2101 / P2119</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1114051&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C1114051001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="69%">
+<col width="31%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">P2101: Throttle Actuator “A” Control Motor Circuit Range / Performance</span><br>Any of the following conditions is met. <br>
+<div class="list">
+<span class="listnum">•</span>Difference between measured throttle valve position and targeted throttle valve position is more than specified value.<br><span class="listnum">•</span>Duty ratio of throttle actuator signal is out of specified range for specified time.<br>
+</div>(1 D/C detection logic)</td>
+<td valign="top" align="left" rowspan="2" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Throttle actuator and/or its circuit<br><span class="listnum">•</span>Electric throttle body assembly<br><span class="listnum">•</span>ECM<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">P2119: Throttle Actuator Control Throttle Body Range / Performance</span><br>Any of the following conditions is met. <br>
+<div class="list">
+<span class="listnum">•</span>Time taken by throttle valve to return from partially open position to mechanical default position is more than specified time during return spring check process after setting ignition “OFF”.<br><span class="listnum">•</span>Measured default throttle position is out of specified range.<br>
+</div>(1 D/C detection logic, monitoring once per D/C)</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1114051002">
+<div class="title">Circuit Diagram</div>
+<div class="fig">
+<div style=""><img src="../image/IDAA0A/IDAA0A111012.jpg" height="371px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0A111012.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%" align="center">
+<colgroup><col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+<col width="5%">
+<col width="29%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-left-width:2px;">[A]:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">ECM connector (View: [a])</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">B3:</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-left-width:0px;">TP sensor (sub) signal circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;">4.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:0px;">Throttle actuator</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">A1:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Throttle actuator control circuit (close)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">B4:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">TP sensor ground circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">5.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">ECM</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">A2:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Throttle actuator control circuit (open)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">1.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">Electric throttle body assembly</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">6.</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">Shield wire</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-left-width:2px;">B1:</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">TP sensor power supply circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">2.</td>
+<td valign="top" align="left" class="ct_cell" style="border-left-width:0px;">TP sensor (main)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">B2:</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">TP sensor (main) signal circuit</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">3.</td>
+<td valign="top" align="left" class="ct_cell" style="border-bottom-width:2px;border-left-width:0px;">TP sensor (sub)</td>
+<td valign="top" align="right" class="ct_cell" style="border-right-width:0px;border-bottom-width:2px;">&nbsp;</td>
+<td valign="top" align="left" class="ct_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1114051003">
+<div class="title">DTC Confirmation Procedure</div>
+<div class="topic" id="AENFFA0C1114051004">
+<div class="title">P2101</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Check that the following condition is met in this “DTC Confirmation Procedure”.</div>
+<div class="list">
+<span class="listnum">•</span>Battery voltage &gt; 8 V<br>
+</div>
+</div>
+</div>
+<div class="s1">
+<span class="s1num">1)</span>Set ignition “ON”.</div>
+<div class="s1">
+<span class="s1num">2)</span>Keep accelerator pedal at fully depressed position for 2 sec.</div>
+<div class="s1">
+<span class="s1num">3)</span>Release accelerator pedal for 2 sec.</div>
+<div class="s1">
+<span class="s1num">4)</span>Set ignition “OFF” for 1 min. and then set ignition “ON”.</div>
+</div>
+<div class="topic" id="AENFFA0C1114051005">
+<div class="title">P2119</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Check that the following conditions are met in this “DTC Confirmation Procedure”.</div>
+<div class="list">
+<span class="listnum">•</span>Battery voltage &gt; 10 V<br><span class="listnum">•</span>6 °C (43 °F) &lt; ECT &lt; 100 °C (212 °F)<br><span class="listnum">•</span>IAT &gt; 6 °C (43 °F)<br>
+</div>
+</div>
+</div>
+<div class="s1">
+<span class="s1num">1)</span>Set ignition “ON”.</div>
+<div class="s1">
+<span class="s1num">2)</span>Keep accelerator pedal at fully depressed position for 2 sec.</div>
+<div class="s1">
+<span class="s1num">3)</span>Release accelerator pedal for 2 sec.</div>
+<div class="s1">
+<span class="s1num">4)</span>Set ignition “OFF” for 1 min. and then set ignition “ON”.</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1114051006">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C1114051007">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1114051008">1</td>
+<td class="testaction">
+<div class="question">Was “Engine and Emission Control System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0C1114001&#39;)">Engine and Emission Control System Check:M16A</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1114051009">2</td>
+<td class="testaction">
+<div class="title">DTC recheck</div>
+<div class="test1">
+<span class="test1num">1)</span>Clear DTC.</div>
+<div class="test1">
+<span class="test1num">2)</span>Perform electric throttle control system calibration. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1316004&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="test1">
+<span class="test1num">3)</span>Recheck DTC.</div>
+<div class="question">Is DTC P2101 / P2119 still detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 3.</div>
+</td>
+<td class="testno">
+<div class="ptxt">End.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1114051010">3</td>
+<td class="testaction">
+<div class="title">Throttle actuator drive circuit check</div>
+<div class="test1">
+<span class="test1num">1)</span>Check throttle actuator drive circuits according to Step 2 under <a href="javascript:%20xref(&#39;AENFFA0C1114050&#39;)">DTC P2100:M16A</a>.</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 4.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Repair or replace defective wire harness.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C1114051011">4</td>
+<td class="testaction">
+<div class="title">Electric throttle body assembly check</div>
+<div class="test1">
+<span class="test1num">1)</span>Check electric throttle body assembly for performance. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1316003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="question">Is check result OK?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Replace ECM and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1316001&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace electric throttle body assembly.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

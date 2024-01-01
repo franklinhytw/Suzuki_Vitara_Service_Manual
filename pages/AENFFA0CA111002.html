@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA111002</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA111002">
+<div class="scnbr">10A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Cruise Control System Components and Functions</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA111002&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="20%">
+<col width="80%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Component</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Function</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ECM and electric throttle body (M16A model / K14C model) or fuel injector (D16AA model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ECM performs centralized control over all functions including setting a constant speed, resuming it, setting coast, and canceling cruise control minimum limit speed.<br>ECM controls electric throttle valve opening (M16A model / K14C model) or fuel injector (D16AA model) to keep actual vehicle speed at set (target) speed.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">CRUISE (main) switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">This switch has a momentary contact type button to turn cruise control function ON and OFF.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">SET/– switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When this switch is pressed (ON) and then released (OFF) while vehicle is running at a speed of 40 km/h (25 mile/h) or higher, vehicle speed at that OFF moment is stored in memory and it is maintained (constant cruising).<br>When this switch is continuously pressed (ON) during constant cruising, vehicle speed will continually decrease as long as switch is ON. When it is released (OFF), vehicle speed at that moment is stored in memory and vehicle starts constant cruising.<br>Pressing this switch (ON) during constant cruising decreases vehicle speed according to number of times the switch is pressed.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">RES/+ switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When this switch is pressed (ON) during constant cruising, vehicle speed will continually increase as long as switch is ON. When it is released (OFF), vehicle speed at that moment is stored in memory and vehicle starts constant cruising. If vehicle speed is higher than 40 km/h (25 mile/h) after cruise control is canceled, pressing this switch ON momentarily will resume vehicle running at the speed.<br>Pressing this switch (ON) during constant cruising increases vehicle speed according to number of times the switch is pressed.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">CANCEL switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When this switch is pressed (ON), cruise control (throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model)) is canceled.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Wheel speed sensor (vehicle speed signal)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ECM receives speed sensor signal from ESP<sup class="sup">®</sup> control module through CAN communication and calculates vehicle speed using that signal.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Brake light switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Brake light switch has 2 contact points. One contact point closes when brake pedal is depressed to light brake light and provide a voltage signal to the ECM.<br>The other contact point (brake pedal position switch) opens when brake pedal is depressed to shut off power to cruise control of ECM, thereby canceling cruise control (throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model)).<br>This switch is installed to cancel cruise control.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Clutch pedal position switch (M/T model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">When clutch pedal is depressed, clutch pedal position switch closes and provides a ground signal to ECM.<br>ECM cancels cruise control (throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model)) when this signal is inputted.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">TCM (A/T model / twin clutch system model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">TCM transmits transmission shift position signal to ECM through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">“CRUISE” indicator</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">In the state with ignition “ON” and cruise control system in OFF, pressing CRUISE (main) switch once and releasing it will activate the cruise control system and ECM will cause indicator to light up.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">“SET” indicator</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Lights up when cruise control (throttle valve control (M16A model / K14C model) or fuel injector control (D16AA model)) is functioning.</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

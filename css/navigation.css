@@ -1,0 +1,486 @@
+#navigationBar {
+/*position: absolute;*/
+background-color: #003145;
+top: 81px;
+height: 27px;
+/*left: 18px;*/
+right: 182px;
+margin:0;
+/*margin-left: 18px;*/
+border:0 none;
+}
+
+#logoutLink {
+
+/* top: 82px;
+height: 27px;
+right: 21px;
+*/
+padding-right: 18px;
+font-size: 13px;
+font-family: SuzukiPROBold,Arial;
+color: white;	
+text-align:right;
+float: right;
+}
+
+#menuDiv {
+	left: 0px;
+	font-size: 13px;
+	font-family: Verdana,Arial;
+	font-weight:bold;
+	color:#ffffff;
+	height: 27px;
+	float:left;
+	position: absolute;
+}
+
+
+#portletStyle {
+	margin: 9px;
+/*	width:210px;
+	height:180px;*/
+	background-color:#EDEDED;
+}
+
+#portletHeader {
+	border: solid 1px #000000;
+	background-color: #0098DB;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	height: 18px;
+	font-size: 13px;
+}
+
+#portletStyleImgLink {
+	padding-top: 9px;
+	padding-left:9px;
+	padding-right:9px;
+	min-width:162px;
+  max-width:162px;
+	min-height: 54px;
+	max-height: 108px;
+}
+
+#portletStyleDescription {
+padding: 9px;
+}
+
+
+
+
+
+#expertCodeCell {
+position: absolute;
+height: 27px;
+left: 0px;
+bottom: 0px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#expertCodeInput {
+/* position: absolute; */
+/*left: 0px; */
+font-size: 13px;
+font-family: Verdana,Arial;
+width: 90px;
+margin: 0px 0px 0px 0px;
+/*padding: 0px 0px 0px 0px;*/
+/*padding-left: 18px;*/
+height:21px;
+}
+input.expertCodeInput {
+margin:0;
+padding:0;
+font-size: 12px;
+font-family: Arial;
+width: 90px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height:18px;
+border:0 none;
+display:block;
+}
+
+#expertCodeButton {
+position: absolute;
+margin:0;
+padding:0;
+border:0 none;
+height: 21px;
+left: 91px;
+width:18px;
+}
+
+INPUT.expertCodeButton {
+margin:0;
+padding:0;
+height:18px;
+width: 18px;
+background:url(../../img/buttons/middle/play.gif) left  no-repeat; 
+border:0 none; 
+overflow:visible; 
+display:inline; 
+margin:0px; 
+padding:0px;
+display:block;
+}
+
+#menuBar {
+position: absolute;
+left: 135px;
+font-size: 13px;
+font-family: SuzukiPROBold;
+color: white;
+}
+
+#menuBar ul li {
+display:inline;
+}
+
+#imgMenuDiv {
+/*position: absolute;*/
+/*left: 18px;
+right: 18px;
+top:18px;
+bottom:18px;*/
+/*overflow: scroll;*/
+}
+
+
+ul.menu {
+padding: 0px;
+margin: 0px;
+
+}
+
+li.menu {
+padding-right: 18px;
+font-size: 13px;
+font-family: SuzukiPROBold;
+color: white;
+}
+
+a.linkMenu {
+	font-size: 13px;
+	font-family: SuzukiPROBold;
+	color: white;
+	text-decoration: none;
+}
+
+a.linkMenu:hover {
+	text-decoration: underline;
+}
+
+a.linkCommon {
+color: #FFFFFF;	
+font-family: SuzukiPROBold;
+font-size: 13px;
+}
+
+a.linkCommon:hover {
+text-decoration: underline;
+}
+a.logoutLink {
+color: #C60C30;
+text-decoration: underline;
+font-family:Arial,Helvetica,Tahoma,Geneva,sans-serif;
+font-size: 8pt;
+}
+
+
+a.logoutLink {
+color: #FFFFFF;	
+font-family: SuzukiPROBold;
+font-size: 13px;
+}
+
+a.logoutLink:hover {
+text-decoration: underline;
+}
+
+
+
+#navigationbar_ {
+		float: left;
+	width: 200px;
+	height: 100%;
+	bottom: 0px;
+	text-align: center;
+	background-color: rgb(0,49,69);
+	font-family: Verdana,Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 6px;
+}
+td.navCell {
+	width: 0px;
+	padding:0;
+	background:transparent;
+}
+
+#toggleNav {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 190px;
+	text-align: right;	
+}
+button.toggleButton {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 10px;
+	height: 10px;	
+}
+img.toggleImage {
+	padding: 0;
+	margin: 0;
+	border: 0;	
+	width: 10px;
+	height: 10px;		
+}
+#actPage{
+	text-align: center;
+	border-top:1px solid #FFFFFF;
+}
+#breadCrumb {
+	text-align: left;
+	color:#0098DB;
+	height:27px;
+	padding-left:9px;
+	padding-top:9px;
+	font-size:12px;
+}
+
+.breadCrumb {
+padding-right:5px;
+
+color:#0098DB;
+}
+
+
+
+
+#MenuCell{
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 6px;
+	background-color:rgb(94,182,228); 
+	color:#FFFFFF;	
+	font-weight:bold;
+}
+#MenuP{
+	border-top:1px solid #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 6px;
+	background-color: #0098DB;
+	color:#FFFFFF;	
+	font-weight:bold;
+}
+#starExplanation{
+	color:#DDDDDD;	
+}
+.menuPE{
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 6px;
+	font-weight:bold;
+	margin-left: 3px;
+	
+}
+.menuSE{
+	margin-left: 5px;	
+}
+#expertCodeDiv{
+	text-align: center;
+	font-size: 14px;
+	height: 34px;
+	background-color:rgb(94,182,228); 
+	color:#FFFFFF;	
+	border-top:1px solid #FFFFFF;
+}
+
+tr.menuP{
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;	
+	font-weight:bold;
+	height: 24px;
+}
+
+table.menu {
+	border-collapse: collapse;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;	
+	text-align: left;
+	font-weight:bold;
+}
+tr.menuR {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: left;
+	height: 24px;
+	border-top: 1px solid #FFFFFF;
+	padding-left: 5px;
+}
+
+
+
+th.MenuNode {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;	
+	height: 34px;
+}
+.Menu {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;	
+	height: 24px;
+	padding-left: 3px;
+}
+.EXP {
+	padding-left: 4pt;
+}
+.MenuD {
+	font-family: Verdana,Arial, Helvetica, SuzukiPRORegular;
+	font-size: 6pt;
+	color: #003145;
+	text-align: center;
+	vertical-align:bottom;
+}
+
+/**
+*	Used in myfaces Trinidad
+*
+***/
+.linkMenu.OraLink:link, .linkMenu.xi:link {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight:bold;	
+	text-decoration: underline;
+}
+.linkMenu.OraLink:visited, .linkMenu.xi:visited {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight:bold;	
+	text-decoration: underline;
+}
+
+
+
+
+
+
+.DHTMLSuite_menuBar_top{	/* The bar that is parent of the menu strip */
+float:left;
+line-height:18px;
+font-size: 13px;
+font-family: Verdana,Arial;
+font-weight:bold;
+color: #FFFFFF;
+border: 0;
+}
+
+.DHTMLSuite_menuBar_sub{
+float:left;
+line-height:18px;
+background: #003145;
+
+font-size: 11px;
+font-family: Verdana,Arial;
+display:inline;
+color: #FFFFFF;
+border: 0;
+}
+
+.DHTMLSuite_menuItem_top_regular,.DHTMLSuite_menuItem_top_over,.DHTMLSuite_menuItem_top_click,.DHTMLSuite_menuItem_top_disabled,.DHTMLSuite_menuItem_top_active{
+padding-left:9px;
+padding-right:9px;
+float:left;
+font-size: 13px;
+font-family: Verdana,Arial;
+font-weight:bold;
+left:0px;
+}
+.DHTMLSuite_menuItem_top_regular div,.DHTMLSuite_menuItem_top_over div,.DHTMLSuite_menuItem_top_click div,.DHTMLSuite_menuItem_top_disabled div,.DHTMLSuite_menuItem_top_active div{
+float:left;
+}
+
+.DHTMLSuite_menuItem_top_regular{
+cursor:pointer;
+}
+.DHTMLSuite_menuItem_top_over{
+text-decoration:underline;
+background-color: #0098DB;
+cursor:pointer;
+}
+.DHTMLSuite_menuItem_top_click{
+text-decoration:underline;
+cursor:pointer;
+}
+.DHTMLSuite_menuItem_top_active{
+color:#FCA000;
+cursor:pointer;
+}
+
+.DHTMLSuite_menuItem_top_disabled{	
+color:#CCCCCC;
+cursor:pointer;
+}
+
+
+
+
+.DHTMLSuite_menuItem_sub_regular, .DHTMLSuite_menuItem_sub_over,.DHTMLSuite_menuItem_sub_click,.DHTMLSuite_menuItem_sub_disabled,.DHTMLSuite_menuItem_sub_active{	/* Commom css for regular, mouse over and mouse click items */
+line-height:18px;
+height:18px;	
+padding-left:9px;
+font-size: 11px;
+font-family: Verdana,Arial;
+clear:both;
+}
+.DHTMLSuite_menuItem_sub_disabled{
+cursor:default;
+}
+.DHTMLSuite_menuItem_sub_disabled div,.DHTMLSuite_menuItem_sub_disabled{	/* Disabled sub menu item - Here, we apply the rules on the divs inside the element, i.e. the div for the icon, text and arrow */
+filter:alpha(opacity=30);
+opacity:0.3;
+}
+
+
+.DHTMLSuite_menuItem_sub_regular{
+background: #003145;
+}
+.DHTMLSuite_menuItem_sub_over{
+background: #0098DB;
+}
+.DHTMLSuite_menuItem_sub_click{
+background: #003145;
+}
+.DHTMLSuite_menuItem_sub_active{
+color:#FCA000;
+background: #003145;
+}
+
+.DHTMLSuite_menuItem_top_arrowShowSub{	/* Arrow div for sub elements (Right pointing arrow ) */
+background-image:url('http://dv18:8080/Login_SSO_Server/common/img/menu_strip_down_arrow.png');	/* Path relative to the css file */
+background-repeat:no-repeat;
+background-position: center right;
+height:16px;
+margin:0 -1px 0 -1px;
+padding:0;
+width:12px;
+float:left;
+right:0px;
+}

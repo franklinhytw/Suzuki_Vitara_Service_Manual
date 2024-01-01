@@ -1,0 +1,799 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1114007</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1114007">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Scan Tool Data</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1114007&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub">
+<div class="scantooltitle">ECM</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>If communication between SUZUKI scan tool and ECM is not possible, perform the following checks:<br>
+<div class="list">
+<span class="listnum">—</span>Check communication condition between PC and VCI using SUZUKI scan tool function.<br><span class="listnum">—</span>Check DLC power circuit and ground circuit.<br><span class="listnum">—</span>Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.<br><span class="listnum">—</span>Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CA814004&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br><span class="listnum">—</span>Check ECM power circuit and ground circuit. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114072&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a><br>
+</div>
+<span class="listnum">•</span>For type distinction of OBD system, refer to “Discrimination for OBD System” under <a href="javascript:%20xref(&#39;AENFFA0C1111003&#39;)">OBD System Description:M16A</a>.<br><span class="listnum">•</span>With the generic scan tool, only data with asterisk (*) in the following table can be read. (type A, C, D and E)<br><span class="listnum">•</span>When checking data with engine running at idle or racing, place gear shift lever in neutral position and apply parking brake lever fully. Also, if nothing or “no load” is indicated, turn off A/C, all electric loads, P/S and all the other switches.<br><span class="listnum">•</span>Data with asterisk 1 (*1) in the table below is applicable to type A and E.<br>
+</div>
+</div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="3%">
+<col width="23%">
+<col width="50%">
+<col width="24%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">&nbsp;</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Scan tool data</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;">Vehicle condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Normal condition / Reference value</th>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="6" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" rowspan="6" class="t_cell">Fuel System <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007002&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Open loop control before satisfaction of closed loop control conditions (ECT &gt;10 °C, IAT, TP, A/F sensor/system = OK)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OL (open loop)</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Open loop control due to driving conditions (Power enrichment, etc.)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OL-Drive (open loop)</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Open loop control due to system fault detected</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OL-Fault (open loop)</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Closed loop control using HO2S-1 and HO2S-2 sensor as feedback sensors for fuel control</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">CL (closed loop)</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Closed loop control due to system fault detected</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">CL-Fault (closed loop)</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">When engine stops with ignition “ON”</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Short Term Fuel Trim <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007003&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. –20 to 20%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Long Term Fuel Trim <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007004&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. –20 to 20%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">Total Fuel Trim <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. –30 to 30%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">Inj Pulse Width <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007006&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed with no load after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 1.6 to 4.0 msec.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Ignition Advance <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007007&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed with no load after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">1 to 15° BTDC</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Calculated Load <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007008&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed with no load after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 20 to 40%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Engine Speed <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007009&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up<br>Radiator cooling fan: Stopped<br>All electrical equipment: OFF<br>Gear shift lever: Neutral position (M/T model)<br>Select lever: P range (A/T model)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">M/T model: 550 to 650 rpm<br>A/T model: 600 to 700 rpm</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">Desired Idle <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007010&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up<br>Radiator cooling fan: Stopped<br>All electrical equipment: OFF<br>Gear shift lever: Neutral position (M/T model)<br>Select lever: P range (A/T model)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">M/T model: 550 to 650 rpm<br>A/T model: 600 to 700 rpm</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Vehicle Speed <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007011&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Vehicle running</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Almost the same as speedometer reading</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">MAP <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007012&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 20 to 55 kPa</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">ECT <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007013&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 80 to 105 °C (176 – 221 °F)</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Intake Air Temperature <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007014&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">–5 °C (–9 °F) + environmental temperature to 40 °C (72 °F) + environmental temperature</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Barometric Pres <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007015&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Barometric pressure is displayed.</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">EVAP Canist Prg Duty <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007016&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">VVT Gap <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007017&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">–1.0 to 1.0° CA</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">IAC Throttle Opening <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007018&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed with no load after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 1 to 40%</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up<br>A/C compressor: Operating<br>Blower speed selector: Max position</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 10 to 50%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">TP Sensor 1 Volt <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007019&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0.6 to 1.0 V</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">4.1 to 4.5 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">TP Sensor 2 Volt <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007020&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">4.0 to 4.4 V</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0.5 to 0.9 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">APP Sensor 1 Volt <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007021&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0.6 to 0.9 V</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">3.7 to 4.4 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">APP Sensor 2 Volt <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007022&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0.3 to 0.5 V</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">1.8 to 2.2 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Accel Position <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007023&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0 to 2%</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">90 to 100%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Throttle Position <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007024&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0 to 10%</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">90 to 100%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Target Throttle Posi <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007025&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0 to 2%</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">90 to 100%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">O2S B1 S1 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007026&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 0 to 1.0 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">O2S B1 S2 <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007027&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: 2,000 rpm for 3 min. or more after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 0 to 1.0 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">*</td>
+<td valign="middle" align="left" class="t_cell">Battery Voltage <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007028&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Approx. 13 to 15 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">Fuel Tank Level <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007029&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">0 to 100%</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">A/C Pressure <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007030&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed<br>A/C compressor: Operating<br>Blower speed selector: Max position<br>Ambient temperature: 30 °C (86 °F)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">HFC–134a: 1,400 to 1,730 kPa<br>HFO–1234yf: 1,270 to 1,630 kPa</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">Generator Reg Volt (Com) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007031&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">12.0 to 15.0 V</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="3" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="3" class="t_cell">Radiator Fan <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007032&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan: Off</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Off</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan: Low speed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Low</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Radiator cooling fan: High speed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">High</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">A/C Comp Relay <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007033&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Running<br>A/C compressor: Operating<br>Blower speed selector: 1st or higher speed position</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Fuel Pump <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007034&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Running</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;<br>&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Intake Tuning Sol (Com) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007035&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">IMT valve: Close (using “IMT Valve” of “Active Test” mode on SUZUKI scan tool.)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Close</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">IMT valve: Open (using “IMT Valve” of “Active Test” mode on SUZUKI scan tool.)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Open</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Starter SW <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007036&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “START” (engine cranking)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">A/C Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007037&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">A/C switch: ON</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Blower Fan <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007038&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Non-A/C model: 2nd or higher speed position<br>Manual A/C model: 2nd or higher speed position<br>Auto A/C model: 4th or higher speed position</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Non-A/C model: Other than above condition<br>Manual A/C model: Other than above condition<br>Auto A/C model: Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Brake Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007039&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Brake pedal: Depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Brake pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Electric Load <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007040&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Headlight: ON</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell">Headlight: OFF</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">PNP Signal <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007041&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Select lever: P or N range</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">P/N</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Select lever: Other than P or N range</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">D</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Clutch SW <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007042&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Clutch pedal: Depressed fully</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Declutch</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Clutch pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Clutched</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Cruise RES/ACC Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007043&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“RES / +” switch: Pushed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">“RES / +” switch: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Cruise SET/COAST Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007044&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“SET / –” switch: Pushed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">“SET / –” switch: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Cruise CANCEL Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007045&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“CANCEL” switch: Pushed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">“CANCEL” switch: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Cruise ON/OFF Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007046&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">“Cruise” switch: Pushed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Pushed</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">“Cruise” switch: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Released</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Distance Setting Switch <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007047&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Distance switch: Pushed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Distance switch: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Fuel Cut <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007048&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Accelerator pedal: Released<br>Engine condition: 2,000 rpm or more after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">Closed Throttle Pos <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007049&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Released</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">ON</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Ignition: “ON”<br>Accelerator pedal: Fully depressed</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">OFF</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">O2S B1 S1 Act <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007050&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Active</td>
+</tr>
+<tr>
+<td valign="middle" align="center" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" class="t_cell">O2S B1 S2 Act <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007051&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine: Idle speed after warming up</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Active</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">IMT Valve Actuator <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007052&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">IMT valve: Close (using “IMT Valve” of “Active Test” mode on SUZUKI scan tool.)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Close</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">IMT valve: Open (using “IMT Valve” of “Active Test” mode on SUZUKI scan tool.)</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Open</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell">ENG A-STOP (Mon) (*1) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007053&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">Engine is stopped by engine auto stop control.</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Eng Stop</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell">Other than above condition</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Eng Run</td>
+</tr>
+<tr>
+<td valign="middle" align="center" rowspan="2" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">&nbsp;</td>
+<td valign="middle" align="left" rowspan="2" class="t_cell" style="border-bottom-width:2px;">ENG A-STOP (Com) (*1) <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C1114007054&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</td>
+<td valign="middle" align="left" class="t_cell">ENG A-STOP control module requests engine auto-stop</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Req</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Engine: Running</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Not Req</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1114007001">
+<div class="title">Scan Tool Data Definitions</div>
+<div class="topic" id="AENFFA0C1114007002">
+<div class="title">Fuel System (Fuel system status)</div>
+<div class="ptxt">A/F ratio feedback loop status is displayed as follows.</div>
+<div class="ptxt">OL: Open loop control before satisfaction of closed loop control conditions (ECT &gt; 10 °C, IAT, TP sensor/system = OK).</div>
+<div class="ptxt">CL: Closed loop control using oxygen sensor(s) as feedback sensor(s).</div>
+<div class="ptxt">OL-DRIVE: Open loop control due to driving requirement (power-up enrichment etc.).</div>
+<div class="ptxt">OL-FAULT: Open loop control system fault.</div>
+<div class="ptxt">CL-FAULT: Closed loop control system fault.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007003">
+<div class="title">Short Term Fuel Trim (%)</div>
+<div class="ptxt">Short term fuel trim value represents short term corrections to air/fuel mixture. 0 (zero) indicates no correction, a value greater than 0 indicates enrichment correction, and a value less than 0 indicates enleanment correction.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007004">
+<div class="title">Long Term Fuel Trim (%)</div>
+<div class="ptxt">Long term fuel trim value represents long term corrections to air/fuel mixture. 0 (zero) indicates no correction, a value greater than 0 indicates enrichment correction, and a value less than 0 indicates enleanment correction.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007005">
+<div class="title">Total Fuel Trim (%)</div>
+<div class="ptxt">Total fuel trim is calculated from short term fuel trim and long term fuel trim. This value indicates how much correction is necessary to keep the air/fuel mixture stoichiometrical.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007006">
+<div class="title">Inj Pulse Width (Fuel injection pulse width, msec)</div>
+<div class="ptxt">This parameter indicates the injector drive pulse width (time) during which the injector valve stays open as commanded by ECM. (For multipoint fuel injection, the injector drive time means that of the No.1 cylinder.)</div>
+</div>
+<div class="topic" id="AENFFA0C1114007007">
+<div class="title">Ignition Advance (Ignition timing advance for No.1 cylinder, ° BTDC)</div>
+<div class="ptxt">This parameter indicates the ignition timing of No.1 cylinder commanded by ECM. The actual ignition timing should be checked using a timing light.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007008">
+<div class="title">Calculated Load (Calculated load value, %)</div>
+<div class="ptxt">This parameter indicates calculated engine load in percent. The load is calculated based on input signals to ECM from various engine sensors.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007009">
+<div class="title">Engine Speed (rpm)</div>
+<div class="ptxt">The engine speed is calculated from reference pulses from the camshaft position sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007010">
+<div class="title">Desired Idle (Desired idle speed, rpm)</div>
+<div class="ptxt">The desired idle speed is an ECM internal parameter which indicates the idle speed requested by ECM. If the engine is not running, this number is not valid.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007011">
+<div class="title">Vehicle Speed (km/h, MPH)</div>
+<div class="ptxt">The vehicle speed is calculated based on pulse signals from wheel speed sensors.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007012">
+<div class="title">MAP (Manifold absolute pressure, kPa, mmHg, in.Hg, psi, inH2O)</div>
+<div class="ptxt">This parameter indicates the calculated manifold pressure based on MAP sensor signal.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007013">
+<div class="title">ECT (Engine coolant temperature, °C, °F)</div>
+<div class="ptxt">It is detected by engine coolant temperature sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007014">
+<div class="title">Intake Air Temperature. (°C, °F)</div>
+<div class="ptxt">It is detected by intake air temperature sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007015">
+<div class="title">Barometric Pres (Barometric pressure, kPa, mmHg, in.Hg, psi, inH2O)</div>
+<div class="ptxt">This parameter represents barometric air pressure measurement and is used for altitude correction of the fuel injection rate.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007016">
+<div class="title">Evap Canist Prg Duty (Evap canister purge flow duty, %)</div>
+<div class="ptxt">This parameter indicates valve ON (valve open) time rate within a certain set cycle of EVAP canister purge valve which controls the amount of EVAP purge.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007017">
+<div class="title">VVT Gap (Variable valve timing difference between target and actual position, °)</div>
+<div class="ptxt">This parameter indicates difference between target camshaft position (intake side) and actual camshaft position (intake side).</div>
+</div>
+<div class="topic" id="AENFFA0C1114007018">
+<div class="title">IAC Throttle Opening (Idle air throttle valve opening, %)</div>
+<div class="ptxt">This parameter indicates throttle valve opening of idle air control in % (100% indicates the maximum idle air flow).</div>
+</div>
+<div class="topic" id="AENFFA0C1114007019">
+<div class="title">TP Sensor 1 Volt (TP sensor (main) output voltage, V)</div>
+<div class="ptxt">TP Sensor (Main) data provides throttle valve opening information in the form of voltage.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007020">
+<div class="title">TP Sensor 2 Volt (TP sensor (sub) output voltage, V)</div>
+<div class="ptxt">TP Sensor (Sub) data provides throttle valve opening information in the form of voltage.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007021">
+<div class="title">APP Sensor 1 Volt (APP sensor (main) output voltage, V)</div>
+<div class="ptxt">APP sensor (main) data provides accelerator pedal position information in the form of voltage.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007022">
+<div class="title">APP Sensor 2 Volt (APP sensor (sub) output voltage, V)</div>
+<div class="ptxt">APP sensor (sub) data provides accelerator pedal position information in the form of voltage.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007023">
+<div class="title">Accel Position (Absolute accelerator pedal position, %)</div>
+<div class="ptxt">This parameter indicates calculated accelerator pedal position in percent based on input from accelerator pedal position sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007024">
+<div class="title">Throttle Position (Absolute throttle position, %)</div>
+<div class="ptxt">This parameter indicates calculated throttle opening in percent based on input from throttle position sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007025">
+<div class="title">Target Throttle Posi (Target throttle valve position, %)</div>
+<div class="ptxt">Target throttle valve position is an ECM internal parameter which indicates the throttle valve position requested by ECM.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007026">
+<div class="title">O2S B1 S1 (HO2S-1, V)</div>
+<div class="ptxt">This parameter indicates output voltage of HO2S-1 installed on exhaust manifold (pre-TWC).</div>
+</div>
+<div class="topic" id="AENFFA0C1114007027">
+<div class="title">O2S B1 S2 (HO2S-2, V)</div>
+<div class="ptxt">This parameter indicates output voltage of HO2S-2 installed on exhaust No.1 pipe (post-TWC). It is used to detect catalyst deterioration.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007028">
+<div class="title">Battery Voltage (V)</div>
+<div class="ptxt">This parameter indicates battery voltage inputted from main relay to ECM.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007029">
+<div class="title">Fuel Tank Level (%)</div>
+<div class="ptxt">This parameter indicates approximate fuel level in the fuel tank. The fuel level data is provided in percentage from 0 to 100%.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007030">
+<div class="title">A/C Pressure (A/C refrigerant absolute pressure, kPa)</div>
+<div class="ptxt">This parameter indicates A/C refrigerant absolute pressure detected by A/C refrigerant pressure sensor.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007031">
+<div class="title">Generator Reg Volt (Com) (Generator Regulated Voltage (Com) (V))</div>
+<div class="ptxt">This parameter indicates commanded regulated-voltage to generator.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007032">
+<div class="title">Radiator Fan (Radiator cooling fan control relay, Low/High/Off)</div>
+<div class="ptxt">Low: ON command is being output to the radiator cooling fan relay No.1.</div>
+<div class="ptxt">High: ON command is being output to radiator cooling fan relays No.2 and No.3.</div>
+<div class="ptxt">Off: No command is being output.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007033">
+<div class="title">A/C Comp Relay (A/C compressor relay, ON/OFF)</div>
+<div class="ptxt">This parameter indicates the state of the A/C compressor relay.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007034">
+<div class="title">Fuel Pump (ON/OFF)</div>
+<div class="ptxt">ON is displayed when ECM activates the fuel pump via the fuel pump relay switch.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007035">
+<div class="title">Intake Tuning Sol (Com) (IMT valve actuator control command, Open / Close)</div>
+<div class="ptxt">Open: Open command is being output to IMT valve actuator. </div>
+<div class="ptxt">Close: Close command is being output to IMT valve actuator.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007036">
+<div class="title">Starter SW (Starter switch, ON/OFF)</div>
+<div class="ptxt">This parameter indicates state of starting motor control relay output.</div>
+<div class="ptxt">ON: Starting motor control relay is on.</div>
+<div class="ptxt">OFF: Starting motor control relay is off.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007037">
+<div class="title">A/C Switch (ON/OFF)</div>
+<div class="ptxt">ON: Command for A/C operation is being output from HVAC to ECM.</div>
+<div class="ptxt">OFF: Command for A/C operation is not being output.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007038">
+<div class="title">Blower Fan (ON/OFF)</div>
+<div class="ptxt">This parameter indicates the state of the blower speed selector.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007039">
+<div class="title">Brake Switch (ON/OFF)</div>
+<div class="ptxt">This parameter indicates the state of the brake switch.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007040">
+<div class="title">Electric Load (ON/OFF)</div>
+<div class="ptxt">ON: ON signal of headlight, clearance lights or rear end door window defogger is input.</div>
+<div class="ptxt">OFF: Above electric loads all turned off.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007041">
+<div class="title">PNP Signal (P/N or D range)</div>
+<div class="ptxt">Whether the transmission range sensor is in P/N range or other ranges is displayed.</div>
+<div class="ptxt">If it is in P or N range, “P/N” is displayed and if it is in other than P or N ranges, “D” is displayed.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007042">
+<div class="title">Clutch SW (Declutch / Clutched)</div>
+<div class="ptxt">Declutch: Clutch pedal is fully depressed.</div>
+<div class="ptxt">Clutched: Clutch pedal is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007043">
+<div class="title">Cruise RES/ACC Switch (“RES / +” switch, OFF/ON)</div>
+<div class="ptxt">ON: “RES / +” switch is pushed.</div>
+<div class="ptxt">OFF: “RES / +” switch is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007044">
+<div class="title">Cruise SET/COAST Switch (“SET / –” switch, OFF/ON)</div>
+<div class="ptxt">ON: “SET / –” switch is pushed.</div>
+<div class="ptxt">OFF: “SET / –” switch is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007045">
+<div class="title">Cruise CANCEL Switch (“CANCEL” switch, OFF/ON)</div>
+<div class="ptxt">ON: “CANCEL” switch is pushed.</div>
+<div class="ptxt">OFF: “CANCEL” switch is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007046">
+<div class="title">Cruise ON/OFF Switch (Released / Pushed)</div>
+<div class="ptxt">Pushed: “Cruise” switch is pushed.</div>
+<div class="ptxt">Released: “Cruise” switch is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007047">
+<div class="title">Distance Setting Switch (OFF/ON)</div>
+<div class="ptxt">ON: Distance switch is pushed.</div>
+<div class="ptxt">OFF: Distance switch is released.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007048">
+<div class="title">Fuel Cut (ON/OFF)</div>
+<div class="ptxt">ON: Fuel injection is cut (output signal to injector is stopped).</div>
+<div class="ptxt">OFF: Fuel injection is not cut.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007049">
+<div class="title">Closed Throttle Pos (Closed throttle position, ON/OFF)</div>
+<div class="ptxt">This parameter is ON when throttle valve is fully closed and OFF when the valve is not fully closed.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007050">
+<div class="title">O2S B1 S1 ACT (HO2S-1, Active / Inactive)</div>
+<div class="ptxt">This parameter indicates the activation condition of HO2S-1.</div>
+<div class="ptxt">Active: The sensor is activated.</div>
+<div class="ptxt">Inactive: The sensor is being warmed up or not activated.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007051">
+<div class="title">O2S B1 S2 ACT (HO2S-2, Active / Inactive)</div>
+<div class="ptxt">This parameter indicates the activation condition of HO2S-2.</div>
+<div class="ptxt">ACTIVE: The sensor is activated.</div>
+<div class="ptxt">INACTIVE: The sensor is being warmed up or not activated.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007052">
+<div class="title">Intake Valve Actuator (IMT valve actuator, Open / Closed)</div>
+<div class="ptxt">This parameter indicates the state of IMT valve actuator.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007053">
+<div class="title">ENG A-STOP (Mon, Engine running / Stopping)</div>
+<div class="ptxt">This parameter indicates the state of the engine auto-stop.</div>
+</div>
+<div class="topic" id="AENFFA0C1114007054">
+<div class="title">ENG A-STOP (Com, Request / Not request)</div>
+<div class="ptxt">This parameter indicates the state of the engine auto-stop request</div>
+</div>
+</div>
+</div>
+
+</body></html>

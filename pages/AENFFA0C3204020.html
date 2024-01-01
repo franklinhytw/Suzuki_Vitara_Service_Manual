@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C3204020</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C3204020">
+<div class="scnbr">3B</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC C1282</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C3204020&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C3204020001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="57%">
+<col width="43%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">C1282: 4WD Abnormal Heat Generation</span><br>This DTC is detected if any one of the following conditions is met.
+<div class="list">
+<span class="listnum">•</span>Transfer oil temperature or coupling rear drive air temperature is higher than specified value.<br><span class="listnum">•</span>Estimated rear drive coupling assembly heating value exceeds specified upper limit.<br><span class="listnum">•</span>Front wheel(s) is spinning for a specified period of time.<br>
+</div>
+</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Temperature of transfer oil is high<br><span class="listnum">•</span>Temperature of rear drive coupling air is high<br>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C3204020002">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0C3204020003">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C3204020004">1</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Clear DTC.</div>
+<div class="test1">
+<span class="test1num">2)</span>Set ignition “OFF”.</div>
+<div class="test1">
+<span class="test1num">3)</span>Set ignition “ON” and check DTC.</div>
+<div class="question">Is DTC C1282 still detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">End.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C3204020005">2</td>
+<td class="testaction">
+<div class="title">Parameter check 1</div>
+<div class="test1">
+<span class="test1num">1)</span>Connect SUZUKI scan tool to DLC with ignition “OFF”.</div>
+<div class="test1">
+<span class="test1num">2)</span>Set ignition “ON”.</div>
+<div class="test1">
+<span class="test1num">3)</span>Check “Transfer Oil Temperature” displayed on SUZUKI scan tool.</div>
+<div class="question">Is current temperature higher than 120 °C (248 °F)?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Keep ignition “ON” until parameter reading of “Transfer Oil Temperature” falls below 120 °C (248 °F). Go to Step 3.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C3204020006">3</td>
+<td class="testaction">
+<div class="title">Parameter check 2</div>
+<div class="test1">
+<span class="test1num">1)</span>Check “Coupling Assembly Temperature” displayed on SUZUKI scan tool.</div>
+<div class="question">Is current temperature higher than 80 °C (176 °F)?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Keep ignition “ON” until parameter reading of “Coupling Assembly Temperature” falls below 80 °C (176 °F). Go to Step 4.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to Step 4.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0C3204020007">4</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Clear DTC.</div>
+<div class="test1">
+<span class="test1num">2)</span>Set ignition “OFF”.</div>
+<div class="test1">
+<span class="test1num">3)</span>Set ignition “ON” and check DTC.</div>
+<div class="question">Is DTC C1282 still detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Keep ignition “ON” for 30 minutes.</div>
+</td>
+<td class="testno">
+<div class="ptxt">End.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

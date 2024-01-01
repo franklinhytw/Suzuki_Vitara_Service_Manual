@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Top</title>
+
+<script type="text/javascript">
+<!--
+//create var for xref window
+	var xrefWin;
+	var prexnsWin;
+	var prexmainWin;
+-->
+</script>
+<script type="text/javascript" src="../scripts/stdiodom.js"></script>
+<script type="text/javascript" src="../scripts/stdio.js"></script>
+<script type="text/javascript" src="../scripts/ui.js" charset="utf-8"></script>
+<script>
+function init() {
+  setUI(parent.CTL.document.ctl.lang.value);
+  setMode('navi');
+}
+</script>
+<style type="text/css">
+body{
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	background-color: #7f99ff;
+	background-image: url(../icon/top_back.gif);
+	background-repeat: repeat;
+	margin: 0px 2px;
+	border:none 0px;
+}
+
+a:active { color: #0033ff;text-decoration:none;}
+a:hover { color: #0033ff;text-decoration:none;}
+a:link { color: #0033ff;text-decoration:none;}
+a:visited { color: #0033ff;text-decoration:none;}
+
+.button {
+	font-size: 12px;
+	color: #0033ff;
+	background-color: #ffffff;
+	border:solid 1px #000000;
+	margin:2px;
+	padding:4px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.button_clicked {
+	font-size: 12px;
+	color: #0033ff;
+	background-color: #ffcc00;
+	border:solid 1px #000000;
+	margin:2px;
+	padding:4px;
+	text-decoration:none;
+	cursor:default;
+}
+.optlist {
+	margin:0px;
+	padding:0px;
+}
+</style>
+</head>
+<body onload="parent.init.join(self, init);" bgcolor="#7f99ff">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+	<td align="left" valign="middle">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td align="center" width="100">
+						<div id="btnBook" class="button_clicked" onclick="setMode(&#39;navi&#39;);">Bookmarks</div>
+				</td>
+				<td align="center" width="100">
+						<div id="btnDtcSym" class="button" onclick="setMode(&#39;navi_dtc&#39;);">DTC / Symptom</div>
+				</td>
+				<td align="center" width="150">
+						<div id="btnService" class="button" onclick="setMode(&#39;navi_service&#39;);">Service Data (Scan Tool)</div>
+				</td>
+				<td align="center" width="150">
+						<div id="btnTool" class="button" onclick="setMode(&#39;navi_tool&#39;);">Tool / Torque / Material</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</td>
+	<td align="right">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td align="center">
+						<div class="button" onclick="btnUndo();"><img src="./undo.gif" width="30px" height="30px" border="0" title="Back to last page" id="iconUndo"></div>
+				</td>
+				<td align="center">
+						<div class="button" onclick="btnPrevsie();"><img src="./prev.gif" width="30px" height="30px" border="0" title="Previous" id="iconPrev"></div>
+				</td>
+				<td align="center">
+						<div class="button" onclick="btnNextsie();"><img src="./next.gif" width="30px" height="30px" border="0" title="Next" id="iconNext"></div>
+				</td>
+				<td align="center">
+						<div class="button" onclick="btnPrint();"><img src="./print.gif" width="30px" height="30px" border="0" title="print" id="iconPrint"></div>
+				</td>
+				<td align="center">
+						<div class="button" onclick="btnToTop();"><img src="./return.gif" width="30px" height="30px" border="0" title="front page" id="iconReturn"></div>
+				</td>
+				<td align="center">
+						<div class="button" onclick="btnHelp();"><img src="./help.gif" width="30px" height="30px" border="0" title="help" id="iconHelp"></div>
+				</td>
+			</tr>
+		</tbody></table>
+	</td>
+	</tr>
+</tbody></table>
+
+
+</body></html>

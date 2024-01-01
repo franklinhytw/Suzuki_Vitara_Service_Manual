@@ -1,0 +1,649 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname = "VITARA Service Manual" manualid = "AENFFA0C" lang = "en"/>
+<section id = "a">
+<servinfo id = "Foreword01" title = "IMPORTANT">
+</servinfo>
+<servinfo id = "Foreword02" title = "FOREWORD">
+</servinfo>
+<servinfo id = "Foreword03" title = "Applicable Model / VIN">
+</servinfo>
+<servinfo id = "Foreword04" title = "Table of Contents">
+</servinfo>
+<servinfo id = "Foreword05" title = "History of Modification">
+</servinfo>
+<servinfo id = "Foreword06" title = "Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</servinfo>
+</section>
+<section id = "1B" file = "AENFFA0C12.fm" title = "none sct name">
+<servcat title = "Aux. Emission Control Devices">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1217001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1227001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1237001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1C" file = "AENFFA0C13.fm" title = "none sct name">
+<servcat title = "Engine Electrical Devices">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1317001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1327001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1337001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1D" file = "AENFFA0C14.fm" title = "none sct name">
+<servcat title = "Engine Mechanical">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1417001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1427001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1437001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1E" file = "AENFFA0C15.fm" title = "none sct name">
+<servcat title = "Engine Lubrication System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1517001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1527001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1537001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1F" file = "AENFFA0C16.fm" title = "none sct name">
+<servcat title = "Engine Cooling System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1617001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1627001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1637001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1G" file = "AENFFA0C17.fm" title = "none sct name">
+<servcat title = "Fuel System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1717001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1727001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1737001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1H" file = "AENFFA0C18.fm" title = "none sct name">
+<servcat title = "Ignition System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1817001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1827001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1I" file = "AENFFA0C19.fm" title = "none sct name">
+<servcat title = "Starting System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1917002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1927002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1937002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1J" file = "AENFFA0C1A.fm" title = "none sct name">
+<servcat title = "Charging System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A17002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A27002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1A37002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "1K" file = "AENFFA0C1B.fm" title = "none sct name">
+<servcat title = "Exhaust System">
+<configtype id = "1" title = "M16A">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1B17001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1B27001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C1B37001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2B" file = "AENFFA0C22.fm" title = "none sct name">
+<servcat title = "Front Suspension">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C2207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2C" file = "AENFFA0C23.fm" title = "none sct name">
+<servcat title = "Rear Suspension">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C2307001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "2D" file = "AENFFA0C24.fm" title = "none sct name">
+<servcat title = "Wheels and Tires">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C2407001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3A" file = "AENFFA0C31.fm" title = "none sct name">
+<servcat title = "Drive Shaft / Axle">
+<configtype id = "1" title = "Front">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C3117001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Rear">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C3127001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3B" file = "AENFFA0C32.fm" title = "none sct name">
+<servcat title = "Differential">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C3207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3C" file = "AENFFA0C33.fm" title = "none sct name">
+<servcat title = "Transfer">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C3307001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "3D" file = "AENFFA0C34.fm" title = "none sct name">
+<servcat title = "Propeller Shaft">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C3407001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4A" file = "AENFFA0C41.fm" title = "none sct name">
+<servcat title = "Brake Control System and Diagnosis">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C4107001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4B" file = "AENFFA0C42.fm" title = "none sct name">
+<servcat title = "Front Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C4207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4C" file = "AENFFA0C43.fm" title = "none sct name">
+<servcat title = "Rear Brakes">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C4307001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4D" file = "AENFFA0C44.fm" title = "none sct name">
+<servcat title = "Parking Brake">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C4407001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "4F" file = "AENFFA0C46.fm" title = "none sct name">
+<servcat title = "Electronic Stability Program">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C4607001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5A" file = "AENFFA0C51.fm" title = "none sct name">
+<servcat title = "Automatic Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5107001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5B" file = "AENFFA0C52.fm" title = "none sct name">
+<servcat title = "Manual Transmission/Transaxle">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5217001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5227001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5237001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5C" file = "AENFFA0C53.fm" title = "none sct name">
+<servcat title = "Clutch">
+<configtype id = "1" title = "5 M/T">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5317001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "K14C-6M/T Model">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5327001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "D16AA-6M/T Model">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5337001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "5F" file = "AENFFA0C56.fm" title = "none sct name">
+<servcat title = "Twin Clutch Transmission/Transaxle">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C5607001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "6B" file = "AENFFA0C62.fm" title = "none sct name">
+<servcat title = "Steering Wheel and Column">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C6207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "7B" file = "AENFFA0C72.fm" title = "none sct name">
+<servcat title = "HVAC System">
+<configtype id = "1" title = "Non-A/C">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C7217001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "2" title = "Manual Type">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C7227001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+<configtype id = "3" title = "Automatic Type">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C7237001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "8A" file = "AENFFA0C81.fm" title = "none sct name">
+<servcat title = "Seat Belts">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C8107001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "8B" file = "AENFFA0C82.fm" title = "none sct name">
+<servcat title = "Air Bag System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C8207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9A" file = "AENFFA0C91.fm" title = "none sct name">
+<servcat title = "Wiring Systems">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "S" title = "Specifications">
+<servinfo id = "AENFFA0C910S001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9B" file = "AENFFA0C92.fm" title = "none sct name">
+<servcat title = "Lighting Systems">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9207002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9C" file = "AENFFA0C93.fm" title = "none sct name">
+<servcat title = "Instrumentation / Driver Info. / Horn">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9307001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9D" file = "AENFFA0C94.fm" title = "none sct name">
+<servcat title = "Wipers / Washers">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9407001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9E" file = "AENFFA0C95.fm" title = "none sct name">
+<servcat title = "Glass / Windows / Mirrors">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9507001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9F" file = "AENFFA0C96.fm" title = "none sct name">
+<servcat title = "Security and Locks">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9607001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9G" file = "AENFFA0C97.fm" title = "none sct name">
+<servcat title = "Seats">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9707001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9H" file = "AENFFA0C98.fm" title = "none sct name">
+<servcat title = "Exterior Trim / Interior Trim">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9807002" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9I" file = "AENFFA0C99.fm" title = "none sct name">
+<servcat title = "Sun Roof / T-Top / Convertible Top">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9907001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9J" file = "AENFFA0C9A.fm" title = "none sct name">
+<servcat title = "Hood / Fenders / Doors">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9A07001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9K" file = "AENFFA0C9B.fm" title = "none sct name">
+<servcat title = "Body Structure">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9B07001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "9O" file = "AENFFA0C9F.fm" title = "none sct name">
+<servcat title = "Audio Visual / Navigation">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0C9F07001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10B" file = "AENFFA0CA2.fm" title = "none sct name">
+<servcat title = "Body Electrical Control System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0CA207001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10D" file = "AENFFA0CA4.fm" title = "none sct name">
+<servcat title = "Tire Pressure Monitoring System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0CA407001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10E" file = "AENFFA0CA5.fm" title = "none sct name">
+<servcat title = "Keyless Start System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0CA507001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10I" file = "AENFFA0CA9.fm" title = "none sct name">
+<servcat title = "Engine Auto Stop Start System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0CA907001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+<section id = "10J" file = "AENFFA0CAA.fm" title = "none sct name">
+<servcat title = "Radar Brake Support System">
+<configtype id = "0" title = "configtype none title">
+<servinfotype sitcode = "7" title = "Specifications">
+<servinfo id = "AENFFA0CAA07001" title = "Tightening Torque Specifications">
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section>
+</suzuki>

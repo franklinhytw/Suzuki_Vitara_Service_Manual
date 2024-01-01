@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Service Data Search</title>
+
+
+<link rel="stylesheet" href="../css/search.css" type="text/css" charset="utf-8">
+<script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+<script type="text/javascript" src="../scripts/search.js" defer=""></script>
+<script type="text/javascript" src="../scripts/ui.js" defer="" charset="utf-8"></script>
+</head>
+<body onload="initSearchSdm()">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr><td align="center">
+<div class="listhead">Service Data Search
+<a href="./navi_service.html" target="NAVI">
+<img class="title_icon" onclick="setMode(&#39;navi_service&#39;);" src="../icon/bookmark.gif" border="0"></a></div>
+</td></tr></tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="300px"><tbody><tr><td align="left"><form class="searchconsole" name="searchsdm" onsubmit="runSearch_Sdm(); return false;"><table border="0" cellpadding="2" cellspacing="0">
+<tbody><tr valign="middle"><td align="left" colspan="2" style="padding-left:10px;">Search Service Data Content:</td></tr>
+<tr valign="middle">
+<td align="left">&nbsp;
+	<input type="text" name="main" length="48">&nbsp;</td>
+<td align="center"><input type="button" name="search" value=" Search " onclick="runSearch_Sdm(this.Form);"></td>
+</tr>
+</tbody></table></form></td></tr></tbody></table>
+<div id="tgtResults" class="results"></div>
+<div class="last">&nbsp;</div>
+
+</body></html>

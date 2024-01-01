@@ -1,0 +1,295 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "../config8/navi-kousei.xsl"?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "../config8/sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki>
+<manual manualname="VITARA Service Manual" manualid="AENFFA0C" lang="en"/>
+<a i="a">
+<s i="Foreword01" t="IMPORTANT">
+</s>
+<s i="Foreword02" t="FOREWORD">
+</s>
+<s i="Foreword03" t="Applicable Model / VIN">
+</s>
+<s i="Foreword04" t="Table of Contents">
+</s>
+<s i="Foreword05" t="History of Modification">
+</s>
+<s i="Foreword06" t="Recommendation of Genuine SUZUKI Parts and Accessories Use">
+</s>
+</a>
+<a i="00" f="AENFFA0C00.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="0A" f="AENFFA0C01.fm" t="none sct name">
+<b t="General Information">
+</b>
+</a>
+<a i="0B" f="AENFFA0C02.fm" t="none sct name">
+<b t="Maintenance and Lubrication">
+</b>
+</a>
+<a i="1" f="AENFFA0C10.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="1A" f="AENFFA0C11.fm" t="none sct name">
+<b t="Engine General Information and Diagnosis">
+</b>
+</a>
+<a i="1B" f="AENFFA0C12.fm" t="none sct name">
+<b t="Aux. Emission Control Devices">
+</b>
+</a>
+<a i="1C" f="AENFFA0C13.fm" t="none sct name">
+<b t="Engine Electrical Devices">
+</b>
+</a>
+<a i="1D" f="AENFFA0C14.fm" t="none sct name">
+<b t="Engine Mechanical">
+</b>
+</a>
+<a i="1E" f="AENFFA0C15.fm" t="none sct name">
+<b t="Engine Lubrication System">
+</b>
+</a>
+<a i="1F" f="AENFFA0C16.fm" t="none sct name">
+<b t="Engine Cooling System">
+</b>
+</a>
+<a i="1G" f="AENFFA0C17.fm" t="none sct name">
+<b t="Fuel System">
+</b>
+</a>
+<a i="1H" f="AENFFA0C18.fm" t="none sct name">
+<b t="Ignition System">
+</b>
+</a>
+<a i="1I" f="AENFFA0C19.fm" t="none sct name">
+<b t="Starting System">
+</b>
+</a>
+<a i="1J" f="AENFFA0C1A.fm" t="none sct name">
+<b t="Charging System">
+</b>
+</a>
+<a i="1K" f="AENFFA0C1B.fm" t="none sct name">
+<b t="Exhaust System">
+</b>
+</a>
+<a i="2" f="AENFFA0C20.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="2A" f="AENFFA0C21.fm" t="none sct name">
+<b t="Suspension General Diagnosis">
+</b>
+</a>
+<a i="2B" f="AENFFA0C22.fm" t="none sct name">
+<b t="Front Suspension">
+</b>
+</a>
+<a i="2C" f="AENFFA0C23.fm" t="none sct name">
+<b t="Rear Suspension">
+</b>
+</a>
+<a i="2D" f="AENFFA0C24.fm" t="none sct name">
+<b t="Wheels and Tires">
+</b>
+</a>
+<a i="3" f="AENFFA0C30.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="3A" f="AENFFA0C31.fm" t="none sct name">
+<b t="Drive Shaft / Axle">
+</b>
+</a>
+<a i="3B" f="AENFFA0C32.fm" t="none sct name">
+<b t="Differential">
+</b>
+</a>
+<a i="3C" f="AENFFA0C33.fm" t="none sct name">
+<b t="Transfer">
+</b>
+</a>
+<a i="3D" f="AENFFA0C34.fm" t="none sct name">
+<b t="Propeller Shaft">
+</b>
+</a>
+<a i="4" f="AENFFA0C40.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="4A" f="AENFFA0C41.fm" t="none sct name">
+<b t="Brake Control System and Diagnosis">
+</b>
+</a>
+<a i="4B" f="AENFFA0C42.fm" t="none sct name">
+<b t="Front Brakes">
+</b>
+</a>
+<a i="4C" f="AENFFA0C43.fm" t="none sct name">
+<b t="Rear Brakes">
+</b>
+</a>
+<a i="4D" f="AENFFA0C44.fm" t="none sct name">
+<b t="Parking Brake">
+</b>
+</a>
+<a i="4F" f="AENFFA0C46.fm" t="none sct name">
+<b t="Electronic Stability Program">
+</b>
+</a>
+<a i="5" f="AENFFA0C50.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="5A" f="AENFFA0C51.fm" t="none sct name">
+<b t="Automatic Transmission/Transaxle">
+</b>
+</a>
+<a i="5B" f="AENFFA0C52.fm" t="none sct name">
+<b t="Manual Transmission/Transaxle">
+</b>
+</a>
+<a i="5C" f="AENFFA0C53.fm" t="none sct name">
+<b t="Clutch">
+</b>
+</a>
+<a i="5F" f="AENFFA0C56.fm" t="none sct name">
+<b t="Twin Clutch Transmission/Transaxle">
+</b>
+</a>
+<a i="6" f="AENFFA0C60.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="6A" f="AENFFA0C61.fm" t="none sct name">
+<b t="Steering General Diagnosis">
+</b>
+</a>
+<a i="6B" f="AENFFA0C62.fm" t="none sct name">
+<b t="Steering Wheel and Column">
+</b>
+</a>
+<a i="6C" f="AENFFA0C63.fm" t="none sct name">
+<b t="Power Assisted Steering System">
+</b>
+</a>
+<a i="7" f="AENFFA0C70.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="7B" f="AENFFA0C72.fm" t="none sct name">
+<b t="HVAC System">
+</b>
+</a>
+<a i="8" f="AENFFA0C80.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="8A" f="AENFFA0C81.fm" t="none sct name">
+<b t="Seat Belts">
+</b>
+</a>
+<a i="8B" f="AENFFA0C82.fm" t="none sct name">
+<b t="Air Bag System">
+</b>
+</a>
+<a i="9" f="AENFFA0C90.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="9A" f="AENFFA0C91.fm" t="none sct name">
+<b t="Wiring Systems">
+</b>
+</a>
+<a i="9B" f="AENFFA0C92.fm" t="none sct name">
+<b t="Lighting Systems">
+</b>
+</a>
+<a i="9C" f="AENFFA0C93.fm" t="none sct name">
+<b t="Instrumentation / Driver Info. / Horn">
+</b>
+</a>
+<a i="9D" f="AENFFA0C94.fm" t="none sct name">
+<b t="Wipers / Washers">
+</b>
+</a>
+<a i="9E" f="AENFFA0C95.fm" t="none sct name">
+<b t="Glass / Windows / Mirrors">
+</b>
+</a>
+<a i="9F" f="AENFFA0C96.fm" t="none sct name">
+<b t="Security and Locks">
+</b>
+</a>
+<a i="9G" f="AENFFA0C97.fm" t="none sct name">
+<b t="Seats">
+</b>
+</a>
+<a i="9H" f="AENFFA0C98.fm" t="none sct name">
+<b t="Exterior Trim / Interior Trim">
+</b>
+</a>
+<a i="9I" f="AENFFA0C99.fm" t="none sct name">
+<b t="Sun Roof / T-Top / Convertible Top">
+</b>
+</a>
+<a i="9J" f="AENFFA0C9A.fm" t="none sct name">
+<b t="Hood / Fenders / Doors">
+</b>
+</a>
+<a i="9K" f="AENFFA0C9B.fm" t="none sct name">
+<b t="Body Structure">
+</b>
+</a>
+<a i="9L" f="AENFFA0C9C.fm" t="none sct name">
+<b t="Paint / Coatings">
+</b>
+</a>
+<a i="9O" f="AENFFA0C9F.fm" t="none sct name">
+<b t="Audio Visual / Navigation">
+</b>
+</a>
+<a i="10" f="AENFFA0CA0.fm" t="none sct name">
+<b t="Precautions">
+</b>
+</a>
+<a i="10A" f="AENFFA0CA1.fm" t="none sct name">
+<b t="Cruise Control System">
+</b>
+</a>
+<a i="10B" f="AENFFA0CA2.fm" t="none sct name">
+<b t="Body Electrical Control System">
+</b>
+</a>
+<a i="10C" f="AENFFA0CA3.fm" t="none sct name">
+<b t="Immobilizer Control System">
+</b>
+</a>
+<a i="10D" f="AENFFA0CA4.fm" t="none sct name">
+<b t="Tire Pressure Monitoring System">
+</b>
+</a>
+<a i="10E" f="AENFFA0CA5.fm" t="none sct name">
+<b t="Keyless Start System">
+</b>
+</a>
+<a i="10H" f="AENFFA0CA8.fm" t="none sct name">
+<b t="Communication System">
+</b>
+</a>
+<a i="10I" f="AENFFA0CA9.fm" t="none sct name">
+<b t="Engine Auto Stop Start System">
+</b>
+</a>
+<a i="10J" f="AENFFA0CAA.fm" t="none sct name">
+<b t="Radar Brake Support System">
+</b>
+</a>
+</suzuki>

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Contents Search</title>
+
+
+<link rel="stylesheet" href="../css/search.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+
+if (typeof strSieIdList === "undefined") {
+  var strSieIdList = parent.parent.TOP.xmlloader.loadWebdocVars1();
+}
+if (typeof strSieTitleList === "undefined") eval(parent.parent.TOP.xmlloader.loadWebdocVars2());
+
+var arrSieList = strSieIdList.split(",");
+	
+
+var arrSieTitles = strSieTitleList.split("::");
+	
+
+var arrSctTitles = strSctList.split("::");
+	
+
+var arrScTitles = strScList.split("::");
+	
+
+var arrConfigTitles = strConfigList.split("::");
+	
+
+var arrSitTitles = strSitList.split("::");
+	
+</script>
+<script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+<script type="text/javascript" src="../scripts/search.js" defer=""></script>
+<script type="text/javascript" src="../scripts/ui.js" defer="" charset="utf-8"></script>
+</head>
+<body onload="initSearch();">
+<table border="0" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">
+<div class="listhead">Contents Search
+<a href="./navi.html" target="NAVI">
+<img class="title_icon" onclick="setMode(&#39;navi&#39;);" src="../icon/bookmark.gif" border="0"></a></div>
+</td></tr></tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="300px"><tbody><tr><td align="left"><form class="searchconsole" name="search" onsubmit="runSearch(); return false;"><table border="0" cellpadding="2" cellspacing="0">
+<tbody><tr valign="middle"><td align="left" colspan="2" style="padding-left:10px;">Search for Content Title:</td></tr>
+<tr valign="middle">
+<td align="left">&nbsp;
+	<input type="text" name="main" length="48">&nbsp;</td>
+<td align="center"><input type="button" name="search" value=" Search " onclick="runSearch(this.Form);"></td>
+</tr>
+</tbody></table></form></td></tr></tbody></table>
+
+<div id="tgtResults" class="results">
+<table class="hits" align="center">
+<tbody><tr><td align="center"></td>
+<td align="center"></td>
+</tr></tbody></table>
+</body></html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CAA04021</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CAA04021">
+<div class="scnbr">10J</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">DTC C1652 / C1653</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CAA04021&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0CAA04021001">
+<div class="title">DTC Detecting Condition and Trouble Area</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="67%">
+<col width="33%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">DTC detecting condition</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Trouble area</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">
+<span class="bold">C1652: Wheel Speed Sensor Calculation Performance</span><br>Difference between wheel speed signal of ESP<sup class="sup">®</sup> control module and that of millimeter wave radar exceeds specified value for specified time continuously.</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Wheel speed sensor<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> control module<br><span class="listnum">•</span>RBS control module<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">
+<span class="bold">C1653: Wheel Speed Sensor Circuit</span><br>Wheel speed signal from ESP<sup class="sup">®</sup> control module is kept stuck for more than specified time.</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ESP<sup class="sup">®</sup> control module<br><span class="listnum">•</span>RBS control module<br>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CAA04021002">
+<div class="title">DTC Confirmation Procedure</div>
+<div class="warning">
+<img class="attenmark" src="../icon/attenmark.gif" width="16px" border="0">WARNING:
+<div style="margin-left:16px;">
+<div class="ptxt">If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.</div>
+<div class="list">
+<span class="listnum">•</span>Select a level road with no traffic to minimize the risk of accident.<br><span class="listnum">•</span>Perform the test extremely carefully.<br><span class="listnum">•</span>Perform the road test using 2 persons, a driver and a tester.<br>
+</div>
+</div>
+</div>
+<div class="topic" id="AENFFA0CAA04021003">
+<div class="title">C1652</div>
+<div class="s1">
+<span class="s1num">1)</span>Drive the vehicle at 30 km/h (19 mile/h) or more for 2 minutes or more.</div>
+</div>
+<div class="topic" id="AENFFA0CAA04021004">
+<div class="title">C1653</div>
+<div class="s1">
+<span class="s1num">1)</span>Drive the vehicle at 10 km/h (6 mile/h) or more for 1 minute or more.</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CAA04021005">
+<div class="title">DTC Troubleshooting</div>
+<table width="98%" class="diagtest" cellspacing="0px" id="AENFFA0CAA04021006">
+<tbody><tr>
+<th width="50px">Step</th>
+<th width="45%">Action</th>
+<th width="25%">Yes</th>
+<th width="25%">No</th>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CAA04021007">1</td>
+<td class="testaction">
+<div class="question">Was “RBS System Check” performed?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to Step 2.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Go to <a href="javascript:%20xref(&#39;AENFFA0CAA04001&#39;)">RBS System Check</a>.</div>
+</td>
+</tr>
+<tr>
+<td class="teststepnum" id="AENFFA0CAA04021008">2</td>
+<td class="testaction">
+<div class="title">DTC check</div>
+<div class="test1">
+<span class="test1num">1)</span>Check DTC in ESP<sup class="sup">®</sup> control module. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0C4604005&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+<div class="question">Is there any DTC(s) detected?</div>
+</td>
+<td class="testyes">
+<div class="ptxt">Go to troubleshooting for applicable DTC.</div>
+</td>
+<td class="testno">
+<div class="ptxt">Replace RBS control module and recheck DTC. <a class="titleoff" href="javascript:%20xref(&#39;AENFFA0CAA06002&#39;)"><img src="../icon/intxreftitleoff.png" alt="icon">&nbsp;</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

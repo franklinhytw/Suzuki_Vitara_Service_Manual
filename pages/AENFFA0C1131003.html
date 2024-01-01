@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C1131003</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C1131003">
+<div class="scnbr">1A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">OBD System Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C1131003&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">ECM in this vehicle has the following functions.</div>
+<div class="list">
+<span class="listnum">•</span>When ignition is “ON”, MIL (1) turns ON to check the MIL and its circuit.<br>
+<div class="fig" style="margin-left:-24px;">
+<div style=""><img src="../image/IEFA0A/IEFA0A112001.jpg" height="169px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A112001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<span class="listnum">•</span>When ECM detects a malfunction which gives an adverse effect to vehicle emission while the engine is running, it makes the MIL in the meter cluster of the instrument panel turn ON and stores the malfunction area in its memory.<br><span class="listnum">•</span>As a condition for detecting a malfunction in some areas in the system being monitored by ECM and turning on MIL due to that malfunction, 1 driving cycle or 3 driving cycle detection logic is adopted to prevent erroneous detection.<br>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003001">
+<div class="title">Warm-Up Cycle</div>
+<div class="ptxt">A “warm-up cycle” is defined in the OBD regulations to be sufficient vehicle operation such that coolant temperature rises by at least 22 °C (40 °F) from engine starting and reaches a minimum temperature of 60 °C (140 °F).</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003002">
+<div class="title">Driving Cycle</div>
+<div class="ptxt">A “driving cycle” consists of two parts, engine startup and engine shutoff. </div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003003">
+<div class="title">1 Driving Cycle Detection Logic</div>
+<div class="ptxt">The malfunction detected in the first driving cycle is stored in ECM memory and MIL light up at the same time.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003004">
+<div class="title">3 Driving Cycle Detection Logic</div>
+<div class="ptxt">The malfunction detected in the first driving cycle is stored in ECM memory (in the form of pending DTC) but the MIL does not light at this time. </div>
+<div class="ptxt">The MIL does not light up at the second detection of the same malfunction also in the second driving cycle. The MIL lights up at the third detection of the same malfunction also in the third driving cycle.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003005">
+<div class="title">Pending DTC</div>
+<div class="ptxt">Pending DTC means a DTC detected and stored temporarily at first or second driving cycle of the DTC which is detected in the 2 or 3 driving cycle detection logic.</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003006">
+<div class="title">Freeze Frame Data</div>
+<div class="ptxt">ECM stores the engine and driving conditions at the moment of the detection of a malfunction in its memory.</div>
+<div class="ptxt">This data is called “Freeze frame data”.</div>
+<div class="ptxt">Therefore, it is possible to know engine and driving conditions (e.g. whether the engine was warm or not, whether the vehicle was running or stopped, whether air/fuel mixture was lean or rich) when a malfunction was detected by checking the freeze frame data.</div>
+<div class="ptxt">Utilizing this function, it is possible to know the order of detection of these malfunctions.</div>
+<div class="ptxt">This is helpful when rechecking or diagnosing a trouble. For details of freeze frame data that can be read from ECM, refer to table below.</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="81%">
+<colgroup><col width="100%">
+</colgroup><tbody><tr>
+<td valign="middle" align="left" class="t_cell" style="border-top-width:2px;border-right-width:2px;border-left-width:2px;">DTC</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Calculated Load</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">ECT</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">MAP</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Engine Speed</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Vehicle Speed</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Intake Air Temperature</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">MAF</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Time Since Engine Start</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Fuel Rail Pressure</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Fuel Tank Level</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Barometric Pres</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Battery Voltage</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Relative TP</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Absolute APP 1</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Absolute APP 2</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Target Throt Pos</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Turbocharger A Compressor Inlet Temperature @</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">Turbocharger A Turbine Outlet Temperature @</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-left-width:2px;">DPF Bank 1 Inlet Temperature Sensor @</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;border-left-width:2px;">DPF Bank 1 Outlet Temperature Sensor @</td>
+</tr>
+</tbody></table>
+</div>
+<div class="fig">
+<div class="title">Freeze frame data (For example)</div>
+<div style=""><img src="../image/IEAA0A/IEAA0A112003.jpg" height="273px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEAA0A/IEAA0A112003.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="topic" id="AENFFA0C1131003007">
+<div class="title">Details of freeze frame data</div>
+<div class="ptxt">ECM has 4 freeze frames from 0 to 3 where freeze frame data can be stored.</div>
+<div class="ptxt">Frame 0 is a special frame where freeze frame data concerning emission-affecting malfunction has priority over data related to other (general) malfunctions.</div>
+<div class="ptxt">Frames 1 to 3 are assigned to general malfunctions. They individually store the freeze frame data for 3 different general malfunctions in the order of detection. The data in these 3 frames are not updated, so freeze frame data for any malfunction detected subsequently are not stored anywhere.</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0A112072.jpg" height="142px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A112072.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+</div>
+<div class="topic" id="AENFFA0C1131003008">
+<div class="title">Freeze frame data clearance</div>
+<div class="ptxt">The freeze frame data is cleared at the same time as clearance of DTC.</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0C1131003009">
+<div class="title">System Readiness Test</div>
+<div class="ptxt">The system readiness test is to check if on-board diagnosis of each system related to exhaust emission has been completed or not using a scan tool (SUZUKI scan tool or CAN communication OBD-II generic scan tool).</div>
+<div class="ptxt">When the conditions established for each system are met, ECM performs an on-board diagnosis of corresponding system and changes the status of system readiness test from “Incomplete” to “Complete”. When “Complete” status is displayed, it is maintained until the “DTC clearance” is performed using scan tool.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>The status of system readiness test may be changed as “incomplete” when performing the following services.<br>
+<div class="list">
+<span class="listnum">—</span>Disconnection of battery negative (–) cable<br><span class="listnum">—</span>Disconnection of ECM connectors<br><span class="listnum">—</span>Removal of ground cables for ECM<br><span class="listnum">—</span>Disconnection of “ECM” fuse<br>
+</div>
+<span class="listnum">•</span>By utilizing this system readiness test, it is possible to check that all DTC confirmation procedure for each system has been completed or incompleted. For all DTCs related to each system, refer to the table below.<br><span class="listnum">•</span>The system readiness test is NOT the result (“Normal” or “Abnormal”) of on-board diagnosis but the result (“Complete” or “Incomplete”) of on-board diagnosis.<br>
+</div>
+</div>
+</div>
+<div class="table">
+<div class="title">Monitor item of system readiness test table</div>
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="25%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+<col width="9%">
+</colgroup><tbody><tr>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Monitoring item</th>
+<th valign="middle" align="center" colspan="8" class="t_cell" style="border-top-width:2px;border-right-width:2px;">DTC related to monitoring item</th>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">NOx aftertreatment</td>
+<td valign="middle" align="center" class="t_cell">P2000</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Boost pressure system</td>
+<td valign="middle" align="center" class="t_cell">P0237</td>
+<td valign="middle" align="center" class="t_cell">P0238</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Exhaust gas sensor</td>
+<td valign="middle" align="center" class="t_cell">P0133</td>
+<td valign="middle" align="center" class="t_cell">P0139</td>
+<td valign="middle" align="center" class="t_cell">P2195</td>
+<td valign="middle" align="center" class="t_cell">P2196</td>
+<td valign="middle" align="center" class="t_cell">P2270</td>
+<td valign="middle" align="center" class="t_cell">P2271</td>
+<td valign="middle" align="center" class="t_cell">P2A00</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">P2A01</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Particulate filter</td>
+<td valign="middle" align="center" class="t_cell">P226D</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell">&nbsp;</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">&nbsp;</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">EGR system</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P010F</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P0401</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P0402</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P0487</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P0488</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P046E</td>
+<td valign="middle" align="center" class="t_cell" style="border-bottom-width:2px;">P213B</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+
+</body></html>

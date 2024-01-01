@@ -1,0 +1,914 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Symptom Index</title>
+
+
+<link rel="stylesheet" href="../css/navi.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var strSieList = "AENFFA0C1114011,AENFFA0C1114012,AENFFA0C1114A01,AENFFA0C1114A02,AENFFA0C1114A03,AENFFA0C1114A04,AENFFA0C1114A05,AENFFA0C1114A06,AENFFA0C1114A07,AENFFA0C1114A08,AENFFA0C1114A09,AENFFA0C1114A10,AENFFA0C1114A11,AENFFA0C1114A12,AENFFA0C1114A13,AENFFA0C1114A14,AENFFA0C1114A15,AENFFA0C1114A16,AENFFA0C1114A17,AENFFA0C1124011,AENFFA0C1124012,AENFFA0C1124A01,AENFFA0C1124A02,AENFFA0C1124A03,AENFFA0C1124A04,AENFFA0C1124A05,AENFFA0C1124A06,AENFFA0C1124A07,AENFFA0C1124A08,AENFFA0C1124A09,AENFFA0C1124A10,AENFFA0C1124A11,AENFFA0C1124A12,AENFFA0C1124A13,AENFFA0C1124A14,AENFFA0C1124A15,AENFFA0C1124A16,AENFFA0C1124A17,AENFFA0C1134010,AENFFA0C1134011,AENFFA0C1134012,AENFFA0C1614A01,AENFFA0C1614A02,AENFFA0C1624A01,AENFFA0C1624A02,AENFFA0C1634A01,AENFFA0C1634A02,AENFFA0C1914A01,AENFFA0C1914A02,AENFFA0C1914A03,AENFFA0C1914A04,AENFFA0C1914A05,AENFFA0C1924A01,AENFFA0C1924A02,AENFFA0C1924A03,AENFFA0C1924A04,AENFFA0C1924A05,AENFFA0C1934A01,AENFFA0C1934A02,AENFFA0C1934A03,AENFFA0C1934A04,AENFFA0C1934A05,AENFFA0C1934A06,AENFFA0C1A14A01,AENFFA0C1A14A02,AENFFA0C1A14A03,AENFFA0C1A14A04,AENFFA0C1A14A05,AENFFA0C1A24A01,AENFFA0C1A24A02,AENFFA0C1A24A03,AENFFA0C1A24A04,AENFFA0C1A24A05,AENFFA0C1A34A01,AENFFA0C1A34A02,AENFFA0C1A34A03,AENFFA0C1A34A04,AENFFA0C1A34A05,AENFFA0C2104A01,AENFFA0C2104A02,AENFFA0C2104A03,AENFFA0C2104A04,AENFFA0C2104A05,AENFFA0C2104A06,AENFFA0C2104A07,AENFFA0C2104A08,AENFFA0C2104A09,AENFFA0C2104A10,AENFFA0C3114A01,AENFFA0C3124A01,AENFFA0C3204010,AENFFA0C3204011,AENFFA0C3204A01,AENFFA0C3204A02,AENFFA0C3204A03,AENFFA0C3204A04,AENFFA0C3304A01,AENFFA0C3404A01,AENFFA0C3404A02,AENFFA0C4104A01,AENFFA0C4104A02,AENFFA0C4104A03,AENFFA0C4104A04,AENFFA0C4104A05,AENFFA0C4104A06,AENFFA0C4104A07,AENFFA0C4104A08,AENFFA0C4104A09,AENFFA0C4104A10,AENFFA0C4104A11,AENFFA0C4104A12,AENFFA0C4104A13,AENFFA0C4104A14,AENFFA0C4604011,AENFFA0C4604012,AENFFA0C4604013,AENFFA0C4604014,AENFFA0C4604015,AENFFA0C4604016,AENFFA0C4604A01,AENFFA0C4604A02,AENFFA0C4604A03,AENFFA0C4604A04,AENFFA0C4604A05,AENFFA0C4604A06,AENFFA0C4604A07,AENFFA0C5104017,AENFFA0C5104018,AENFFA0C5104019,AENFFA0C5104020,AENFFA0C5104021,AENFFA0C5214A01,AENFFA0C5214A02,AENFFA0C5214A03,AENFFA0C5224A01,AENFFA0C5224A02,AENFFA0C5224A03,AENFFA0C5234A01,AENFFA0C5234A02,AENFFA0C5234A03,AENFFA0C5314A01,AENFFA0C5314A02,AENFFA0C5314A03,AENFFA0C5314A04,AENFFA0C5314A05,AENFFA0C5324A01,AENFFA0C5324A02,AENFFA0C5324A03,AENFFA0C5324A04,AENFFA0C5324A05,AENFFA0C5334A01,AENFFA0C5334A02,AENFFA0C5334A03,AENFFA0C5334A04,AENFFA0C5334A05,AENFFA0C5604009,AENFFA0C5604010,AENFFA0C5604011,AENFFA0C6104A01,AENFFA0C6104A02,AENFFA0C6104A03,AENFFA0C6104A04,AENFFA0C6104A05,AENFFA0C6104A06,AENFFA0C6104A07,AENFFA0C6304010,AENFFA0C6304011,AENFFA0C6304A01,AENFFA0C6304A02,AENFFA0C6304A03,AENFFA0C6304A04,AENFFA0C6304A05,AENFFA0C7214A01,AENFFA0C7214A02,AENFFA0C7214A03,AENFFA0C7214A04,AENFFA0C7214A05,AENFFA0C7214A06,AENFFA0C7214A07,AENFFA0C7224A01,AENFFA0C7224A02,AENFFA0C7224A03,AENFFA0C7224A04,AENFFA0C7224A05,AENFFA0C7224A06,AENFFA0C7224A07,AENFFA0C7224A08,AENFFA0C7224A09,AENFFA0C7224A10,AENFFA0C7224A11,AENFFA0C7224A12,AENFFA0C7224A13,AENFFA0C7224A14,AENFFA0C7224A15,AENFFA0C7224A16,AENFFA0C7224A17,AENFFA0C7224A18,AENFFA0C7224A19,AENFFA0C7224A20,AENFFA0C7224A21,AENFFA0C7224A22,AENFFA0C7224A23,AENFFA0C7224A24,AENFFA0C7224A25,AENFFA0C7234A01,AENFFA0C7234A02,AENFFA0C7234A03,AENFFA0C7234A04,AENFFA0C7234A05,AENFFA0C7234A06,AENFFA0C7234A07,AENFFA0C7234A08,AENFFA0C7234A09,AENFFA0C7234A10,AENFFA0C7234A11,AENFFA0C7234A12,AENFFA0C7234A13,AENFFA0C7234A14,AENFFA0C7234A15,AENFFA0C7234A16,AENFFA0C7234A17,AENFFA0C7234A18,AENFFA0C7234A19,AENFFA0C7234A20,AENFFA0C7234A21,AENFFA0C8204009,AENFFA0C8204010,AENFFA0C9204A01,AENFFA0C9204A02,AENFFA0C9204A03,AENFFA0C9204A04,AENFFA0C9204A05,AENFFA0C9204A06,AENFFA0C9204A07,AENFFA0C9204A08,AENFFA0C9204A09,AENFFA0C9204A10,AENFFA0C9204A11,AENFFA0C9204A12,AENFFA0C9204A13,AENFFA0C9304021,AENFFA0C9404A01,AENFFA0C9404A02,AENFFA0C9404A03,AENFFA0C9404A04,AENFFA0C9404A05,AENFFA0C9504A01,AENFFA0C9504A02,AENFFA0C9504A03,AENFFA0C9504A04,AENFFA0C9504A05,AENFFA0C9504A06,AENFFA0C9504A07,AENFFA0C9504A08,AENFFA0C9504A09,AENFFA0C9504A10,AENFFA0C9604A01,AENFFA0C9604A02,AENFFA0C9604A03,AENFFA0C9604A04,AENFFA0C9604A05,AENFFA0C9704A01,AENFFA0C9704A02,AENFFA0C9704A03,AENFFA0C9904A01,AENFFA0C9904A02,AENFFA0C9904A03,AENFFA0C9904A04,AENFFA0C9904A05,AENFFA0C9904A06,AENFFA0C9904A07,AENFFA0C9F04A01,AENFFA0C9F04A02,AENFFA0C9F04A03,AENFFA0C9F04A04,AENFFA0C9F04A05,AENFFA0C9F04A06,AENFFA0C9F04A07,AENFFA0C9F04A08,AENFFA0C9F04A09,AENFFA0C9F04A10,AENFFA0CA114A01,AENFFA0CA114A02,AENFFA0CA114A03,AENFFA0CA114A04,AENFFA0CA114A05,AENFFA0CA114A06,AENFFA0CA114A07,AENFFA0CA124011,AENFFA0CA124A01,AENFFA0CA124A02,AENFFA0CA124A03,AENFFA0CA124A04,AENFFA0CA124A05,AENFFA0CA124A06,AENFFA0CA904010,AENFFA0CA904011,AENFFA0CA904A01,AENFFA0CA904A02,AENFFA0CAA04A01,AENFFA0CAA04A02,AENFFA0CAA04A03,AENFFA0CAA04A04,AENFFA0CAA04A05,AENFFA0CAA04A06,AENFFA0CAA04A07";
+var arrSieList = strSieList.split(",");
+</script>
+<script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="initNavi();">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr><td align="center">
+<div class="listhead">Symptom Index
+<a href="./search_sym.html" target="NAVI">
+<img class="title_icon" onclick="setMode(&#39;search_sym&#39;);" src="../icon/search_2.gif" border="0"></a></div>
+</td></tr></tbody></table>
+
+<a href="javascript:%20toggle(&#39;1&#39;)" title="1 – Engine"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk1" src="../icon/closed.gif" width="11px" border="0" alt="icon">1 – Engine</div></a>
+<div id="blk1" style="display: none;">
+<a href="javascript:%20toggle(&#39;11&#39;)" title="1A – Engine General Information and Diagnosis"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk11" src="../icon/closed.gif" width="11px" border="0" alt="icon">1A – Engine General Information and Diagnosis</div></a>
+<div id="blk11" style="display: none;">
+<a href="javascript:%20toggle(&#39;111&#39;)" title="M16A"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk111" src="../icon/closed.gif" width="11px" border="0" alt="icon">M16A</div></a>
+<div id="blk111" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114011&#39;)" title="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)"><div class="sie_sym" id="sieAENFFA0C1114011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114012&#39;)" title="MIL Remains ON after Engine Starts"><div class="sie_sym" id="sieAENFFA0C1114012" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Remains ON after Engine Starts</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A01&#39;)" title="Hard starting (Engine can be cranked)"><div class="sie_sym" id="sieAENFFA0C1114A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard starting (Engine can be cranked)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A02&#39;)" title="Low oil pressure"><div class="sie_sym" id="sieAENFFA0C1114A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Low oil pressure</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A03&#39;)" title="Engine noise – Valve noise"><div class="sie_sym" id="sieAENFFA0C1114A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Valve noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A04&#39;)" title="Engine noise – Piston, piston ring and cylinder noise"><div class="sie_sym" id="sieAENFFA0C1114A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Piston, piston ring and cylinder noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A05&#39;)" title="Engine noise – Connecting rod noise"><div class="sie_sym" id="sieAENFFA0C1114A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Connecting rod noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A06&#39;)" title="Engine noise – Crankshaft noise"><div class="sie_sym" id="sieAENFFA0C1114A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Crankshaft noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A07&#39;)" title="Engine overheating"><div class="sie_sym" id="sieAENFFA0C1114A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheating</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A08&#39;)" title="Poor fuel mileage"><div class="sie_sym" id="sieAENFFA0C1114A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor fuel mileage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A09&#39;)" title="Excessive engine oil consumption – Oil leakage"><div class="sie_sym" id="sieAENFFA0C1114A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive engine oil consumption – Oil leakage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A10&#39;)" title="Excessive engine oil consumption – Oil entering combustion chamber"><div class="sie_sym" id="sieAENFFA0C1114A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive engine oil consumption – Oil entering combustion chamber</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A11&#39;)" title="Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal etc."><div class="sie_sym" id="sieAENFFA0C1114A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal etc.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A12&#39;)" title="Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position."><div class="sie_sym" id="sieAENFFA0C1114A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A13&#39;)" title="Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening."><div class="sie_sym" id="sieAENFFA0C1114A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A14&#39;)" title="Poor engine power"><div class="sie_sym" id="sieAENFFA0C1114A14" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor engine power</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A15&#39;)" title="Improper engine idling or engine fails to idle"><div class="sie_sym" id="sieAENFFA0C1114A15" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Improper engine idling or engine fails to idle</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A16&#39;)" title="Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission"><div class="sie_sym" id="sieAENFFA0C1114A16" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1114A17&#39;)" title="Excessive nitrogen oxides (NOx) emission"><div class="sie_sym" id="sieAENFFA0C1114A17" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive nitrogen oxides (NOx) emission</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;112&#39;)" title="K14C"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk112" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C</div></a>
+<div id="blk112" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124011&#39;)" title="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)"><div class="sie_sym" id="sieAENFFA0C1124011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124012&#39;)" title="MIL Remains ON after Engine Starts"><div class="sie_sym" id="sieAENFFA0C1124012" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Remains ON after Engine Starts</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A01&#39;)" title="Hard starting (Engine can be cranked)"><div class="sie_sym" id="sieAENFFA0C1124A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard starting (Engine can be cranked)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A02&#39;)" title="Low oil pressure"><div class="sie_sym" id="sieAENFFA0C1124A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Low oil pressure</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A03&#39;)" title="Engine noise – Valve noise"><div class="sie_sym" id="sieAENFFA0C1124A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Valve noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A04&#39;)" title="Engine noise – Piston, piston ring and cylinder noise"><div class="sie_sym" id="sieAENFFA0C1124A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Piston, piston ring and cylinder noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A05&#39;)" title="Engine noise – Connecting rod noise"><div class="sie_sym" id="sieAENFFA0C1124A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Connecting rod noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A06&#39;)" title="Engine noise – Crankshaft noise"><div class="sie_sym" id="sieAENFFA0C1124A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine noise – Crankshaft noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A07&#39;)" title="Engine overheating"><div class="sie_sym" id="sieAENFFA0C1124A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheating</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A08&#39;)" title="Poor fuel mileage"><div class="sie_sym" id="sieAENFFA0C1124A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor fuel mileage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A09&#39;)" title="Excessive engine oil consumption – Oil leakage"><div class="sie_sym" id="sieAENFFA0C1124A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive engine oil consumption – Oil leakage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A10&#39;)" title="Excessive engine oil consumption – Oil entering combustion chamber"><div class="sie_sym" id="sieAENFFA0C1124A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive engine oil consumption – Oil entering combustion chamber</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A11&#39;)" title="Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal etc."><div class="sie_sym" id="sieAENFFA0C1124A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal etc.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A12&#39;)" title="Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position."><div class="sie_sym" id="sieAENFFA0C1124A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A13&#39;)" title="Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening."><div class="sie_sym" id="sieAENFFA0C1124A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening.</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A14&#39;)" title="Poor engine power"><div class="sie_sym" id="sieAENFFA0C1124A14" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor engine power</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A15&#39;)" title="Improper engine idling or engine fails to idle"><div class="sie_sym" id="sieAENFFA0C1124A15" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Improper engine idling or engine fails to idle</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A16&#39;)" title="Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission"><div class="sie_sym" id="sieAENFFA0C1124A16" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1124A17&#39;)" title="Excessive nitrogen oxides (NOx) emission"><div class="sie_sym" id="sieAENFFA0C1124A17" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive nitrogen oxides (NOx) emission</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;113&#39;)" title="D16AA"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk113" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA</div></a>
+<div id="blk113" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1134010&#39;)" title="Engine Symptom Diagnosis"><div class="sie_sym" id="sieAENFFA0C1134010" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine Symptom Diagnosis</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1134011&#39;)" title="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)"><div class="sie_sym" id="sieAENFFA0C1134011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1134012&#39;)" title="MIL Remains ON after Engine Starts"><div class="sie_sym" id="sieAENFFA0C1134012" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Remains ON after Engine Starts</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;16&#39;)" title="1F – Engine Cooling System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk16" src="../icon/closed.gif" width="11px" border="0" alt="icon">1F – Engine Cooling System</div></a>
+<div id="blk16" style="display: none;">
+<a href="javascript:%20toggle(&#39;161&#39;)" title="M16A"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk161" src="../icon/closed.gif" width="11px" border="0" alt="icon">M16A</div></a>
+<div id="blk161" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1614A01&#39;)" title="Engine overheats (Radiator fan operates)"><div class="sie_sym" id="sieAENFFA0C1614A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (Radiator fan operates)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1614A02&#39;)" title="Engine overheats (Radiator fan does not operate)"><div class="sie_sym" id="sieAENFFA0C1614A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (Radiator fan does not operate)</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;162&#39;)" title="K14C"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk162" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C</div></a>
+<div id="blk162" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1624A01&#39;)" title="Engine overheats (Radiator fan operates)"><div class="sie_sym" id="sieAENFFA0C1624A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255); background: url(&quot;../icon/sie_bg_dtcsym.gif&quot;) repeat-y rgb(255, 255, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (Radiator fan operates)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1624A02&#39;)" title="Engine overheats (Radiator fan does not operate)"><div class="sie_sym" id="sieAENFFA0C1624A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (Radiator fan does not operate)</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;163&#39;)" title="D16AA"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk163" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA</div></a>
+<div id="blk163" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1634A01&#39;)" title="Engine overheats (When radiator cooling fan operates)"><div class="sie_sym" id="sieAENFFA0C1634A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (When radiator cooling fan operates)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1634A02&#39;)" title="Engine overheats (When radiator cooling fan does not operate)"><div class="sie_sym" id="sieAENFFA0C1634A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine overheats (When radiator cooling fan does not operate)</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;19&#39;)" title="1I – Starting System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk19" src="../icon/closed.gif" width="11px" border="0" alt="icon">1I – Starting System</div></a>
+<div id="blk19" style="display: none;">
+<a href="javascript:%20toggle(&#39;191&#39;)" title="M16A"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk191" src="../icon/closed.gif" width="11px" border="0" alt="icon">M16A</div></a>
+<div id="blk191" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1914A01&#39;)" title="Starting motor not running (No operating sound of magnetic switch)"><div class="sie_sym" id="sieAENFFA0C1914A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (No operating sound of magnetic switch)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1914A02&#39;)" title="Starting motor not running (Operating sound of magnetic switch heard)"><div class="sie_sym" id="sieAENFFA0C1914A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (Operating sound of magnetic switch heard)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1914A03&#39;)" title="Starting motor running but too slow (small torque)"><div class="sie_sym" id="sieAENFFA0C1914A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running but too slow (small torque)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1914A04&#39;)" title="Starting motor running, but not cranking engine"><div class="sie_sym" id="sieAENFFA0C1914A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running, but not cranking engine</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1914A05&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C1914A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;192&#39;)" title="K14C"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk192" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C</div></a>
+<div id="blk192" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1924A01&#39;)" title="Starting motor not running (No operating sound of magnetic switch)"><div class="sie_sym" id="sieAENFFA0C1924A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (No operating sound of magnetic switch)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1924A02&#39;)" title="Starting motor not running (Operating sound of magnetic switch heard)"><div class="sie_sym" id="sieAENFFA0C1924A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (Operating sound of magnetic switch heard)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1924A03&#39;)" title="Starting motor running but too slow (small torque)"><div class="sie_sym" id="sieAENFFA0C1924A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running but too slow (small torque)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1924A04&#39;)" title="Starting motor running, but not cranking engine"><div class="sie_sym" id="sieAENFFA0C1924A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running, but not cranking engine</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1924A05&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C1924A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;193&#39;)" title="D16AA"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk193" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA</div></a>
+<div id="blk193" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A01&#39;)" title="Starting motor not running (No operating sound of magnetic switch)"><div class="sie_sym" id="sieAENFFA0C1934A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (No operating sound of magnetic switch)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A02&#39;)" title="Starting motor not running (Operating sound of magnetic switch heard)"><div class="sie_sym" id="sieAENFFA0C1934A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor not running (Operating sound of magnetic switch heard)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A03&#39;)" title="Starting motor running but too slow (small torque)"><div class="sie_sym" id="sieAENFFA0C1934A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running but too slow (small torque)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A04&#39;)" title="Starting motor running, but not cranking engine"><div class="sie_sym" id="sieAENFFA0C1934A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor running, but not cranking engine</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A05&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C1934A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1934A06&#39;)" title="Starting motor does not stop running"><div class="sie_sym" id="sieAENFFA0C1934A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Starting motor does not stop running</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;1A&#39;)" title="1J – Charging System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk1A" src="../icon/closed.gif" width="11px" border="0" alt="icon">1J – Charging System</div></a>
+<div id="blk1A" style="display: none;">
+<a href="javascript:%20toggle(&#39;1A1&#39;)" title="M16A"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk1A1" src="../icon/closed.gif" width="11px" border="0" alt="icon">M16A</div></a>
+<div id="blk1A1" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A14A01&#39;)" title="Charge warning light does not light with ignition “ON” and engine off"><div class="sie_sym" id="sieAENFFA0C1A14A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not light with ignition “ON” and engine off</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A14A02&#39;)" title="Charge warning light does not go out with engine running (battery requires frequent recharging)"><div class="sie_sym" id="sieAENFFA0C1A14A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not go out with engine running (battery requires frequent recharging)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A14A03&#39;)" title="Undercharged battery"><div class="sie_sym" id="sieAENFFA0C1A14A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Undercharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A14A04&#39;)" title="Overcharged battery"><div class="sie_sym" id="sieAENFFA0C1A14A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Overcharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A14A05&#39;)" title="Noisy generator"><div class="sie_sym" id="sieAENFFA0C1A14A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy generator</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;1A2&#39;)" title="K14C"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk1A2" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C</div></a>
+<div id="blk1A2" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A24A01&#39;)" title="Charge warning light does not light with ignition “ON” and engine off"><div class="sie_sym" id="sieAENFFA0C1A24A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not light with ignition “ON” and engine off</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A24A02&#39;)" title="Charge warning light does not go out with engine running (battery requires frequent recharging)"><div class="sie_sym" id="sieAENFFA0C1A24A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not go out with engine running (battery requires frequent recharging)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A24A03&#39;)" title="Undercharged battery"><div class="sie_sym" id="sieAENFFA0C1A24A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Undercharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A24A04&#39;)" title="Overcharged battery"><div class="sie_sym" id="sieAENFFA0C1A24A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Overcharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A24A05&#39;)" title="Noisy generator"><div class="sie_sym" id="sieAENFFA0C1A24A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy generator</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;1A3&#39;)" title="D16AA"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk1A3" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA</div></a>
+<div id="blk1A3" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A34A01&#39;)" title="Charge warning light does not light with ignition “ON” and engine off"><div class="sie_sym" id="sieAENFFA0C1A34A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not light with ignition “ON” and engine off</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A34A02&#39;)" title="Charge warning light does not go out with engine running (battery requires frequent recharging)"><div class="sie_sym" id="sieAENFFA0C1A34A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Charge warning light does not go out with engine running (battery requires frequent recharging)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A34A03&#39;)" title="Undercharged battery"><div class="sie_sym" id="sieAENFFA0C1A34A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Undercharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A34A04&#39;)" title="Overcharged battery"><div class="sie_sym" id="sieAENFFA0C1A34A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Overcharged battery</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C1A34A05&#39;)" title="Noisy generator"><div class="sie_sym" id="sieAENFFA0C1A34A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy generator</div></a>
+</div>
+</div>
+</div>
+
+
+
+<a href="javascript:%20toggle(&#39;2&#39;)" title="2 – Suspension"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk2" src="../icon/closed.gif" width="11px" border="0" alt="icon">2 – Suspension</div></a>
+<div id="blk2" style="display: none;">
+<a href="javascript:%20toggle(&#39;21&#39;)" title="2A – Suspension General Diagnosis"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk21" src="../icon/closed.gif" width="11px" border="0" alt="icon">2A – Suspension General Diagnosis</div></a>
+<div id="blk21" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A01&#39;)" title="Vehicle pulls to one side (leads)"><div class="sie_sym" id="sieAENFFA0C2104A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle pulls to one side (leads)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A02&#39;)" title="Excessive tire wear"><div class="sie_sym" id="sieAENFFA0C2104A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive tire wear</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A03&#39;)" title="Wheel tramp"><div class="sie_sym" id="sieAENFFA0C2104A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Wheel tramp</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A04&#39;)" title="Shimmy, shake or vibration"><div class="sie_sym" id="sieAENFFA0C2104A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Shimmy, shake or vibration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A05&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C2104A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A06&#39;)" title="Too low or uneven trim heights"><div class="sie_sym" id="sieAENFFA0C2104A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Too low or uneven trim heights</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A07&#39;)" title="Too soft ride"><div class="sie_sym" id="sieAENFFA0C2104A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Too soft ride</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A08&#39;)" title="Suspension bottoms"><div class="sie_sym" id="sieAENFFA0C2104A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Suspension bottoms</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A09&#39;)" title="Body leans or sways in corners"><div class="sie_sym" id="sieAENFFA0C2104A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Body leans or sways in corners</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C2104A10&#39;)" title="Cupped tires"><div class="sie_sym" id="sieAENFFA0C2104A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cupped tires</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;3&#39;)" title="3 – Driveline / Axle"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk3" src="../icon/closed.gif" width="11px" border="0" alt="icon">3 – Driveline / Axle</div></a>
+<div id="blk3" style="display: none;">
+<a href="javascript:%20toggle(&#39;31&#39;)" title="3A – Drive Shaft / Axle"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk31" src="../icon/closed.gif" width="11px" border="0" alt="icon">3A – Drive Shaft / Axle</div></a>
+<div id="blk31" style="display: none;">
+<a href="javascript:%20toggle(&#39;311&#39;)" title="Front"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk311" src="../icon/closed.gif" width="11px" border="0" alt="icon">Front</div></a>
+<div id="blk311" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3114A01&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C3114A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;312&#39;)" title="Rear"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk312" src="../icon/closed.gif" width="11px" border="0" alt="icon">Rear</div></a>
+<div id="blk312" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3124A01&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C3124A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;32&#39;)" title="3B – Differential"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk32" src="../icon/closed.gif" width="11px" border="0" alt="icon">3B – Differential</div></a>
+<div id="blk32" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204010&#39;)" title="4WD Warning Light Does Not Come ON when Setting Ignition “ON” with Engine Stationary"><div class="sie_sym" id="sieAENFFA0C3204010" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">4WD Warning Light Does Not Come ON when Setting Ignition “ON” with Engine Stationary</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204011&#39;)" title="4WD Warning Light Remains ON Steady with Ignition “ON”"><div class="sie_sym" id="sieAENFFA0C3204011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">4WD Warning Light Remains ON Steady with Ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204A01&#39;)" title="Gear noise"><div class="sie_sym" id="sieAENFFA0C3204A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Gear noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204A02&#39;)" title="Bearing noise"><div class="sie_sym" id="sieAENFFA0C3204A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Bearing noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204A03&#39;)" title="Oil leakage"><div class="sie_sym" id="sieAENFFA0C3204A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Oil leakage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3204A04&#39;)" title="4WD system does not operate"><div class="sie_sym" id="sieAENFFA0C3204A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">4WD system does not operate</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;33&#39;)" title="3C – Transfer"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk33" src="../icon/closed.gif" width="11px" border="0" alt="icon">3C – Transfer</div></a>
+<div id="blk33" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3304A01&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C3304A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;34&#39;)" title="3D – Propeller Shaft"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk34" src="../icon/closed.gif" width="11px" border="0" alt="icon">3D – Propeller Shaft</div></a>
+<div id="blk34" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3404A01&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C3404A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C3404A02&#39;)" title="Vibration"><div class="sie_sym" id="sieAENFFA0C3404A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vibration</div></a>
+</div>
+</div>
+
+
+
+<a href="javascript:%20toggle(&#39;4&#39;)" title="4 – Brakes"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk4" src="../icon/closed.gif" width="11px" border="0" alt="icon">4 – Brakes</div></a>
+<div id="blk4" style="display: none;">
+<a href="javascript:%20toggle(&#39;41&#39;)" title="4A – Brake Control System and Diagnosis"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk41" src="../icon/closed.gif" width="11px" border="0" alt="icon">4A – Brake Control System and Diagnosis</div></a>
+<div id="blk41" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A01&#39;)" title="Not enough braking force"><div class="sie_sym" id="sieAENFFA0C4104A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Not enough braking force</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A02&#39;)" title="Vehicle pulls to one side (Brakes not working uniformly)"><div class="sie_sym" id="sieAENFFA0C4104A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle pulls to one side (Brakes not working uniformly)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A03&#39;)" title="Noise (High pitched squeak without brake applied)"><div class="sie_sym" id="sieAENFFA0C4104A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise (High pitched squeak without brake applied)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A04&#39;)" title="Excessive pedal travel (Pedal stroke too large)"><div class="sie_sym" id="sieAENFFA0C4104A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Excessive pedal travel (Pedal stroke too large)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A05&#39;)" title="Brake locked"><div class="sie_sym" id="sieAENFFA0C4104A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Brake locked</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A06&#39;)" title="Dragging brakes (A very light drag is present in all brakes immediately after pedal is released)"><div class="sie_sym" id="sieAENFFA0C4104A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Dragging brakes (A very light drag is present in all brakes immediately after pedal is released)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A07&#39;)" title="Pedal pulsation (Pedal pulsates when depressed for braking)"><div class="sie_sym" id="sieAENFFA0C4104A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Pedal pulsation (Pedal pulsates when depressed for braking)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A08&#39;)" title="Braking noise"><div class="sie_sym" id="sieAENFFA0C4104A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Braking noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A09&#39;)" title="ABS warning light remains ON (for more than 2 sec) after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4104A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS warning light remains ON (for more than 2 sec) after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A10&#39;)" title="ABS warning light does not turn ON after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4104A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS warning light does not turn ON after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A11&#39;)" title="ESP warning light remains ON (for more than 2 sec) after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4104A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ESP warning light remains ON (for more than 2 sec) after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A12&#39;)" title="ESP warning light does not turn ON after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4104A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ESP warning light does not turn ON after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A13&#39;)" title="Brake warning light remains ON (for more than 2 sec) after starting engine"><div class="sie_sym" id="sieAENFFA0C4104A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Brake warning light remains ON (for more than 2 sec) after starting engine</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4104A14&#39;)" title="Brake warning light does not turn ON after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4104A14" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Brake warning light does not turn ON after setting ignition “ON”</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;46&#39;)" title="4F – Electronic Stability Program"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk46" src="../icon/closed.gif" width="11px" border="0" alt="icon">4F – Electronic Stability Program</div></a>
+<div id="blk46" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604011&#39;)" title="ESP® Warning Light Does Not Come ON after Setting Ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ESP® Warning Light Does Not Come ON after Setting Ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604012&#39;)" title="ESP® Warning Light Comes ON Steady"><div class="sie_sym" id="sieAENFFA0C4604012" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ESP® Warning Light Comes ON Steady</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604013&#39;)" title="ABS Warning Light Does Not Come ON after Setting Ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604013" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS Warning Light Does Not Come ON after Setting Ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604014&#39;)" title="ABS Warning Light Comes ON Steady"><div class="sie_sym" id="sieAENFFA0C4604014" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS Warning Light Comes ON Steady</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604015&#39;)" title="EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604015" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604016&#39;)" title="EBD Warning Light (Brake Warning Light) Comes ON Steady"><div class="sie_sym" id="sieAENFFA0C4604016" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">EBD Warning Light (Brake Warning Light) Comes ON Steady</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A01&#39;)" title="ESP® warning light remains lit for more than 2 seconds after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ESP® warning light remains lit for more than 2 seconds after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A02&#39;)" title="ABS warning light remains lit for more than 2 seconds after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS warning light remains lit for more than 2 seconds after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A03&#39;)" title="ABS and/or ESP® warning light does not turn ON after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS and/or ESP® warning light does not turn ON after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A04&#39;)" title="ABS warning light blinks"><div class="sie_sym" id="sieAENFFA0C4604A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ABS warning light blinks</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A05&#39;)" title="EBD warning light (Brake warning light) remains lit for more than 2 seconds after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">EBD warning light (Brake warning light) remains lit for more than 2 seconds after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A06&#39;)" title="EBD warning light (Brake warning light) does not turn ON after setting ignition “ON”"><div class="sie_sym" id="sieAENFFA0C4604A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">EBD warning light (Brake warning light) does not turn ON after setting ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C4604A07&#39;)" title="Hill decent control switch indicator light stays on or blinks without operating the switch."><div class="sie_sym" id="sieAENFFA0C4604A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hill decent control switch indicator light stays on or blinks without operating the switch.</div></a>
+</div>
+</div>
+
+<a href="javascript:%20toggle(&#39;5&#39;)" title="5 – Transmission / Transaxle"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk5" src="../icon/closed.gif" width="11px" border="0" alt="icon">5 – Transmission / Transaxle</div></a>
+<div id="blk5" style="display: none;">
+<a href="javascript:%20toggle(&#39;51&#39;)" title="5A – Automatic Transmission/Transaxle"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk51" src="../icon/closed.gif" width="11px" border="0" alt="icon">5A – Automatic Transmission/Transaxle</div></a>
+<div id="blk51" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5104017&#39;)" title="A/T Symptom Diagnosis"><div class="sie_sym" id="sieAENFFA0C5104017" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">A/T Symptom Diagnosis</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5104018&#39;)" title="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)"><div class="sie_sym" id="sieAENFFA0C5104018" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5104019&#39;)" title="MIL Remains ON after Engine Starts"><div class="sie_sym" id="sieAENFFA0C5104019" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">MIL Remains ON after Engine Starts</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5104020&#39;)" title="Transmission Warning Light Does Not Come ON with Ignition ON"><div class="sie_sym" id="sieAENFFA0C5104020" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Transmission Warning Light Does Not Come ON with Ignition ON</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5104021&#39;)" title="Transmission Warning Light Remains ON with Ignition ON"><div class="sie_sym" id="sieAENFFA0C5104021" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Transmission Warning Light Remains ON with Ignition ON</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;52&#39;)" title="5B – Manual Transmission/Transaxle"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk52" src="../icon/closed.gif" width="11px" border="0" alt="icon">5B – Manual Transmission/Transaxle</div></a>
+<div id="blk52" style="display: none;">
+<a href="javascript:%20toggle(&#39;521&#39;)" title="5 M/T"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk521" src="../icon/closed.gif" width="11px" border="0" alt="icon">5 M/T</div></a>
+<div id="blk521" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5214A01&#39;)" title="Gears slipping out of mesh"><div class="sie_sym" id="sieAENFFA0C5214A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Gears slipping out of mesh</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5214A02&#39;)" title="Hard shifting"><div class="sie_sym" id="sieAENFFA0C5214A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard shifting</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5214A03&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C5214A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;522&#39;)" title="K14C-6M/T Model"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk522" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C-6M/T Model</div></a>
+<div id="blk522" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5224A01&#39;)" title="Gears slipping out of mesh"><div class="sie_sym" id="sieAENFFA0C5224A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Gears slipping out of mesh</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5224A02&#39;)" title="Hard shifting"><div class="sie_sym" id="sieAENFFA0C5224A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard shifting</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5224A03&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C5224A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;523&#39;)" title="D16AA-6M/T Model"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk523" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA-6M/T Model</div></a>
+<div id="blk523" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5234A01&#39;)" title="Gears slipping out of mesh"><div class="sie_sym" id="sieAENFFA0C5234A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Gears slipping out of mesh</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5234A02&#39;)" title="Hard shifting"><div class="sie_sym" id="sieAENFFA0C5234A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard shifting</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5234A03&#39;)" title="Noise"><div class="sie_sym" id="sieAENFFA0C5234A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noise</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;53&#39;)" title="5C – Clutch"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk53" src="../icon/closed.gif" width="11px" border="0" alt="icon">5C – Clutch</div></a>
+<div id="blk53" style="display: none;">
+<a href="javascript:%20toggle(&#39;531&#39;)" title="5 M/T"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk531" src="../icon/closed.gif" width="11px" border="0" alt="icon">5 M/T</div></a>
+<div id="blk531" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5314A01&#39;)" title="Slipping"><div class="sie_sym" id="sieAENFFA0C5314A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Slipping</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5314A02&#39;)" title="Dragging clutch"><div class="sie_sym" id="sieAENFFA0C5314A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Dragging clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5314A03&#39;)" title="Clutch vibration"><div class="sie_sym" id="sieAENFFA0C5314A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clutch vibration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5314A04&#39;)" title="Noisy clutch"><div class="sie_sym" id="sieAENFFA0C5314A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5314A05&#39;)" title="Grabbing clutch"><div class="sie_sym" id="sieAENFFA0C5314A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Grabbing clutch</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;532&#39;)" title="K14C-6M/T Model"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk532" src="../icon/closed.gif" width="11px" border="0" alt="icon">K14C-6M/T Model</div></a>
+<div id="blk532" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5324A01&#39;)" title="Slipping"><div class="sie_sym" id="sieAENFFA0C5324A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Slipping</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5324A02&#39;)" title="Dragging clutch"><div class="sie_sym" id="sieAENFFA0C5324A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Dragging clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5324A03&#39;)" title="Clutch vibration"><div class="sie_sym" id="sieAENFFA0C5324A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clutch vibration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5324A04&#39;)" title="Noisy clutch"><div class="sie_sym" id="sieAENFFA0C5324A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5324A05&#39;)" title="Grabbing clutch"><div class="sie_sym" id="sieAENFFA0C5324A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Grabbing clutch</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;533&#39;)" title="D16AA-6M/T Model"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk533" src="../icon/closed.gif" width="11px" border="0" alt="icon">D16AA-6M/T Model</div></a>
+<div id="blk533" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5334A01&#39;)" title="Slipping"><div class="sie_sym" id="sieAENFFA0C5334A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Slipping</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5334A02&#39;)" title="Dragging clutch"><div class="sie_sym" id="sieAENFFA0C5334A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Dragging clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5334A03&#39;)" title="Clutch vibration"><div class="sie_sym" id="sieAENFFA0C5334A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clutch vibration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5334A04&#39;)" title="Noisy clutch"><div class="sie_sym" id="sieAENFFA0C5334A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Noisy clutch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5334A05&#39;)" title="Grabbing clutch"><div class="sie_sym" id="sieAENFFA0C5334A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Grabbing clutch</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;56&#39;)" title="5F – Twin Clutch Transmission/Transaxle"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk56" src="../icon/closed.gif" width="11px" border="0" alt="icon">5F – Twin Clutch Transmission/Transaxle</div></a>
+<div id="blk56" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5604009&#39;)" title="Twin Clutch System Symptom Diagnosis"><div class="sie_sym" id="sieAENFFA0C5604009" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Twin Clutch System Symptom Diagnosis</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5604010&#39;)" title="Transmission Warning Light Does Not Come ON at Ignition “ON” and Engine Stopped"><div class="sie_sym" id="sieAENFFA0C5604010" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Transmission Warning Light Does Not Come ON at Ignition “ON” and Engine Stopped</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C5604011&#39;)" title="Transmission Warning Light Remains ON after Engine Starts"><div class="sie_sym" id="sieAENFFA0C5604011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Transmission Warning Light Remains ON after Engine Starts</div></a>
+</div>
+</div>
+
+
+
+<a href="javascript:%20toggle(&#39;6&#39;)" title="6 – Steering"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk6" src="../icon/closed.gif" width="11px" border="0" alt="icon">6 – Steering</div></a>
+<div id="blk6" style="display: none;">
+<a href="javascript:%20toggle(&#39;61&#39;)" title="6A – Steering General Diagnosis"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk61" src="../icon/closed.gif" width="11px" border="0" alt="icon">6A – Steering General Diagnosis</div></a>
+<div id="blk61" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A01&#39;)" title="Hard steering"><div class="sie_sym" id="sieAENFFA0C6104A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Hard steering</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A02&#39;)" title="Too much play in steering"><div class="sie_sym" id="sieAENFFA0C6104A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Too much play in steering</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A03&#39;)" title="Poor return ability"><div class="sie_sym" id="sieAENFFA0C6104A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor return ability</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A04&#39;)" title="Steering noise (Rattle or chuckle)"><div class="sie_sym" id="sieAENFFA0C6104A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Steering noise (Rattle or chuckle)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A05&#39;)" title="Wander or poor steering stability"><div class="sie_sym" id="sieAENFFA0C6104A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Wander or poor steering stability</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A06&#39;)" title="Erratic steering when braking"><div class="sie_sym" id="sieAENFFA0C6104A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Erratic steering when braking</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6104A07&#39;)" title="Steering lock does not operate (not locked or released)"><div class="sie_sym" id="sieAENFFA0C6104A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Steering lock does not operate (not locked or released)</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;63&#39;)" title="6C – Power Assisted Steering System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk63" src="../icon/closed.gif" width="11px" border="0" alt="icon">6C – Power Assisted Steering System</div></a>
+<div id="blk63" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304010&#39;)" title="P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts"><div class="sie_sym" id="sieAENFFA0C6304010" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304011&#39;)" title="P/S Warning Light Remains ON Steady or Blinks after Engine Starts"><div class="sie_sym" id="sieAENFFA0C6304011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">P/S Warning Light Remains ON Steady or Blinks after Engine Starts</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304A01&#39;)" title="Steering wheel feels heavy"><div class="sie_sym" id="sieAENFFA0C6304A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Steering wheel feels heavy</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304A02&#39;)" title="Steering wheel feels heavy momentarily when turning it to left or right"><div class="sie_sym" id="sieAENFFA0C6304A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Steering wheel feels heavy momentarily when turning it to left or right</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304A03&#39;)" title="Poor recovery from turns"><div class="sie_sym" id="sieAENFFA0C6304A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor recovery from turns</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304A04&#39;)" title="Vehicle pulls to one side during straight driving"><div class="sie_sym" id="sieAENFFA0C6304A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle pulls to one side during straight driving</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C6304A05&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C6304A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+</div>
+</div>
+
+<a href="javascript:%20toggle(&#39;7&#39;)" title="7 – HVAC"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk7" src="../icon/closed.gif" width="11px" border="0" alt="icon">7 – HVAC</div></a>
+<div id="blk7" style="display: none;">
+<a href="javascript:%20toggle(&#39;72&#39;)" title="7B – HVAC System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk72" src="../icon/closed.gif" width="11px" border="0" alt="icon">7B – HVAC System</div></a>
+<div id="blk72" style="display: none;">
+<a href="javascript:%20toggle(&#39;721&#39;)" title="Non-A/C"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk721" src="../icon/closed.gif" width="11px" border="0" alt="icon">Non-A/C</div></a>
+<div id="blk721" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A01&#39;)" title="Blower motor does not operate"><div class="sie_sym" id="sieAENFFA0C7214A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor does not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A02&#39;)" title="Air outlets do not change or do not agree with air flow selector’s position even if air flow selector is changed"><div class="sie_sym" id="sieAENFFA0C7214A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Air outlets do not change or do not agree with air flow selector’s position even if air flow selector is changed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A03&#39;)" title="Air intake door does not change even if air intake mode is changed"><div class="sie_sym" id="sieAENFFA0C7214A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Air intake door does not change even if air intake mode is changed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A04&#39;)" title="Warm air does not come out or insufficient heating (Faulty temperature control)"><div class="sie_sym" id="sieAENFFA0C7214A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Warm air does not come out or insufficient heating (Faulty temperature control)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A05&#39;)" title="Heating performance is poor (for additional heater system)"><div class="sie_sym" id="sieAENFFA0C7214A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Heating performance is poor (for additional heater system)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A06&#39;)" title="Blower motor emits chirping sound in proportion to its speed"><div class="sie_sym" id="sieAENFFA0C7214A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor emits chirping sound in proportion to its speed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7214A07&#39;)" title="Blower motor emits fluttering noise or large droning noise"><div class="sie_sym" id="sieAENFFA0C7214A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor emits fluttering noise or large droning noise</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;722&#39;)" title="Manual Type"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk722" src="../icon/closed.gif" width="11px" border="0" alt="icon">Manual Type</div></a>
+<div id="blk722" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A01&#39;)" title="Blower motor does not operate"><div class="sie_sym" id="sieAENFFA0C7224A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor does not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A02&#39;)" title="Air outlet ports do not change or do not agree with air flow selector’s position even if air flow selector is changed"><div class="sie_sym" id="sieAENFFA0C7224A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Air outlet ports do not change or do not agree with air flow selector’s position even if air flow selector is changed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A03&#39;)" title="Air intake door does not change even if air intake mode is changed"><div class="sie_sym" id="sieAENFFA0C7224A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Air intake door does not change even if air intake mode is changed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A04&#39;)" title="Warm air does not come out or insufficient heating (Faulty temperature control)"><div class="sie_sym" id="sieAENFFA0C7224A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Warm air does not come out or insufficient heating (Faulty temperature control)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A05&#39;)" title="No cool air comes out (A/C compressor does not operate)"><div class="sie_sym" id="sieAENFFA0C7224A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">No cool air comes out (A/C compressor does not operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A06&#39;)" title="No cool air comes out (radiator cooling fan motor does not operate)"><div class="sie_sym" id="sieAENFFA0C7224A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">No cool air comes out (radiator cooling fan motor does not operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A07&#39;)" title="Cool air does not come out or insufficient cooling (A/C compressor in normal operation)"><div class="sie_sym" id="sieAENFFA0C7224A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out or insufficient cooling (A/C compressor in normal operation)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A08&#39;)" title="Cool air does not come out intermittently"><div class="sie_sym" id="sieAENFFA0C7224A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out intermittently</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A09&#39;)" title="Cool air comes out only at high speed"><div class="sie_sym" id="sieAENFFA0C7224A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air comes out only at high speed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A10&#39;)" title="Cool air does not come out only at high speed"><div class="sie_sym" id="sieAENFFA0C7224A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out only at high speed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A11&#39;)" title="Insufficient cool air flow"><div class="sie_sym" id="sieAENFFA0C7224A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Insufficient cool air flow</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A12&#39;)" title="Heating performance is poor (for additional heater system)"><div class="sie_sym" id="sieAENFFA0C7224A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Heating performance is poor (for additional heater system)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A13&#39;)" title="During compressor operation, a rumbling noise is heard as to engine speed increases"><div class="sie_sym" id="sieAENFFA0C7224A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">During compressor operation, a rumbling noise is heard as to engine speed increases</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A14&#39;)" title="Loud noise is heard at certain rpm, irrespective of greatness of speed in"><div class="sie_sym" id="sieAENFFA0C7224A14" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Loud noise is heard at certain rpm, irrespective of greatness of speed in</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A15&#39;)" title="Loud rattle is heard at low engine rpm"><div class="sie_sym" id="sieAENFFA0C7224A15" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Loud rattle is heard at low engine rpm</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A16&#39;)" title="Rumbling noise is heard when compressor is not in operation"><div class="sie_sym" id="sieAENFFA0C7224A16" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rumbling noise is heard when compressor is not in operation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A17&#39;)" title="Chattering noise is heard when compressor is in operation"><div class="sie_sym" id="sieAENFFA0C7224A17" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Chattering noise is heard when compressor is in operation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A18&#39;)" title="Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment"><div class="sie_sym" id="sieAENFFA0C7224A18" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A19&#39;)" title="Considerable vibration in condenser assembly"><div class="sie_sym" id="sieAENFFA0C7224A19" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Considerable vibration in condenser assembly</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A20&#39;)" title="Large rattling noise is heard at idle or sudden acceleration"><div class="sie_sym" id="sieAENFFA0C7224A20" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Large rattling noise is heard at idle or sudden acceleration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A21&#39;)" title="Clattering noise is heard from pulley"><div class="sie_sym" id="sieAENFFA0C7224A21" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clattering noise is heard from pulley</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A22&#39;)" title="Pulley cranks upon contact"><div class="sie_sym" id="sieAENFFA0C7224A22" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Pulley cranks upon contact</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A23&#39;)" title="Whistling sound is heard from evaporator"><div class="sie_sym" id="sieAENFFA0C7224A23" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Whistling sound is heard from evaporator</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A24&#39;)" title="Blower motor emits a chirping sound in proportion to its speed of rotation"><div class="sie_sym" id="sieAENFFA0C7224A24" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor emits a chirping sound in proportion to its speed of rotation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7224A25&#39;)" title="Fluttering noise or large droning noise is heard from blower motor"><div class="sie_sym" id="sieAENFFA0C7224A25" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Fluttering noise or large droning noise is heard from blower motor</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;723&#39;)" title="Automatic Type"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk723" src="../icon/closed.gif" width="11px" border="0" alt="icon">Automatic Type</div></a>
+<div id="blk723" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A01&#39;)" title="Blower motor does not operate"><div class="sie_sym" id="sieAENFFA0C7234A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor does not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A02&#39;)" title="No cool air comes out (A/C system does not operate)"><div class="sie_sym" id="sieAENFFA0C7234A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">No cool air comes out (A/C system does not operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A03&#39;)" title="No cool air comes out (radiator cooling fan motor does not operate)"><div class="sie_sym" id="sieAENFFA0C7234A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">No cool air comes out (radiator cooling fan motor does not operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A04&#39;)" title="Cool air does not come out or insufficient cooling (compressor in normal operation)"><div class="sie_sym" id="sieAENFFA0C7234A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out or insufficient cooling (compressor in normal operation)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A05&#39;)" title="Cool air does not come out intermittently"><div class="sie_sym" id="sieAENFFA0C7234A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out intermittently</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A06&#39;)" title="Cool air comes out only at high speed"><div class="sie_sym" id="sieAENFFA0C7234A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air comes out only at high speed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A07&#39;)" title="Cool air does not come out only at high speed"><div class="sie_sym" id="sieAENFFA0C7234A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cool air does not come out only at high speed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A08&#39;)" title="Insufficient cool air flow"><div class="sie_sym" id="sieAENFFA0C7234A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Insufficient cool air flow</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A09&#39;)" title="During compressor operation, a rumbling noise is heard as to engine speed increases"><div class="sie_sym" id="sieAENFFA0C7234A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">During compressor operation, a rumbling noise is heard as to engine speed increases</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A10&#39;)" title="Loud noise is heard at certain rpm, irrespective of greatness of speed in"><div class="sie_sym" id="sieAENFFA0C7234A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Loud noise is heard at certain rpm, irrespective of greatness of speed in</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A11&#39;)" title="Loud rattle is heard at low engine rpm"><div class="sie_sym" id="sieAENFFA0C7234A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Loud rattle is heard at low engine rpm</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A12&#39;)" title="Rumbling noise is heard when compressor is not in operation"><div class="sie_sym" id="sieAENFFA0C7234A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rumbling noise is heard when compressor is not in operation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A13&#39;)" title="Chattering noise is heard when compressor is in operation"><div class="sie_sym" id="sieAENFFA0C7234A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Chattering noise is heard when compressor is in operation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A14&#39;)" title="Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment"><div class="sie_sym" id="sieAENFFA0C7234A14" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A15&#39;)" title="Considerable vibration in condenser assembly"><div class="sie_sym" id="sieAENFFA0C7234A15" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Considerable vibration in condenser assembly</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A16&#39;)" title="Large rattling noise is heard at idle or sudden acceleration"><div class="sie_sym" id="sieAENFFA0C7234A16" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Large rattling noise is heard at idle or sudden acceleration</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A17&#39;)" title="Clattering noise is heard from pulley"><div class="sie_sym" id="sieAENFFA0C7234A17" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clattering noise is heard from pulley</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A18&#39;)" title="Pulley cranks upon contact"><div class="sie_sym" id="sieAENFFA0C7234A18" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Pulley cranks upon contact</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A19&#39;)" title="Whistling sound is heard from evaporator"><div class="sie_sym" id="sieAENFFA0C7234A19" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Whistling sound is heard from evaporator</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A20&#39;)" title="Blower motor emits a chirping sound in proportion to its speed of rotation"><div class="sie_sym" id="sieAENFFA0C7234A20" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Blower motor emits a chirping sound in proportion to its speed of rotation</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C7234A21&#39;)" title="Fluttering noise or large droning noise is heard from blower motor"><div class="sie_sym" id="sieAENFFA0C7234A21" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Fluttering noise or large droning noise is heard from blower motor</div></a>
+</div>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;8&#39;)" title="8 – Restraint"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk8" src="../icon/closed.gif" width="11px" border="0" alt="icon">8 – Restraint</div></a>
+<div id="blk8" style="display: none;">
+<a href="javascript:%20toggle(&#39;82&#39;)" title="8B – Air Bag System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk82" src="../icon/closed.gif" width="11px" border="0" alt="icon">8B – Air Bag System</div></a>
+<div id="blk82" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C8204009&#39;)" title="“AIR BAG” Warning Light Comes ON Steady"><div class="sie_sym" id="sieAENFFA0C8204009" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">“AIR BAG” Warning Light Comes ON Steady</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C8204010&#39;)" title="“AIR BAG” Warning Light Does Not Come ON"><div class="sie_sym" id="sieAENFFA0C8204010" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">“AIR BAG” Warning Light Does Not Come ON</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;9&#39;)" title="9 – Body, Cab and Accessories"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk9" src="../icon/closed.gif" width="11px" border="0" alt="icon">9 – Body, Cab and Accessories</div></a>
+<div id="blk9" style="display: none;">
+<a href="javascript:%20toggle(&#39;92&#39;)" title="9B – Lighting Systems"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk92" src="../icon/closed.gif" width="11px" border="0" alt="icon">9B – Lighting Systems</div></a>
+<div id="blk92" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A01&#39;)" title="Only one low-beam headlight lights up"><div class="sie_sym" id="sieAENFFA0C9204A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Only one low-beam headlight lights up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A02&#39;)" title="Both low-beam headlights do not light up"><div class="sie_sym" id="sieAENFFA0C9204A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Both low-beam headlights do not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A03&#39;)" title="Only one high-beam headlight lights up"><div class="sie_sym" id="sieAENFFA0C9204A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Only one high-beam headlight lights up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A04&#39;)" title="Both high-beam headlights do not light up"><div class="sie_sym" id="sieAENFFA0C9204A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Both high-beam headlights do not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A05&#39;)" title="Auto-on headlight system malfunctions (if equipped)"><div class="sie_sym" id="sieAENFFA0C9204A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Auto-on headlight system malfunctions (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A06&#39;)" title="Headlight manual leveling system does not operate (if equipped)"><div class="sie_sym" id="sieAENFFA0C9204A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Headlight manual leveling system does not operate (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A07&#39;)" title="Headlight auto leveling system does not operate (LED headlight model)"><div class="sie_sym" id="sieAENFFA0C9204A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Headlight auto leveling system does not operate (LED headlight model)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A08&#39;)" title="Fog lights do not light up (if equipped)"><div class="sie_sym" id="sieAENFFA0C9204A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Fog lights do not light up (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A09&#39;)" title="Dome light, spot light, luggage compartment light (if equipped) or foot light (if equipped) does not light up"><div class="sie_sym" id="sieAENFFA0C9204A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Dome light, spot light, luggage compartment light (if equipped) or foot light (if equipped) does not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A10&#39;)" title="Clearance lights, tail lights, license plate lights, DRL (if equipped) or LED DRL (if equipped) do not light up"><div class="sie_sym" id="sieAENFFA0C9204A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Clearance lights, tail lights, license plate lights, DRL (if equipped) or LED DRL (if equipped) do not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A11&#39;)" title="Back up lights do not light up"><div class="sie_sym" id="sieAENFFA0C9204A11" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Back up lights do not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A12&#39;)" title="Brake lights do not light up"><div class="sie_sym" id="sieAENFFA0C9204A12" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Brake lights do not light up</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9204A13&#39;)" title="Turn signal / hazard warning lights do not flash"><div class="sie_sym" id="sieAENFFA0C9204A13" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Turn signal / hazard warning lights do not flash</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;93&#39;)" title="9C – Instrumentation / Driver Info. / Horn"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk93" src="../icon/closed.gif" width="11px" border="0" alt="icon">9C – Instrumentation / Driver Info. / Horn</div></a>
+<div id="blk93" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9304021&#39;)" title="Combination Meter Diagnosis"><div class="sie_sym" id="sieAENFFA0C9304021" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Combination Meter Diagnosis</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;94&#39;)" title="9D – Wipers / Washers"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk94" src="../icon/closed.gif" width="11px" border="0" alt="icon">9D – Wipers / Washers</div></a>
+<div id="blk94" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9404A01&#39;)" title="Wiper malfunctions"><div class="sie_sym" id="sieAENFFA0C9404A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Wiper malfunctions</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9404A02&#39;)" title="Washer malfunctions"><div class="sie_sym" id="sieAENFFA0C9404A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Washer malfunctions</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9404A03&#39;)" title="Auto wiper malfunctions (if equipped)"><div class="sie_sym" id="sieAENFFA0C9404A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Auto wiper malfunctions (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9404A04&#39;)" title="Wiper malfunctions"><div class="sie_sym" id="sieAENFFA0C9404A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Wiper malfunctions</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9404A05&#39;)" title="Washer malfunctions"><div class="sie_sym" id="sieAENFFA0C9404A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Washer malfunctions</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;95&#39;)" title="9E – Glass / Windows / Mirrors"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk95" src="../icon/closed.gif" width="11px" border="0" alt="icon">9E – Glass / Windows / Mirrors</div></a>
+<div id="blk95" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A01&#39;)" title="All power windows cannot operate"><div class="sie_sym" id="sieAENFFA0C9504A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">All power windows cannot operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A02&#39;)" title="One of the power window cannot operate"><div class="sie_sym" id="sieAENFFA0C9504A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">One of the power window cannot operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A03&#39;)" title="Auto-up / auto-down function does not operate"><div class="sie_sym" id="sieAENFFA0C9504A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Auto-up / auto-down function does not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A04&#39;)" title="Abnormal noise"><div class="sie_sym" id="sieAENFFA0C9504A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Abnormal noise</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A05&#39;)" title="All power door mirrors do not operate"><div class="sie_sym" id="sieAENFFA0C9504A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">All power door mirrors do not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A06&#39;)" title="One of the power door mirrors cannot operate"><div class="sie_sym" id="sieAENFFA0C9504A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">One of the power door mirrors cannot operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A07&#39;)" title="Power door mirrors cannot move smoothly"><div class="sie_sym" id="sieAENFFA0C9504A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Power door mirrors cannot move smoothly</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A08&#39;)" title="Rear defogger cannot operate"><div class="sie_sym" id="sieAENFFA0C9504A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rear defogger cannot operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A09&#39;)" title="All mirror heaters do not operate (if equipped)"><div class="sie_sym" id="sieAENFFA0C9504A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">All mirror heaters do not operate (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9504A10&#39;)" title="One of the door mirror heaters does not operate (if equipped)"><div class="sie_sym" id="sieAENFFA0C9504A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">One of the door mirror heaters does not operate (if equipped)</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;96&#39;)" title="9F – Security and Locks"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk96" src="../icon/closed.gif" width="11px" border="0" alt="icon">9F – Security and Locks</div></a>
+<div id="blk96" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9604A01&#39;)" title="Only one door cannot be locked / unlocked"><div class="sie_sym" id="sieAENFFA0C9604A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Only one door cannot be locked / unlocked</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9604A02&#39;)" title="All doors cannot be locked / unlocked"><div class="sie_sym" id="sieAENFFA0C9604A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">All doors cannot be locked / unlocked</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9604A03&#39;)" title="Malfunction request switches (Keyless push start model)"><div class="sie_sym" id="sieAENFFA0C9604A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Malfunction request switches (Keyless push start model)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9604A04&#39;)" title="Faulty answer-back function of interior light"><div class="sie_sym" id="sieAENFFA0C9604A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Faulty answer-back function of interior light</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9604A05&#39;)" title="Faulty answer-back function of hazard warning light"><div class="sie_sym" id="sieAENFFA0C9604A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Faulty answer-back function of hazard warning light</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;97&#39;)" title="9G – Seats"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk97" src="../icon/closed.gif" width="11px" border="0" alt="icon">9G – Seats</div></a>
+<div id="blk97" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9704A01&#39;)" title="Both seatback and cushion do not become hot although seat heater switch is in “LO/HI” position"><div class="sie_sym" id="sieAENFFA0C9704A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Both seatback and cushion do not become hot although seat heater switch is in “LO/HI” position</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9704A02&#39;)" title="Only seatback does not become hot although seat heater switch is in “LO/HI” position"><div class="sie_sym" id="sieAENFFA0C9704A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Only seatback does not become hot although seat heater switch is in “LO/HI” position</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9704A03&#39;)" title="Only seat cushion does not become hot although seat heater switch is in “LO/HI” position"><div class="sie_sym" id="sieAENFFA0C9704A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Only seat cushion does not become hot although seat heater switch is in “LO/HI” position</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;99&#39;)" title="9I – Sun Roof / T-Top / Convertible Top"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk99" src="../icon/closed.gif" width="11px" border="0" alt="icon">9I – Sun Roof / T-Top / Convertible Top</div></a>
+<div id="blk99" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A01&#39;)" title="Sun roof cannot operate (sun roof motor can operate)"><div class="sie_sym" id="sieAENFFA0C9904A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Sun roof cannot operate (sun roof motor can operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A02&#39;)" title="Auto slide and auto tilt cannot operate (manual operation only)"><div class="sie_sym" id="sieAENFFA0C9904A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Auto slide and auto tilt cannot operate (manual operation only)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A03&#39;)" title="Sun roof cannot operate (sun roof motor cannot operate)"><div class="sie_sym" id="sieAENFFA0C9904A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Sun roof cannot operate (sun roof motor cannot operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A04&#39;)" title="Rain leakage"><div class="sie_sym" id="sieAENFFA0C9904A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rain leakage</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A05&#39;)" title="Sunshade cannot operate (sun roof motor can operate)"><div class="sie_sym" id="sieAENFFA0C9904A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Sunshade cannot operate (sun roof motor can operate)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A06&#39;)" title="Auto slide and auto tilt cannot operate (manual operation only)"><div class="sie_sym" id="sieAENFFA0C9904A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Auto slide and auto tilt cannot operate (manual operation only)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9904A07&#39;)" title="Sunshade cannot operate (sun roof motor cannot operate)"><div class="sie_sym" id="sieAENFFA0C9904A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Sunshade cannot operate (sun roof motor cannot operate)</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;9F&#39;)" title="9O – Audio Visual / Navigation"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mk9F" src="../icon/closed.gif" width="11px" border="0" alt="icon">9O – Audio Visual / Navigation</div></a>
+<div id="blk9F" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A01&#39;)" title="Audio unit cannot turn ON"><div class="sie_sym" id="sieAENFFA0C9F04A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Audio unit cannot turn ON</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A02&#39;)" title="Poor radio reception"><div class="sie_sym" id="sieAENFFA0C9F04A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Poor radio reception</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A03&#39;)" title="No sound from speaker"><div class="sie_sym" id="sieAENFFA0C9F04A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">No sound from speaker</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A04&#39;)" title="Light mode does not change when lighting switch is turned on"><div class="sie_sym" id="sieAENFFA0C9F04A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Light mode does not change when lighting switch is turned on</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A05&#39;)" title="Audio system is operative, but audio control switch does not control audio system"><div class="sie_sym" id="sieAENFFA0C9F04A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Audio system is operative, but audio control switch does not control audio system</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A06&#39;)" title="Impossible to call using hands-free system (if equipped)"><div class="sie_sym" id="sieAENFFA0C9F04A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Impossible to call using hands-free system (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A07&#39;)" title="Rearview image does not come out even when select lever is shifted to “R” range (if equipped)"><div class="sie_sym" id="sieAENFFA0C9F04A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rearview image does not come out even when select lever is shifted to “R” range (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A08&#39;)" title="Rearview image is unclear (if equipped)"><div class="sie_sym" id="sieAENFFA0C9F04A08" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rearview image is unclear (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A09&#39;)" title="Rearview image vibrates too much, or looks different from usual cases (if equipped)"><div class="sie_sym" id="sieAENFFA0C9F04A09" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Rearview image vibrates too much, or looks different from usual cases (if equipped)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0C9F04A10&#39;)" title="USB socket cannot be used"><div class="sie_sym" id="sieAENFFA0C9F04A10" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">USB socket cannot be used</div></a>
+</div>
+</div>
+
+
+
+
+
+
+
+<a href="javascript:%20toggle(&#39;A&#39;)" title="10 – Control Systems"><div class="sct" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkA" src="../icon/closed.gif" width="11px" border="0" alt="icon">10 – Control Systems</div></a>
+<div id="blkA" style="display: none;">
+<a href="javascript:%20toggle(&#39;A1&#39;)" title="10A – Cruise Control System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkA1" src="../icon/closed.gif" width="11px" border="0" alt="icon">10A – Cruise Control System</div></a>
+<div id="blkA1" style="display: none;">
+<a href="javascript:%20toggle(&#39;A11&#39;)" title="Cruise Control"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkA11" src="../icon/closed.gif" width="11px" border="0" alt="icon">Cruise Control</div></a>
+<div id="blkA11" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A01&#39;)" title="“CRUISE”, “LIMIT” or “SET” indicator does not turn ON or OFF"><div class="sie_sym" id="sieAENFFA0CA114A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">“CRUISE”, “LIMIT” or “SET” indicator does not turn ON or OFF</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A02&#39;)" title="Vehicle speed cannot be set"><div class="sie_sym" id="sieAENFFA0CA114A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle speed cannot be set</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A03&#39;)" title="Acceleration or deceleration is not available by operating RES/+ or SET/– switch"><div class="sie_sym" id="sieAENFFA0CA114A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Acceleration or deceleration is not available by operating RES/+ or SET/– switch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A04&#39;)" title="Maximum speed cannot be changed by operating RES/+ or SET/– switch"><div class="sie_sym" id="sieAENFFA0CA114A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Maximum speed cannot be changed by operating RES/+ or SET/– switch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A05&#39;)" title="Cruise control / speed limiter system cannot be canceled"><div class="sie_sym" id="sieAENFFA0CA114A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cruise control / speed limiter system cannot be canceled</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A06&#39;)" title="Cruise control at vehicle speed stored in memory cannot be resumed after cruise control was canceled by means other than CRUISE (main) switch"><div class="sie_sym" id="sieAENFFA0CA114A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Cruise control at vehicle speed stored in memory cannot be resumed after cruise control was canceled by means other than CRUISE (main) switch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA114A07&#39;)" title="Speed limiter system cannot resume maximum speed stored in memory after the system was canceled by CANCEL switch"><div class="sie_sym" id="sieAENFFA0CA114A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Speed limiter system cannot resume maximum speed stored in memory after the system was canceled by CANCEL switch</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;A12&#39;)" title="Adaptive Cruise Control"><div class="config" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkA12" src="../icon/closed.gif" width="11px" border="0" alt="icon">Adaptive Cruise Control</div></a>
+<div id="blkA12" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124011&#39;)" title="Speed Limiter System Symptom Diagnosis"><div class="sie_sym" id="sieAENFFA0CA124011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Speed Limiter System Symptom Diagnosis</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A01&#39;)" title="Adaptive cruise control system cannot be ON"><div class="sie_sym" id="sieAENFFA0CA124A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Adaptive cruise control system cannot be ON</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A02&#39;)" title="Vehicle speed cannot be set"><div class="sie_sym" id="sieAENFFA0CA124A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle speed cannot be set</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A03&#39;)" title="Acceleration or deceleration is not available by operating RES/+ or SET/– switch"><div class="sie_sym" id="sieAENFFA0CA124A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Acceleration or deceleration is not available by operating RES/+ or SET/– switch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A04&#39;)" title="Vehicle distance cannot be changed"><div class="sie_sym" id="sieAENFFA0CA124A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Vehicle distance cannot be changed</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A05&#39;)" title="Adaptive cruise control cannot be canceled"><div class="sie_sym" id="sieAENFFA0CA124A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Adaptive cruise control cannot be canceled</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA124A06&#39;)" title="Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch"><div class="sie_sym" id="sieAENFFA0CA124A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch</div></a>
+</div>
+</div>
+<a href="javascript:%20toggle(&#39;A9&#39;)" title="10I – Engine Auto Stop Start System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkA9" src="../icon/closed.gif" width="11px" border="0" alt="icon">10I – Engine Auto Stop Start System</div></a>
+<div id="blkA9" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA904010&#39;)" title="ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)"><div class="sie_sym" id="sieAENFFA0CA904010" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA904011&#39;)" title="ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON”"><div class="sie_sym" id="sieAENFFA0CA904011" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA904A01&#39;)" title="Engine auto start control does not operate"><div class="sie_sym" id="sieAENFFA0CA904A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine auto start control does not operate</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CA904A02&#39;)" title="Engine auto stop control does not operate"><div class="sie_sym" id="sieAENFFA0CA904A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Engine auto stop control does not operate</div></a>
+</div>
+<a href="javascript:%20toggle(&#39;AA&#39;)" title="10J – Radar Brake Support System"><div class="sc" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" id="mkAA" src="../icon/closed.gif" width="11px" border="0" alt="icon">10J – Radar Brake Support System</div></a>
+<div id="blkAA" style="display: none;">
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A01&#39;)" title="RBS does not work normally (it may work depending on the conditions)"><div class="sie_sym" id="sieAENFFA0CAA04A01" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">RBS does not work normally (it may work depending on the conditions)</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A02&#39;)" title="RBS does not work normally"><div class="sie_sym" id="sieAENFFA0CAA04A02" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">RBS does not work normally</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A03&#39;)" title="RBS works unexpectedly"><div class="sie_sym" id="sieAENFFA0CAA04A03" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">RBS works unexpectedly</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A04&#39;)" title="RBS cannot be switched ON or OFF"><div class="sie_sym" id="sieAENFFA0CAA04A04" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">RBS cannot be switched ON or OFF</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A05&#39;)" title="Warning timing cannot be changed by FAR/NEAR setting switch"><div class="sie_sym" id="sieAENFFA0CAA04A05" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Warning timing cannot be changed by FAR/NEAR setting switch</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A06&#39;)" title="Master warning indicator light, RBS indicator light and RBS OFF light do not come ON with ignition “ON”"><div class="sie_sym" id="sieAENFFA0CAA04A06" onmouseover="overDiv(this)" onmouseout="outDiv(this)" style="color: rgb(0, 51, 255);">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">Master warning indicator light, RBS indicator light and RBS OFF light do not come ON with ignition “ON”</div></a>
+<a href="javascript:%20loadSIE(&#39;AENFFA0CAA04A07&#39;)" title="RBS indicator light come on sometimes"><div class="sie_sym" id="sieAENFFA0CAA04A07" onmouseover="overDiv(this)" onmouseout="outDiv(this)">
+<img class="mark" src="../icon/doc.gif" width="11px" border="0" alt="icon">RBS indicator light come on sometimes</div></a>
+</div>
+</div>
+
+<div class="last">&nbsp;</div>
+
+</body></html>

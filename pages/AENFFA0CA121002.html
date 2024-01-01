@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA121002</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA121002">
+<div class="scnbr">10A</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Description of Adaptive Cruise Control System Components</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA121002&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="20%">
+<col width="80%">
+</colgroup><tbody><tr>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Component</th>
+<th valign="top" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Description</th>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">RBS control module</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">RBS control module incorporates a radar sensor and is located in the radiator grill. This control module determines the vehicle to follow and target level of acceleration / deceleration based on information obtained by millimeter wave radar, and demands brake control and torque control for adequate distance to a vehicle ahead.<br>For more details of RBS control module, refer to <a href="javascript:%20xref(&#39;AENFFA0CAA01002&#39;)">Description of RBS System Components</a>.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">CRUISE (main) switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>This switch has a momentary contact type button to turn adaptive cruise control function ON and OFF.<br><span class="listnum">•</span>The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Distance switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>Vehicle distance under “Constant headway gap control” can be changed to “Long”, “Middle” or “Short” mode using this switch.<br>
+</div>
+<div class="list">
+<span class="listnum">•</span>The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">SET/– switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>When this switch is pressed (ON) and then released (OFF) while the vehicle is running at 40 km/h (25 mile/h) or higher speed, the vehicle speed obtained when the switch is released is stored in memory and it is set as a target vehicle speed under adaptive cruise control.<br><span class="listnum">•</span>When this switch is pressed (ON) for a momentarily during adaptive cruise control, the set speed will decrease by 1 km/h (1 mile/h). When this switch is continuously pressed (ON) during adaptive cruise control, the set speed will decrease by 5 km/h (5 mile/h) as long as the switch is ON. And the vehicle is controlled according to the new set speed.<br><span class="listnum">•</span>The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">RES/+ switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>When this switch is pressed (ON) for a momentarily during adaptive cruise control, the set speed will increase by 1 km/h (1 mile/h). When this switch is continuously pressed (ON) during adaptive cruise control, the set speed will increase by 5 km/h (5 mile/h) as long as the switch is ON. And the vehicle is controlled according to the new set speed.<br><span class="listnum">•</span>If vehicle speed is higher than 40 km/h (25 mile/h) after adaptive cruise control is canceled, pressing this switch ON momentarily will resume the vehicle running at the speed.<br><span class="listnum">•</span>The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">CANCEL switch</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>When this switch is pressed (ON), adaptive cruise control is canceled.<br><span class="listnum">•</span>The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ECM</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ECM controls electric throttle valve opening (M16A model / K14C model) or fuel injector (D16AA model) based on information from RBS control module through CAN communication.<br><span class="listnum">•</span>ECM transmits cruise control switch signal, engine torque signal, vehicle speed signal, etc. to RBS control module through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ESP<sup class="sup">®</sup> control module</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">
+<div class="list">
+<span class="listnum">•</span>ESP<sup class="sup">®</sup> control module controls brake pressure and brake light relay based on information from RBS control module through CAN communication.<br><span class="listnum">•</span>ESP<sup class="sup">®</sup> control module transmits wheel speed signal, lateral G signal, ABS/ESP<sup class="sup">®</sup> status, etc. to RBS control module through CAN communication.<br>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Steering angle sensor</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">The sensor transmits steering angle signal to RBS control module through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">Combination meter</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">Combination meter turns on or off adaptive cruise control warning light, shows state of the control on information display and sounds warning buzzer based on information through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">ENG A-STOP control module</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">ENG A-STOP control module transmits neutral switch status to RBS control module through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-left-width:2px;">TCM (A/T model / twin clutch system model)</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;">TCM transmits transmission shift position signal to RBS control module through CAN communication.</td>
+</tr>
+<tr>
+<td valign="top" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">BCM</td>
+<td valign="top" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div class="list">
+<span class="listnum">•</span>BCM transmits turn signal switch status etc. to RBS control module through CAN communication.<br><span class="listnum">•</span>RBS control module uses turn signal switch status to judge overtaking action.<br>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+</body></html>

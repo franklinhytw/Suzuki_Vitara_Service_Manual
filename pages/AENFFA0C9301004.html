@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0C9301004</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0C9301004">
+<div class="scnbr">9C</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Oil Life Monitoring System Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0C9301004&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="servinfosub" id="AENFFA0C9301004001">
+<div class="title">System Description</div>
+<div class="ptxt">The oil life monitoring system in petrol engine model (if equipped) alerts the driver that the engine oil needs replacement monitoring the distance covered and a period of time elapsed calculated by the combination meter. Engine oil change intervals are determined by two factors, the distance and the period since the last engine oil change.</div>
+<div class="ptxt">The oil life monitoring system must be initialized before the first delivery of the vehicle to the customer, since no setting has been made on the combination meter at the time of shipment of the vehicle from the factory, and when the combination meter is replaced with a new one. Resetting the oil life monitoring system initializes the system. For details of the reset operation, refer to <a href="javascript:%20xref(&#39;AENFFA0C9306015&#39;)">Oil Life Monitoring System Reset</a>. Once initialization is completed, the oil change condition is set to “Normal” and the oil change request light is set to “Active”. The combination meter starts counting the distance and period. The oil life monitoring system also needs to be reset at every engine oil change.</div>
+<div class="ptxt">The engine oil change intervals can be selected from three types of oil change conditions, “Normal”, “Severe” and “Optional”, and the state of oil change request light can be set to “Active” or “Disabled” using SUZUKI scan tool. Refer to Operator’s Manual of SUZUKI scan tool for further details.</div>
+<div class="ptxt">Details of engine oil change intervals for “Normal” and “Severe” conditions are described in <a href="javascript:%20xref(&#39;AENFFA0C0205001&#39;)">Maintenance Schedule under Normal Driving Conditions (Market Code P02, P22 and P54)</a>, <a href="javascript:%20xref(&#39;AENFFA0C0205002&#39;)">Maintenance Schedule under Normal Driving Conditions (Market Code P71)</a>, <a href="javascript:%20xref(&#39;AENFFA0C0205003&#39;)">Maintenance Schedule under Normal Driving Conditions (Except P02, P22, P54 and P71)</a> and <a href="javascript:%20xref(&#39;AENFFA0C0205001&#39;)">Maintenance Schedule under Normal Driving Conditions (Market Code P02, P22 and P54)</a>. When “Optional” is selected, the engine oil change distance and engine oil change period can be configured to the preference of the user.</div>
+<div class="ptxt">When the oil change request light is set to “Disable”, the oil change request light goes off and the distance / period counter stops counting.</div>
+<div class="ptxt">For details of the settings, refer to <a href="javascript:%20xref(&#39;AENFFA0C9304017&#39;)">Scan Tool Utility Table</a>.</div>
+</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="list">
+<span class="listnum">•</span>After engine oil change is completed, cumulative distance and period need to be reset regardless of the lighting state of the oil change request light.<br><span class="listnum">•</span>The cumulative distance and period cannot be reset even if the battery has been disconnected.<br><span class="listnum">•</span>The period while the battery is disconnected is not added to the count.<br>
+</div>
+</div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="47%">
+<col width="53%">
+</colgroup><tbody><tr>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Oil life monitoring system</th>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Operation</th>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Initialization</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Distance / Period count starts.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Reset</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;">Distance / Period count is reset, but configurations before resetting are stored.</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Function Setting</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">Oil Change Interval: Normal / Severe / Optional can be set to the preference of the user.<br>For detail, refer to <a href="javascript:%20xref(&#39;AENFFA0C9306016&#39;)">Oil Life Monitoring System Function Setting</a>.</td>
+</tr>
+</tbody></table>
+</div>
+<div class="fig">
+<div class="title">Flow chart from initialization to reset</div>
+<div style=""><img src="../image/IEFA0A/IEFA0A930042.jpg" height="248px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A930042.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="servinfosub" id="AENFFA0C9301004002">
+<div class="title">Oil Change Request Light Operation</div>
+<div class="ptxt">When the engine oil change is due, the oil change request light (1) lights up and “OIL” is displayed on the information display (2) in the combination meter.</div>
+<div class="ptxt">The oil change request light operates as follows depending on the setting and condition.</div>
+<div class="fig">
+<div style=""><img src="../image/IEFA0A/IEFA0A930033.jpg" height="307px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A930033.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</div>
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="99%">
+<colgroup><col width="14%">
+<col width="13%">
+<col width="10%">
+<col width="40%">
+<col width="23%">
+</colgroup><tbody><tr>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;border-left-width:2px;">Oil life monitoring system initialization</th>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;">Function of oil change request light</th>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;">Oil change interval</th>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;">Oil change request light</th>
+<th valign="middle" align="center" class="t_cell" style="border-top-width:2px;border-right-width:2px;">Information display</th>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-left-width:2px;">Incomplete</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDP60B/IDP60B930006.jpg" height="72" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDP60B/IDP60B930006.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="left" rowspan="3" class="t_cell" style="border-bottom-width:2px;border-left-width:2px;">Complete</td>
+<td valign="middle" align="left" class="t_cell">Disabled</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell">—</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="left" rowspan="2" class="t_cell" style="border-bottom-width:2px;">Active</td>
+<td valign="middle" align="left" class="t_cell">Not reached</td>
+<td valign="middle" align="left" class="t_cell">
+<div style=""><img src="../image/IDP60B/IDP60B930007.jpg" height="72" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDP60B/IDP60B930007.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="center" class="t_cell" style="border-right-width:2px;">—</td>
+</tr>
+<tr>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">Reached</td>
+<td valign="middle" align="left" class="t_cell" style="border-bottom-width:2px;">
+<div style=""><img src="../image/IDP60B/IDP60B930008.jpg" height="72" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDP60B/IDP60B930008.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+<td valign="middle" align="left" class="t_cell" style="border-right-width:2px;border-bottom-width:2px;">
+<div style=""><img src="../image/IEFA0A/IEFA0A930036.jpg" height="83" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IEFA0A/IEFA0A930036.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+
+</body></html>

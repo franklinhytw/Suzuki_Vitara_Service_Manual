@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AENFFA0CA401001</title>
+<link rel="stylesheet" href="../css/suzukimain_e.css" type="text/css" charset="utf-8">
+<script type="text/javascript">
+var UI_lang = "en";
+</script><script type="text/javascript" src="../scripts/stdio.js" defer=""></script>
+</head>
+<body onload="jumpToAnchor();fixImgWidth();" onresize="dragEnd()">
+<div class="servinfo" id="AENFFA0CA401001">
+<div class="scnbr">10D</div>
+
+<div class="title"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="left" class="servinfo title">Tire Pressure Monitoring System Description</td>
+<td align="right" style="padding:0px 3px 0px 6px;" valign="middle" width="3%"><div class="btnPrecautions" onclick="showPrexns(&#39;AENFFA0CA401001&#39;,&#39;en&#39;)"><img src="../icon/precaution.gif" width="30px" height="30px" border="0" title="Precautions" id="iconPrecautions"></div></td>
+</tr></tbody></table></div>
+<div class="ptxt">Tire Pressure Monitoring System (TPMS) monitors air pressure in each tire except spare tire. It consists of low tire pressure warning light (6), tire pressure sensors (1) (2) (3) (4) and TPMS control module (5).</div>
+<div class="ptxt">As a tire revolves (at vehicle speed of approximately 25 km/h (16 mile/h) or more), tire pressure sensor installed to each wheel transmits tire pressure data to TPMS control module. When tire pressure is lower than the standard value in the module, TPMS control module turns on low tire pressure warning light to warn the driver that tire pressure has decreased. Also, when any fault is detected in TPMS, it blinks low tire pressure warning light for 75 seconds and then the warning light remains lit to warn the driver that there is a fault in the system.</div>
+<div class="ptxt">Operation of tire pressure sensor, TPMS control module and low tire pressure warning light is described below.</div>
+<div class="fig">
+<div style=""><img src="../image/IDAA0A/IDAA0AA40001.jpg" height="295px" alt="img"></div>
+<div style="text-align: center;"><a href="javascript:%20expandImage(&#39;../image/IDAA0A/IDAA0AA40001.jpg&#39;,&#39;jpg&#39;)"><img class="expandicon" src="../icon/zoom.gif" width="30px" title="Expand image" border="0"></a></div>
+<div class="callout">
+<div class="table">
+<table class="frame" cellspacing="0" cellpadding="3" width="40%" align="center">
+<colgroup><col width="19%">
+<col width="81%">
+</colgroup><tbody><tr>
+<td valign="top" align="right" class="ct_cell" style="border-top-width:2px;border-right-width:0px;border-bottom-width:2px;border-left-width:2px;">7.</td>
+<td valign="top" align="left" class="ct_cell" style="border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:0px;">Radio waves</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA401001001">
+<div class="title">Tire Pressure Sensor</div>
+<div class="ptxt">Tire pressure sensor consists of a pressure sensor, acceleration sensor, temperature sensor, control section, transmitter / receiver, battery and air valve.</div>
+<div class="ptxt">Each tire pressure sensor assigns an individual ID code. Tire pressure detected by the tire pressure sensor, along with the ID code, rolling angle position, temperature, battery status, is transmitted to TPMS control module on the radio wave.</div>
+<div class="ptxt">In the condition that 15 minutes have elapsed since the last driving of vehicle, when you start driving and the tire revolves at approximately 25 km/h (16 mile/h) or more, the pressure sensor transmits data to TPMS control module at 16-seconds interval (fast mode).</div>
+<div class="ptxt">And, when the driving is continued for 640 seconds, the pressure sensor transmits data at 64-seconds interval (active mode).</div>
+<div class="ptxt">However, when the acceleration sensor does not detect wheel rotation with the vehicle speed lower than approximately 25 km/h (16 mile/h), the data is sent to TPMS control module at 19-minutes interval to prevent battery power consumption (save mode).</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA401001002">
+<div class="title">TPMS Control Module and Low Tire Pressure Warning Light</div>
+<div class="ptxt">TPMS control module receives signals from 4 tire pressure sensors, identifies data by the ID code of each tire pressure sensor and uses the identified data to compare air pressure in each tire with the tire pressure value that was configured in <a href="javascript:%20xref(&#39;AENFFA0CA406005&#39;)">TPMS Setting Procedure</a>. When tire pressure is judged to be lower than the specified value, TPMS control module turns on low tire pressure warning light in the combination meter and stores DTC in its memory. Also, when a fault in the system is detected, TPMS control module blinks low tire pressure warning light for 75 seconds and then the warning light remains lit, and stores the DTC in its memory.</div>
+<div class="ptxt">TPMS control module has positioning function of tire pressure sensors as well.</div>
+<div class="note">NOTE:
+<div style="margin-left:16px;">
+<div class="ptxt">Four ID codes of tire pressure sensor can be registered in TPMS control module. Therefore, when wheel with tire equipped with any other sensor is used as a running wheel, ID codes of all tire pressure sensors installed to 4 tires must be re-registered. When vehicle is driven without re-registration of the ID codes, TPMS control module detects faulty condition of the system and illuminates low tire pressure warning light after it blinks for 75 seconds. For the procedure to register the ID codes of tire pressure sensors in TPMS control module, refer to <a href="javascript:%20xref(&#39;AENFFA0CA406004&#39;)">Registration Procedure for Tire Pressure Sensor ID Code</a>.</div>
+</div>
+</div>
+</div>
+<div class="servinfosub" id="AENFFA0CA401001003">
+<div class="title">Tire Pressure Setting</div>
+<div class="ptxt">Adjust tire pressure referring to “Tire Placard” in accordance with the vehicle loading change. After changing tire pressure, select a suitable “TPMS setting” referring to <a href="javascript:%20xref(&#39;AENFFA0CA406005&#39;)">TPMS Setting Procedure</a>.</div>
+<div class="ptxt">TPMS does not function correctly without consistency between the tire pressure and “TPMS setting”.</div>
+</div>
+</div>
+
+</body></html>
